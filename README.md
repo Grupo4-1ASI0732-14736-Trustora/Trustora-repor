@@ -183,7 +183,20 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+**Trustora** es una aplicación móvil que conecta a padres con niñeras de forma rápida, segura y confiable. Permite buscar disponibilidad por ubicación y horarios, reservar servicios, pagar en línea y acceder a perfiles verificados con reseñas de otros usuarios.
+
+**Misión:**
+Brindar a los padres una solución práctica y segura para encontrar cuidado infantil confiable, al mismo tiempo que ofrecemos a las niñeras una plataforma que potencie su visibilidad y facilite la gestión de sus servicios.
+
+**Visión:**
+Convertirse en la plataforma líder en cuidado infantil en Latinoamérica, reconocida por la confianza, seguridad y eficiencia en la conexión entre familias y profesionales del cuidado.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| **Perfil**                                                                                                                                                                                                                                                                         | **Foto**                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **Mazuelos Callirgos, Marcelo Alessandro**<br>Estudiante de Ingenieria de Software.|<img src="https://files.catbox.moe/y8qpju.jpg" alt="marcelo image" width="200">|
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
