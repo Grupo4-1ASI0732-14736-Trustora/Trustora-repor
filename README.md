@@ -201,13 +201,33 @@ Convertirse en la plataforma líder en cuidado infantil en Latinoamérica, recon
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 #### What (¿Qué?)
+Dificultad para encontrar niñeras de confianza de forma rápida y segura, así como la falta de un sistema centralizado para reservas, pagos y gestión de servicios de cuidado infantil.
 #### When (¿Cuándo?)
+Cuando los padres necesitan apoyo en el cuidado de sus hijos debido a compromisos laborales, emergencias, actividades sociales o necesidades puntuales de tiempo libre.
 #### Where (¿Dónde?)
+Principalmente en entornos urbanos donde la demanda de servicios de cuidado infantil es mayor y las familias cuentan con menos apoyo de redes cercanas (familiares o amigos).
 #### Who (¿Quiénes?)
-#### Why (¿Por qué?)
-#### How (¿Cómo?)
-#### How much (¿Cuánto?)
+- Padres y madres con hijos pequeños que requieren cuidado confiable.
 
+- Niñeras con experiencia que buscan visibilidad, seguridad y gestión eficiente de su trabajo.
+#### Why (¿Por qué?)
+Porque los métodos tradicionales (recomendaciones boca a boca o grupos informales) no garantizan confianza, disponibilidad ni seguridad, y generan incertidumbre al contratar un servicio tan delicado como el cuidado de los niños.
+#### How (¿Cómo?)
+A través de una aplicación móvil que:
+
+- Centraliza búsqueda, reserva y pago.
+
+- Ofrece perfiles verificados y valoraciones.
+
+- Usa notificaciones para confirmar citas y cambios.
+
+- Proporciona pasarela de pago segura.
+#### How much (¿Cuánto?)
+El valor está en la confianza y practicidad. Los ingresos provendrán de:
+
+- Comisión por cada transacción.
+
+- Suscripciones premium para niñeras o padres con beneficios adicionales.
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
