@@ -272,11 +272,57 @@ Padres jóvenes, entre 25 y 40 años, que viven en zonas urbanas de nivel socioe
 <div align="left">
    <img src="img/LeanUX_canvas_v1.png" alt="Trustora LeanUX Canvas" width="max">
 </div>
+
 ## 1.3. Segmentos objetivo
 ### a) Padres/Tutores:
+#### Características demográficas:
+- **Edad**: 25 ‒ 40 años.
+- **Nivel socioeconómico**: medio a medio-alto.
+- **Ubicación**: ciudades grandes (por ejemplo, Lima u otras capitales latinoamericanas).
+- **Estado laboral**: empleados con horarios fijos o mixtos, profesionales que necesitan apoyo externo de cuidado infantil.
 
+#### Necesidades:
+- Soluciones confiables para el cuidado de sus hijos cuando trabajan (horarios de oficina, actividad profesional, imprevistos).
+- Transparencia en la experiencia y calificaciones de la niñera.
+- Reservas y pagos fáciles y seguros.
+- Confianza en la seguridad del servicio (antecedentes, reseñas, verificación).
+- Flexibilidad según horarios y cambios inesperados.
+
+#### Motivaciones:
+- Aliviar la carga de coordinar cuidado infantil sin depender solo de familiares.
+- Deseo de equilibrar vida laboral y familiar.
+- Seguridad de que el hijo esté en buenas manos.
+- Comodidad y ahorro de tiempo al gestionar todo desde una app.
+
+#### Sustento estadístico:
+Según la Encuesta Nacional de Uso del Tiempo (ENUT) 2024 del INEI (Perú), las mujeres dedican en promedio 4 horas 48 minutos al trabajo no remunerado diario, que incluye cuidado de miembros del hogar y labores domésticas, mientras que los hombres dedican 1 hora 35 minutos.
+- Esto indica que una gran parte del cuidado infantil, incluso si es no remunerado, recae en hogares donde alguien (normalmente la madre) ya está muy ocupado, lo que crea demanda para servicios externos de cuidado.
+
+Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplicaciones móviles para tareas cotidianas (como compras, servicios, pedir comida, etc.). 
+- Esto sugiere que hay una adopción tecnológica suficientemente alta para una app de reserva/servicio en este tipo de segmentos.
 ### b) Niñeras/Cuidadores:
+#### Características demográficas:
+- **Edad**: aproximadamente 18 ‒ 45 años.
+- Mujeres en su mayoría.
+- **Ubicación**: zonas urbanas, barrios donde haya mayor densidad de población de familias que demandan cuidado infantil.
+- Con experiencia previa en cuidado de niños, ya sea formal o informal, pero pocos recursos para publicidad o clientes fijos.
 
+#### Necesidades:
+- Plataforma que les permita mostrar su experiencia, tarifas, disponibilidad.
+- Mecanismos confiables de pago y seguridad (no depender de pagos en efectivo o de confianza informal).
+- Flexibilidad de horarios, capacidad de aceptar reservas según su disponibilidad.
+- Soporte para obtener reseñas/fidelidad, para generar reputación.
+- Seguridad en términos de verificación, buenas condiciones de trabajo y pago justo.
+
+#### Motivaciones:
+- Generar ingresos, especialmente si tienen otras responsabilidades domésticas o familiares.
+- Flexibilidad para compatibilizar cuidado de sus propios hijos u otros trabajos.
+- Obtener clientes confiables sin tener que depender solo del boca a boca.
+- Estabilidad económica y reconocimiento profesional.
+#### Sustento estadístico:
+- En el Perú, un estudio de Touch Task reporta que más del 30% de personas independientes generan ingresos a través de apps por falta de empleo.
+- En ese mismo estudio, se señala que el 63% de los usuarios que usan apps para tareas flexibles son jóvenes de 19 a 30 años.
+- También, según datos de ese estudio, las mujeres valoran más poder manejar su horario, con 39% que escogen trabajar vía apps por la flexibilidad de no tener horario fijo; en comparación con los hombres.
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
