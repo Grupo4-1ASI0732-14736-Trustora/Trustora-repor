@@ -230,6 +230,32 @@ El valor está en la confianza y practicidad. Los ingresos provendrán de:
 - Suscripciones premium para niñeras o padres con beneficios adicionales.
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+##### **Domain**<br>
+Servicios de cuidado infantil bajo demanda a través de plataformas digitales móviles.
+##### **Customer Segments**<br>
+
+1. **Padres y madres** en áreas urbanas con hijos pequeños que necesitan apoyo en el cuidado.
+2. **Niñeras y cuidadoras** que buscan visibilidad, seguridad y oportunidades de trabajo organizadas.
+
+##### **Pain Points**<br>
+
+- Dificultad para encontrar niñeras confiables de manera rápida.
+- Falta de información verificable sobre experiencia y disponibilidad.
+- Métodos de contratación informales que no garantizan seguridad.
+- Pagos poco seguros o poco prácticos fuera de plataformas digitales.
+- Falta de organización y comunicación clara en la gestión de reservas.
+
+##### **Gap**<br>
+
+No existe en el mercado local una solución integral que combine búsqueda, verificación, reserva, pago seguro y confianza comunitaria en un solo ecosistema digital sobre el problema planteado.
+
+##### **Vision / Strategy**<br>
+
+- Visión: Convertirse en la plataforma líder en confianza y eficiencia para la contratación de niñeras en Latinoamérica.
+
+- Estrategia: Ofrecer una app intuitiva y confiable que centralice todos los procesos (búsqueda, reserva, pago y reseñas) mientras garantiza seguridad y transparencia para ambas partes.
+##### **Initial Segment**<br>
+Padres jóvenes, entre 25 y 40 años, que viven en zonas urbanas de nivel socioeconómico medio y medio-alto, con acceso a smartphones y disposición a pagar por soluciones digitales seguras.
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
