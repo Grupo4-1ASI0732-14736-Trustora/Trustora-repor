@@ -270,7 +270,7 @@ Padres jóvenes, entre 25 y 40 años, que viven en zonas urbanas de nivel socioe
 - Creemos que si damos a las niñeras visibilidad y herramientas de gestión, más profesionales se registrarán y aumentará la oferta en la plataforma.
 #### 1.2.2.4. Lean UX Canvas
 <div align="left">
-   <img src="img/LeanUX_canvas_v1.png" alt="Trustora LeanUX Canvas" width="max">
+   <img src=".img/LeanUX_canvas_v1.png" alt="Trustora LeanUX Canvas" width="max">
 </div>
 
 ## 1.3. Segmentos objetivo
