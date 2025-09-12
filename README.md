@@ -263,6 +263,11 @@ Padres jóvenes, entre 25 y 40 años, que viven en zonas urbanas de nivel socioe
 
 - Las niñeras buscan una plataforma que les dé mayor visibilidad y oportunidades de trabajo.
 #### 1.2.2.3. Lean UX Hypothesis Statements
+- Creemos que si ofrecemos perfiles verificados y un sistema de reseñas, los padres confiarán más en la plataforma.
+
+- Creemos que si incluimos pagos seguros en la app, los padres preferirán usar Trustora en lugar de métodos informales.
+
+- Creemos que si damos a las niñeras visibilidad y herramientas de gestión, más profesionales se registrarán y aumentará la oferta en la plataforma.
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
