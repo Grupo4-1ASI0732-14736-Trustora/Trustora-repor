@@ -257,6 +257,11 @@ No existe en el mercado local una solución integral que combine búsqueda, veri
 ##### **Initial Segment**<br>
 Padres jóvenes, entre 25 y 40 años, que viven en zonas urbanas de nivel socioeconómico medio y medio-alto, con acceso a smartphones y disposición a pagar por soluciones digitales seguras.
 #### 1.2.2.2. Lean UX Assumptions
+- Los padres están dispuestos a usar tecnología móvil para gestionar servicios de cuidado infantil.
+
+- La seguridad y las reseñas son factores decisivos en la elección de niñeras.
+
+- Las niñeras buscan una plataforma que les dé mayor visibilidad y oportunidades de trabajo.
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
 
