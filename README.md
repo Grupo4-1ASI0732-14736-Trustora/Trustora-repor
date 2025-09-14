@@ -1,28 +1,46 @@
-<h1 align="center"> UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS </h1>
-
-<h2 align="center"> INGENIERIA DE SOFTWARE</h2>
-<h2 align="center"> CICLO 2025-II</h2>
-
+<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
 <div align="center">
-    <img src="./assets/logo-upc.png">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img>
+</div>
+<h2 align="center">Ingeniería de Software</h2>
+<h3 align="center">Diseño de Experimentos de Ingeniería de Software - 1ASI0732</h3>
+<h3 align="center">Profesor: Tinoco Licas, Juan Carlos</h3>
+<h3 align="center">INFORME DE TRABAJO FINAL</h3>
+<h3 align="center">Startup: Trustora</h3>
+<h3 align="center">Producto:</h3>
+
+<div>
+     <table align="center">
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Code</th>
+        </tr>
+        <tr>
+            <td>Meza Camayo, Lynn Jeeferzon</td>
+            <td>U20201C320</td>
+        </tr>
+        <tr>
+            <td>Alvarez Ponce, Carlos Antonio</td>
+            <td>U201919386</td>
+        </tr>
+        <tr>
+           <td></td>
+           <td></td>
+        </tr>
+        <tr>
+           <td></td>
+           <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 </div>
 
-<br>
-<h3 align="center"> Diseño de Experimentos de Ingeniería de Software - 1ASI0732 </h3>
-<h3 align="center"> Profesor del Curso: Tinoco Licas, Juan Carlos </h3>
-<h3 align="center"> "INFORME DE TRABAJO FINAL"</h3>
-<h3 align="center"> Nombre de Startup: Trustora  </h3>
-<h3 align="center"> Nombre del Producto:  </h3>
+<h3 align="center">Agosto 2025</h3>
 
-<div align="center">
-
-| Miembro                         |   Código   |
-| :------------------------------ | :--------: |
-| Meza Camayo, Lynn Jeeferzon     | U20201C320 |
-
-
-</div>
-<h3 align="center"> Agosto - 2025   </h3>
+---
 
 ## REGISTRO DE VERSIONES
 
