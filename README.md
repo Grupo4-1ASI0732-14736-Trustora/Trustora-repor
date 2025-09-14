@@ -211,10 +211,12 @@ Brindar a los padres una solución práctica y segura para encontrar cuidado inf
 Convertirse en la plataforma líder en cuidado infantil en Latinoamérica, reconocida por la confianza, seguridad y eficiencia en la conexión entre familias y profesionales del cuidado.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-
-| **Perfil**                                                                                                                                                                                                                                                                         | **Foto**                                                                      |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Mazuelos Callirgos, Marcelo Alessandro**<br>Estudiante de Ingenieria de Software.|<img src="https://files.catbox.moe/y8qpju.jpg" alt="marcelo image" width="200">|
+| Integrantes                                                                                                | Descripción                                                                                                                                      | Conocimientos                                                                                                                                                               |
+|:-----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://files.catbox.moe/y8qpju.jpg" width="100" height="100"> <br>**Mazuelos Callirgos, Marcelo Alessandro**| Estudiante de Ingeniería de Software. |  |
+| <img src="https://raw.githubusercontent.com/1ASI0730-2510-4381-G5-RENT2GO/Grupo5-report/refs/heads/feature/chapter-1/assets/c01/CarlosA.jpg"  height="100"> <br>**Carlos Alvarez Ponce** | Estudiante de Ingeniería de Software. Me considero una persona comprometida, organizada y con una gran capacidad para adaptarme a nuevos retos. Me apasiona crear soluciones tecnológicas innovadoras, y en cada proyecto busco aportar lo mejor de mí para resolver los problemas de forma efectiva y eficiente. | Tengo experiencia en desarrollo de software y programación en lenguajes como JavaScript, C++, Python y tecnologías modernas como Next.js y React. |
+|  |  |  |
+|  |  |  |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
