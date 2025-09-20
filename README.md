@@ -460,9 +460,20 @@ El documento se encuentra estructurado en dos secciones principales:
 ### 2.2.2. Registro de entrevistas
 #### Entrevista
 #### Entrevista
+
+
+
 #### Segmento 2: Padres de familia
-#### Entrevista
-#### Entrevista
+
+
+|Entrevistado 1|Iris Violeta|
+|-|-|
+|Edad|46|
+|Distrito|Cieneguilla, Lima|
+|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Madre1.png)|
+|Link de la Entrevista|[Iris Violeta Rodriguez](https://www.youtube.com/watch?v=Ocdr8L-GrBY)|
+|Time | 0:03 - 03:44 |
+|Análisis de Entrevista| La entrevista con Iris Violeta Rodríguez, madre de 46 años y ama de casa, revela que la principal motivación al buscar una niñera es garantizar la seguridad, confianza y buen trato hacia sus hijos, valorando especialmente la responsabilidad, la experiencia con niños y la capacidad de respuesta ante emergencias. Sus dificultades se centran en la disponibilidad inmediata y la falta de referencias confiables, lo que refuerza la necesidad de que una aplicación ofrezca perfiles completos con fotos claras, referencias de otros padres, videos de presentación y validaciones oficiales de identidad y antecedentes. Iris espera poder interactuar con la niñera previamente mediante chat, videollamada y, de ser posible, entrevista presencial o periodo de prueba, y estaría dispuesta a pagar entre 100 y 200 soles por servicio, o incluso una suscripción mensual, siempre que se garantice calidad y seguridad. Finalmente, señala que confiaría en una nueva app si ofrece opiniones reales de usuarios, verificación estricta, políticas claras de seguridad y privacidad, y una interfaz simple y transparente, lo que muestra que la confianza, la usabilidad y la transparencia son factores decisivos para la adopción del servicio. |
 
 ### 2.2.3. Análisis de entrevistas
 
