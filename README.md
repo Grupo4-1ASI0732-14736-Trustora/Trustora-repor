@@ -552,6 +552,103 @@ GitFlow es una estrategia de ramificación en Git diseñada para optimizar la co
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
+
+Con el fin de garantizar **coherencia, mantenibilidad y escalabilidad** en el desarrollo de **Trustora**, se establecen las siguientes normas de estilo y convenciones de codificación.  
+
+Estas pautas buscan:  
+- Unificar el **lenguaje de programación** entre todos los miembros del equipo.  
+- Reducir la **complejidad técnica** en el mantenimiento del código.  
+- Favorecer la **colaboración** y la integración continua en entornos ágiles.  
+- Prevenir errores comunes mediante prácticas estandarizadas.  
+- Asegurar que el proyecto sea **escalable** y fácil de extender en futuras versiones.  
+
+Las reglas abarcan desde la **estructura del código fuente** (HTML, CSS, TailwindCSS, Vue.js) hasta las **convenciones de nombrado y formateo**, garantizando una base sólida que soporte el crecimiento del sistema en el tiempo.  
+
+
+####  HTML – Reglas
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejemplo</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png" alt="Logo principal" />
+    </div>
+  </body>
+</html>
+
+```
+
+- Todos los elementos deben estar **correctamente cerrados** (`<img />`, `<div></div>`).  
+- Usar **comillas dobles (`" "`)** para atributos.  
+- Incluir **atributos esenciales** en imágenes (`alt`, `src`).  
+- Mantener la **indentación clara** y evitar anidamientos innecesarios.  
+
+
+####  CSS – Formato y Buenas Prácticas
+
+```html
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+```
+- **Indentación**: 2 espacios (no usar tabulaciones).  
+- **Selectores, propiedades y valores** en **minúsculas**.  
+- Eliminar **espacios en blanco innecesarios** y **líneas redundantes**.  
+
+
+
+#### 🔹 TailwindCSS – Principios de Uso
+
+```html
+<div class="grid grid-cols-3 gap-4 p-6 bg-primary text-white">
+  <p class="text-lg font-bold">Bienvenido</p>
+</div>
+```
+
+Normas:  
+- Aprovechar **utilidades predefinidas** (rejillas, tipografía, helpers).  
+- Evitar sobrescribir estilos base.  
+- Usar **clases semánticas** (`bg-primary`, `text-success`) en lugar de CSS personalizado.  
+- Solo agregar **CSS adicional** en casos estrictamente necesarios.  
+
+
+#### Vue.js – Reglas Clave
+```html
+<script>
+export default {
+  name: "UserProfile",
+  props: {
+    userName: {
+      type: String,
+      default: "Invitado"
+    },
+    age: {
+      type: Number,
+      default: 18
+    }
+  }
+};
+</script>
+````
+
+
+
+Normas:  
+- **Nombres de componentes**: usar `PascalCase` (ejemplo: `UserProfile.vue`).  
+- **Props**: definir siempre tipos y valores por defecto.  
+- Usar `kebab-case` para props en plantillas.  
+- Mantener **una sola responsabilidad por componente**.  
+
+
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
