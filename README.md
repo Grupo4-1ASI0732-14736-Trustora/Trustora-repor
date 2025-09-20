@@ -16,19 +16,18 @@
 
 <div align="center">
 
-| Miembro                         |   Código   |
-| :------------------------------ | :--------: |
-| Meza Camayo, Lynn Jeeferzon     | U20201C320 |
-
+| Miembro                     |   Código   |
+| :-------------------------- | :--------: |
+| Meza Camayo, Lynn Jeeferzon | U20201C320 |
 
 </div>
 <h3 align="center"> Agosto - 2025   </h3>
 
 ## REGISTRO DE VERSIONES
 
-| Versión | Fecha    | Autor       | Descripción de Modificación            |
-| ------- | -------- | ----------- | -------------------------------------- |
-| 0.1     | 06/09/25 | Lynn Meza   | Desarrollo de la Structura del informe |
+| Versión | Fecha    | Autor     | Descripción de Modificación            |
+| ------- | -------- | --------- | -------------------------------------- |
+| 0.1     | 06/09/25 | Lynn Meza | Desarrollo de la Structura del informe |
 
 ## PROJECT REPORT COLLABORATION INSIGHTS
 
@@ -87,7 +86,9 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
   - [3.3. Impact Mapping.](#33-impact-mapping)
   - [3.4. Product Backlog.](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+
   - [4.1. Style Guidelines](#41-style-guidelines)
+
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
     - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
@@ -95,6 +96,7 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
       - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
 
   - [4.2. Information Architecture](#42-information-architecture)
+
     - [4.2.1. Organization Systems](#421-organization-systems)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
@@ -102,47 +104,56 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
     - [4.2.5. Navigation Systems](#425-navigation-systems)
 
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
 
   - [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+
     - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
     - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
     - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
     - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-  
+
   - [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+
     - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
     - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
-  
+
   - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+
     - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
     - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
     - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
     - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-  
+
   - [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
-  
+
   - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+
     - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
     - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
     - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
-  
+
   - [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+
     - [4.9.1. Class Diagrams](#491-class-diagrams)
     - [4.9.2. Class Dictionary](#492-class-dictionary)
-  
+
   - [4.10. Database Design](#410-database-design)
     - [4.10.1. Database Diagram](#4101-database-diagram)
+
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
 
   - [5.1. Software Configuration Management](#51-software-configuration-management)
+
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
     - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  
+
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
@@ -150,14 +161,14 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
     - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
-  
+
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-  
-  ---
+
+  ***
+
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
   - [Bibliografía Anexos](#bibliografía-anexos)
-
 
 ## STUDENT OUTCOME
 
@@ -182,26 +193,41 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 ## 1.2. Solution Profile
+
 ### 1.2.1. Antecedentes y problemática
+
 #### What (¿Qué?)
+
 #### When (¿Cuándo?)
+
 #### Where (¿Dónde?)
+
 #### Who (¿Quiénes?)
+
 #### Why (¿Por qué?)
+
 #### How (¿Cómo?)
+
 #### How much (¿Cuánto?)
 
 ### 1.2.2. Lean UX Process
+
 #### 1.2.2.1. Lean UX Problem Statements
+
 #### 1.2.2.2. Lean UX Assumptions
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
+
 ### a) Padres/Tutores:
 
 ### b) Niñeras/Cuidadores:
@@ -211,31 +237,47 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+
 ### 2.1.1. Análisis competitivo
+
 #### Panorama de análisis competitivo
+
 #### Análisis FODA
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
+
 ### 2.2.1. Diseño de entrevistas
+
 #### Preguntas para niñeras certificadas
+
 #### Preguntas para padres de familia
 
 ### 2.2.2. Registro de entrevistas
+
 #### Entrevista
+
 #### Entrevista
+
 #### Segmento 2: Padres de familia
+
 #### Entrevista
+
 #### Entrevista
 
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+
 ### 2.3.1. User Personas
+
 ### 2.3.2. User Task Matrix
+
 ### 2.3.3. User Journey Mapping
+
 ### 2.3.4. Empathy Mapping
+
 ### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
@@ -245,58 +287,1194 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
 ## 3.2. User Stories
+
+| EPIC                    | ID EPIC |
+| ----------------------- | ------- |
+| Landing Page            | EP01    |
+| Registro de Usuarios    | EP02    |
+| Registro de Servicios   | EP03    |
+| Sistema de Reserva      | EP04    |
+| Sistema de Comunicacion | EP05    |
+| Sistema de Pagos        | EP06    |
+| Sistema de Comentarios  | EP07    |
+| Historias Tecnicas      | EP08    |
+
+<CENTER>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-01</td>
+    <td>Visitante</td>
+    <td>Baja</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Cuerpo de la App <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, quiero ver una descripción clara de la app para entender su valor y lo que ofrece.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1:Visitante visualiza informacion clara de la app <br>
+      Dado que el visitante accede a la landing page<br>
+      Cuando la pagina carga completamente <br>
+      Entonces, visualiza un titular con el texto "Encuentra niñeras confiables en minutos" <br>
+    </td>
+  </tr>
+</table>
+<br>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-02</td>
+    <td>Visitante</td>
+    <td>Baja</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Testimonios de Usuarios <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, quiero ver testimonios reales para confiar en el servicio de la app</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El visitante visualiza testimonios de usuarios que utilizaran la app
+      Dado que el visitante esta en la landing page
+      Cuando seleccion la seccion "Testimonios" en el navbar
+      Entonces, visualizará tarjetas con testimonios de opinion de la app
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-03</td>
+    <td>Visitante</td>
+    <td>Baja</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Lista de Características <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, visualizar las características principales de la app para conocer sus funcionalidades antes de registrarme y decidir si se ajusta a mis necesidades.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El visitante visualiza las caracteristicas de la aplicacion.
+      Dado que el visitante esta en la seccion del Navbar
+      Cuando presiona "Services"
+      Entonces, el sistema mostrara las caracteristicas que ofrece la app.
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-04</td>
+    <td>Visitante</td>
+    <td>Baja</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Contacto con la Equipo <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, quiero contactar al equipo para tener un medio directo con el equipo de desarrollo.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El visitante accede al sitio web
+      Dado que el visitante esta en la seccion del Navbar
+      Cuando presiona "Call to Action"
+      Entonces, el sistema muestra un formulario de contacto que es el medio de contacto con el equipo de desarrollo.
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-05</td>
+    <td>Visitante</td>
+    <td>Baja</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Beneficios <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, quiero conocer los beneficios y funciones que ofrece la app, para conocer sus servicios.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El visitante visualiza los beneficios de app
+      Dado que el visitante esta en la landing page
+      Cuando esta en la seccion "Services"
+      Entonces, visualizará los beneficios y funcionalidades de la app.
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-06</td>
+    <td>Padre</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Registro del Usuario <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero crear una cuenta en la plataforma para poder buscar niñeras y gestionar reservas para mi hijo.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El tutor visualiza el formulario de registro. Dado que el tutor es visitante de la app, cuando abre la app, se muestra el dashboard de "inicio Sesión" y "Registro". Entonces el sistema muestra el formulario de "Registro" y el formulario contiene los campos obligatorios de ingresar.
+      Escenario 2: El tutor completa y envía el formulario de registro. Dado que el tutor ha rellenado todos los campos obligatorios correctamente, cuando presiona el botón "Registrar", entonces el sistema muestra el mensaje "Se envió correctamente".
+      Escenario 3: El tutor deja campos obligatorios vacíos. Dado que el tutor dejó uno o más campos vacíos, cuando presiona el botón "Registrar", entonces el sistema muestra el mensaje de error "falta completar datos".
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-07</td>
+    <td>Niñera</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Registro como Niñera <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero registrarme en la plataforma y crear un perfil detallado para mostrar mi experiencia y certificaciones a los Tutores, y ofrecer mis servicios de cuidado y enseñanza.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera visualiza el formulario de registro. Dado que la niñera es visitante del sitio web, cuando ingresa a la web, se muestra el dashboard de "inicio Sesión" y "Registro", y selecciona "Registro". Entonces el sistema muestra el formulario de "Registro" y el formulario contiene los campos obligatorios de ingresar.
+      Escenario 2: La niñera completa y envía el formulario de registro. Dado que la niñera ha rellenado todos los campos obligatorios correctamente, cuando presiona el botón "Registrar", entonces el sistema muestra el mensaje "Se envió correctamente".
+      Escenario 3: La niñera deja campos obligatorios vacíos. Dado que la niñera dejó uno o más campos vacíos, cuando presiona el botón "Registrar", entonces el sistema muestra el mensaje de error "falta completar datos".
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-08</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Validación de Registro <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como administrador, quiero un mecanismo de autentificación segura para verificar las credenciales del registro de cuenta.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El visitante visualiza el mecanismo de autentificación. Dado que el visitante está en la sección de registro de datos, cuando selecciona "Vincular cuenta", entonces el sistema muestra las opciones de vinculación de cuentas.
+      Escenario 2: El visitante completa exitosamente la vinculación. Dado que el visitante selecciona la opción con que va a registrar su cuenta, cuando recibe el código de verificación y lo ingresa en el formulario, entonces el sistema muestra el mensaje "Código correcto" y registra la cuenta, redireccionando al dashboard de inicio del sitio web.
+      Escenario 3: El visitante ingresa mal el código de verificación. Dado que el visitante selecciona la opción con que va a registrar su cuenta, cuando recibe el código de verificación e ingresa un código incorrecto, entonces el sistema muestra el mensaje "Código incorrecto" y da un tiempo de 20 segundos para ingresar el nuevo código.
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-09</td>
+    <td>Tutor</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Actualización de cuenta del Tutor <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero actualizar y completar mi perfil para añadir detalles sobre las necesidades especiales de mi hijo.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El tutor visualiza su perfil. Dado que el tutor ingresa al sitio web, cuando selecciona su icono de perfil, entonces el sistema le redireccionará al dashboard de su perfil y visualizará los datos que rellenó cuando registró la cuenta.
+      Escenario 2: El tutor actualiza su perfil. Dado que el tutor presiona el botón de actualizar, cuando ingresa los datos actualizados y la información adicional o faltante del perfil y presiona el botón de "Guardar Cambios", entonces el sistema muestra el mensaje "Se guardó correctamente".
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-10</td>
+    <td>Niñera</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Actualización de cuenta de la Niñera <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero actualizar y completar mi perfil con mi experiencia y certificaciones, para atraer a más Tutores.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera visualiza su perfil. Dado que la niñera ingresa al sitio web, cuando selecciona su icono de perfil, entonces el sistema le redireccionará al dashboard de su perfil y visualizará los datos que rellenó cuando registró la cuenta.
+      Escenario 2: La niñera actualiza su perfil. Dado que la niñera presiona el botón de actualizar, cuando ingresa los datos actualizados y la información adicional o faltante del perfil y presiona el botón de "Guardar Cambios", entonces el sistema muestra el mensaje "Se guardó correctamente".
+      Escenario 3: La niñera ingresa documentos a su perfil. Dado que el tutor presiona el botón de "Subir Documento", cuando selecciona el documento y presiona el botón de "Guardar", entonces el sistema muestra el mensaje "Se subió el documento correctamente".
+    </td>
+  </tr>
+</table>
+
+---
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-11</td>
+    <td>Niñera</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Ingreso de Horario de Disponibilidad <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero ingresar mi disponibilidad de servicios, asegurar para que los Tutores vean los horarios de atención de mis servicios.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera ingresa sus horarios. Dado que la niñera se encuentra dentro del sitio web, cuando ingresa a su perfil y selecciona "Ingresar Horario", el sistema muestra el sistema para ingresar los días y horarios disponibles.
+      Escenario 2: La niñera guarda guardas sus horarios. Dado que la niñera rellena los horarios dentro del calendario, cuando presiona el botón de "Guardar Horario", el sistema muestra el mensaje "Seguardó correctamente".
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-12</td>
+    <td>Niñera</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Actualizar Horario de Disponibilidad <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero poder actualizar mis horarios de disponibilidad en la aplicación, para que los padres vean cómo se libre para ofrecer mis servicios.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera puede actualizar sus horarios de servicio. Dado que la niñera se encuentra en su horario de servicio
+      Cuando selecciona el icono de lapiz y agregación las nuevas horas
+      El sistema muestra la opcion de "Guardar" o "Cancelar".
+      Escenario 2: La niñera guarda sus nuevos horarios de servicio: Dado que se encuentra en la seguida "Servicios"
+      Cuando realizo su nuevo horario y selecciono "Guardar"
+      El sistema actualizo y guardo el nuevo horario y notifico "Guardadomente"
+      Escenario 3: La niñera cancela actualización su horario. Dado que se encuentra en la seccion de "Servicios"
+      Cuando actualizan el horario y seleccionan "Cancelar"
+      El sistema no modifica el horario.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-13</td>
+    <td>Niñera</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Gestión de Costos de Servicios <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero establecer mis tarifas por hora o sesión, para que los Tutores sepan se cobran por mal servicio.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera establece las Tarifas de sus servicios. Dado que la niñera está en la sección de configuración de tarifas, cuando introduce un tarifa por hora o por sesión y guarda los cambios, el sistema actualiza el perfil de la niñera para mostrar las tarifas.
+      Escenario 2: La niñera actualiza las Tarifas de sus servicios. Dado que la niñera desea ajustar sus tarifas, cuando modificar la tarifa por hora o por sesión en la sección configuración de medida y guarda los cambios, el sistema actual actualiza el perfil de la niñera para reflejar las nuevas tarifas.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-14</td>
+    <td>Tutor</td>
+    <td>Media</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Filtrado de Ubicación <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero buscar niñeras en la ubicación y servicio, para encontrar a alguien cercano a mi hogar.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El Tutor visualiza la sección de búsqueda. Dado que el Tutor ingresa al sitio web, cuando se selecciona la sección de búsqueda, el sistema le direccionará al salpicadero de búsqueda donde visualizará a todos los niñeras que ofrecen sus servicios de cuidado.
+      Escenario 2: El Tutor hace un filtrado de datos por ubicación. Dado que el tutor ingresa el dato a buscar y seleccionar el tipo de búsqueda, cuando ingresa la opción de búsqueda por "Ubicación" y presiona el botón de buscar, muestra el sistema hasta donde todos los perfiles de la niñera que coinciden con la sede ingresada.
+      Escenario 3: El Tutor hace un filtrado de datos por servicio. Dado que el tutor ingresa el dato a buscar y seleccionar el tipo de búsqueda, cuando ingresa la opción de búsqueda por "Servicio" y presiona el botón de buscar, muestra el sistema a todos los perfiles de niñera que tienen que el servicio igual al dato buscado.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-15</td>
+    <td>Tutor</td>
+    <td>Media</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Visualización de Perfil <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero ver las certificaciones y antecedentes de la niñera, para asegurarme de que se están haciendo para mi hijo.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El Tutor selecciona el perfil. Dado que el Tutor realiza el filtrado de búsqueda, cuando selecciona a la niñera interesada, el sistema le direccionará al perfil de la niñera y visualizará todos sus datos.
+    </td>
+  </tr>
+</table>
+
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-16</td>
+    <td>Tutor</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Solicitud de Reserva <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero solicitar una reserva para una niñera, para asegurarme de que se dispone de los siguientes mercados en el horario que necesito.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El Tutor selecciona los horarios de atención. Dado que el Tutor se encuentra en el Perfil de la niñera seleccionado, cuando presiona la opción de "Solicitar Reserva de Atención", el sistema mostrará los horarios de atención en un calendario de la semana con la opción de seleccionar los días y horas disponibles.
+      Escenario 2: El Tutor en la solicitud de reserva. Dado que el Tutor selecciona los horarios de la reserva, cuando presiona la opción de "Enviarse buscar", el sistema mostrará un mensaje "Se envió la solicitud" y a la niñera sobre la solicitud de reserva.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-17</td>
+    <td>Tutor</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Solicitud de ReservaActualización de Solicitud de Reserva <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero poder actualizar mis reservas, para cambiar horarios o cancelar si es necesario.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El Tutor accede a las solicitudes de reserva. Dado que el Tutor ha iniciado sesión en su cuenta, cuando accede a la sección de solicitudes de reserva en este momento, visualizará la lista actualizada de todas las solicitudes de reserva, incluso que son aceptadas, o rechazadas.
+      Escenario 2: El Tutor cambia el horario de la reserva. Dado que el Tutor tiene una solicitud de reserva existente, cuando se selecciona la opción de cambiar el horario en la solicitud en la solicitud seleccionada, el Tutor visualizará el calendario de horarios disponibles para el cambio, y seleccionar un nuevo horario y confirmar el cambio en el sitio, el sistema actualización de la solicitud con el nuevo horario y la notificación de confirmación de al tutor.
+      Escenario 3: El Tutor cancela la solicitud. Dado que el Tutor tiene una solicitud de reserva existente, cuando se selecciona la opción de cancelar la solicitud, el sistema cancelar la solicitud y notificará a la niñera sobre la cancelación, actualizando la solicitud en la lista del Tutor.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-18</td>
+    <td>Niñera</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Vista de Solicitudes <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero recibir notificación de las solicitudes de reserva en tiempo real, para llegar a poder y visualizar las solicitudes entrantes.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera recibe notificación de Solicitud. Dado que la niñera recibe una notificación al celular de una Solicitud de Reserva, cuando selecciona la notificación entonces, el sistema le redirecciona a la sección de "Solicitudes" del sitio web.
+      Escenario 2: La niñera ingresa a la sección de Solicitud. Dado que la niñera está en el sitio web y recibe la notificación, cuando ingresa a la sección "Solicitudes", visualizará la solicitud notificada.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Niñera</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Gestión de Solicitudes <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero gestionar las solicitudes recibidas, para aceptar o rechazar la reserva.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera acepta la solicitud. Dado que la niñera recibe una solicitud de reserva, cuando accede a la solicitud en su panel de control y se selecciona "Aceptar", el sistema actualiza el estado de la solicitud a "Aceptada" y no descargo al Tutor sobre la confirmación de la reserva.
+      Escenario 2: La niñera rechazó la solicitud. Dado que la niñera recibe una solicitud de reserva, cuando accede a la solicitud en su panel de control y se selecciona "Rechazar", el sistema actualiza el estado de la solicitud a una "Rechazada" y notifica al Tutor sobre la decisión de rechazo.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-20</td>
+    <td>Tutor</td>
+    <td>Alta</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Sistema de Comunicación <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">CComo Tutor, quiero enviar mensajes a la niñera que contrate, para discutir detalles y expectativas.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El Tutor accede a la función de mensajería. Dado que el Tutor está autenticado en su cuenta, cuando accede a la sección de comunicación, se llega visualizará una opción para enviar y recibir mensajes de la niñera.
+      Escenario 2: El Tutor envía un mensaje. Dado que el Tutor tiene una conversación con una niñera, cuando se redactó un mensaje y presiona "Enviar", el mensaje se envía a la niñera y aparece en la conversación.
+      Escenario 3: El Tutor recibe una notificación del mensaje entrante. Dado que la niñera envía un nuevo mensaje, cuando el Tutor recibe el mensaje, se nota es notificado sobre el nuevo mensaje.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-21</td>
+    <td>Niñera</td>
+    <td>Alta</td>
+    <td>EP06</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Registro de Medios de Pago <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero recibir pagos a través de la plataforma, para asegurar una transacción segura y sencilla.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera configura los métodos de pago. Dado que la niñera está en su cuenta, cuando accede a la sección de "Configuración de Pagos" puede agregar y gestionar métodos de pago, como cuentas bancarias o tarjetas de crédito/débito.
+      Escenario 2: La niñera visualiza el pago de sus servicios. Dado que el pago ha sido procesado, cuando la niñera accede a la sección de "Historial de Pagos", visualizará el pago registrado, incluyendo detalles como la cantidad, la fecha y el estado del pago.
+      Escenario 3: La niñera visualiza la trayectoria de pagos. Dado que la niñera accede a la sección "Historial de Pagos", cuando revisa el historial, visualizará un registro completo de todos los pagos recibidos, en orden cronológico, con detalles de cada transacción.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-22</td>
+    <td>Tutor</td>
+    <td>Alta</td>
+    <td>EP06</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Sistema de Pagos <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero realizar los pagos a través de la plataforma, para asegurar una transacción segura y sencilla.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El Tutor realiza la pago. Dado que el Tutor necesita realizar un pago por una sesión o servicio, cuando accede a la sección de "Pagos" y selecciona el objetivo de pagar, puede confirmar y procesar el pago utilizando el método de pago configurado.
+      Escenario 2: El Tutor visualiza el historial de pagos. Dado que el Tutor accede a la sección de historial de pagos, revisan cuando el historial, entonces visualizará un registro completo de todos los pagos realizados, en orden de acuerdo de transacción de cada uno.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-23</td>
+    <td>Tutor</td>
+    <td>Alta</td>
+    <td>EP07</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Sistema de Reseñas <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Tutor, quiero dejar una reseña sobre el niñera, para ayudar a otros Tutores a decisiones que toman.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El Tutor deja una reseña. Dado que el Tutor ha utilizado los servicios de la niñera, cuando accede a la sección de "Reseñas" en el perfil de la niñera y escribe una reseña, el sistema guarda la reseña y el perfil en la muestra de la niñera para que ven a otros tutores la.
+      Escenario 2: El Tutor califica a la Niñera. Dado que el Tutor desea calificar a la niñera, cuando selecciona una calificación de estrellas, de 1 a 5 estrellas, en la sección de "Reseñas", el sistema guarda la calificación junto con la reseña escrita.
+      Escenario 3: El Tutor elimina una reseña. Dado que el Tutor decide una reseña que ha dejado, cuando se selecciona la opción para eliminar la reseña en la sección en la sección de reseñas, el sistema borra la reseña del perfil de la Cuidador y un mensaje de confirmación de que la reseña ha sido eliminada.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US-24</td>
+    <td>Niñera</td>
+    <td>Alta</td>
+    <td>EP07</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Visualización de Reseñas <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Niñera, quiero visualizar las reseñas dejadas por los tutores de los servicios ofrecidos, antes de ver en qué puedo mejorar.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: La niñera accede a las reseñas de su perfil. Dado que la niñera está en su cuenta, cuando accede a la sección de "Reseñas entonces", el sistema una muestra de todas las reseñas dejadas por los Tutores que han recibido sus servicios.
+      Escenario 2: La niñera visualiza los detalles de la reseña. Dado que la niñera está en la sección de reseñas, cuando se selecciona una reseña específica, entonces el sistemaá mostrar los detalles completos de la reseña, incluyendo la calificación, comentarios y cualquier otra información relevante por el tutor.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-01</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Autentificación de Usuarios <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Administrador de la API, quiero autenticar me con mis credenciales, para poder gestionar los recursos protegidos de la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El administrador proporcionan reservas válidas.
+      Dado que el administrador proporciona validos, cuando realiza una solicitud al endpoint POST /api/auth/login, cuando el sistema debe generar in unken JWT que se usará en futuras solicitudes.
+      Escenario 2: El administrador se presenta enválidas.
+      Dado que el administrador proporcionado enválidas, cuando se intenta iniciar sesión, el sistema entonces debe retornar un error con estado HTTP 401 y un mensaje indicando "Credenciales incorrectas".
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-02</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Gestión de Roles y Permisos <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Administrador, quiero definir diferentes roles y permisos para los usuarios, para que puedan tener acceso a diferentes funciones de la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Rol con acceso completo. Dado que el administrador crea o edita un rol, cuando define los permisos de dicot rol, entonces el sistema actualiza las restricciones de acceso de acuerdo con los permisos asignados.
+      Escenario 2: Rol con acceso limitado. Dado que un usuario con permisos limitados acceder a una función restringida, cuando se intenta realizar una acción no se espera, el sistema devuelve un error de "Acceso".
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-03</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Optimización de Consultas a la Base de Datos <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Administrador, quiero optimizar las consultas a la base de datos, para que las respuestas del servidor sean más rápidas y eficientes.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Base de datos lentos. Dado que una consulta a la base de datos tarda más de lo esperado, cuando se identifica una mejora en la puntuación de las tablas o estructura de las consultas, el sistema ejecuta las consultas en menos de 500 ms.
+      Escenario 2: Base de datos optimizado. Dado que se ha optimizado el sistema de caché, cuando un usuario realiza varias solicitudes, entonces se repite el servidor devuelve la respuesta desde el caché en el lugar de la base de datos.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-04</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Dirección de Archivos Subidos <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Administrador, quiero manejar la subida de archivos de manera eficiente y segura, para que los archivos sean afiliados y se generalicen de forma adecuada.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Carga de archivos exitosos dentro del límite de tamaño permitido. Dado que un usuario sube un archivo, cuando el archivo se almacena en el servidor, el sistema entonces genera una URL única de acceso a un archivo y la almacenada en la base de datos.
+      Escenario 2: Rechazo de cargar por el límite de tamaño de archivo. Dado que el archivo supera el tamaño permitido, cuando el usuario intenta subirlo, el sistema entonces rechazar la subida y devuelve un mensaje de error con el límite de tamaño permitido.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-05</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Notificaciones en Tiempo Real <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como Administrador, quiero implementar un sistema de notificaciones en tiempo real, para que los usuarios reciban alertas instantáneas de eventos importantes.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: El usuario inició sesión. Dado que se produce un evento relevante (nueva solicitud, mensaje, actualización), cuando el usuario está conectado a la plataforma, entonces el sistema envía una notificación en tiempo real utilizando WebSockets o tecnologías similares.
+      Escenario 2: El usuario no inició sesión. Dado que el usuario no está conectado, cuando se produce un evento, entonces el sistema almacena la notificación y la muestra al usuario la próxima vez que inicie sesión.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-06</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Filtrado y Ordenación de Recursos <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como administrador de la API, quiero filtrar y ordenar los resultados de los listados, para gestionar los recursos de manera más eficiente.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Filtros aplicados.
+      Dado que el administrador consulta una lista de recursos, cuando utiliza parámetros de filtro como role=admin, entonces el sistema debe devolver solo los recursos que coincidan con ese filtro.
+      Escenario 2: Ordenación de resultados.
+      Dado que el administrador desea ordenar los resultados, cuando utiliza los parámetros sort y order (por ejemplo, sort=created_at&order=desc), entonces el sistema debe devolver los resultados en el orden especificado.
+    </td>
+  </tr>
+</table>
+<table >
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-07</td>
+    <td>Administrador</td>
+    <td>Alta</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td ><strong>Title</strong></td><td colspan="3"> Actualización de Información del Usuario <br></td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Description </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como administrador, quiero poder actualizar el perfil de un usuario a través de la API, para gestionar los datos de los usuarios de la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Acceptance Criteria </b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Actualización exitosa.
+      Dado que el administrador desea actualizar la información de un usuario, cuando envía una solicitud PUT /api/users/{id} con los datos actualizados, entonces el sistema debe validar y actualizar los datos en la base de datos.
+      Escenario 2: Error en campos no permitidos.
+      Dado que intenta actualizar campos no permitidos, cuando envía la solicitud, entonces el sistema debe devolver un error especificando qué campos no son modificables.
+    </td>
+  </tr>
+</table>
+</CENTER>
+
 ## 3.3. Impact Mapping
+
+![impac map](./img/Impact%20map.png)
+
 ## 3.4. Product Backlog
+
+| # Orden | User ID | Título                                   | Descripción                                                                                                                                                          | Story Points |
+| ------- | ------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 1       | US07    | Registro como Niñera                     | Como Niñera, quiero registrarme y crear un perfil detallado para mostrar mi experiencia y certificaciones a los Tutores.                                             | 5            |
+| 2       | US14    | Filtrado de Ubicación                    | Como Tutor, quiero buscar niñeras basados en ubicación y servicio para encontrar alguien cercano a mi hogar.                                                         | 5            |
+| 3       | US16    | Solicitud de Reserva                     | Como Tutor, quiero solicitar reservas para asegurar disponibilidad de niñeras en los horarios que necesito.                                                          | 5            |
+| 4       | US20    | Sistema de Comunicación                  | Como Tutor, quiero enviar mensajes a la niñera contratada para discutir detalles y expectativas.                                                                     | 5            |
+| 5       | US22    | Sistema de Pagos                         | Como Tutor, quiero realizar pagos a través de la plataforma para transacciones seguras y sencillas.                                                                  | 5            |
+| 6       | US21    | Registro de Medios de Pago               | Como Niñera, quiero recibir pagos a través de la plataforma, para asegurar una transacción segura y sencilla.                                                        | 5            |
+| 7       | US06    | Registro del Usuario                     | Como Tutor, quiero crear una cuenta para buscar niñeras y gestionar reservas para mi hijo.                                                                           | 5            |
+| 8       | US10    | Actualización de cuenta de la Niñera     | Como Niñera, quiero actualizar mi perfil con experiencia y certificaciones para atraer más Tutores.                                                                  | 3            |
+| 9       | US11    | Ingreso de Horario de Disponibilidad     | Como Niñera, quiero ingresar mi disponibilidad para que los Tutores vean mis horarios de atención.                                                                   | 3            |
+| 10      | US17    | Actualización de Solicitud de Reserva    | Como Tutor, quiero actualizar mis reservas para cambiar horarios o cancelar si es necesario.                                                                         | 3            |
+| 11      | US18    | Vista de Solicitudes                     | Como Niñera, quiero recibir notificaciones de solicitudes de reserva en tiempo real para visualizarlas.                                                              | 3            |
+| 12      | US09    | Actualización de cuenta del Tutor        | Como Tutor, quiero actualizar mi perfil para añadir detalles sobre necesidades especiales de mi hijo.                                                                | 2            |
+| 13      | US12    | Actualizar Horario de Disponibilidad     | Como Niñera, quiero actualizar mis horarios para que los padres vean cuándo estoy disponible.                                                                        | 2            |
+| 14      | US13    | Gestión de Costos de Servicios           | Como Niñera, quiero establecer tarifas por hora/sesión para que los Tutores sepan mi costo.                                                                          | 2            |
+| 15      | US19    | Gestión de Solicitudes                   | Como Niñera, quiero gestionar solicitudes recibidas para aceptar o rechazar reservas.                                                                                | 2            |
+| 16      | US23    | Sistema de Reseñas                       | Como Tutor, quiero dejar reseñas sobre niñeras para ayudar a otros Tutores a decidir.                                                                                | 2            |
+| 17      | US15    | Visualización de Perfil                  | Como Tutor, quiero ver certificaciones y antecedentes de niñeras para asegurar que sean adecuadas para mi hijo.                                                      | 1            |
+| 18      | US24    | Visualización de Reseñas                 | Como Niñera, quiero visualizar reseñas de tutores para identificar áreas de mejora.                                                                                  | 1            |
+| 19      | US01    | Visualizar la Descripcion clara del app  | Como visitante, quiero ver una descripción clara de la app para entender su valor y lo que ofrece.                                                                   | 1            |
+| 20      | US02    | Testimonios de Usuarios                  | Como visitante, quiero ver testimonios reales para confiar en el servicio de la app                                                                                  | 1            |
+| 21      | US03    | Lista de Características                 | Como visitante, visualizar las características principales de la app para conocer sus funcionalidades antes de registrarme y decidir si se ajusta a mis necesidades. | 1            |
+| 22      | US04    | Contacto con la Equipo                   | Como visitante, quiero contactar al equipo para tener un medio directo con el equipo de desarrollo.                                                                  | 1            |
+| 23      | US05    | Beneficios                               | Como visitante, quiero conocer los beneficios y funciones que ofrece la app, para conocer sus servicios..                                                            | 1            |
+| 24      | SP-03   | Optimización de Consultas a la BD        | Como Administrador, quiero optimizar consultas a la base de datos para respuestas más rápidas y eficientes.                                                          | 5            |
+| 25      | SP-04   | Gestión de Archivos Subidos              | Como Administrador, quiero manejar la subida de archivos de manera eficiente y segura para su almacenamiento y acceso.                                               | 5            |
+| 26      | US08    | Validación de Registro                   | Como administrador, quiero un mecanismo de autentificación segura para verificar las credenciales del registro de cuenta.                                            | 8            |
+| 27      | SP-01   | Autentificación de Usuarios              | Como Administrador de la API, quiero autenticarme con mis credenciales, para gestionar los recursos protegidos de la plataforma.                                     | 8            |
+| 28      | SP-02   | Gestión de Roles y Permisos              | Como Administrador, quiero definir roles y permisos para que los usuarios accedan a diferentes funciones de la plataforma.                                           | 8            |
+| 29      | SP-05   | Notificaciones en Tiempo Real            | Como Administrador, quiero implementar notificaciones en tiempo real para alertas instantáneas de eventos importantes.                                               | 8            |
+| 30      | SP-06   | Filtrado y Ordenación de Recursos        | Como administrador de la API, quiero filtrar y ordenar resultados para gestionar recursos eficientemente.                                                            | 3            |
+| 31      | SP-07   | Actualización de Información del Usuario | Como administrador, quiero actualizar perfiles de usuarios a través de la API para gestionar sus datos.                                                              | 3            |
 
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
+
 ### 4.1.1. General Style Guidelines
+
 ### 4.1.2. Web Style Guidelines
+
 ### 4.1.3. Mobile Style Guidelines.
+
 #### 4.1.3.1. iOS Mobile Style Guidelines.
+
 #### 4.1.3.2. Android Mobile Style Guidelines.
 
 ## 4.2. Information Architecture
+
 ### 4.2.1. Organization Systems
+
 ### 4.2.2. Labeling Systems
+
 ### 4.2.3. SEO Tags and Meta Tags
+
 ### 4.2.4. Searching Systems
+
 ### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
+
 ### 4.3.1. Landing Page Wireframe
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Mobile Applications UX/UI Design.
+
 ### 4.4.1. Mobile Applications Wireframes.
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
+
 ### 4.4.3. Mobile Applications Mock-ups.
+
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 
 ## 4.5. Mobile Applications Prototyping.
+
 ### 4.5.1. Android Mobile Applications Prototyping.
+
 ### 4.5.2. iOS Mobile Applications Prototyping.
 
 ## 4.6. Web Applications UX/UI Design
+
 ### 4.6.1. Web Applications Wireframes
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+
 ### 4.6.3. Web Applications Mock-ups
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
 ## 4.7. Web Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
+
 ### 4.8.1. Software Architecture Context Diagram
+
 ### 4.8.2. Software Architecture Container Diagrams
+
 ### 4.8.3. Software Architecture Components Diagrams
 
 ## 4.9. Software Object-Oriented Design
+
 ### 4.9.1. Class Diagrams
+
 ### 4.9.2. Class Dictionary
 
 ## 4.10. Database Design
+
 ### 4.10.1. Database Diagram
 
 ---
@@ -304,18 +1482,29 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
+
 ### 5.1.1. Software Development Environment Configuration
+
 ### 5.1.2. Source Code Management
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
+
 ### 5.2.1. Sprint Backlogs.
+
 ### 5.2.2. Implemented Landing Page Evidence
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
 ### 5.2.6. RESTful API documentation
+
 ### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
@@ -325,5 +1514,7 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 # Conclusiones
 
 ## Conclusiones y recomendaciones
+
 ## Video About-the-Team
+
 ## Bibliografía Anexos
