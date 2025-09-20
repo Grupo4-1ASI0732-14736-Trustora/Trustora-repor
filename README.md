@@ -372,7 +372,7 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
 
- Segmento: Niñeras certificadas
+## Segmento: Niñeras Certificadas
 
 - Nombre: Ingrid Nazareth  
 - Edad: 21 años  
@@ -394,7 +394,7 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 | Revisar beneficios, garantías o soporte de la plataforma | Baja | Media | Le da tranquilidad, sobre todo al inicio o en casos de problemas. |
 | Actualizar disponibilidad horaria | Media | Media | Necesario para que la contacten, pero no es su acción diaria. |
 
-Segmento: Padres de familia
+## Segmento: Padres de Familia 
 
 - Nombre: Iris Violeta 
 - Edad: 46 años
@@ -416,6 +416,24 @@ Segmento: Padres de familia
 
 
 ### 2.3.3. User Journey Mapping
+
+## Segmento: Niñeras Certificadas
+
+Su recorrido se enfoca en crear un perfil confiable, revisar ofertas y postularse a trabajos seguros. La confianza en contratos y pagos es clave. El mapeo muestra dónde la plataforma debe reforzar seguridad y credibilidad.
+
+<div align="center">
+    <img src=".img/Journey-Map-Niñera.png"></img>
+</div>
+
+## Segmento: Padres de Familia
+
+Su journey inicia buscando niñeras disponibles y revisando perfiles con certificaciones y reseñas. La interacción previa, la reserva y el pago seguro son momentos críticos. El mapeo destaca la importancia de agilidad y confianza en cada paso.
+
+<div align="center">
+    <img src=".img/Journey-Map-Madre.png"></img>
+</div>
+
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 
