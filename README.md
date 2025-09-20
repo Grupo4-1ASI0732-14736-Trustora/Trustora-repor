@@ -440,8 +440,71 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
+
+## 5.1. Software Configuration Management  
+
+A continuación, se describe el proceso mediante el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de **KydiCare**. El objetivo es asegurar la trazabilidad, consistencia y calidad en cada etapa del ciclo de vida del software, integrando herramientas que soportan desde la planificación hasta la implementación y documentación.  
+
+
+
+### 5.1.1. Software Development Environment Configuration  
+
+El entorno de desarrollo de **Trustora** se estructura en diferentes áreas clave: gestión de necesidades, diseño UX/UI, desarrollo, implementación y documentación. Cada área cuenta con herramientas seleccionadas para optimizar la productividad del equipo y garantizar un flujo de trabajo ágil y colaborativo.  
+
+### Gestión de necesidades  
+
+- **Trello**: Herramienta de gestión de proyectos basada en tableros y tarjetas, ampliamente utilizada en marcos de trabajo ágiles.  
+  En **Trustora** se utiliza para visualizar y actualizar en tiempo real el estado de las tareas e historias de usuario dentro de cada sprint, facilitando la coordinación y priorización del backlog.  
+  - **Ruta de referencia:** [Trello](https://trello.com/es)  
+
+
+
+### Diseño UX/UI  
+
+- **Figma**: Plataforma de prototipado y edición gráfica para diseño digital. Se empleó para elaborar prototipos interactivos de **Trustora**, tanto en su versión **Desktop** como en **Mobile Web Browser**, asegurando consistencia visual y facilidad de navegación.  
+  - **Ruta de referencia:** [Figma](https://www.figma.com/login)  
+
+- **Lucidchart**: Aplicación en la nube para la diagramación de flujos y modelos. Fue utilizada para diseñar **flujos de usuario**, **wireflows** y el **diagrama de clases**, contribuyendo a la definición clara de la arquitectura de la aplicación.  
+  - **Ruta de referencia:** [Lucidchart](https://www.lucidchart.com/)  
+
+
+
+### Desarrollo de software  
+
+- **Visual Studio Code (VS Code)**: Entorno de desarrollo integrado elegido por el equipo gracias a su versatilidad, soporte para múltiples lenguajes y extensiones útiles. Su compatibilidad con diferentes sistemas operativos facilita la colaboración entre los desarrolladores.  
+  - **Ruta de referencia:** [VS Code](https://code.visualstudio.com/)  
+
+- **HTML5**: Lenguaje de marcado estándar para la estructura y presentación del contenido web. En el proyecto se emplea para dar soporte a la capa de presentación de la aplicación.  
+  - **Ruta de referencia:** [HTML5 Syntax](https://www.w3schools.com/html/html5-syntax.asp)  
+
+- **CSS**: Lenguaje de hojas de estilo que permite definir el diseño visual y la apariencia de la interfaz, en conjunto con HTML.  
+  - **Ruta de referencia:** [HTML/CSS Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+
+- **Bootstrap**: Framework CSS que facilita la creación de interfaces responsivas y optimizadas para diferentes dispositivos. Su uso garantiza una experiencia uniforme tanto en móviles como en escritorios.  
+  - **Ruta de referencia:** [Bootstrap](https://getbootstrap.com/)  
+
+
+
+### Implementación de software  
+
+- **Git**: Sistema de control de versiones distribuido, fundamental para registrar y gestionar los cambios en el código fuente. Permite mantener un historial detallado de versiones, simplificar la corrección de errores y coordinar el trabajo de múltiples desarrolladores.  
+  - **Ruta de referencia:** [Git](https://git-scm.com/)  
+
+
+
+### Documentación y gestión de proyectos de software  
+
+- **GitHub**: Plataforma en la nube que hospeda los repositorios del proyecto. Permite colaboración en tiempo real, control de versiones, integración con CI/CD, revisión de código (*pull requests*) y gestión de incidencias. Es la herramienta central para la coordinación técnica del equipo.  
+  - **Ruta de referencia:** [GitHub](https://github.com/)  
+
+
+## Conclusión  
+
+La combinación de estas herramientas garantiza que el equipo de **Trustora** disponga de un ecosistema sólido para gestionar el ciclo de vida del software. Desde la planificación y el diseño, hasta el desarrollo, implementación y documentación, cada etapa cuenta con un soporte tecnológico que asegura eficiencia, escalabilidad y calidad en la entrega.  
+
+
+
+
 ### 5.1.2. Source Code Management
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
