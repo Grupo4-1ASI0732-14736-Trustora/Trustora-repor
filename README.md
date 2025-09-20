@@ -372,7 +372,7 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
 
-## Segmento: Niñeras Certificadas
+### Segmento: Niñeras Certificadas
 
 - Nombre: Ingrid Nazareth  
 - Edad: 21 años  
@@ -394,7 +394,7 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 | Revisar beneficios, garantías o soporte de la plataforma | Baja | Media | Le da tranquilidad, sobre todo al inicio o en casos de problemas. |
 | Actualizar disponibilidad horaria | Media | Media | Necesario para que la contacten, pero no es su acción diaria. |
 
-## Segmento: Padres de Familia 
+### Segmento: Padres de Familia
 
 - Nombre: Iris Violeta 
 - Edad: 46 años
@@ -417,7 +417,7 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 
 ### 2.3.3. User Journey Mapping
 
-## Segmento: Niñeras Certificadas
+### Segmento: Niñeras Certificadas
 
 Su recorrido se enfoca en crear un perfil confiable, revisar ofertas y postularse a trabajos seguros. La confianza en contratos y pagos es clave. El mapeo muestra dónde la plataforma debe reforzar seguridad y credibilidad.
 
@@ -425,7 +425,7 @@ Su recorrido se enfoca en crear un perfil confiable, revisar ofertas y postulars
     <img src=".img/Journey-Map-Niñera.png"></img>
 </div>
 
-## Segmento: Padres de Familia
+### Segmento: Padres de Familia
 
 Su journey inicia buscando niñeras disponibles y revisando perfiles con certificaciones y reseñas. La interacción previa, la reserva y el pago seguro son momentos críticos. El mapeo destaca la importancia de agilidad y confianza en cada paso.
 
@@ -435,6 +435,29 @@ Su journey inicia buscando niñeras disponibles y revisando perfiles con certifi
 
 
 ### 2.3.4. Empathy Mapping
+
+
+### Segmento: Niñeras Certificadas
+
+El empathy mapping de las niñeras certificadas busca entender cómo viven la búsqueda de empleos seguros y formales. Nos ayuda a identificar lo que piensan sobre la confianza y estabilidad, lo que sienten frente a la incertidumbre laboral, lo que expresan al postular o comunicarse con familias, y lo que hacen dentro de la plataforma para conseguir trabajo.
+
+
+<div align="center">
+    <img src=".img/Empathy-Map-Niñera.png"></img>
+</div>
+
+
+
+### Segmento: Padres de Familia
+
+El empathy mapping de los padres de familia refleja su necesidad de tranquilidad y seguridad al dejar a sus hijos al cuidado de alguien más. Permite reconocer lo que piensan al evaluar perfiles y costos, lo que sienten frente a la confianza y la urgencia, lo que expresan en sus comunicaciones con la niñera, y lo que hacen al reservar y pagar un servicio confiable.
+
+
+<div align="center">
+    <img src=".img/Empathy-Map-Mama.png"></img>
+</div>
+
+
 ### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
