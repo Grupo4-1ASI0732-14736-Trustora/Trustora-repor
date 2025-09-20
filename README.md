@@ -389,6 +389,12 @@ Para identificar las ventajas competitivas de **Trustora** frente a competidores
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+|                     | **Oportunidades (O)**                                                                                                    | **Amenazas (A)**                                                                                                   |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Fortalezas (F)** | **Estrategias FO**<br>- Potenciar la verificación de identidad y seguridad como principal diferenciador en LATAM.<br>- Ampliar la personalización avanzada para atender a familias preocupadas por la seguridad infantil.<br>- Campañas digitales resaltando el enfoque regional como ventaja frente a plataformas globales. | **Estrategias FA**<br>- Usar la verificación estricta como defensa frente a competidores con más recursos.<br>- Posicionar el enfoque regional para diferenciarse de plataformas internacionales.<br>- Reforzar la UX amigable para competir con startups locales emergentes. |
+| **Debilidades (D)** | **Estrategias DO**<br>- Invertir en branding y marketing educativo para aumentar reconocimiento.<br>- Asociarse con ONGs y escuelas para generar confianza.<br>- Desarrollar una app ligera y accesible aprovechando el auge móvil. | **Estrategias DA**<br>- Crear alianzas con aseguradoras, clínicas o entidades confiables.<br>- Implementar embajadores de marca (padres y niñeras verificadas).<br>- Adoptar un modelo freemium escalable para reducir costos iniciales. |
+
+
 ## 2.2. Entrevistas
 
 
