@@ -460,6 +460,25 @@ El empathy mapping de los padres de familia refleja su necesidad de tranquilidad
 
 ### 2.3.5. As-is Scenario Mapping
 
+### Segmento: Niñeras Certificadas
+
+
+El As-is Scenario Mapping de las niñeras certificadas muestra su situación actual al buscar empleo: dependen de perfiles digitales, revisan ofertas poco claras y enfrentan riesgos de informalidad. Este mapeo permite entender sus limitaciones y puntos de dolor en la experiencia de conseguir trabajos confiables.
+
+<div align="center">
+    <img src=".img/Scenario-Map-Niñera.png"></img>
+</div>
+
+
+### Segmento: Padres de Familia
+
+El As-is Scenario Mapping de los padres evidencia cómo buscan niñeras de manera inmediata, revisando perfiles y referencias, pero con dudas sobre seguridad y pagos. El mapeo ayuda a identificar barreras actuales en confianza, rapidez y claridad al contratar un servicio de cuidado infantil.
+
+<div align="center">
+    <img src=".img/Scenario-Map-Madre.png"></img>
+</div>
+
+
 ## 2.4. Ubiquitous Language
 
 El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya que nos permitirá establecer un lenguaje común y compartido entre todos los miembros del equipo.
