@@ -377,7 +377,28 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 
 ## 2.4. Ubiquitous Language
 
----
+El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya que nos permitirá establecer un lenguaje común y compartido entre todos los miembros del equipo.
+
+
+- **Niñera Verificada**: Persona cuidadora que ha pasado el proceso de verificación de identidad, referencias y experiencia por parte de la plataforma.  
+
+- **Padre de familia**: Persona(s) que busca(n) servicios de cuidado infantil a través de la app para sus hijos.  
+
+- **Perfil Profesional**: Página personal de la niñera con información relevante como experiencia, certificaciones, disponibilidad y calificaciones.  
+
+- **Solicitud de Servicio**: Acción iniciada por un padre para contactar y contratar una niñera en una fecha y horario específicos.  
+
+- **Match Seguro**: Coincidencia entre niñera y familia basada en filtros (ubicación, disponibilidad, experiencia) y políticas de seguridad.  
+
+- **Calificación y Reseña**: Sistema de evaluación que permite a los usuarios valorar la experiencia después de cada servicio.  
+
+- **Verificación de Identidad**: Proceso obligatorio para todas las niñeras antes de publicar su perfil, incluyendo documentos, entrevistas o chequeo de antecedentes.  
+
+- **Reservación Confirmada**: Estado del servicio cuando ambas partes (niñera y padre) han aceptado los términos y se ha fijado el horario.  
+
+- **Panel de Seguridad**: Conjunto de funciones dentro de la app que aseguran la transparencia y protección de todos los usuarios (verificación, soporte, seguimiento en tiempo real).  
+
+
 
 # Capítulo III: Requirements Specification
 
