@@ -371,6 +371,50 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
+
+ Segmento: Niñeras certificadas
+
+- Nombre: Ingrid Nazareth  
+- Edad: 21 años  
+- Ocupación: Niñera  
+- Interés: Conseguir empleos estables, seguros y justos con familias confiables  
+
+| **Tarea** | **Frecuencia** | **Importancia** | **Comentarios** |
+|-----------|----------------|-----------------|-----------------|
+| Crear y mantener su perfil con información actualizada (foto, experiencia, referencias) | Media | Alta | Le da más posibilidades de ser contratada y genera confianza en las familias. |
+| Revisar ofertas de trabajo disponibles (por distrito, horarios, pago) | Alta | Alta | Es la acción principal para conseguir empleo. |
+| Filtrar por condiciones claras (pago, horarios, responsabilidades) | Media | Alta | Le permite evitar trabajos poco serios o con información incompleta. |
+| Postularse a una oferta o enviar solicitud de trabajo | Media | Alta | Paso fundamental para iniciar contacto con familias. |
+| Comunicarse con la familia interesada (chat/llamada) | Media | Alta | Necesita confirmar reglas, expectativas y compatibilidad antes de aceptar. |
+| Revisar que haya contrato digital y condiciones claras | Media | Alta | Su principal punto de seguridad; evita riesgos de informalidad. |
+| Aceptar un trabajo y confirmar la reserva | Media | Alta | Acción clave para asegurar el empleo. |
+| Recibir pagos de manera segura dentro de la plataforma | Media | Alta | Crucial para garantizar confianza y formalidad en el servicio. |
+| Consultar reseñas/comentarios sobre la familia antes de aceptar | Media | Alta | Refuerza su decisión y reduce la desconfianza. |
+| Calificar a la familia después del trabajo | Baja | Media | Contribuye al sistema de confianza, pero no siempre es prioridad para ella. |
+| Revisar beneficios, garantías o soporte de la plataforma | Baja | Media | Le da tranquilidad, sobre todo al inicio o en casos de problemas. |
+| Actualizar disponibilidad horaria | Media | Media | Necesario para que la contacten, pero no es su acción diaria. |
+
+Segmento: Padres de familia
+
+- Nombre: Iris Violeta 
+- Edad: 46 años
+- Ocupación: Trabajora  
+- Interés: Que sus hijos estén bien cuidados para no sentir preocupación 
+
+| **Tarea** | **Frecuencia** | **Importancia** | **Comentarios** |
+|-----------|----------------|-----------------|-----------------|
+| Buscar niñeras disponibles cerca de su distrito | Alta | Alta | Es la acción principal; Iris quiere disponibilidad inmediata y confiable. |
+| Revisar perfiles completos con fotos, certificaciones y antecedentes | Media-Alta | Alta | Le da confianza y seguridad; clave para la decisión. |
+| Leer reseñas y referencias de otros padres | Media | Alta | Refuerza confianza y reduce incertidumbre. |
+| Contactar a la niñera por chat/videollamada antes de contratar | Media | Alta | Necesita interacción previa para evaluar compatibilidad. |
+| Filtrar por disponibilidad horaria y costo | Media | Alta | Fundamental para que el servicio se ajuste a su necesidad real (urgencia + presupuesto). |
+| Solicitar una reserva | Media | Alta | Paso natural tras elegir candidata; debe ser simple y rápido. |
+| Realizar pago seguro dentro de la app | Media | Alta | Si no siente seguridad en el pago, no confiará en la app. |
+| Dejar reseña después del servicio | Baja | Media | Aporta valor al sistema, pero no es prioridad inmediata para Iris. |
+| Revisar beneficios y políticas de seguridad en la landing | Baja | Media | Útil al inicio, sobre todo para generar confianza en la primera experiencia. |
+| Actualizar información personal (hijos, contacto) | Baja | Media | Importante, pero no es una acción frecuente. |
+
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
