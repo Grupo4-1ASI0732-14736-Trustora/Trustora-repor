@@ -370,6 +370,24 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+
+### Segmento: Niñeras Certificadas
+
+La User Persona de las niñeras certificadas representa a jóvenes con formación o experiencia en cuidado infantil que buscan empleos formales, seguros y con familias confiables. Su perfil refleja la necesidad de confianza en la plataforma, estabilidad laboral y facilidad para acceder a oportunidades bien remuneradas.
+
+<div align="center">
+    <img src=".img/User-Persona-Niñera.png"></img>
+</div>
+
+### Segmento: Padres de Familia
+
+La User Persona de los padres de familia refleja a personas que necesitan delegar el cuidado de sus hijos con rapidez y seguridad. Su perfil se centra en la búsqueda de niñeras confiables, con certificaciones y buenas referencias, priorizando la tranquilidad y la confianza en cada interacción con la plataforma.
+
+<div align="center">
+    <img src=".img/User-Persona-Mamá.png"></img>
+</div>
+
 ### 2.3.2. User Task Matrix
 
 ### Segmento: Niñeras Certificadas
