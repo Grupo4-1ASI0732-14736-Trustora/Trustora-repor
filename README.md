@@ -348,6 +348,15 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+
+
+| **Nombre**        | **Descripción**                                                                                                                  | **Características Principales**                                                                                   |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Care.com**       | Marketplace global fundado en EE. UU., líder en servicios de cuidado infantil, doméstico y de adultos mayores. Opera en más de 20 países y cuenta con millones de usuarios activos. | - Amplia red internacional de familias y cuidadores.<br>- Marca globalmente reconocida.<br>- Plataforma con múltiples servicios (niñeras, limpieza, cuidado de adultos). |
+| **Babysits**       | Comunidad digital enfocada en conectar familias con niñeras a nivel global. Permite a los usuarios crear perfiles, dejar reseñas y contactar directamente sin intermediarios. | - Simplicidad en el registro y uso.<br>- Bajos costos para padres y niñeras.<br>- Modelo de comunidad con reseñas públicas. |
+| **Agencias Locales** | Empresas presenciales tradicionales que operan en distintas ciudades de Latinoamérica. Se especializan en conectar familias con niñeras mediante entrevistas, contratos y procesos manuales. | - Percepción de formalidad inicial y respaldo legal básico.<br>- Selección presencial de niñeras.<br>- Procesos más lentos y costos de intermediación más altos. |
+
+
 ### 2.1.1. Análisis competitivo
 #### Panorama de análisis competitivo
 #### Análisis FODA
