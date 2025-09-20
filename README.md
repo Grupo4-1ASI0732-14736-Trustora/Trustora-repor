@@ -503,9 +503,54 @@ El entorno de desarrollo de **Trustora** se estructura en diferentes áreas clav
 La combinación de estas herramientas garantiza que el equipo de **Trustora** disponga de un ecosistema sólido para gestionar el ciclo de vida del software. Desde la planificación y el diseño, hasta el desarrollo, implementación y documentación, cada etapa cuenta con un soporte tecnológico que asegura eficiencia, escalabilidad y calidad en la entrega.  
 
 
-
-
 ### 5.1.2. Source Code Management
+
+El proyecto implementa un **flujo de trabajo GitFlow** como metodología para la gestión de versiones, garantizando organización, trazabilidad y control en el desarrollo de Trustora. GitHub se utiliza como plataforma de alojamiento, revisión de código y colaboración en equipo.
+
+### Flujo de trabajo GitFlow
+
+GitFlow es una estrategia de ramificación en Git diseñada para optimizar la colaboración en equipos y mantener un control eficiente de versiones. Este enfoque establece ramas específicas con roles bien definidos, permitiendo integrar nuevas funcionalidades, gestionar lanzamientos y resolver incidencias de forma ordenada.
+
+
+### Ramas principales
+
+- **main (principal)**  
+  Contiene el código estable y listo para producción, correspondiente a las versiones oficiales de Trustora.  
+  Cada release es marcado con **etiquetas semánticas** (ejemplo: `v1.0.0`) para facilitar el rastreo, la documentación y la aplicación de actualizaciones.
+
+- **develop (rama de desarrollo)**  
+  Alberga la versión más reciente en estado de preproducción, donde se integran todas las funcionalidades completadas.  
+  Sirve como base para pruebas internas y ajustes antes de fusionar los cambios a la rama principal.
+
+
+
+### Ramas de soporte
+
+- **feature/* (ramas de características)**  
+  Cada nueva funcionalidad se desarrolla en una rama independiente (ejemplo: `feature/login`) derivada de `develop`.  
+  Permiten trabajo paralelo sin afectar el código principal hasta su revisión y aprobación.  
+  Una vez completada, se fusiona nuevamente con `develop`.
+
+- **release/* (ramas de lanzamiento)**  
+  Se crean para preparar versiones específicas del sistema.  
+  Facilitan pruebas finales, corrección de errores menores y ajustes previos antes de desplegar en `main`.
+
+- **hotfix/* (ramas de emergencia)**  
+  Atienden errores críticos detectados en producción.  
+  Estas ramas derivan directamente de `main` y, una vez resuelto el problema, se fusionan tanto en `main` como en `develop`, asegurando coherencia entre ambas ramas.
+
+
+
+### Beneficios del modelo aplicado
+
+- Control claro del ciclo de vida de cada funcionalidad.  
+- Integración continua sin comprometer la estabilidad del producto.  
+- Documentación clara mediante etiquetas semánticas.  
+- Capacidad de respuesta rápida ante incidentes en producción.  
+- Escalabilidad del equipo con trabajo paralelo organizado.
+
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 
