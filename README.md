@@ -466,6 +466,21 @@ El documento se encuentra estructurado en dos secciones principales:
 
 ### 2.2.3. Análisis de entrevistas
 
+## Segmento 1: Niñeras certificadas  
+
+### Entrevista 1: Ingrid Nazareth  
+**Análisis de la entrevista:**  
+Ingrid, una joven niñera de 21 años, busca empleos estables y seguros con familias confiables. Valora mucho la posibilidad de mantener su perfil actualizado con fotos, referencias y experiencia, ya que considera que esto aumenta sus oportunidades de ser contratada. Resalta la importancia de contar con filtros claros (pago, horarios, responsabilidades) y con un contrato digital que le brinde seguridad. Ingrid también prioriza recibir pagos dentro de la plataforma y consultar reseñas de las familias antes de aceptar un trabajo. Está dispuesta a calificar a las familias después del servicio, aunque lo percibe como una acción secundaria.  
+
+---
+
+## Segmento 2: Padres de familia  
+
+### Entrevista 1: Iris Violeta  
+**Análisis de la entrevista:**  
+Iris, madre de 46 años, busca tranquilidad y confianza al contratar una niñera. Su recorrido inicia con la búsqueda de disponibilidad inmediata y cercana, revisando perfiles completos con certificaciones y antecedentes. Considera esencial leer reseñas de otros padres y tener interacción previa por chat o videollamada antes de tomar una decisión. Para ella, la seguridad en el proceso de pago es un factor determinante para usar la plataforma. Reconoce la utilidad de revisar beneficios y políticas de seguridad, especialmente en una primera experiencia, aunque no lo percibe como una prioridad continua.  
+
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
