@@ -366,21 +366,113 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 
 ## 2.1. Competidores
 
+
+| **Nombre**        | **Descripción**                                                                                                                  | **Características Principales**                                                                                   |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Care.com**       | Marketplace global fundado en EE. UU., líder en servicios de cuidado infantil, doméstico y de adultos mayores. Opera en más de 20 países y cuenta con millones de usuarios activos. | - Amplia red internacional de familias y cuidadores.<br>- Marca globalmente reconocida.<br>- Plataforma con múltiples servicios (niñeras, limpieza, cuidado de adultos). |
+| **Babysits**       | Comunidad digital enfocada en conectar familias con niñeras a nivel global. Permite a los usuarios crear perfiles, dejar reseñas y contactar directamente sin intermediarios. | - Simplicidad en el registro y uso.<br>- Bajos costos para padres y niñeras.<br>- Modelo de comunidad con reseñas públicas. |
+| **Agencias Locales** | Empresas presenciales tradicionales que operan en distintas ciudades de Latinoamérica. Se especializan en conectar familias con niñeras mediante entrevistas, contratos y procesos manuales. | - Percepción de formalidad inicial y respaldo legal básico.<br>- Selección presencial de niñeras.<br>- Procesos más lentos y costos de intermediación más altos. |
+
+
 ### 2.1.1. Análisis competitivo
 
-#### Panorama de análisis competitivo
 
-#### Análisis FODA
+Para identificar las ventajas competitivas de **Trustora** frente a competidores globales, digitales y tradicionales, reconociendo fortalezas, debilidades, oportunidades y amenazas que permitan afinar la propuesta de valor y asegurar el posicionamiento en el mercado latinoamericano de cuidado infantil.
+
+---
+
+### Comparación por Categorías
+
+| **Categoría** | **Trustora (Startup)** | **Care.com** | **Babysits** | **Agencias Locales** |
+|---------------|-------------------------|--------------|--------------|-----------------------|
+| **Perfil – Overview** | Plataforma digital segura y confiable para conectar padres con niñeras verificadas en Latinoamérica. | Marketplace global líder en cuidado infantil y doméstico. | Comunidad digital con perfiles básicos y sistema de reseñas. | Empresas presenciales que conectan familias con niñeras bajo contrato. |
+| **Ventaja Competitiva** | Seguridad (verificación de identidad y antecedentes), personalización avanzada y experiencia fluida en un solo espacio. | Amplia red de usuarios, marca reconocida mundialmente. | Simplicidad y bajos costos para padres y niñeras. | Percepción de formalidad inicial y respaldo legal básico. |
+| **Mercado Objetivo** | Padres de clase media y alta en Latinoamérica que buscan confianza y rapidez. | Familias de países desarrollados, principalmente EE. UU. y Europa. | Familias jóvenes que buscan soluciones económicas y rápidas. | Familias tradicionales que prefieren procesos presenciales y contratos físicos. |
+| **Estrategias de Marketing** | Marketing digital (redes sociales, SEO, campañas educativas sobre seguridad). | Publicidad masiva, PR, alianzas con marcas internacionales. | Posicionamiento web y marketing en buscadores. | Publicidad local, referidos y boca a boca. |
+| **Productos & Servicios** | Perfiles verificados, reservas online, chat seguro, pagos integrados, seguimiento de servicios. | Membresías premium, reservas online, reseñas. | Perfiles con reseñas, búsqueda y contacto directo. | Selección de niñeras, contratos y pagos presenciales. |
+| **Precios & Costos** | Modelo freemium: servicios básicos gratuitos + suscripción premium accesible. | Membresías mensuales o anuales de alto costo. | Bajo costo o gratuito con comisión mínima. | Altas comisiones y costos de intermediación. |
+| **Canales de Distribución (Web/Móvil)** | App móvil y web responsiva. | App móvil y web. | Plataforma web y móvil. | Presencial (oficinas físicas) y algunos sitios web poco optimizados. |
+
+---
+
+### Análisis SWOT
+
+| **Categoría** | **Trustora** | **Care.com** | **Babysits** | **Agencias Locales** |
+|---------------|--------------|--------------|--------------|-----------------------|
+| **Fortalezas** | Seguridad, personalización, enfoque regional, UX amigable. | Marca global, base de usuarios masiva. | Simplicidad, costos bajos. | Formalidad percibida, contratos presenciales. |
+| **Debilidades** | Startup nueva, bajo reconocimiento inicial. | Costos altos, no adaptado al mercado LATAM. | Baja verificación, poca seguridad. | Procesos lentos, altos costos, poca digitalización. |
+| **Oportunidades** | Creciente demanda digital en LATAM, preocupación por seguridad infantil, auge de apps móviles. | Expansión a nuevos mercados. | Ampliar servicios premium o seguridad. | Digitalización y adopción de herramientas online. |
+| **Amenazas** | Competidores globales con más recursos, desconfianza inicial en nuevas plataformas. | Aparición de startups locales más adaptadas. | Competidores más seguros y verificados. | Desintermediación por apps digitales más rápidas y económicas. |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+|                     | **Oportunidades (O)**                                                                                                    | **Amenazas (A)**                                                                                                   |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Fortalezas (F)** | **Estrategias FO**<br>- Potenciar la verificación de identidad y seguridad como principal diferenciador en LATAM.<br>- Ampliar la personalización avanzada para atender a familias preocupadas por la seguridad infantil.<br>- Campañas digitales resaltando el enfoque regional como ventaja frente a plataformas globales. | **Estrategias FA**<br>- Usar la verificación estricta como defensa frente a competidores con más recursos.<br>- Posicionar el enfoque regional para diferenciarse de plataformas internacionales.<br>- Reforzar la UX amigable para competir con startups locales emergentes. |
+| **Debilidades (D)** | **Estrategias DO**<br>- Invertir en branding y marketing educativo para aumentar reconocimiento.<br>- Asociarse con ONGs y escuelas para generar confianza.<br>- Desarrollar una app ligera y accesible aprovechando el auge móvil. | **Estrategias DA**<br>- Crear alianzas con aseguradoras, clínicas o entidades confiables.<br>- Implementar embajadores de marca (padres y niñeras verificadas).<br>- Adoptar un modelo freemium escalable para reducir costos iniciales. |
+
+
 ## 2.2. Entrevistas
 
+
+El presente documento tiene como finalidad recopilar y estructurar la información obtenida a través de entrevistas realizadas a dos grupos clave: **niñeras certificadas** y **padres de familia**. Estas entrevistas forman parte del proceso de investigación para el desarrollo de la plataforma digital **Trustora**, cuyo objetivo es brindar un espacio seguro, confiable y accesible para la conexión entre familias que requieren servicios de cuidado infantil y profesionales calificadas en este ámbito.  
+
+La importancia de este estudio radica en comprender las **necesidades, expectativas, preocupaciones y experiencias previas** de los actores involucrados. De esta manera, se busca identificar tanto las problemáticas existentes en los métodos actuales de búsqueda y contratación, como las oportunidades de mejora que una solución tecnológica podría ofrecer.  
+
+El documento se encuentra estructurado en dos secciones principales:  
+- **Preguntas dirigidas a niñeras certificadas**, con el fin de conocer sus motivaciones, dificultades y percepciones sobre la seguridad y formalidad del trabajo.  
+- **Preguntas dirigidas a padres de familia**, con el propósito de entender sus criterios de selección, principales temores y expectativas respecto a los servicios de cuidado infantil.  
+
+
 ### 2.2.1. Diseño de entrevistas
+### Preguntas para Niñeras
 
-#### Preguntas para niñeras certificadas
+### 1. Información complementaria (demográfica, conductual y digital)
 
-#### Preguntas para padres de familia
+- Nombre, edad y género.  
+- Ciudad o distrito donde resides y disponibilidad geográfica.  
+- Estado civil y composición familiar (vives solo/a o con familiares).  
+- Nivel educativo y formación en cuidado infantil o certificaciones.  
+- Habilidades específicas o fortalezas que consideras importantes para tu trabajo.  
+- Herramientas digitales que utilizas con frecuencia (WhatsApp, Facebook, apps de trabajo, otras redes).  
+- Canales por donde te gustaría recibir ofertas de trabajo.  
+
+## 2. Información principal
+
+- ¿Qué es lo que más valoras al trabajar con una familia?  
+- ¿Cuáles son las principales dificultades que encuentras para conseguir trabajo como niñera?  
+- ¿Qué aspectos te generan más desconfianza al aceptar un empleo?  
+- ¿Cómo sueles encontrar trabajo actualmente? (contactos, redes sociales, agencias, etc.)  
+- ¿Qué características te gustaría que tenga una plataforma digital que conecte niñeras con familias?  
+- ¿Qué tipo de garantías o beneficios te harían sentir más segura al usar una aplicación como Trustora?  
+- ¿Estarías dispuesta a pagar una pequeña comisión o suscripción si la plataforma te garantiza mayor seguridad y empleos constantes?  
+- ¿Qué experiencia positiva o negativa recuerdas que podría ayudar a mejorar este tipo de servicios?  
+
+---
+
+### Preguntas para Padres de Familia
+
+### 1. Información complementaria (demográfica, conductual y digital)
+
+- Nombre, edad y género.  
+- Ciudad o distrito de residencia.  
+- Estado civil y composición familiar (número de hijos y edades).  
+- Ocupación y nivel educativo.  
+- Dispositivos y canales digitales que utilizas para buscar servicios (apps, redes sociales, webs, recomendaciones de amigos/familia).  
+
+## 2. Información principal
+
+- ¿Qué es lo más importante para ti al contratar a una niñera?  
+- ¿Cuáles son tus principales preocupaciones al dejar a tus hijos al cuidado de alguien?  
+- ¿Cómo sueles encontrar niñeras actualmente? (recomendaciones, grupos en Facebook, agencias, etc.)  
+- ¿Qué limitaciones encuentras en los métodos actuales de búsqueda?  
+- ¿Qué características te darían más confianza en una plataforma como Trustora?  
+- ¿Qué información te gustaría ver en el perfil de una niñera (experiencia, certificaciones, reseñas, etc.)?  
+- ¿Qué opinas sobre pagar una suscripción o comisión si la plataforma garantiza seguridad y rapidez?  
+- ¿Qué tan importante es para ti ver opiniones o calificaciones de otros padres?  
+- ¿Qué servicios adicionales valorarías (seguimiento en tiempo real, seguro, contratos digitales, etc.)?  
+- ¿Qué mala experiencia has tenido (si la tuviste) al contratar una niñera y cómo crees que se podría evitar?  
+
 
 ### 2.2.2. Registro de entrevistas
 
@@ -388,29 +480,191 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 
 #### Entrevista
 
+
+
 #### Segmento 2: Padres de familia
 
-#### Entrevista
 
-#### Entrevista
+|Entrevistado 1|Iris Violeta|
+|-|-|
+|Edad|46|
+|Distrito|Cieneguilla, Lima|
+|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Madre1.png)|
+|Link de la Entrevista|[Iris Violeta Rodriguez](https://www.youtube.com/watch?v=Ocdr8L-GrBY)|
+|Time | 0:03 - 03:44 |
+|Análisis de Entrevista| La entrevista con Iris Violeta Rodríguez, madre de 46 años y ama de casa, revela que la principal motivación al buscar una niñera es garantizar la seguridad, confianza y buen trato hacia sus hijos, valorando especialmente la responsabilidad, la experiencia con niños y la capacidad de respuesta ante emergencias. Sus dificultades se centran en la disponibilidad inmediata y la falta de referencias confiables, lo que refuerza la necesidad de que una aplicación ofrezca perfiles completos con fotos claras, referencias de otros padres, videos de presentación y validaciones oficiales de identidad y antecedentes. Iris espera poder interactuar con la niñera previamente mediante chat, videollamada y, de ser posible, entrevista presencial o periodo de prueba, y estaría dispuesta a pagar entre 100 y 200 soles por servicio, o incluso una suscripción mensual, siempre que se garantice calidad y seguridad. Finalmente, señala que confiaría en una nueva app si ofrece opiniones reales de usuarios, verificación estricta, políticas claras de seguridad y privacidad, y una interfaz simple y transparente, lo que muestra que la confianza, la usabilidad y la transparencia son factores decisivos para la adopción del servicio. |
 
 ### 2.2.3. Análisis de entrevistas
+
+## Segmento 1: Niñeras certificadas  
+
+### Entrevista 1: Ingrid Nazareth  
+**Análisis de la entrevista:**  
+Ingrid, una joven niñera de 21 años, busca empleos estables y seguros con familias confiables. Valora mucho la posibilidad de mantener su perfil actualizado con fotos, referencias y experiencia, ya que considera que esto aumenta sus oportunidades de ser contratada. Resalta la importancia de contar con filtros claros (pago, horarios, responsabilidades) y con un contrato digital que le brinde seguridad. Ingrid también prioriza recibir pagos dentro de la plataforma y consultar reseñas de las familias antes de aceptar un trabajo. Está dispuesta a calificar a las familias después del servicio, aunque lo percibe como una acción secundaria.  
+
+---
+
+## Segmento 2: Padres de familia  
+
+### Entrevista 1: Iris Violeta  
+**Análisis de la entrevista:**  
+Iris, madre de 46 años, busca tranquilidad y confianza al contratar una niñera. Su recorrido inicia con la búsqueda de disponibilidad inmediata y cercana, revisando perfiles completos con certificaciones y antecedentes. Considera esencial leer reseñas de otros padres y tener interacción previa por chat o videollamada antes de tomar una decisión. Para ella, la seguridad en el proceso de pago es un factor determinante para usar la plataforma. Reconoce la utilidad de revisar beneficios y políticas de seguridad, especialmente en una primera experiencia, aunque no lo percibe como una prioridad continua.  
+
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+
+### Segmento: Niñeras Certificadas
+
+La User Persona de las niñeras certificadas representa a jóvenes con formación o experiencia en cuidado infantil que buscan empleos formales, seguros y con familias confiables. Su perfil refleja la necesidad de confianza en la plataforma, estabilidad laboral y facilidad para acceder a oportunidades bien remuneradas.
+
+<div align="center">
+    <img src=".img/User-Persona-Niñera.png"></img>
+</div>
+
+### Segmento: Padres de Familia
+
+La User Persona de los padres de familia refleja a personas que necesitan delegar el cuidado de sus hijos con rapidez y seguridad. Su perfil se centra en la búsqueda de niñeras confiables, con certificaciones y buenas referencias, priorizando la tranquilidad y la confianza en cada interacción con la plataforma.
+
+<div align="center">
+    <img src=".img/User-Persona-Mamá.png"></img>
+</div>
+
 ### 2.3.2. User Task Matrix
+
+### Segmento: Niñeras Certificadas
+
+- Nombre: Ingrid Nazareth  
+- Edad: 21 años  
+- Ocupación: Niñera  
+- Interés: Conseguir empleos estables, seguros y justos con familias confiables  
+
+| **Tarea** | **Frecuencia** | **Importancia** | **Comentarios** |
+|-----------|----------------|-----------------|-----------------|
+| Crear y mantener su perfil con información actualizada (foto, experiencia, referencias) | Media | Alta | Le da más posibilidades de ser contratada y genera confianza en las familias. |
+| Revisar ofertas de trabajo disponibles (por distrito, horarios, pago) | Alta | Alta | Es la acción principal para conseguir empleo. |
+| Filtrar por condiciones claras (pago, horarios, responsabilidades) | Media | Alta | Le permite evitar trabajos poco serios o con información incompleta. |
+| Postularse a una oferta o enviar solicitud de trabajo | Media | Alta | Paso fundamental para iniciar contacto con familias. |
+| Comunicarse con la familia interesada (chat/llamada) | Media | Alta | Necesita confirmar reglas, expectativas y compatibilidad antes de aceptar. |
+| Revisar que haya contrato digital y condiciones claras | Media | Alta | Su principal punto de seguridad; evita riesgos de informalidad. |
+| Aceptar un trabajo y confirmar la reserva | Media | Alta | Acción clave para asegurar el empleo. |
+| Recibir pagos de manera segura dentro de la plataforma | Media | Alta | Crucial para garantizar confianza y formalidad en el servicio. |
+| Consultar reseñas/comentarios sobre la familia antes de aceptar | Media | Alta | Refuerza su decisión y reduce la desconfianza. |
+| Calificar a la familia después del trabajo | Baja | Media | Contribuye al sistema de confianza, pero no siempre es prioridad para ella. |
+| Revisar beneficios, garantías o soporte de la plataforma | Baja | Media | Le da tranquilidad, sobre todo al inicio o en casos de problemas. |
+| Actualizar disponibilidad horaria | Media | Media | Necesario para que la contacten, pero no es su acción diaria. |
+
+### Segmento: Padres de Familia
+
+- Nombre: Iris Violeta 
+- Edad: 46 años
+- Ocupación: Trabajora  
+- Interés: Que sus hijos estén bien cuidados para no sentir preocupación 
+
+| **Tarea** | **Frecuencia** | **Importancia** | **Comentarios** |
+|-----------|----------------|-----------------|-----------------|
+| Buscar niñeras disponibles cerca de su distrito | Alta | Alta | Es la acción principal; Iris quiere disponibilidad inmediata y confiable. |
+| Revisar perfiles completos con fotos, certificaciones y antecedentes | Media-Alta | Alta | Le da confianza y seguridad; clave para la decisión. |
+| Leer reseñas y referencias de otros padres | Media | Alta | Refuerza confianza y reduce incertidumbre. |
+| Contactar a la niñera por chat/videollamada antes de contratar | Media | Alta | Necesita interacción previa para evaluar compatibilidad. |
+| Filtrar por disponibilidad horaria y costo | Media | Alta | Fundamental para que el servicio se ajuste a su necesidad real (urgencia + presupuesto). |
+| Solicitar una reserva | Media | Alta | Paso natural tras elegir candidata; debe ser simple y rápido. |
+| Realizar pago seguro dentro de la app | Media | Alta | Si no siente seguridad en el pago, no confiará en la app. |
+| Dejar reseña después del servicio | Baja | Media | Aporta valor al sistema, pero no es prioridad inmediata para Iris. |
+| Revisar beneficios y políticas de seguridad en la landing | Baja | Media | Útil al inicio, sobre todo para generar confianza en la primera experiencia. |
+| Actualizar información personal (hijos, contacto) | Baja | Media | Importante, pero no es una acción frecuente. |
+
 
 ### 2.3.3. User Journey Mapping
 
+### Segmento: Niñeras Certificadas
+
+Su recorrido se enfoca en crear un perfil confiable, revisar ofertas y postularse a trabajos seguros. La confianza en contratos y pagos es clave. El mapeo muestra dónde la plataforma debe reforzar seguridad y credibilidad.
+
+<div align="center">
+    <img src=".img/Journey-Map-Niñera.png"></img>
+</div>
+
+### Segmento: Padres de Familia
+
+Su journey inicia buscando niñeras disponibles y revisando perfiles con certificaciones y reseñas. La interacción previa, la reserva y el pago seguro son momentos críticos. El mapeo destaca la importancia de agilidad y confianza en cada paso.
+
+<div align="center">
+    <img src=".img/Journey-Map-Madre.png"></img>
+</div>
+
+
 ### 2.3.4. Empathy Mapping
+
+
+### Segmento: Niñeras Certificadas
+
+El empathy mapping de las niñeras certificadas busca entender cómo viven la búsqueda de empleos seguros y formales. Nos ayuda a identificar lo que piensan sobre la confianza y estabilidad, lo que sienten frente a la incertidumbre laboral, lo que expresan al postular o comunicarse con familias, y lo que hacen dentro de la plataforma para conseguir trabajo.
+
+
+<div align="center">
+    <img src=".img/Empathy-Map-Niñera.png"></img>
+</div>
+
+
+
+### Segmento: Padres de Familia
+
+El empathy mapping de los padres de familia refleja su necesidad de tranquilidad y seguridad al dejar a sus hijos al cuidado de alguien más. Permite reconocer lo que piensan al evaluar perfiles y costos, lo que sienten frente a la confianza y la urgencia, lo que expresan en sus comunicaciones con la niñera, y lo que hacen al reservar y pagar un servicio confiable.
+
+
+<div align="center">
+    <img src=".img/Empathy-Map-Mama.png"></img>
+</div>
+
 
 ### 2.3.5. As-is Scenario Mapping
 
+### Segmento: Niñeras Certificadas
+
+
+El As-is Scenario Mapping de las niñeras certificadas muestra su situación actual al buscar empleo: dependen de perfiles digitales, revisan ofertas poco claras y enfrentan riesgos de informalidad. Este mapeo permite entender sus limitaciones y puntos de dolor en la experiencia de conseguir trabajos confiables.
+
+<div align="center">
+    <img src=".img/Scenario-Map-Niñera.png"></img>
+</div>
+
+
+### Segmento: Padres de Familia
+
+El As-is Scenario Mapping de los padres evidencia cómo buscan niñeras de manera inmediata, revisando perfiles y referencias, pero con dudas sobre seguridad y pagos. El mapeo ayuda a identificar barreras actuales en confianza, rapidez y claridad al contratar un servicio de cuidado infantil.
+
+<div align="center">
+    <img src=".img/Scenario-Map-Madre.png"></img>
+</div>
+
+
 ## 2.4. Ubiquitous Language
 
----
+El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya que nos permitirá establecer un lenguaje común y compartido entre todos los miembros del equipo.
+
+
+- **Niñera Verificada**: Persona cuidadora que ha pasado el proceso de verificación de identidad, referencias y experiencia por parte de la plataforma.  
+
+- **Padre de familia**: Persona(s) que busca(n) servicios de cuidado infantil a través de la app para sus hijos.  
+
+- **Perfil Profesional**: Página personal de la niñera con información relevante como experiencia, certificaciones, disponibilidad y calificaciones.  
+
+- **Solicitud de Servicio**: Acción iniciada por un padre para contactar y contratar una niñera en una fecha y horario específicos.  
+
+- **Match Seguro**: Coincidencia entre niñera y familia basada en filtros (ubicación, disponibilidad, experiencia) y políticas de seguridad.  
+
+- **Calificación y Reseña**: Sistema de evaluación que permite a los usuarios valorar la experiencia después de cada servicio.  
+
+- **Verificación de Identidad**: Proceso obligatorio para todas las niñeras antes de publicar su perfil, incluyendo documentos, entrevistas o chequeo de antecedentes.  
+
+- **Reservación Confirmada**: Estado del servicio cuando ambas partes (niñera y padre) han aceptado los términos y se ha fijado el horario.  
+
+- **Panel de Seguridad**: Conjunto de funciones dentro de la app que aseguran la transparencia y protección de todos los usuarios (verificación, soporte, seguimiento en tiempo real).  
+
+
 
 # Capítulo III: Requirements Specification
 
