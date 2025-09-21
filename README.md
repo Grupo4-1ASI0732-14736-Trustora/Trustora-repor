@@ -2245,13 +2245,214 @@ Para la modelación y gestión de la base de datos se empleará MySQL Workbench,
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management
 
-### 5.1.1. Software Development Environment Configuration
+## 5.1. Software Configuration Management  
+
+A continuación, se describe el proceso mediante el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de **KydiCare**. El objetivo es asegurar la trazabilidad, consistencia y calidad en cada etapa del ciclo de vida del software, integrando herramientas que soportan desde la planificación hasta la implementación y documentación.  
+
+
+
+### 5.1.1. Software Development Environment Configuration  
+
+El entorno de desarrollo de **Trustora** se estructura en diferentes áreas clave: gestión de necesidades, diseño UX/UI, desarrollo, implementación y documentación. Cada área cuenta con herramientas seleccionadas para optimizar la productividad del equipo y garantizar un flujo de trabajo ágil y colaborativo.  
+
+### Gestión de necesidades  
+
+- **Trello**: Herramienta de gestión de proyectos basada en tableros y tarjetas, ampliamente utilizada en marcos de trabajo ágiles.  
+  En **Trustora** se utiliza para visualizar y actualizar en tiempo real el estado de las tareas e historias de usuario dentro de cada sprint, facilitando la coordinación y priorización del backlog.  
+  - **Ruta de referencia:** [Trello](https://trello.com/es)  
+
+
+
+### Diseño UX/UI  
+
+- **Figma**: Plataforma de prototipado y edición gráfica para diseño digital. Se empleó para elaborar prototipos interactivos de **Trustora**, tanto en su versión **Desktop** como en **Mobile Web Browser**, asegurando consistencia visual y facilidad de navegación.  
+  - **Ruta de referencia:** [Figma](https://www.figma.com/login)  
+
+- **Lucidchart**: Aplicación en la nube para la diagramación de flujos y modelos. Fue utilizada para diseñar **flujos de usuario**, **wireflows** y el **diagrama de clases**, contribuyendo a la definición clara de la arquitectura de la aplicación.  
+  - **Ruta de referencia:** [Lucidchart](https://www.lucidchart.com/)  
+
+
+
+### Desarrollo de software  
+
+- **Visual Studio Code (VS Code)**: Entorno de desarrollo integrado elegido por el equipo gracias a su versatilidad, soporte para múltiples lenguajes y extensiones útiles. Su compatibilidad con diferentes sistemas operativos facilita la colaboración entre los desarrolladores.  
+  - **Ruta de referencia:** [VS Code](https://code.visualstudio.com/)  
+
+- **HTML5**: Lenguaje de marcado estándar para la estructura y presentación del contenido web. En el proyecto se emplea para dar soporte a la capa de presentación de la aplicación.  
+  - **Ruta de referencia:** [HTML5 Syntax](https://www.w3schools.com/html/html5-syntax.asp)  
+
+- **CSS**: Lenguaje de hojas de estilo que permite definir el diseño visual y la apariencia de la interfaz, en conjunto con HTML.  
+  - **Ruta de referencia:** [HTML/CSS Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+
+- **Bootstrap**: Framework CSS que facilita la creación de interfaces responsivas y optimizadas para diferentes dispositivos. Su uso garantiza una experiencia uniforme tanto en móviles como en escritorios.  
+  - **Ruta de referencia:** [Bootstrap](https://getbootstrap.com/)  
+
+
+
+### Implementación de software  
+
+- **Git**: Sistema de control de versiones distribuido, fundamental para registrar y gestionar los cambios en el código fuente. Permite mantener un historial detallado de versiones, simplificar la corrección de errores y coordinar el trabajo de múltiples desarrolladores.  
+  - **Ruta de referencia:** [Git](https://git-scm.com/)  
+
+
+
+### Documentación y gestión de proyectos de software  
+
+- **GitHub**: Plataforma en la nube que hospeda los repositorios del proyecto. Permite colaboración en tiempo real, control de versiones, integración con CI/CD, revisión de código (*pull requests*) y gestión de incidencias. Es la herramienta central para la coordinación técnica del equipo.  
+  - **Ruta de referencia:** [GitHub](https://github.com/)  
+
+
+## Conclusión  
+
+La combinación de estas herramientas garantiza que el equipo de **Trustora** disponga de un ecosistema sólido para gestionar el ciclo de vida del software. Desde la planificación y el diseño, hasta el desarrollo, implementación y documentación, cada etapa cuenta con un soporte tecnológico que asegura eficiencia, escalabilidad y calidad en la entrega.  
+
 
 ### 5.1.2. Source Code Management
 
+El proyecto implementa un **flujo de trabajo GitFlow** como metodología para la gestión de versiones, garantizando organización, trazabilidad y control en el desarrollo de Trustora. GitHub se utiliza como plataforma de alojamiento, revisión de código y colaboración en equipo.
+
+### Flujo de trabajo GitFlow
+
+GitFlow es una estrategia de ramificación en Git diseñada para optimizar la colaboración en equipos y mantener un control eficiente de versiones. Este enfoque establece ramas específicas con roles bien definidos, permitiendo integrar nuevas funcionalidades, gestionar lanzamientos y resolver incidencias de forma ordenada.
+
+
+### Ramas principales
+
+- **main (principal)**  
+  Contiene el código estable y listo para producción, correspondiente a las versiones oficiales de Trustora.  
+  Cada release es marcado con **etiquetas semánticas** (ejemplo: `v1.0.0`) para facilitar el rastreo, la documentación y la aplicación de actualizaciones.
+
+- **develop (rama de desarrollo)**  
+  Alberga la versión más reciente en estado de preproducción, donde se integran todas las funcionalidades completadas.  
+  Sirve como base para pruebas internas y ajustes antes de fusionar los cambios a la rama principal.
+
+
+
+### Ramas de soporte
+
+- **feature/* (ramas de características)**  
+  Cada nueva funcionalidad se desarrolla en una rama independiente (ejemplo: `feature/login`) derivada de `develop`.  
+  Permiten trabajo paralelo sin afectar el código principal hasta su revisión y aprobación.  
+  Una vez completada, se fusiona nuevamente con `develop`.
+
+- **release/* (ramas de lanzamiento)**  
+  Se crean para preparar versiones específicas del sistema.  
+  Facilitan pruebas finales, corrección de errores menores y ajustes previos antes de desplegar en `main`.
+
+- **hotfix/* (ramas de emergencia)**  
+  Atienden errores críticos detectados en producción.  
+  Estas ramas derivan directamente de `main` y, una vez resuelto el problema, se fusionan tanto en `main` como en `develop`, asegurando coherencia entre ambas ramas.
+
+
+
+### Beneficios del modelo aplicado
+
+- Control claro del ciclo de vida de cada funcionalidad.  
+- Integración continua sin comprometer la estabilidad del producto.  
+- Documentación clara mediante etiquetas semánticas.  
+- Capacidad de respuesta rápida ante incidentes en producción.  
+- Escalabilidad del equipo con trabajo paralelo organizado.
+
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+
+Con el fin de garantizar **coherencia, mantenibilidad y escalabilidad** en el desarrollo de **Trustora**, se establecen las siguientes normas de estilo y convenciones de codificación.  
+
+Estas pautas buscan:  
+- Unificar el **lenguaje de programación** entre todos los miembros del equipo.  
+- Reducir la **complejidad técnica** en el mantenimiento del código.  
+- Favorecer la **colaboración** y la integración continua en entornos ágiles.  
+- Prevenir errores comunes mediante prácticas estandarizadas.  
+- Asegurar que el proyecto sea **escalable** y fácil de extender en futuras versiones.  
+
+Las reglas abarcan desde la **estructura del código fuente** (HTML, CSS, TailwindCSS, Vue.js) hasta las **convenciones de nombrado y formateo**, garantizando una base sólida que soporte el crecimiento del sistema en el tiempo.  
+
+
+####  HTML – Reglas
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejemplo</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png" alt="Logo principal" />
+    </div>
+  </body>
+</html>
+
+```
+
+- Todos los elementos deben estar **correctamente cerrados** (`<img />`, `<div></div>`).  
+- Usar **comillas dobles (`" "`)** para atributos.  
+- Incluir **atributos esenciales** en imágenes (`alt`, `src`).  
+- Mantener la **indentación clara** y evitar anidamientos innecesarios.  
+
+
+####  CSS – Formato y Buenas Prácticas
+
+```html
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+```
+- **Indentación**: 2 espacios (no usar tabulaciones).  
+- **Selectores, propiedades y valores** en **minúsculas**.  
+- Eliminar **espacios en blanco innecesarios** y **líneas redundantes**.  
+
+
+
+#### 🔹 TailwindCSS – Principios de Uso
+
+```html
+<div class="grid grid-cols-3 gap-4 p-6 bg-primary text-white">
+  <p class="text-lg font-bold">Bienvenido</p>
+</div>
+```
+
+Normas:  
+- Aprovechar **utilidades predefinidas** (rejillas, tipografía, helpers).  
+- Evitar sobrescribir estilos base.  
+- Usar **clases semánticas** (`bg-primary`, `text-success`) en lugar de CSS personalizado.  
+- Solo agregar **CSS adicional** en casos estrictamente necesarios.  
+
+
+#### Vue.js – Reglas Clave
+```html
+<script>
+export default {
+  name: "UserProfile",
+  props: {
+    userName: {
+      type: String,
+      default: "Invitado"
+    },
+    age: {
+      type: Number,
+      default: 18
+    }
+  }
+};
+</script>
+````
+
+
+
+Normas:  
+- **Nombres de componentes**: usar `PascalCase` (ejemplo: `UserProfile.vue`).  
+- **Props**: definir siempre tipos y valores por defecto.  
+- Usar `kebab-case` para props en plantillas.  
+- Mantener **una sola responsabilidad por componente**.  
+
+
 
 ### 5.1.4. Software Deployment Configuration
 
