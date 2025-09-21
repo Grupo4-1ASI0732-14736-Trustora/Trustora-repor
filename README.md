@@ -614,7 +614,11 @@ Identifica la entidad responsable del contenido de la página.
     <meta name="author" content="Trustora">
   ```
 ### 4.2.4. Searching Systems
-
+El sistema de búsqueda dentro de la plataforma permitirá a los padres y cuidadores encontrar la información que necesitan de manera rápida y eficaz.
+- Búsqueda por nombre de niñera.
+- Filtros avanzados: ubicación (geolocalización), disponibilidad por horarios/fechas, tarifas, experiencia, tipo de cuidado.
+- Resultados dinámicos: actualizados en tiempo real con opción de ordenar por precio, calificación o cercanía.
+- Sugerencias inteligentes: mostrar perfiles recomendados en base a búsquedas previas o historial de reservas.
 ### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
