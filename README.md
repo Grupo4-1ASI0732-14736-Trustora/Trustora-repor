@@ -620,7 +620,17 @@ El sistema de búsqueda dentro de la plataforma permitirá a los padres y cuidad
 - Resultados dinámicos: actualizados en tiempo real con opción de ordenar por precio, calificación o cercanía.
 - Sugerencias inteligentes: mostrar perfiles recomendados en base a búsquedas previas o historial de reservas.
 ### 4.2.5. Navigation Systems
-
+El sistema de navegación está diseñado para ofrecer una experiencia fluida, fácil de usar y segura para ambos segmentos (padres y cuidadores).
+1. Menú Principal (Dashboard):
+Siempre visible, con acceso a todas las secciones clave.
+2. Navegación Contextual:
+Submenús personalizados que facilitan el acceso a categorías específicas.
+3. CTA (Call to Action) destacados:
+Botones como "Buscar Cuidadores", "Reservar Ahora" o "Postularme como Cuidador", resaltados con colores vibrantes.
+4. Barra de Búsqueda Fija:
+Siempre visible para facilitar búsquedas rápidas y directas.
+5. Flujo de Navegación Intuitivo:
+Desde la búsqueda hasta la reserva de servicios, con un flujo lógico y claro que guía a los usuarios en cada etapa.
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
