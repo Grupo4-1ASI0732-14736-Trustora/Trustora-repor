@@ -546,9 +546,73 @@ El contenido se organizará mediante una combinación de sistemas jerárquicos y
 
 ![Organization](./.img/organization-diagram.png)
 ### 4.2.2. Labeling Systems
-
+Se nombrarán y presentaran los elementos de navegación e interacción de manera intuitiva para el usuario para facilitar el uso de la aplicación mediante las siguientes características:
+- Lenguaje claro y directo (ejemplo: “Buscar Niñera”, “Mis Reservas”, “Pagar Ahora”).
+- Uso de iconografía estándar (ejemplo: lupa para búsqueda, calendario para reservas, billetera para pagos).
+- Etiquetas consistentes en todo el sistema (ejemplo: siempre usar “Reservas” en lugar de mezclar “Citas” o “Agendados”).
+- Inclusión de mensajes de confianza en botones clave (“Pago Seguro”, “Perfil Verificado”).
 ### 4.2.3. SEO Tags and Meta Tags
+Los SEO Tags y Meta Tags son elementos esenciales para mejorar la visibilidad, posicionamiento y accesibilidad de KidyCare en buscadores web, así como para facilitar la indexación correcta de la información por motores de búsqueda. Estos elementos ayudan a que los usuarios encuentren la plataforma de manera eficiente y que el contenido se presente de forma clara en los resultados de búsqueda.
 
+**Elementos principales**
+
+- **Title (Título):**
+Define el nombre de la página que aparece en el navegador y en los resultados de búsqueda.
+
+  - Ejemplo:
+
+    ```html
+    <title>KidyCare - Encuentra niñeras de confianza cerca de ti</title>
+    ```
+
+- **Meta Description (Descripción):**
+Breve resumen del contenido de la página, orientado a persuadir al usuario a hacer clic.
+
+  - Ejemplo:
+
+    ```html
+    <meta name="description" content="KidyCare es la plataforma en la que puedes conectar con niñeras verificadas, reserva y paga en línea de forma rápida y segura">
+    ```
+
+- **Keywords (Palabras clave):**
+Conjunto de términos representativos del contenido y servicios de la plataforma.
+
+  - Ejemplo:
+
+  ```html
+  <meta name="keywords" content="niñeras confiables, cuidado infantil, contratar niñera online, babysitting seguro, app para padres"> 
+  ```
+
+- **Author (Autor):**
+Identifica la entidad responsable del contenido de la página.
+
+  - Ejemplo:
+
+  ```html
+  <meta name="author" content="Trustora">
+  ```
+
+**Aplicación en las principales páginas**
+
+- **Landing Page:**
+
+  - Title: "KidyCare - Encuentra niñeras de confianza cerca de ti”
+  - Meta Description: “KidyCare es la plataforma en la que puedes conectar con niñeras verificadas, reserva y paga en línea de forma rápida y segura”
+  - Keywords: “niñeras confiables, cuidado infantil, contratar niñera online, babysitting seguro, app para padres”
+  - Author: “Trustora”
+
+- **Web Application:**
+
+- Cada sección o módulo de la aplicación debe contar con un Title y Description específicos, que reflejen la funcionalidad del módulo, manteniendo consistencia con la marca y favoreciendo la indexación.
+
+- Ejemplo para módulo Reservas:
+
+  ```html
+    <title>KidyCare - Reservas</title>
+    <meta name="description" content="Gestiona tus reservas de niñeras en KidyCare de forma rápida y sencilla.">
+    <meta name="keywords" content="mis resevas, agenda, niñera, KidyCare">
+    <meta name="author" content="Trustora">
+  ```
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
