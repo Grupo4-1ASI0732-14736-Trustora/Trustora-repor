@@ -535,7 +535,16 @@ Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas par
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+El contenido se organizará mediante una combinación de sistemas jerárquicos y por tópicos. La página principal seguirá una jerarquía visual que guíe al usuario desde la value proposition hasta los call-to-actions principales.
+- Modelo jerárquico: Estructura organizada por niveles (inicio → secciones → detalle).
+  - Landing Page:
+    - Categorias generales: Header, Hero, Features, Benefits, Steps, Testimonial, Contact Section y Footer.
+  - Application:
+    - Categorías principales para padres: Buscar Niñera, Reservas, Pagos, Perfil, Soporte.
+    - Categorías principales para niñeras: Mi Perfil, Disponibilidad, Reservas, Pagos, Valoraciones.
+    - Contenido transversal: Inicio, Notificaciones, FAQ, Términos y Condiciones, Seguridad.
 
+![Organization](./.img/organization-diagram.png)
 ### 4.2.2. Labeling Systems
 
 ### 4.2.3. SEO Tags and Meta Tags
