@@ -49,7 +49,7 @@
 | 0.1     | 06/09/25 | Lynn Meza | Desarrollo de la Structura del informe |
 | Versión | Fecha    | Autor     | Descripción de Modificación            |
 | ------- | -------- | --------- | -------------------------------------- |
-| 0.1     | 06/09/25 | Lynn Meza | Desarrollo de la Structura del informe |
+| 0.2     | 21/09/25 | Lynn Meza | Desarrollo de la Structura del informe |
 
 ## PROJECT REPORT COLLABORATION INSIGHTS
 
@@ -723,6 +723,15 @@ El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+- Tutores
+
+![tutores-to-be-scenario-map](./.img/Tutor-to-be-scenary.png)
+
+- Niñeras
+
+![niñeras-to-be-scenario-map](./.img/Niñera-to-be-scenario-map.png)
+
 
 ## 3.2. User Stories
 
