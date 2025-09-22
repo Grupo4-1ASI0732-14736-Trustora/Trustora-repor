@@ -202,7 +202,7 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
-**Trustora** es una aplicación móvil que conecta a padres con niñeras de forma rápida, segura y confiable. Permite buscar disponibilidad por ubicación y horarios, reservar servicios, pagar en línea y acceder a perfiles verificados con reseñas de otros usuarios.
+**KidyCare** es una aplicación móvil que conecta a padres con niñeras de forma rápida, segura y confiable. Permite buscar disponibilidad por ubicación y horarios, reservar servicios, pagar en línea y acceder a perfiles verificados con reseñas de otros usuarios.
 
 **Misión:**
 Brindar a los padres una solución práctica y segura para encontrar cuidado infantil confiable, al mismo tiempo que ofrecemos a las niñeras una plataforma que potencie su visibilidad y facilite la gestión de sus servicios.
@@ -285,12 +285,12 @@ Padres jóvenes, entre 25 y 40 años, que viven en zonas urbanas de nivel socioe
 #### 1.2.2.3. Lean UX Hypothesis Statements
 - Creemos que si ofrecemos perfiles verificados y un sistema de reseñas, los padres confiarán más en la plataforma.
 
-- Creemos que si incluimos pagos seguros en la app, los padres preferirán usar Trustora en lugar de métodos informales.
+- Creemos que si incluimos pagos seguros en la app, los padres preferirán usar KidyCare en lugar de métodos informales.
 
 - Creemos que si damos a las niñeras visibilidad y herramientas de gestión, más profesionales se registrarán y aumentará la oferta en la plataforma.
 #### 1.2.2.4. Lean UX Canvas
 <div align="left">
-   <img src=".img/LeanUX_canvas_v1.png" alt="Trustora LeanUX Canvas" width="max">
+   <img src=".img/LeanUX_canvas_v1.png" alt="KidyCare LeanUX Canvas" width="max">
 </div>
 
 ## 1.3. Segmentos objetivo
@@ -360,13 +360,13 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 ### 2.1.1. Análisis competitivo
 
 
-Para identificar las ventajas competitivas de **Trustora** frente a competidores globales, digitales y tradicionales, reconociendo fortalezas, debilidades, oportunidades y amenazas que permitan afinar la propuesta de valor y asegurar el posicionamiento en el mercado latinoamericano de cuidado infantil.
+Para identificar las ventajas competitivas de **KidyCare** frente a competidores globales, digitales y tradicionales, reconociendo fortalezas, debilidades, oportunidades y amenazas que permitan afinar la propuesta de valor y asegurar el posicionamiento en el mercado latinoamericano de cuidado infantil.
 
 ---
 
 ### Comparación por Categorías
 
-| **Categoría** | **Trustora (Startup)** | **Care.com** | **Babysits** | **Agencias Locales** |
+| **Categoría** | **KidyCare (Startup)** | **Care.com** | **Babysits** | **Agencias Locales** |
 |---------------|-------------------------|--------------|--------------|-----------------------|
 | **Perfil – Overview** | Plataforma digital segura y confiable para conectar padres con niñeras verificadas en Latinoamérica. | Marketplace global líder en cuidado infantil y doméstico. | Comunidad digital con perfiles básicos y sistema de reseñas. | Empresas presenciales que conectan familias con niñeras bajo contrato. |
 | **Ventaja Competitiva** | Seguridad (verificación de identidad y antecedentes), personalización avanzada y experiencia fluida en un solo espacio. | Amplia red de usuarios, marca reconocida mundialmente. | Simplicidad y bajos costos para padres y niñeras. | Percepción de formalidad inicial y respaldo legal básico. |
@@ -380,7 +380,7 @@ Para identificar las ventajas competitivas de **Trustora** frente a competidores
 
 ### Análisis SWOT
 
-| **Categoría** | **Trustora** | **Care.com** | **Babysits** | **Agencias Locales** |
+| **Categoría** | **KidyCare** | **Care.com** | **Babysits** | **Agencias Locales** |
 |---------------|--------------|--------------|--------------|-----------------------|
 | **Fortalezas** | Seguridad, personalización, enfoque regional, UX amigable. | Marca global, base de usuarios masiva. | Simplicidad, costos bajos. | Formalidad percibida, contratos presenciales. |
 | **Debilidades** | Startup nueva, bajo reconocimiento inicial. | Costos altos, no adaptado al mercado LATAM. | Baja verificación, poca seguridad. | Procesos lentos, altos costos, poca digitalización. |
@@ -398,7 +398,7 @@ Para identificar las ventajas competitivas de **Trustora** frente a competidores
 ## 2.2. Entrevistas
 
 
-El presente documento tiene como finalidad recopilar y estructurar la información obtenida a través de entrevistas realizadas a dos grupos clave: **niñeras certificadas** y **padres de familia**. Estas entrevistas forman parte del proceso de investigación para el desarrollo de la plataforma digital **Trustora**, cuyo objetivo es brindar un espacio seguro, confiable y accesible para la conexión entre familias que requieren servicios de cuidado infantil y profesionales calificadas en este ámbito.  
+El presente documento tiene como finalidad recopilar y estructurar la información obtenida a través de entrevistas realizadas a dos grupos clave: **niñeras certificadas** y **padres de familia**. Estas entrevistas forman parte del proceso de investigación para el desarrollo de la plataforma digital **KidyCare**, cuyo objetivo es brindar un espacio seguro, confiable y accesible para la conexión entre familias que requieren servicios de cuidado infantil y profesionales calificadas en este ámbito.  
 
 La importancia de este estudio radica en comprender las **necesidades, expectativas, preocupaciones y experiencias previas** de los actores involucrados. De esta manera, se busca identificar tanto las problemáticas existentes en los métodos actuales de búsqueda y contratación, como las oportunidades de mejora que una solución tecnológica podría ofrecer.  
 
@@ -427,7 +427,7 @@ El documento se encuentra estructurado en dos secciones principales:
 - ¿Qué aspectos te generan más desconfianza al aceptar un empleo?  
 - ¿Cómo sueles encontrar trabajo actualmente? (contactos, redes sociales, agencias, etc.)  
 - ¿Qué características te gustaría que tenga una plataforma digital que conecte niñeras con familias?  
-- ¿Qué tipo de garantías o beneficios te harían sentir más segura al usar una aplicación como Trustora?  
+- ¿Qué tipo de garantías o beneficios te harían sentir más segura al usar una aplicación como KidyCare?  
 - ¿Estarías dispuesta a pagar una pequeña comisión o suscripción si la plataforma te garantiza mayor seguridad y empleos constantes?  
 - ¿Qué experiencia positiva o negativa recuerdas que podría ayudar a mejorar este tipo de servicios?  
 
@@ -449,7 +449,7 @@ El documento se encuentra estructurado en dos secciones principales:
 - ¿Cuáles son tus principales preocupaciones al dejar a tus hijos al cuidado de alguien?  
 - ¿Cómo sueles encontrar niñeras actualmente? (recomendaciones, grupos en Facebook, agencias, etc.)  
 - ¿Qué limitaciones encuentras en los métodos actuales de búsqueda?  
-- ¿Qué características te darían más confianza en una plataforma como Trustora?  
+- ¿Qué características te darían más confianza en una plataforma como KidyCare?  
 - ¿Qué información te gustaría ver en el perfil de una niñera (experiencia, certificaciones, reseñas, etc.)?  
 - ¿Qué opinas sobre pagar una suscripción o comisión si la plataforma garantiza seguridad y rapidez?  
 - ¿Qué tan importante es para ti ver opiniones o calificaciones de otros padres?  
