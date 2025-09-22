@@ -206,7 +206,11 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
              *Mel Andree Orellana: TB1*
             - Diseñé entrevistas dirigidas a niñeras certificadas y padres de familia, respetando principios éticos como la confidencialidad y el consentimiento informado.<br>
             - Registré entrevistas evitando sesgos y garantizando la veracidad de la información.<br>
-            - En el Needfinding desarrollé herramientas (User Personas, User Task Matrix, Journey Mapping, Empathy Mapping, As-is Scenario Mapping) priorizando la voz real de los usuarios.
+            - En el Needfinding desarrollé herramientas (User Personas, User Task Matrix, Journey Mapping, Empathy Mapping, As-is Scenario Mapping) priorizando la voz real de los usuarios.<br>
+             *Marcelo Mazuelos: TB1*
+            - Realicé la descripcipin del startup, junto con la misión y visión de la empresa. Identificando nuestro objetivos en mente para la propuesta.<br>
+            - Se hizo el proceso de identificación en Antecedentes y problemática, haciendo uso de la técnica 5w2h para nuestros primeros identificadores iniciales.<br>
+            - Se investigó acerca de los Segmentos objetivo para obtener un sustento estadístico y ver el requerimiento de nuestra app en el sector demográfico.<br>
         </td>
         <td>
             - Se cumplió con un proceso investigativo ético y profesional, valorando la opinión de los usuarios como base para un diseño responsable.<br>
@@ -219,7 +223,11 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
               *Mel Andree Orellana: TB1*
             - A partir de las entrevistas y el análisis de necesidades, identifiqué que el software debe adaptarse a distintos contextos familiares y laborales (ej. disponibilidad de tiempo, acceso digital).<br>
             - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
-            - En el Ubiquitous Language, propuse términos claros y comunes que fomentan la inclusión y entendimiento entre equipo técnico y usuarios.
+            - En el Ubiquitous Language, propuse términos claros y comunes que fomentan la inclusión y entendimiento entre equipo técnico y usuarios.<br>
+             *Marcelo Mazuelos: TB1*
+            - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
+            - Con el Lean UX Process (Lean UX Problem Statement, Assumptins, Hypothesis Statement y Canvas) se hizo introspectiva en la problemática identificando los segmentos objetivos, sus necesidades y en que enfocarnos.<br>
+            - Se realizó la elaboración del Information Architecture, cumpliendo con el Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.<br>
         </td>
         <td>
             - Mis aportes ayudan a emitir juicios que reconocen el impacto social (seguridad de menores, confianza de padres), económico (accesibilidad del servicio), y global (posibilidad de replicar el modelo en otros contextos).<br>
@@ -2677,3 +2685,7 @@ En esta sección se presenta la documentación de los servicios de back-end de l
 ## Video About-the-Team
 
 ## Bibliografía Anexos
+- Instituto Nacional de Estadística e Informática. (2025, 27 de marzo). En el Perú las mujeres dedican más de tres veces de tiempo al trabajo no remunerado que los hombres. https://www.gob.pe/institucion/inei/noticias/1134462-en-el-peru-las-mujeres-dedican-mas-de-tres-veces-de-tiempo-al-trabajo-no-remunerado-que-los-hombres
+- T21. (2022, 5 de octubre). Apps móviles son la forma favorita de uso de smartphones en Perú. https://t21.pe/apps-moviles-favorita-uso-smartphones-peru
+- Perú Retail. (2022, 6 de enero). Más del 30 % de independientes genera ingresos a través de apps por falta de empleo. https://www.peru-retail.com/mas-del-30-de-independientes-genera-ingresos-a-traves-de-apps-por-falta-de-empleo/
+- Business Empresarial. (2023, 7 de marzo). Perú: Número de mujeres dedicadas a generar ingresos a través de apps crece en 22 %. https://www.businessempresarial.com.pe/peru-numero-de-mujeres-dedicadas-a-generar-ingresos-a-traves-de-apps-crece-en-22
