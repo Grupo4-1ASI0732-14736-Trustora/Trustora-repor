@@ -43,11 +43,23 @@
 | Versión | Fecha    | Autor                                            | Descripción de Modificación            |
 | ------- | -------- | ------------------------------------------------ | -------------------------------------- |
 | 0.1     | 06/09/25 | Lynn Meza                                        | Desarrollo de la Structura del informe |
-| 0.2     | 21/09/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana | Desarrollo de la Structura del informe |
+| 0.2     | 21/09/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana | Desarrollo de la TB1 |
 
 ## PROJECT REPORT COLLABORATION INSIGHTS
 
 URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI0732-14736-Trustora/repositories>
+
+_TB1_
+
+Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la siguiente forma:
+
+| Integrante                             | Actvidades Asignadas                           |
+| -------------------------------------- | ---------------------------------------------- |
+| Mazuelos Callirgos, Marcelo Alessandro | - capitulo 1 - 4- Entrevista 2 segementos- ppt |
+| Orellana Rodriguez, Mel Andree        | - Capitulo 2-4-5.1-entrevista - ppt            |
+| Meza Camayo, Lynn Jeeferzon            | - capitulo 3-4-5.2- ppt                        |
+
+![Contribution](./.img/commit-tb1.png)
 
 ## CONTENIDO
 
@@ -1819,7 +1831,7 @@ El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya
 
 ## 3.3. Impact Mapping
 
-![impac map](./img/Impact%20map.png)
+![impac map](./.img/Impact%20map.png)
 
 ## 3.4. Product Backlog
 
@@ -2685,6 +2697,18 @@ Para esta entrega no se desarrolló la parte correspondiente a la aplicación m�
 En esta sección se presenta la documentación de los servicios de back-end de la aplicación web desarrollada con Spring Boot, haciendo uso de Spring Security para la gestión de la seguridad, JWT (JSON Web Token) para la autenticación y Spring Data JPA para el manejo de la persistencia de datos. Además, se implementó Swagger como herramienta de soporte para la documentación de los servicios, lo que permite visualizar, probar y comprender de manera clara la funcionalidad de cada endpoint expuesto.
 
 ### 5.2.7. Team Collaboration Insights
+
+Commit:
+
+![commit](./.img/commit-tb1.png)
+
+Contributor:
+
+![Contributor](./.img/contributor-tb1.png)
+
+Network graph
+
+![Network graph](./.img/Nertwork-tb1.png)
 
 ## 5.3. Video About-the-Product
 
