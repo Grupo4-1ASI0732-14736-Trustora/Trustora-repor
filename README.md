@@ -24,8 +24,8 @@
             <td>U201919386</td>
         </tr>
         <tr>
-           <td></td>
-           <td></td>
+           <td>Orellana Rodriguez, Mel Andree</td>
+           <td>u202116018</td>
         </tr>
         <tr>
            <td></td>
@@ -201,16 +201,33 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
         <th>CONCLUSIONES</th>
     </tr>
     <tr>
-        <th>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</th>
-        <th></th>
-        <th></th>
+        <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
+        <td>
+             *Mel Andree Orellana: TB1*
+            - Diseñé entrevistas dirigidas a niñeras certificadas y padres de familia, respetando principios éticos como la confidencialidad y el consentimiento informado.<br>
+            - Registré entrevistas evitando sesgos y garantizando la veracidad de la información.<br>
+            - En el Needfinding desarrollé herramientas (User Personas, User Task Matrix, Journey Mapping, Empathy Mapping, As-is Scenario Mapping) priorizando la voz real de los usuarios.
+        </td>
+        <td>
+            - Se cumplió con un proceso investigativo ético y profesional, valorando la opinión de los usuarios como base para un diseño responsable.<br>
+            - Mi aporte asegura que las futuras soluciones de software estén fundamentadas en necesidades reales y no en supuestos, reforzando la credibilidad del proyecto.
+        </td>
     </tr>
     <tr>
-        <th>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales,económicos, ambientales y sociales</th>
-        <th></th>
-        <th></th>
+        <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+        <td>
+              *Mel Andree Orellana: TB1*
+            - A partir de las entrevistas y el análisis de necesidades, identifiqué que el software debe adaptarse a distintos contextos familiares y laborales (ej. disponibilidad de tiempo, acceso digital).<br>
+            - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
+            - En el Ubiquitous Language, propuse términos claros y comunes que fomentan la inclusión y entendimiento entre equipo técnico y usuarios.
+        </td>
+        <td>
+            - Mis aportes ayudan a emitir juicios que reconocen el impacto social (seguridad de menores, confianza de padres), económico (accesibilidad del servicio), y global (posibilidad de replicar el modelo en otros contextos).<br>
+            - De esta forma, la solución propuesta busca equilibrar innovación tecnológica con responsabilidad social.
+        </td>
     </tr>
 </table>
+
 
 # Capítulo I: Introducción
 
