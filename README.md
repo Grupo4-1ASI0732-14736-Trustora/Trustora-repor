@@ -410,16 +410,13 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 
 ## 2.1. Competidores
 
-
-| **Nombre**        | **Descripción**                                                                                                                  | **Características Principales**                                                                                   |
-|--------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **Care.com**       | Marketplace global fundado en EE. UU., líder en servicios de cuidado infantil, doméstico y de adultos mayores. Opera en más de 20 países y cuenta con millones de usuarios activos. | - Amplia red internacional de familias y cuidadores.<br>- Marca globalmente reconocida.<br>- Plataforma con múltiples servicios (niñeras, limpieza, cuidado de adultos). |
-| **Babysits**       | Comunidad digital enfocada en conectar familias con niñeras a nivel global. Permite a los usuarios crear perfiles, dejar reseñas y contactar directamente sin intermediarios. | - Simplicidad en el registro y uso.<br>- Bajos costos para padres y niñeras.<br>- Modelo de comunidad con reseñas públicas. |
-| **Agencias Locales** | Empresas presenciales tradicionales que operan en distintas ciudades de Latinoamérica. Se especializan en conectar familias con niñeras mediante entrevistas, contratos y procesos manuales. | - Percepción de formalidad inicial y respaldo legal básico.<br>- Selección presencial de niñeras.<br>- Procesos más lentos y costos de intermediación más altos. |
-
+| **Nombre**           | **Descripción**                                                                                                                                                                              | **Características Principales**                                                                                                                                          |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Care.com**         | Marketplace global fundado en EE. UU., líder en servicios de cuidado infantil, doméstico y de adultos mayores. Opera en más de 20 países y cuenta con millones de usuarios activos.          | - Amplia red internacional de familias y cuidadores.<br>- Marca globalmente reconocida.<br>- Plataforma con múltiples servicios (niñeras, limpieza, cuidado de adultos). |
+| **Babysits**         | Comunidad digital enfocada en conectar familias con niñeras a nivel global. Permite a los usuarios crear perfiles, dejar reseñas y contactar directamente sin intermediarios.                | - Simplicidad en el registro y uso.<br>- Bajos costos para padres y niñeras.<br>- Modelo de comunidad con reseñas públicas.                                              |
+| **Agencias Locales** | Empresas presenciales tradicionales que operan en distintas ciudades de Latinoamérica. Se especializan en conectar familias con niñeras mediante entrevistas, contratos y procesos manuales. | - Percepción de formalidad inicial y respaldo legal básico.<br>- Selección presencial de niñeras.<br>- Procesos más lentos y costos de intermediación más altos.         |
 
 ### 2.1.1. Análisis competitivo
-
 
 Para identificar las ventajas competitivas de **Trustora** frente a competidores globales, digitales y tradicionales, reconociendo fortalezas, debilidades, oportunidades y amenazas que permitan afinar la propuesta de valor y asegurar el posicionamiento en el mercado latinoamericano de cuidado infantil.
 
@@ -427,70 +424,69 @@ Para identificar las ventajas competitivas de **Trustora** frente a competidores
 
 ### Comparación por Categorías
 
-| **Categoría** | **Trustora (Startup)** | **Care.com** | **Babysits** | **Agencias Locales** |
-|---------------|-------------------------|--------------|--------------|-----------------------|
-| **Perfil – Overview** | Plataforma digital segura y confiable para conectar padres con niñeras verificadas en Latinoamérica. | Marketplace global líder en cuidado infantil y doméstico. | Comunidad digital con perfiles básicos y sistema de reseñas. | Empresas presenciales que conectan familias con niñeras bajo contrato. |
-| **Ventaja Competitiva** | Seguridad (verificación de identidad y antecedentes), personalización avanzada y experiencia fluida en un solo espacio. | Amplia red de usuarios, marca reconocida mundialmente. | Simplicidad y bajos costos para padres y niñeras. | Percepción de formalidad inicial y respaldo legal básico. |
-| **Mercado Objetivo** | Padres de clase media y alta en Latinoamérica que buscan confianza y rapidez. | Familias de países desarrollados, principalmente EE. UU. y Europa. | Familias jóvenes que buscan soluciones económicas y rápidas. | Familias tradicionales que prefieren procesos presenciales y contratos físicos. |
-| **Estrategias de Marketing** | Marketing digital (redes sociales, SEO, campañas educativas sobre seguridad). | Publicidad masiva, PR, alianzas con marcas internacionales. | Posicionamiento web y marketing en buscadores. | Publicidad local, referidos y boca a boca. |
-| **Productos & Servicios** | Perfiles verificados, reservas online, chat seguro, pagos integrados, seguimiento de servicios. | Membresías premium, reservas online, reseñas. | Perfiles con reseñas, búsqueda y contacto directo. | Selección de niñeras, contratos y pagos presenciales. |
-| **Precios & Costos** | Modelo freemium: servicios básicos gratuitos + suscripción premium accesible. | Membresías mensuales o anuales de alto costo. | Bajo costo o gratuito con comisión mínima. | Altas comisiones y costos de intermediación. |
-| **Canales de Distribución (Web/Móvil)** | App móvil y web responsiva. | App móvil y web. | Plataforma web y móvil. | Presencial (oficinas físicas) y algunos sitios web poco optimizados. |
+| **Categoría**                           | **Trustora (Startup)**                                                                                                  | **Care.com**                                                       | **Babysits**                                                 | **Agencias Locales**                                                            |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| **Perfil – Overview**                   | Plataforma digital segura y confiable para conectar padres con niñeras verificadas en Latinoamérica.                    | Marketplace global líder en cuidado infantil y doméstico.          | Comunidad digital con perfiles básicos y sistema de reseñas. | Empresas presenciales que conectan familias con niñeras bajo contrato.          |
+| **Ventaja Competitiva**                 | Seguridad (verificación de identidad y antecedentes), personalización avanzada y experiencia fluida en un solo espacio. | Amplia red de usuarios, marca reconocida mundialmente.             | Simplicidad y bajos costos para padres y niñeras.            | Percepción de formalidad inicial y respaldo legal básico.                       |
+| **Mercado Objetivo**                    | Padres de clase media y alta en Latinoamérica que buscan confianza y rapidez.                                           | Familias de países desarrollados, principalmente EE. UU. y Europa. | Familias jóvenes que buscan soluciones económicas y rápidas. | Familias tradicionales que prefieren procesos presenciales y contratos físicos. |
+| **Estrategias de Marketing**            | Marketing digital (redes sociales, SEO, campañas educativas sobre seguridad).                                           | Publicidad masiva, PR, alianzas con marcas internacionales.        | Posicionamiento web y marketing en buscadores.               | Publicidad local, referidos y boca a boca.                                      |
+| **Productos & Servicios**               | Perfiles verificados, reservas online, chat seguro, pagos integrados, seguimiento de servicios.                         | Membresías premium, reservas online, reseñas.                      | Perfiles con reseñas, búsqueda y contacto directo.           | Selección de niñeras, contratos y pagos presenciales.                           |
+| **Precios & Costos**                    | Modelo freemium: servicios básicos gratuitos + suscripción premium accesible.                                           | Membresías mensuales o anuales de alto costo.                      | Bajo costo o gratuito con comisión mínima.                   | Altas comisiones y costos de intermediación.                                    |
+| **Canales de Distribución (Web/Móvil)** | App móvil y web responsiva.                                                                                             | App móvil y web.                                                   | Plataforma web y móvil.                                      | Presencial (oficinas físicas) y algunos sitios web poco optimizados.            |
 
 ---
 
 ### Análisis SWOT
 
-| **Categoría** | **Trustora** | **Care.com** | **Babysits** | **Agencias Locales** |
-|---------------|--------------|--------------|--------------|-----------------------|
-| **Fortalezas** | Seguridad, personalización, enfoque regional, UX amigable. | Marca global, base de usuarios masiva. | Simplicidad, costos bajos. | Formalidad percibida, contratos presenciales. |
-| **Debilidades** | Startup nueva, bajo reconocimiento inicial. | Costos altos, no adaptado al mercado LATAM. | Baja verificación, poca seguridad. | Procesos lentos, altos costos, poca digitalización. |
-| **Oportunidades** | Creciente demanda digital en LATAM, preocupación por seguridad infantil, auge de apps móviles. | Expansión a nuevos mercados. | Ampliar servicios premium o seguridad. | Digitalización y adopción de herramientas online. |
-| **Amenazas** | Competidores globales con más recursos, desconfianza inicial en nuevas plataformas. | Aparición de startups locales más adaptadas. | Competidores más seguros y verificados. | Desintermediación por apps digitales más rápidas y económicas. |
+| **Categoría**     | **Trustora**                                                                                   | **Care.com**                                 | **Babysits**                            | **Agencias Locales**                                           |
+| ----------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------- | --------------------------------------- | -------------------------------------------------------------- |
+| **Fortalezas**    | Seguridad, personalización, enfoque regional, UX amigable.                                     | Marca global, base de usuarios masiva.       | Simplicidad, costos bajos.              | Formalidad percibida, contratos presenciales.                  |
+| **Debilidades**   | Startup nueva, bajo reconocimiento inicial.                                                    | Costos altos, no adaptado al mercado LATAM.  | Baja verificación, poca seguridad.      | Procesos lentos, altos costos, poca digitalización.            |
+| **Oportunidades** | Creciente demanda digital en LATAM, preocupación por seguridad infantil, auge de apps móviles. | Expansión a nuevos mercados.                 | Ampliar servicios premium o seguridad.  | Digitalización y adopción de herramientas online.              |
+| **Amenazas**      | Competidores globales con más recursos, desconfianza inicial en nuevas plataformas.            | Aparición de startups locales más adaptadas. | Competidores más seguros y verificados. | Desintermediación por apps digitales más rápidas y económicas. |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-|                     | **Oportunidades (O)**                                                                                                    | **Amenazas (A)**                                                                                                   |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Fortalezas (F)** | **Estrategias FO**<br>- Potenciar la verificación de identidad y seguridad como principal diferenciador en LATAM.<br>- Ampliar la personalización avanzada para atender a familias preocupadas por la seguridad infantil.<br>- Campañas digitales resaltando el enfoque regional como ventaja frente a plataformas globales. | **Estrategias FA**<br>- Usar la verificación estricta como defensa frente a competidores con más recursos.<br>- Posicionar el enfoque regional para diferenciarse de plataformas internacionales.<br>- Reforzar la UX amigable para competir con startups locales emergentes. |
-| **Debilidades (D)** | **Estrategias DO**<br>- Invertir en branding y marketing educativo para aumentar reconocimiento.<br>- Asociarse con ONGs y escuelas para generar confianza.<br>- Desarrollar una app ligera y accesible aprovechando el auge móvil. | **Estrategias DA**<br>- Crear alianzas con aseguradoras, clínicas o entidades confiables.<br>- Implementar embajadores de marca (padres y niñeras verificadas).<br>- Adoptar un modelo freemium escalable para reducir costos iniciales. |
-
+|                     | **Oportunidades (O)**                                                                                                                                                                                                                                                                                                        | **Amenazas (A)**                                                                                                                                                                                                                                                              |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fortalezas (F)**  | **Estrategias FO**<br>- Potenciar la verificación de identidad y seguridad como principal diferenciador en LATAM.<br>- Ampliar la personalización avanzada para atender a familias preocupadas por la seguridad infantil.<br>- Campañas digitales resaltando el enfoque regional como ventaja frente a plataformas globales. | **Estrategias FA**<br>- Usar la verificación estricta como defensa frente a competidores con más recursos.<br>- Posicionar el enfoque regional para diferenciarse de plataformas internacionales.<br>- Reforzar la UX amigable para competir con startups locales emergentes. |
+| **Debilidades (D)** | **Estrategias DO**<br>- Invertir en branding y marketing educativo para aumentar reconocimiento.<br>- Asociarse con ONGs y escuelas para generar confianza.<br>- Desarrollar una app ligera y accesible aprovechando el auge móvil.                                                                                          | **Estrategias DA**<br>- Crear alianzas con aseguradoras, clínicas o entidades confiables.<br>- Implementar embajadores de marca (padres y niñeras verificadas).<br>- Adoptar un modelo freemium escalable para reducir costos iniciales.                                      |
 
 ## 2.2. Entrevistas
 
+El presente documento tiene como finalidad recopilar y estructurar la información obtenida a través de entrevistas realizadas a dos grupos clave: **niñeras certificadas** y **padres de familia**. Estas entrevistas forman parte del proceso de investigación para el desarrollo de la plataforma digital **Trustora**, cuyo objetivo es brindar un espacio seguro, confiable y accesible para la conexión entre familias que requieren servicios de cuidado infantil y profesionales calificadas en este ámbito.
 
-El presente documento tiene como finalidad recopilar y estructurar la información obtenida a través de entrevistas realizadas a dos grupos clave: **niñeras certificadas** y **padres de familia**. Estas entrevistas forman parte del proceso de investigación para el desarrollo de la plataforma digital **Trustora**, cuyo objetivo es brindar un espacio seguro, confiable y accesible para la conexión entre familias que requieren servicios de cuidado infantil y profesionales calificadas en este ámbito.  
+La importancia de este estudio radica en comprender las **necesidades, expectativas, preocupaciones y experiencias previas** de los actores involucrados. De esta manera, se busca identificar tanto las problemáticas existentes en los métodos actuales de búsqueda y contratación, como las oportunidades de mejora que una solución tecnológica podría ofrecer.
 
-La importancia de este estudio radica en comprender las **necesidades, expectativas, preocupaciones y experiencias previas** de los actores involucrados. De esta manera, se busca identificar tanto las problemáticas existentes en los métodos actuales de búsqueda y contratación, como las oportunidades de mejora que una solución tecnológica podría ofrecer.  
+El documento se encuentra estructurado en dos secciones principales:
 
-El documento se encuentra estructurado en dos secciones principales:  
-- **Preguntas dirigidas a niñeras certificadas**, con el fin de conocer sus motivaciones, dificultades y percepciones sobre la seguridad y formalidad del trabajo.  
-- **Preguntas dirigidas a padres de familia**, con el propósito de entender sus criterios de selección, principales temores y expectativas respecto a los servicios de cuidado infantil.  
-
+- **Preguntas dirigidas a niñeras certificadas**, con el fin de conocer sus motivaciones, dificultades y percepciones sobre la seguridad y formalidad del trabajo.
+- **Preguntas dirigidas a padres de familia**, con el propósito de entender sus criterios de selección, principales temores y expectativas respecto a los servicios de cuidado infantil.
 
 ### 2.2.1. Diseño de entrevistas
+
 ### Preguntas para Niñeras
 
 ### 1. Información complementaria (demográfica, conductual y digital)
 
-- Nombre, edad y género.  
-- Ciudad o distrito donde resides y disponibilidad geográfica.  
-- Estado civil y composición familiar (vives solo/a o con familiares).  
-- Nivel educativo y formación en cuidado infantil o certificaciones.  
-- Habilidades específicas o fortalezas que consideras importantes para tu trabajo.  
-- Herramientas digitales que utilizas con frecuencia (WhatsApp, Facebook, apps de trabajo, otras redes).  
-- Canales por donde te gustaría recibir ofertas de trabajo.  
+- Nombre, edad y género.
+- Ciudad o distrito donde resides y disponibilidad geográfica.
+- Estado civil y composición familiar (vives solo/a o con familiares).
+- Nivel educativo y formación en cuidado infantil o certificaciones.
+- Habilidades específicas o fortalezas que consideras importantes para tu trabajo.
+- Herramientas digitales que utilizas con frecuencia (WhatsApp, Facebook, apps de trabajo, otras redes).
+- Canales por donde te gustaría recibir ofertas de trabajo.
 
 ## 2. Información principal
 
-- ¿Qué es lo que más valoras al trabajar con una familia?  
-- ¿Cuáles son las principales dificultades que encuentras para conseguir trabajo como niñera?  
-- ¿Qué aspectos te generan más desconfianza al aceptar un empleo?  
-- ¿Cómo sueles encontrar trabajo actualmente? (contactos, redes sociales, agencias, etc.)  
-- ¿Qué características te gustaría que tenga una plataforma digital que conecte niñeras con familias?  
-- ¿Qué tipo de garantías o beneficios te harían sentir más segura al usar una aplicación como Trustora?  
-- ¿Estarías dispuesta a pagar una pequeña comisión o suscripción si la plataforma te garantiza mayor seguridad y empleos constantes?  
-- ¿Qué experiencia positiva o negativa recuerdas que podría ayudar a mejorar este tipo de servicios?  
+- ¿Qué es lo que más valoras al trabajar con una familia?
+- ¿Cuáles son las principales dificultades que encuentras para conseguir trabajo como niñera?
+- ¿Qué aspectos te generan más desconfianza al aceptar un empleo?
+- ¿Cómo sueles encontrar trabajo actualmente? (contactos, redes sociales, agencias, etc.)
+- ¿Qué características te gustaría que tenga una plataforma digital que conecte niñeras con familias?
+- ¿Qué tipo de garantías o beneficios te harían sentir más segura al usar una aplicación como Trustora?
+- ¿Estarías dispuesta a pagar una pequeña comisión o suscripción si la plataforma te garantiza mayor seguridad y empleos constantes?
+- ¿Qué experiencia positiva o negativa recuerdas que podría ayudar a mejorar este tipo de servicios?
 
 ---
 
@@ -498,68 +494,63 @@ El documento se encuentra estructurado en dos secciones principales:
 
 ### 1. Información complementaria (demográfica, conductual y digital)
 
-- Nombre, edad y género.  
-- Ciudad o distrito de residencia.  
-- Estado civil y composición familiar (número de hijos y edades).  
-- Ocupación y nivel educativo.  
-- Dispositivos y canales digitales que utilizas para buscar servicios (apps, redes sociales, webs, recomendaciones de amigos/familia).  
+- Nombre, edad y género.
+- Ciudad o distrito de residencia.
+- Estado civil y composición familiar (número de hijos y edades).
+- Ocupación y nivel educativo.
+- Dispositivos y canales digitales que utilizas para buscar servicios (apps, redes sociales, webs, recomendaciones de amigos/familia).
 
 ## 2. Información principal
 
-- ¿Qué es lo más importante para ti al contratar a una niñera?  
-- ¿Cuáles son tus principales preocupaciones al dejar a tus hijos al cuidado de alguien?  
-- ¿Cómo sueles encontrar niñeras actualmente? (recomendaciones, grupos en Facebook, agencias, etc.)  
-- ¿Qué limitaciones encuentras en los métodos actuales de búsqueda?  
-- ¿Qué características te darían más confianza en una plataforma como Trustora?  
-- ¿Qué información te gustaría ver en el perfil de una niñera (experiencia, certificaciones, reseñas, etc.)?  
-- ¿Qué opinas sobre pagar una suscripción o comisión si la plataforma garantiza seguridad y rapidez?  
-- ¿Qué tan importante es para ti ver opiniones o calificaciones de otros padres?  
-- ¿Qué servicios adicionales valorarías (seguimiento en tiempo real, seguro, contratos digitales, etc.)?  
-- ¿Qué mala experiencia has tenido (si la tuviste) al contratar una niñera y cómo crees que se podría evitar?  
-
+- ¿Qué es lo más importante para ti al contratar a una niñera?
+- ¿Cuáles son tus principales preocupaciones al dejar a tus hijos al cuidado de alguien?
+- ¿Cómo sueles encontrar niñeras actualmente? (recomendaciones, grupos en Facebook, agencias, etc.)
+- ¿Qué limitaciones encuentras en los métodos actuales de búsqueda?
+- ¿Qué características te darían más confianza en una plataforma como Trustora?
+- ¿Qué información te gustaría ver en el perfil de una niñera (experiencia, certificaciones, reseñas, etc.)?
+- ¿Qué opinas sobre pagar una suscripción o comisión si la plataforma garantiza seguridad y rapidez?
+- ¿Qué tan importante es para ti ver opiniones o calificaciones de otros padres?
+- ¿Qué servicios adicionales valorarías (seguimiento en tiempo real, seguro, contratos digitales, etc.)?
+- ¿Qué mala experiencia has tenido (si la tuviste) al contratar una niñera y cómo crees que se podría evitar?
 
 ### 2.2.2. Registro de entrevistas
 
 #### Entrevista
 
-
 #### Entrevista
-
-
 
 #### Segmento 2: Padres de familia
 
-
-|Entrevistado 1|Iris Violeta|
-|-|-|
-|Edad|46|
-|Distrito|Cieneguilla, Lima|
-|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Madre1.png)|
-|Link de la Entrevista|[Iris Violeta Rodriguez](https://www.youtube.com/watch?v=Ocdr8L-GrBY)|
-|Time | 0:03 - 03:44 |
-|Análisis de Entrevista| La entrevista con Iris Violeta Rodríguez, madre de 46 años y ama de casa, revela que la principal motivación al buscar una niñera es garantizar la seguridad, confianza y buen trato hacia sus hijos, valorando especialmente la responsabilidad, la experiencia con niños y la capacidad de respuesta ante emergencias. Sus dificultades se centran en la disponibilidad inmediata y la falta de referencias confiables, lo que refuerza la necesidad de que una aplicación ofrezca perfiles completos con fotos claras, referencias de otros padres, videos de presentación y validaciones oficiales de identidad y antecedentes. Iris espera poder interactuar con la niñera previamente mediante chat, videollamada y, de ser posible, entrevista presencial o periodo de prueba, y estaría dispuesta a pagar entre 100 y 200 soles por servicio, o incluso una suscripción mensual, siempre que se garantice calidad y seguridad. Finalmente, señala que confiaría en una nueva app si ofrece opiniones reales de usuarios, verificación estricta, políticas claras de seguridad y privacidad, y una interfaz simple y transparente, lo que muestra que la confianza, la usabilidad y la transparencia son factores decisivos para la adopción del servicio. |
+| Entrevistado 1         | Iris Violeta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                   | 46                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Distrito               | Cieneguilla, Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Foto                   | ![Foto-Entrevista-](.img/Foto-Entrevista-Madre1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Link de la Entrevista  | [Iris Violeta Rodriguez](https://www.youtube.com/watch?v=Ocdr8L-GrBY)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Time                   | 0:03 - 03:44                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Análisis de Entrevista | La entrevista con Iris Violeta Rodríguez, madre de 46 años y ama de casa, revela que la principal motivación al buscar una niñera es garantizar la seguridad, confianza y buen trato hacia sus hijos, valorando especialmente la responsabilidad, la experiencia con niños y la capacidad de respuesta ante emergencias. Sus dificultades se centran en la disponibilidad inmediata y la falta de referencias confiables, lo que refuerza la necesidad de que una aplicación ofrezca perfiles completos con fotos claras, referencias de otros padres, videos de presentación y validaciones oficiales de identidad y antecedentes. Iris espera poder interactuar con la niñera previamente mediante chat, videollamada y, de ser posible, entrevista presencial o periodo de prueba, y estaría dispuesta a pagar entre 100 y 200 soles por servicio, o incluso una suscripción mensual, siempre que se garantice calidad y seguridad. Finalmente, señala que confiaría en una nueva app si ofrece opiniones reales de usuarios, verificación estricta, políticas claras de seguridad y privacidad, y una interfaz simple y transparente, lo que muestra que la confianza, la usabilidad y la transparencia son factores decisivos para la adopción del servicio. |
 
 ### 2.2.3. Análisis de entrevistas
 
-## Segmento 1: Niñeras certificadas  
+## Segmento 1: Niñeras certificadas
 
-### Entrevista 1: Ingrid Nazareth  
+### Entrevista 1: Ingrid Nazareth
+
 **Análisis de la entrevista:**  
-Ingrid, una joven niñera de 21 años, busca empleos estables y seguros con familias confiables. Valora mucho la posibilidad de mantener su perfil actualizado con fotos, referencias y experiencia, ya que considera que esto aumenta sus oportunidades de ser contratada. Resalta la importancia de contar con filtros claros (pago, horarios, responsabilidades) y con un contrato digital que le brinde seguridad. Ingrid también prioriza recibir pagos dentro de la plataforma y consultar reseñas de las familias antes de aceptar un trabajo. Está dispuesta a calificar a las familias después del servicio, aunque lo percibe como una acción secundaria.  
+Ingrid, una joven niñera de 21 años, busca empleos estables y seguros con familias confiables. Valora mucho la posibilidad de mantener su perfil actualizado con fotos, referencias y experiencia, ya que considera que esto aumenta sus oportunidades de ser contratada. Resalta la importancia de contar con filtros claros (pago, horarios, responsabilidades) y con un contrato digital que le brinde seguridad. Ingrid también prioriza recibir pagos dentro de la plataforma y consultar reseñas de las familias antes de aceptar un trabajo. Está dispuesta a calificar a las familias después del servicio, aunque lo percibe como una acción secundaria.
 
 ---
 
-## Segmento 2: Padres de familia  
+## Segmento 2: Padres de familia
 
-### Entrevista 1: Iris Violeta  
+### Entrevista 1: Iris Violeta
+
 **Análisis de la entrevista:**  
-Iris, madre de 46 años, busca tranquilidad y confianza al contratar una niñera. Su recorrido inicia con la búsqueda de disponibilidad inmediata y cercana, revisando perfiles completos con certificaciones y antecedentes. Considera esencial leer reseñas de otros padres y tener interacción previa por chat o videollamada antes de tomar una decisión. Para ella, la seguridad en el proceso de pago es un factor determinante para usar la plataforma. Reconoce la utilidad de revisar beneficios y políticas de seguridad, especialmente en una primera experiencia, aunque no lo percibe como una prioridad continua.  
-
+Iris, madre de 46 años, busca tranquilidad y confianza al contratar una niñera. Su recorrido inicia con la búsqueda de disponibilidad inmediata y cercana, revisando perfiles completos con certificaciones y antecedentes. Considera esencial leer reseñas de otros padres y tener interacción previa por chat o videollamada antes de tomar una decisión. Para ella, la seguridad en el proceso de pago es un factor determinante para usar la plataforma. Reconoce la utilidad de revisar beneficios y políticas de seguridad, especialmente en una primera experiencia, aunque no lo percibe como una prioridad continua.
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
-
 
 ### Segmento: Niñeras Certificadas
 
@@ -581,46 +572,45 @@ La User Persona de los padres de familia refleja a personas que necesitan delega
 
 ### Segmento: Niñeras Certificadas
 
-- Nombre: Ingrid Nazareth  
-- Edad: 21 años  
-- Ocupación: Niñera  
-- Interés: Conseguir empleos estables, seguros y justos con familias confiables  
+- Nombre: Ingrid Nazareth
+- Edad: 21 años
+- Ocupación: Niñera
+- Interés: Conseguir empleos estables, seguros y justos con familias confiables
 
-| **Tarea** | **Frecuencia** | **Importancia** | **Comentarios** |
-|-----------|----------------|-----------------|-----------------|
-| Crear y mantener su perfil con información actualizada (foto, experiencia, referencias) | Media | Alta | Le da más posibilidades de ser contratada y genera confianza en las familias. |
-| Revisar ofertas de trabajo disponibles (por distrito, horarios, pago) | Alta | Alta | Es la acción principal para conseguir empleo. |
-| Filtrar por condiciones claras (pago, horarios, responsabilidades) | Media | Alta | Le permite evitar trabajos poco serios o con información incompleta. |
-| Postularse a una oferta o enviar solicitud de trabajo | Media | Alta | Paso fundamental para iniciar contacto con familias. |
-| Comunicarse con la familia interesada (chat/llamada) | Media | Alta | Necesita confirmar reglas, expectativas y compatibilidad antes de aceptar. |
-| Revisar que haya contrato digital y condiciones claras | Media | Alta | Su principal punto de seguridad; evita riesgos de informalidad. |
-| Aceptar un trabajo y confirmar la reserva | Media | Alta | Acción clave para asegurar el empleo. |
-| Recibir pagos de manera segura dentro de la plataforma | Media | Alta | Crucial para garantizar confianza y formalidad en el servicio. |
-| Consultar reseñas/comentarios sobre la familia antes de aceptar | Media | Alta | Refuerza su decisión y reduce la desconfianza. |
-| Calificar a la familia después del trabajo | Baja | Media | Contribuye al sistema de confianza, pero no siempre es prioridad para ella. |
-| Revisar beneficios, garantías o soporte de la plataforma | Baja | Media | Le da tranquilidad, sobre todo al inicio o en casos de problemas. |
-| Actualizar disponibilidad horaria | Media | Media | Necesario para que la contacten, pero no es su acción diaria. |
+| **Tarea**                                                                               | **Frecuencia** | **Importancia** | **Comentarios**                                                               |
+| --------------------------------------------------------------------------------------- | -------------- | --------------- | ----------------------------------------------------------------------------- |
+| Crear y mantener su perfil con información actualizada (foto, experiencia, referencias) | Media          | Alta            | Le da más posibilidades de ser contratada y genera confianza en las familias. |
+| Revisar ofertas de trabajo disponibles (por distrito, horarios, pago)                   | Alta           | Alta            | Es la acción principal para conseguir empleo.                                 |
+| Filtrar por condiciones claras (pago, horarios, responsabilidades)                      | Media          | Alta            | Le permite evitar trabajos poco serios o con información incompleta.          |
+| Postularse a una oferta o enviar solicitud de trabajo                                   | Media          | Alta            | Paso fundamental para iniciar contacto con familias.                          |
+| Comunicarse con la familia interesada (chat/llamada)                                    | Media          | Alta            | Necesita confirmar reglas, expectativas y compatibilidad antes de aceptar.    |
+| Revisar que haya contrato digital y condiciones claras                                  | Media          | Alta            | Su principal punto de seguridad; evita riesgos de informalidad.               |
+| Aceptar un trabajo y confirmar la reserva                                               | Media          | Alta            | Acción clave para asegurar el empleo.                                         |
+| Recibir pagos de manera segura dentro de la plataforma                                  | Media          | Alta            | Crucial para garantizar confianza y formalidad en el servicio.                |
+| Consultar reseñas/comentarios sobre la familia antes de aceptar                         | Media          | Alta            | Refuerza su decisión y reduce la desconfianza.                                |
+| Calificar a la familia después del trabajo                                              | Baja           | Media           | Contribuye al sistema de confianza, pero no siempre es prioridad para ella.   |
+| Revisar beneficios, garantías o soporte de la plataforma                                | Baja           | Media           | Le da tranquilidad, sobre todo al inicio o en casos de problemas.             |
+| Actualizar disponibilidad horaria                                                       | Media          | Media           | Necesario para que la contacten, pero no es su acción diaria.                 |
 
 ### Segmento: Padres de Familia
 
-- Nombre: Iris Violeta 
+- Nombre: Iris Violeta
 - Edad: 46 años
-- Ocupación: Trabajora  
-- Interés: Que sus hijos estén bien cuidados para no sentir preocupación 
+- Ocupación: Trabajora
+- Interés: Que sus hijos estén bien cuidados para no sentir preocupación
 
-| **Tarea** | **Frecuencia** | **Importancia** | **Comentarios** |
-|-----------|----------------|-----------------|-----------------|
-| Buscar niñeras disponibles cerca de su distrito | Alta | Alta | Es la acción principal; Iris quiere disponibilidad inmediata y confiable. |
-| Revisar perfiles completos con fotos, certificaciones y antecedentes | Media-Alta | Alta | Le da confianza y seguridad; clave para la decisión. |
-| Leer reseñas y referencias de otros padres | Media | Alta | Refuerza confianza y reduce incertidumbre. |
-| Contactar a la niñera por chat/videollamada antes de contratar | Media | Alta | Necesita interacción previa para evaluar compatibilidad. |
-| Filtrar por disponibilidad horaria y costo | Media | Alta | Fundamental para que el servicio se ajuste a su necesidad real (urgencia + presupuesto). |
-| Solicitar una reserva | Media | Alta | Paso natural tras elegir candidata; debe ser simple y rápido. |
-| Realizar pago seguro dentro de la app | Media | Alta | Si no siente seguridad en el pago, no confiará en la app. |
-| Dejar reseña después del servicio | Baja | Media | Aporta valor al sistema, pero no es prioridad inmediata para Iris. |
-| Revisar beneficios y políticas de seguridad en la landing | Baja | Media | Útil al inicio, sobre todo para generar confianza en la primera experiencia. |
-| Actualizar información personal (hijos, contacto) | Baja | Media | Importante, pero no es una acción frecuente. |
-
+| **Tarea**                                                            | **Frecuencia** | **Importancia** | **Comentarios**                                                                          |
+| -------------------------------------------------------------------- | -------------- | --------------- | ---------------------------------------------------------------------------------------- |
+| Buscar niñeras disponibles cerca de su distrito                      | Alta           | Alta            | Es la acción principal; Iris quiere disponibilidad inmediata y confiable.                |
+| Revisar perfiles completos con fotos, certificaciones y antecedentes | Media-Alta     | Alta            | Le da confianza y seguridad; clave para la decisión.                                     |
+| Leer reseñas y referencias de otros padres                           | Media          | Alta            | Refuerza confianza y reduce incertidumbre.                                               |
+| Contactar a la niñera por chat/videollamada antes de contratar       | Media          | Alta            | Necesita interacción previa para evaluar compatibilidad.                                 |
+| Filtrar por disponibilidad horaria y costo                           | Media          | Alta            | Fundamental para que el servicio se ajuste a su necesidad real (urgencia + presupuesto). |
+| Solicitar una reserva                                                | Media          | Alta            | Paso natural tras elegir candidata; debe ser simple y rápido.                            |
+| Realizar pago seguro dentro de la app                                | Media          | Alta            | Si no siente seguridad en el pago, no confiará en la app.                                |
+| Dejar reseña después del servicio                                    | Baja           | Media           | Aporta valor al sistema, pero no es prioridad inmediata para Iris.                       |
+| Revisar beneficios y políticas de seguridad en la landing            | Baja           | Media           | Útil al inicio, sobre todo para generar confianza en la primera experiencia.             |
+| Actualizar información personal (hijos, contacto)                    | Baja           | Media           | Importante, pero no es una acción frecuente.                                             |
 
 ### 2.3.3. User Journey Mapping
 
@@ -640,42 +630,33 @@ Su journey inicia buscando niñeras disponibles y revisando perfiles con certifi
     <img src=".img/Journey-Map-Madre.png"></img>
 </div>
 
-
 ### 2.3.4. Empathy Mapping
-
 
 ### Segmento: Niñeras Certificadas
 
 El empathy mapping de las niñeras certificadas busca entender cómo viven la búsqueda de empleos seguros y formales. Nos ayuda a identificar lo que piensan sobre la confianza y estabilidad, lo que sienten frente a la incertidumbre laboral, lo que expresan al postular o comunicarse con familias, y lo que hacen dentro de la plataforma para conseguir trabajo.
 
-
 <div align="center">
     <img src=".img/Empathy-Map-Niñera.png"></img>
 </div>
-
-
 
 ### Segmento: Padres de Familia
 
 El empathy mapping de los padres de familia refleja su necesidad de tranquilidad y seguridad al dejar a sus hijos al cuidado de alguien más. Permite reconocer lo que piensan al evaluar perfiles y costos, lo que sienten frente a la confianza y la urgencia, lo que expresan en sus comunicaciones con la niñera, y lo que hacen al reservar y pagar un servicio confiable.
 
-
 <div align="center">
     <img src=".img/Empathy-Map-Mama.png"></img>
 </div>
 
-
 ### 2.3.5. As-is Scenario Mapping
 
 ### Segmento: Niñeras Certificadas
-
 
 El As-is Scenario Mapping de las niñeras certificadas muestra su situación actual al buscar empleo: dependen de perfiles digitales, revisan ofertas poco claras y enfrentan riesgos de informalidad. Este mapeo permite entender sus limitaciones y puntos de dolor en la experiencia de conseguir trabajos confiables.
 
 <div align="center">
     <img src=".img/Scenario-Map-Niñera.png"></img>
 </div>
-
 
 ### Segmento: Padres de Familia
 
@@ -685,31 +666,27 @@ El As-is Scenario Mapping de los padres evidencia cómo buscan niñeras de maner
     <img src=".img/Scenario-Map-Madre.png"></img>
 </div>
 
-
 ## 2.4. Ubiquitous Language
 
 El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya que nos permitirá establecer un lenguaje común y compartido entre todos los miembros del equipo.
 
+- **Niñera Verificada**: Persona cuidadora que ha pasado el proceso de verificación de identidad, referencias y experiencia por parte de la plataforma.
 
-- **Niñera Verificada**: Persona cuidadora que ha pasado el proceso de verificación de identidad, referencias y experiencia por parte de la plataforma.  
+- **Padre de familia**: Persona(s) que busca(n) servicios de cuidado infantil a través de la app para sus hijos.
 
-- **Padre de familia**: Persona(s) que busca(n) servicios de cuidado infantil a través de la app para sus hijos.  
+- **Perfil Profesional**: Página personal de la niñera con información relevante como experiencia, certificaciones, disponibilidad y calificaciones.
 
-- **Perfil Profesional**: Página personal de la niñera con información relevante como experiencia, certificaciones, disponibilidad y calificaciones.  
+- **Solicitud de Servicio**: Acción iniciada por un padre para contactar y contratar una niñera en una fecha y horario específicos.
 
-- **Solicitud de Servicio**: Acción iniciada por un padre para contactar y contratar una niñera en una fecha y horario específicos.  
+- **Match Seguro**: Coincidencia entre niñera y familia basada en filtros (ubicación, disponibilidad, experiencia) y políticas de seguridad.
 
-- **Match Seguro**: Coincidencia entre niñera y familia basada en filtros (ubicación, disponibilidad, experiencia) y políticas de seguridad.  
+- **Calificación y Reseña**: Sistema de evaluación que permite a los usuarios valorar la experiencia después de cada servicio.
 
-- **Calificación y Reseña**: Sistema de evaluación que permite a los usuarios valorar la experiencia después de cada servicio.  
+- **Verificación de Identidad**: Proceso obligatorio para todas las niñeras antes de publicar su perfil, incluyendo documentos, entrevistas o chequeo de antecedentes.
 
-- **Verificación de Identidad**: Proceso obligatorio para todas las niñeras antes de publicar su perfil, incluyendo documentos, entrevistas o chequeo de antecedentes.  
+- **Reservación Confirmada**: Estado del servicio cuando ambas partes (niñera y padre) han aceptado los términos y se ha fijado el horario.
 
-- **Reservación Confirmada**: Estado del servicio cuando ambas partes (niñera y padre) han aceptado los términos y se ha fijado el horario.  
-
-- **Panel de Seguridad**: Conjunto de funciones dentro de la app que aseguran la transparencia y protección de todos los usuarios (verificación, soporte, seguimiento en tiempo real).  
-
-
+- **Panel de Seguridad**: Conjunto de funciones dentro de la app que aseguran la transparencia y protección de todos los usuarios (verificación, soporte, seguimiento en tiempo real).
 
 # Capítulo III: Requirements Specification
 
@@ -1830,7 +1807,7 @@ El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya
 
 ## 4.1. Style Guidelines
 
-En **KindyCare**, definimos lineamientos de estilo claros y consistentes que aseguran una experiencia visual uniforme, moderna y centrada en el usuario. Estas directrices abarcan desde la identidad general de la marca hasta los componentes específicos de la interfaz, tanto en su versión web como móvil.
+En **KidyCare**, definimos lineamientos de estilo claros y consistentes que aseguran una experiencia visual uniforme, moderna y centrada en el usuario. Estas directrices abarcan desde la identidad general de la marca hasta los componentes específicos de la interfaz, tanto en su versión web como móvil.
 
 El objetivo es transmitir confianza, seguridad y cercanía, valores fundamentales para que padres, tutores y usuarios perciban a Trustora como una plataforma confiable y cálida en la gestión del cuidado infantil. Al mantener esta coherencia en todos los entornos digitales, reforzamos la credibilidad del aplicativo y garantizamos que la experiencia sea intuitiva, accesible y profesional en cualquier dispositivo.
 
@@ -1838,42 +1815,41 @@ El objetivo es transmitir confianza, seguridad y cercanía, valores fundamentale
 
 **Task**
 
-En esta sección se presentarán las pautas generales de estilo que orientarán el diseño y la comunicación visual de **KindyCare**. Estas pautas tienen como objetivo garantizar que cada elemento gráfico y textual mantenga coherencia con la identidad de la marca, ofreciendo a los usuarios una experiencia digital uniforme, confiable y de alta calidad.
+En esta sección se presentarán las pautas generales de estilo que orientarán el diseño y la comunicación visual de **KidyCare**. Estas pautas tienen como objetivo garantizar que cada elemento gráfico y textual mantenga coherencia con la identidad de la marca, ofreciendo a los usuarios una experiencia digital uniforme, confiable y de alta calidad.
 
 **Insight**
 
-La uniformidad en el estilo y la presentación es fundamental para consolidar una identidad de marca fuerte y fácilmente reconocible en **KindyCare**. Una guía de estilo bien definida asegura la consistencia en todos los puntos de contacto, transmitiendo confianza y profesionalismo, y simplificando la experiencia de navegación para padres que buscan cuidadores y docentes de confianza.
+La uniformidad en el estilo y la presentación es fundamental para consolidar una identidad de marca fuerte y fácilmente reconocible en **KidyCare**. Una guía de estilo bien definida asegura la consistencia en todos los puntos de contacto, transmitiendo confianza y profesionalismo, y simplificando la experiencia de navegación para padres que buscan cuidadores y docentes de confianza.
 
 **Branding**
 
-El logotipo de **KindyCare** integra la silueta de una casa con colores vivos y equilibrados, representando el cuidado, la educación y la dedicación hacia la infancia. La paleta cromática está basada en tonos pastel cálidos, diseñados para proyectar cercanía, seguridad y empatía, al mismo tiempo que refuerzan la profesionalidad y la identidad visual de la marca.
+El logotipo de **KidyCare** integra la silueta de una casa con colores vivos y equilibrados, representando el cuidado, la educación y la dedicación hacia la infancia. La paleta cromática está basada en tonos pastel cálidos, diseñados para proyectar cercanía, seguridad y empatía, al mismo tiempo que refuerzan la profesionalidad y la identidad visual de la marca.
 
 ![Logo](./.img/logo.png)
 
 **Typography**
 
-En **KindyCare**, la tipografía cumple un rol esencial para garantizar una comunicación clara y accesible en todos los dispositivos, tanto móviles como de escritorio. Se ha elegido una fuente moderna, limpia y de alta legibilidad, que facilita la lectura continua y reduce la fatiga visual.
+En **KidyCare**, la tipografía cumple un rol esencial para garantizar una comunicación clara y accesible en todos los dispositivos, tanto móviles como de escritorio. Se ha elegido una fuente moderna, limpia y de alta legibilidad, que facilita la lectura continua y reduce la fatiga visual.
 
 La jerarquía tipográfica está cuidadosamente definida para diferenciar títulos, subtítulos, textos descriptivos e informativos, lo que permite una navegación intuitiva y una experiencia de usuario ordenada. De esta forma, cada nivel de texto transmite no solo información, sino también la identidad de la marca: cercana, confiable y profesional.
 
 ![Typography](./.img/tipografy_app_web.png)
 
-
 **Íconos y Elementos Gráficos**
 
-En **KindyCare**, los íconos y elementos gráficos se diseñan bajo un enfoque minimalista, con bordes redondeados y líneas suaves que transmiten cercanía y amabilidad. Estos recursos visuales cumplen un papel funcional y estético: orientan al usuario en la navegación, refuerzan la comprensión del contenido y aportan dinamismo a la interfaz sin generar sobrecarga visual.
+En **KidyCare**, los íconos y elementos gráficos se diseñan bajo un enfoque minimalista, con bordes redondeados y líneas suaves que transmiten cercanía y amabilidad. Estos recursos visuales cumplen un papel funcional y estético: orientan al usuario en la navegación, refuerzan la comprensión del contenido y aportan dinamismo a la interfaz sin generar sobrecarga visual.
 
-Se emplean principalmente en botones, menús y secciones clave de la plataforma, asegurando consistencia en su estilo y tamaño para mantener una experiencia equilibrada en entornos web y móviles. Además, los elementos gráficos se integran en armonía con la paleta cromática de la marca, reforzando la identidad visual y contribuyendo a la sensación de confianza y profesionalismo que caracteriza a **KindyCare**.
+Se emplean principalmente en botones, menús y secciones clave de la plataforma, asegurando consistencia en su estilo y tamaño para mantener una experiencia equilibrada en entornos web y móviles. Además, los elementos gráficos se integran en armonía con la paleta cromática de la marca, reforzando la identidad visual y contribuyendo a la sensación de confianza y profesionalismo que caracteriza a **KidyCare**.
 
 ### 4.1.2. Web Style Guidelines
 
 **Landing Page**
 
-La página principal de **KindyCare** está diseñada para comunicar de manera clara y directa la propuesta de valor de la plataforma. Se destacan los beneficios principales, el proceso simple para conectar con cuidadores y profesores, así como los llamados a la acción para registrarse o buscar servicios. Desde el primer contacto, los usuarios deben percibir un entorno confiable, accesible y seguro que refuerce la misión de la marca.
+La página principal de **KidyCare** está diseñada para comunicar de manera clara y directa la propuesta de valor de la plataforma. Se destacan los beneficios principales, el proceso simple para conectar con cuidadores y profesores, así como los llamados a la acción para registrarse o buscar servicios. Desde el primer contacto, los usuarios deben percibir un entorno confiable, accesible y seguro que refuerce la misión de la marca.
 
 **Diseño Responsivo**
 
-La interfaz de **KindyCare** se adapta de forma fluida a cualquier dispositivo: móviles, tabletas y computadoras. El contenido se optimiza según el tamaño de pantalla, priorizando la legibilidad, la usabilidad y la experiencia del usuario en todos los contextos de navegación.
+La interfaz de **KidyCare** se adapta de forma fluida a cualquier dispositivo: móviles, tabletas y computadoras. El contenido se optimiza según el tamaño de pantalla, priorizando la legibilidad, la usabilidad y la experiencia del usuario en todos los contextos de navegación.
 
 **Espaciado y Alineación**
 
@@ -1881,13 +1857,13 @@ Se emplea un sistema de espaciado basado en múltiplos de 4px para márgenes y r
 
 **Colores y Contraste**
 
-La paleta de colores de **KindyCare** combina tonos suaves como azul cielo, verde menta y durazno pastel, junto con acentos más vibrantes para botones y enlaces. Esta combinación refuerza la calidez y confianza de la marca, al tiempo que cumple con los estándares de accesibilidad, garantizando un contraste adecuado para todos los usuarios.
+La paleta de colores de **KidyCare** combina tonos suaves como azul cielo, verde menta y durazno pastel, junto con acentos más vibrantes para botones y enlaces. Esta combinación refuerza la calidez y confianza de la marca, al tiempo que cumple con los estándares de accesibilidad, garantizando un contraste adecuado para todos los usuarios.
 
 ![Colors](./.img/colors.png)
 
 **Imágenes y Fondos**
 
-Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas para transmitir bienestar, educación y cuidado infantil. Representan valores de confianza, cercanía y compromiso con las familias. Los fondos claros y minimalistas permiten que el contenido y los llamados a la acción sean siempre el punto focal de la experiencia.
+Las imágenes empleadas en **KidyCare** están cuidadosamente seleccionadas para transmitir bienestar, educación y cuidado infantil. Representan valores de confianza, cercanía y compromiso con las familias. Los fondos claros y minimalistas permiten que el contenido y los llamados a la acción sean siempre el punto focal de la experiencia.
 
 ### 4.1.3. Mobile Style Guidelines.
 
@@ -1946,7 +1922,6 @@ Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas par
 <p align="center">
   <img src="./.img/contact-section-wireframe.png" alt="Contact Section" width="850">
 </p>
-
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -2190,7 +2165,7 @@ Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas par
 
 ### 4.8.1. Software Architecture Context Diagram
 
-El diagrama de contexto muestra una vista de alto nivel de las interacciones entre la plataforma KindyCare, los diferentes tipos de usuarios (padres y niñeras) y los sistemas externos con los que se integra. Este diagrama permite comprender de manera general los límites del sistema, los actores involucrados y el flujo de información que ocurre en cada interacción.
+El diagrama de contexto muestra una vista de alto nivel de las interacciones entre la plataforma KidyCare, los diferentes tipos de usuarios (padres y niñeras) y los sistemas externos con los que se integra. Este diagrama permite comprender de manera general los límites del sistema, los actores involucrados y el flujo de información que ocurre en cada interacción.
 
 <p align="center">
   <img src="./.img/context-diagram.png" alt="context-diagram" width="850">
@@ -2200,7 +2175,7 @@ El diagrama de contexto muestra una vista de alto nivel de las interacciones ent
 
 ### 4.8.3. Software Architecture Components Diagrams
 
-Los diagramas de componentes muestran una vista de las relaciones entre los módulos principales de KindyCare. Estos diagramas describen cómo se organizan y comunican los distintos componentes de la plataforma, detallando la implementación de funcionalidades clave como la gestión de usuarios, búsqueda de cuidadores y profesores, reservas de servicios, sistema de pagos y notificaciones. De esta forma, se ilustra la estructura interna del software y la interacción entre sus módulos, tanto en la aplicación web como en la versión móvil
+Los diagramas de componentes muestran una vista de las relaciones entre los módulos principales de KidyCare. Estos diagramas describen cómo se organizan y comunican los distintos componentes de la plataforma, detallando la implementación de funcionalidades clave como la gestión de usuarios, búsqueda de cuidadores y profesores, reservas de servicios, sistema de pagos y notificaciones. De esta forma, se ilustra la estructura interna del software y la interacción entre sus módulos, tanto en la aplicación web como en la versión móvil
 
 <p align="center">
   <img src="./.img/components-diagram.png" alt="components-diagram" width="850">
@@ -2231,7 +2206,7 @@ Los diagramas de componentes muestran una vista de las relaciones entre los mód
 
 ## 4.10. Database Design
 
-El diseño de base de datos de KindyCare se basa en un sistema de gestión de bases de datos relacional (RDBMS) implementado en MySQL. Esta tecnología ha sido seleccionada por su estabilidad, facilidad de uso, escalabilidad y amplia compatibilidad con entornos web y móviles.
+El diseño de base de datos de KidyCare se basa en un sistema de gestión de bases de datos relacional (RDBMS) implementado en MySQL. Esta tecnología ha sido seleccionada por su estabilidad, facilidad de uso, escalabilidad y amplia compatibilidad con entornos web y móviles.
 
 Para la modelación y gestión de la base de datos se empleará MySQL Workbench, una herramienta visual que facilita la creación de diagramas entidad–relación (ER), la administración de tablas y la definición de relaciones entre ellas.
 
@@ -2245,68 +2220,59 @@ Para la modelación y gestión de la base de datos se empleará MySQL Workbench,
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
+## 5.1. Software Configuration Management
 
-## 5.1. Software Configuration Management  
+A continuación, se describe el proceso mediante el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de **KidyCare**. El objetivo es asegurar la trazabilidad, consistencia y calidad en cada etapa del ciclo de vida del software, integrando herramientas que soportan desde la planificación hasta la implementación y documentación.
 
-A continuación, se describe el proceso mediante el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de **KydiCare**. El objetivo es asegurar la trazabilidad, consistencia y calidad en cada etapa del ciclo de vida del software, integrando herramientas que soportan desde la planificación hasta la implementación y documentación.  
+### 5.1.1. Software Development Environment Configuration
 
+El entorno de desarrollo de **Trustora** se estructura en diferentes áreas clave: gestión de necesidades, diseño UX/UI, desarrollo, implementación y documentación. Cada área cuenta con herramientas seleccionadas para optimizar la productividad del equipo y garantizar un flujo de trabajo ágil y colaborativo.
 
-
-### 5.1.1. Software Development Environment Configuration  
-
-El entorno de desarrollo de **Trustora** se estructura en diferentes áreas clave: gestión de necesidades, diseño UX/UI, desarrollo, implementación y documentación. Cada área cuenta con herramientas seleccionadas para optimizar la productividad del equipo y garantizar un flujo de trabajo ágil y colaborativo.  
-
-### Gestión de necesidades  
+### Gestión de necesidades
 
 - **Trello**: Herramienta de gestión de proyectos basada en tableros y tarjetas, ampliamente utilizada en marcos de trabajo ágiles.  
-  En **Trustora** se utiliza para visualizar y actualizar en tiempo real el estado de las tareas e historias de usuario dentro de cada sprint, facilitando la coordinación y priorización del backlog.  
-  - **Ruta de referencia:** [Trello](https://trello.com/es)  
+  En **Trustora** se utiliza para visualizar y actualizar en tiempo real el estado de las tareas e historias de usuario dentro de cada sprint, facilitando la coordinación y priorización del backlog.
+  - **Ruta de referencia:** [Trello](https://trello.com/es)
 
+### Diseño UX/UI
 
+- **Figma**: Plataforma de prototipado y edición gráfica para diseño digital. Se empleó para elaborar prototipos interactivos de **Trustora**, tanto en su versión **Desktop** como en **Mobile Web Browser**, asegurando consistencia visual y facilidad de navegación.
 
-### Diseño UX/UI  
+  - **Ruta de referencia:** [Figma](https://www.figma.com/login)
 
-- **Figma**: Plataforma de prototipado y edición gráfica para diseño digital. Se empleó para elaborar prototipos interactivos de **Trustora**, tanto en su versión **Desktop** como en **Mobile Web Browser**, asegurando consistencia visual y facilidad de navegación.  
-  - **Ruta de referencia:** [Figma](https://www.figma.com/login)  
+- **Lucidchart**: Aplicación en la nube para la diagramación de flujos y modelos. Fue utilizada para diseñar **flujos de usuario**, **wireflows** y el **diagrama de clases**, contribuyendo a la definición clara de la arquitectura de la aplicación.
+  - **Ruta de referencia:** [Lucidchart](https://www.lucidchart.com/)
 
-- **Lucidchart**: Aplicación en la nube para la diagramación de flujos y modelos. Fue utilizada para diseñar **flujos de usuario**, **wireflows** y el **diagrama de clases**, contribuyendo a la definición clara de la arquitectura de la aplicación.  
-  - **Ruta de referencia:** [Lucidchart](https://www.lucidchart.com/)  
+### Desarrollo de software
 
+- **Visual Studio Code (VS Code)**: Entorno de desarrollo integrado elegido por el equipo gracias a su versatilidad, soporte para múltiples lenguajes y extensiones útiles. Su compatibilidad con diferentes sistemas operativos facilita la colaboración entre los desarrolladores.
 
+  - **Ruta de referencia:** [VS Code](https://code.visualstudio.com/)
 
-### Desarrollo de software  
+- **HTML5**: Lenguaje de marcado estándar para la estructura y presentación del contenido web. En el proyecto se emplea para dar soporte a la capa de presentación de la aplicación.
 
-- **Visual Studio Code (VS Code)**: Entorno de desarrollo integrado elegido por el equipo gracias a su versatilidad, soporte para múltiples lenguajes y extensiones útiles. Su compatibilidad con diferentes sistemas operativos facilita la colaboración entre los desarrolladores.  
-  - **Ruta de referencia:** [VS Code](https://code.visualstudio.com/)  
+  - **Ruta de referencia:** [HTML5 Syntax](https://www.w3schools.com/html/html5-syntax.asp)
 
-- **HTML5**: Lenguaje de marcado estándar para la estructura y presentación del contenido web. En el proyecto se emplea para dar soporte a la capa de presentación de la aplicación.  
-  - **Ruta de referencia:** [HTML5 Syntax](https://www.w3schools.com/html/html5-syntax.asp)  
+- **CSS**: Lenguaje de hojas de estilo que permite definir el diseño visual y la apariencia de la interfaz, en conjunto con HTML.
 
-- **CSS**: Lenguaje de hojas de estilo que permite definir el diseño visual y la apariencia de la interfaz, en conjunto con HTML.  
-  - **Ruta de referencia:** [HTML/CSS Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+  - **Ruta de referencia:** [HTML/CSS Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
-- **Bootstrap**: Framework CSS que facilita la creación de interfaces responsivas y optimizadas para diferentes dispositivos. Su uso garantiza una experiencia uniforme tanto en móviles como en escritorios.  
-  - **Ruta de referencia:** [Bootstrap](https://getbootstrap.com/)  
+- **Bootstrap**: Framework CSS que facilita la creación de interfaces responsivas y optimizadas para diferentes dispositivos. Su uso garantiza una experiencia uniforme tanto en móviles como en escritorios.
+  - **Ruta de referencia:** [Bootstrap](https://getbootstrap.com/)
 
+### Implementación de software
 
+- **Git**: Sistema de control de versiones distribuido, fundamental para registrar y gestionar los cambios en el código fuente. Permite mantener un historial detallado de versiones, simplificar la corrección de errores y coordinar el trabajo de múltiples desarrolladores.
+  - **Ruta de referencia:** [Git](https://git-scm.com/)
 
-### Implementación de software  
+### Documentación y gestión de proyectos de software
 
-- **Git**: Sistema de control de versiones distribuido, fundamental para registrar y gestionar los cambios en el código fuente. Permite mantener un historial detallado de versiones, simplificar la corrección de errores y coordinar el trabajo de múltiples desarrolladores.  
-  - **Ruta de referencia:** [Git](https://git-scm.com/)  
+- **GitHub**: Plataforma en la nube que hospeda los repositorios del proyecto. Permite colaboración en tiempo real, control de versiones, integración con CI/CD, revisión de código (_pull requests_) y gestión de incidencias. Es la herramienta central para la coordinación técnica del equipo.
+  - **Ruta de referencia:** [GitHub](https://github.com/)
 
+## Conclusión
 
-
-### Documentación y gestión de proyectos de software  
-
-- **GitHub**: Plataforma en la nube que hospeda los repositorios del proyecto. Permite colaboración en tiempo real, control de versiones, integración con CI/CD, revisión de código (*pull requests*) y gestión de incidencias. Es la herramienta central para la coordinación técnica del equipo.  
-  - **Ruta de referencia:** [GitHub](https://github.com/)  
-
-
-## Conclusión  
-
-La combinación de estas herramientas garantiza que el equipo de **Trustora** disponga de un ecosistema sólido para gestionar el ciclo de vida del software. Desde la planificación y el diseño, hasta el desarrollo, implementación y documentación, cada etapa cuenta con un soporte tecnológico que asegura eficiencia, escalabilidad y calidad en la entrega.  
-
+La combinación de estas herramientas garantiza que el equipo de **Trustora** disponga de un ecosistema sólido para gestionar el ciclo de vida del software. Desde la planificación y el diseño, hasta el desarrollo, implementación y documentación, cada etapa cuenta con un soporte tecnológico que asegura eficiencia, escalabilidad y calidad en la entrega.
 
 ### 5.1.2. Source Code Management
 
@@ -2315,7 +2281,6 @@ El proyecto implementa un **flujo de trabajo GitFlow** como metodología para la
 ### Flujo de trabajo GitFlow
 
 GitFlow es una estrategia de ramificación en Git diseñada para optimizar la colaboración en equipos y mantener un control eficiente de versiones. Este enfoque establece ramas específicas con roles bien definidos, permitiendo integrar nuevas funcionalidades, gestionar lanzamientos y resolver incidencias de forma ordenada.
-
 
 ### Ramas principales
 
@@ -2327,51 +2292,44 @@ GitFlow es una estrategia de ramificación en Git diseñada para optimizar la co
   Alberga la versión más reciente en estado de preproducción, donde se integran todas las funcionalidades completadas.  
   Sirve como base para pruebas internas y ajustes antes de fusionar los cambios a la rama principal.
 
-
-
 ### Ramas de soporte
 
-- **feature/* (ramas de características)**  
+- **feature/\* (ramas de características)**  
   Cada nueva funcionalidad se desarrolla en una rama independiente (ejemplo: `feature/login`) derivada de `develop`.  
   Permiten trabajo paralelo sin afectar el código principal hasta su revisión y aprobación.  
   Una vez completada, se fusiona nuevamente con `develop`.
 
-- **release/* (ramas de lanzamiento)**  
+- **release/\* (ramas de lanzamiento)**  
   Se crean para preparar versiones específicas del sistema.  
   Facilitan pruebas finales, corrección de errores menores y ajustes previos antes de desplegar en `main`.
 
-- **hotfix/* (ramas de emergencia)**  
+- **hotfix/\* (ramas de emergencia)**  
   Atienden errores críticos detectados en producción.  
   Estas ramas derivan directamente de `main` y, una vez resuelto el problema, se fusionan tanto en `main` como en `develop`, asegurando coherencia entre ambas ramas.
 
-
-
 ### Beneficios del modelo aplicado
 
-- Control claro del ciclo de vida de cada funcionalidad.  
-- Integración continua sin comprometer la estabilidad del producto.  
-- Documentación clara mediante etiquetas semánticas.  
-- Capacidad de respuesta rápida ante incidentes en producción.  
+- Control claro del ciclo de vida de cada funcionalidad.
+- Integración continua sin comprometer la estabilidad del producto.
+- Documentación clara mediante etiquetas semánticas.
+- Capacidad de respuesta rápida ante incidentes en producción.
 - Escalabilidad del equipo con trabajo paralelo organizado.
-
-
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Con el fin de garantizar **coherencia, mantenibilidad y escalabilidad** en el desarrollo de **Trustora**, se establecen las siguientes normas de estilo y convenciones de codificación.
 
-Con el fin de garantizar **coherencia, mantenibilidad y escalabilidad** en el desarrollo de **Trustora**, se establecen las siguientes normas de estilo y convenciones de codificación.  
+Estas pautas buscan:
 
-Estas pautas buscan:  
-- Unificar el **lenguaje de programación** entre todos los miembros del equipo.  
-- Reducir la **complejidad técnica** en el mantenimiento del código.  
-- Favorecer la **colaboración** y la integración continua en entornos ágiles.  
-- Prevenir errores comunes mediante prácticas estandarizadas.  
-- Asegurar que el proyecto sea **escalable** y fácil de extender en futuras versiones.  
+- Unificar el **lenguaje de programación** entre todos los miembros del equipo.
+- Reducir la **complejidad técnica** en el mantenimiento del código.
+- Favorecer la **colaboración** y la integración continua en entornos ágiles.
+- Prevenir errores comunes mediante prácticas estandarizadas.
+- Asegurar que el proyecto sea **escalable** y fácil de extender en futuras versiones.
 
-Las reglas abarcan desde la **estructura del código fuente** (HTML, CSS, TailwindCSS, Vue.js) hasta las **convenciones de nombrado y formateo**, garantizando una base sólida que soporte el crecimiento del sistema en el tiempo.  
+Las reglas abarcan desde la **estructura del código fuente** (HTML, CSS, TailwindCSS, Vue.js) hasta las **convenciones de nombrado y formateo**, garantizando una base sólida que soporte el crecimiento del sistema en el tiempo.
 
-
-####  HTML – Reglas
+#### HTML – Reglas
 
 ```html
 <!DOCTYPE html>
@@ -2386,29 +2344,23 @@ Las reglas abarcan desde la **estructura del código fuente** (HTML, CSS, Tailwi
     </div>
   </body>
 </html>
-
 ```
 
-- Todos los elementos deben estar **correctamente cerrados** (`<img />`, `<div></div>`).  
-- Usar **comillas dobles (`" "`)** para atributos.  
-- Incluir **atributos esenciales** en imágenes (`alt`, `src`).  
-- Mantener la **indentación clara** y evitar anidamientos innecesarios.  
+- Todos los elementos deben estar **correctamente cerrados** (`<img />`, `<div></div>`).
+- Usar **comillas dobles (`" "`)** para atributos.
+- Incluir **atributos esenciales** en imágenes (`alt`, `src`).
+- Mantener la **indentación clara** y evitar anidamientos innecesarios.
 
-
-####  CSS – Formato y Buenas Prácticas
+#### CSS – Formato y Buenas Prácticas
 
 ```html
-.container {
-  display: flex;
-  justify-content: center;
-  background-color: #f4f4f4;
+.container { display: flex; justify-content: center; background-color: #f4f4f4;
 }
 ```
-- **Indentación**: 2 espacios (no usar tabulaciones).  
-- **Selectores, propiedades y valores** en **minúsculas**.  
-- Eliminar **espacios en blanco innecesarios** y **líneas redundantes**.  
 
-
+- **Indentación**: 2 espacios (no usar tabulaciones).
+- **Selectores, propiedades y valores** en **minúsculas**.
+- Eliminar **espacios en blanco innecesarios** y **líneas redundantes**.
 
 #### 🔹 TailwindCSS – Principios de Uso
 
@@ -2418,57 +2370,151 @@ Las reglas abarcan desde la **estructura del código fuente** (HTML, CSS, Tailwi
 </div>
 ```
 
-Normas:  
-- Aprovechar **utilidades predefinidas** (rejillas, tipografía, helpers).  
-- Evitar sobrescribir estilos base.  
-- Usar **clases semánticas** (`bg-primary`, `text-success`) en lugar de CSS personalizado.  
-- Solo agregar **CSS adicional** en casos estrictamente necesarios.  
+Normas:
 
+- Aprovechar **utilidades predefinidas** (rejillas, tipografía, helpers).
+- Evitar sobrescribir estilos base.
+- Usar **clases semánticas** (`bg-primary`, `text-success`) en lugar de CSS personalizado.
+- Solo agregar **CSS adicional** en casos estrictamente necesarios.
 
 #### Vue.js – Reglas Clave
+
 ```html
 <script>
-export default {
-  name: "UserProfile",
-  props: {
-    userName: {
-      type: String,
-      default: "Invitado"
+  export default {
+    name: "UserProfile",
+    props: {
+      userName: {
+        type: String,
+        default: "Invitado",
+      },
+      age: {
+        type: Number,
+        default: 18,
+      },
     },
-    age: {
-      type: Number,
-      default: 18
-    }
-  }
-};
+  };
 </script>
-````
+```
 
+Normas:
 
-
-Normas:  
-- **Nombres de componentes**: usar `PascalCase` (ejemplo: `UserProfile.vue`).  
-- **Props**: definir siempre tipos y valores por defecto.  
-- Usar `kebab-case` para props en plantillas.  
-- Mantener **una sola responsabilidad por componente**.  
-
-
+- **Nombres de componentes**: usar `PascalCase` (ejemplo: `UserProfile.vue`).
+- **Props**: definir siempre tipos y valores por defecto.
+- Usar `kebab-case` para props en plantillas.
+- Mantener **una sola responsabilidad por componente**.
 
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
+### **Sprint Planning**
+
+| _Campo_                        | _Detalle_                                                                 |
+| ------------------------------ | ------------------------------------------------------------------------- |
+| _Sprint #_                     | Sprint 1                                                                  |
+| _Date_                         | 16/09/2025                                                                |
+| _Time_                         | 8:00 pm                                                                   |
+| _Location_                     | Virtual, Discort                                                          |
+| _Prepared by_                  | Lynn Meza                                                                 |
+| _Attendees (planning meeting)_ | Lynn Meza, Andree Orellana, Marcelo Mazuelos                              |
+| _Sprint 3-1 Review - Summary_  | -                                                                         |
+| _Sprint 3-1 Retrospective_     | -                                                                         |
+| _Sprint 3 Goal_                | Desarrollo del landing Page, Web Application, Backend y Movil Application |
+| _Sprint 3 Velocity_            | 14 story points                                                           |
+| _Sum of Story Points_          | 18 story points                                                           |
+
 ### 5.2.1. Sprint Backlogs.
+
+| **Sprint #**   | **Sprint 1**                            |        |                                                          |                                                          |                        |                                       |            |
+| -------------- | --------------------------------------- | ------ | -------------------------------------------------------- | -------------------------------------------------------- | ---------------------- | ------------------------------------- | ---------- |
+| **User Story** | **Work-Item / Task**                    |
+| **Id**         | **Title**                               | **Id** | **Title**                                                | **Description**                                          | **Estimation (Hours)** | **Assigned to**                       | **Status** |
+| US-01          | Visualizar la Descripcion clara del app | W-01   | Implementar cuerpo Hero de la landing page               | Creación de la sección de Hero                           | 2                      | Meza Camayo, Lynn Jeeferzon           | Done       |
+| US-02          | Testimonios de Usuarios                 | W-02   | Implementar de Testimonios de la app                     | Desarrollar la sección de Testimonios.                   | 2                      | Meza Camayo, Lynn Jeeferzon           | Done       |
+| US-03          | Lista de Características                | W-03   | Implementar Características de la app                    | Implementar una sección de Características               | 2                      | Meza Camayo, Lynn Jeeferzon           | Done       |
+| US-04          | Contacto con la Equipo                  | W-04   | Implementar el call to action                            | Desarrollar una sección de call to action                | 2                      | Meza Camayo, Lynn Jeeferzon           | Done       |
+| US-05          | Beneficios                              | W-05   | Implementar de Beneficios                                | Desarrollar una sección de Beneficios .                  | 2                      | Meza Camayo, Lynn Jeeferzon           | Done       |
+| US-06          | Registro del Usuario                    | W-06   | Implementar el registro de ususario                      | Creación de la sección de registro de ususario           | 2                      | Mazuelos Callirgos,Marcelo Alessandro | Done       |
+| US-07          | Registro como Niñera                    | W-07   | Implementar de registro de niñeras                       | Desarrollar la sección de registro de niñeras.           | 2                      | Mazuelos Callirgos,Marcelo Alessandro | Done       |
+| US-08          | Validación de Registro                  | W-08   | Implementar el sistema de validacion de registro         | Implementar sistema de validacion de registro            | 2                      | Mazuelos Callirgos,Marcelo Alessandro | Done       |
+| US-09          | Actualización de cuenta del Tutor       | W-09   | Implementar sistema de actualizacion de cuenta del tutor | Implementar sistema de actualizacion de cuenta del tutor | 2                      | Mazuelos Callirgos,Marcelo Alessandro | Done       |
+| US-10          | Actualización de cuenta de la Niñera    | W-10   | Implementar actualizacion de cuenta de la niñera         | Implementar actualizacion de cuenta de la niñera         | 2                      | Mazuelos Callirgos,Marcelo Alessandro | Done       |
+| US-11          | Ingreso de Horario de Disponibilidad    | W-11   | Implementar sistema de registro de horario               | Desarrollar sistema de registro de horario               | 2                      | Orellana Rodriguez, Mel Andree        | Done       |
+| US-12          | Actualizar Horario de Disponibilidad    | W-12   | Implementar sistema de actualizacion de horario          | Implementar actualizacion de horario.                    | 2                      | Orellana Rodriguez, Mel Andree        | Done       |
+| US-13          | Gestión de Costos de Servicios          | W-13   | Implementar sistema de registro de costo de servicios    | Implementar una sección de registro de costo de servicio | 2                      | Orellana Rodriguez, Mel Andree        | Done       |
+| US-14          | Filtrado de Ubicación                   | W-14   | Implementar sistema de filtrado                          | Desarrollar un sistema de filtrado                       | 2                      | Orellana Rodriguez, Mel Andree        | Done       |
+| US-15          | Visualización de Perfil                 | W-15   | Implementar vista de perfil                              | Implementar vista de perfil                              | 2                      | Orellana Rodriguez, Mel Andree        | Done       |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
+Se ha culminado el desarrollo de la landing page de **KidyCare**, la cual integra de manera completa las secciones Character, donde se presenta la identidad y propósito de la plataforma; Call to Action, con botones estratégicos que facilitan el registro y la interacción con los servicios; y Testimonials, que muestran experiencias de usuarios y refuerzan la confianza en la propuesta, evidenciando así el progreso alcanzado en la implementación.
+
+- **Navbar**:
+
+  ![Navbar](./.img/navbar-lanfing-page.png)
+
+- **Hero**:
+
+  ![Hero](./.img/hero-landing-page.png)
+
+- **Character**:
+
+  ![Character](./.img/characters-landing-page.png)
+
+- **Call to Action**:
+
+  ![Call-to-Action](./.img/call-to-action-landing-page.png)
+
+- **Testimonials**:
+
+  ![Testimonials](./.img/testimonials-landing-page.png)
+
+- **Footer**:
+
+  ![Footer](./.img/footer-landing-page.png)
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
+El equipo logró desarrollar e integrar diversas funcionalidades clave en la plataforma web de KidyCare, entre las que destacan los paneles de filtrado de cuidadores, la opción de reservar citas y la integración del sistema de pagos. Estas mejoras fortalecen la propuesta de valor al optimizar la experiencia del usuario, ofreciendo una navegación más ágil, intuitiva y confiable. A continuación, se presentan capturas que ilustran las vistas y funciones más relevantes implementadas durante este Sprint.
+
+**Babysitters Section**
+
+<p align="center">
+  <img src="./.img/Landing-page-3.png" alt="Babysitters Section" width="850">
+</p>
+
+**Reservations Section**
+
+<p align="center">
+  <img src="./.img/Landing-page-4.png" alt="Reservations Section" width="850">
+</p>
+
+**Payment Section**
+
+<p align="center">
+  <img src="./.img/Landing-page-5.png" alt="Reservations Section" width="850">
+</p>
+
+**Messages Section**
+
+<p align="center">
+  <img src="./.img/Landing-page-6.png" alt="Reservations Section" width="850">
+</p>
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
+Para esta entrega no se desarrolló la parte correspondiente a la aplicación móvil nativa, debido a que los integrantes del grupo recién se encuentran cursando la asignatura de desarrollo mobile. No obstante, se tiene planificado presentar un avance de esta implementación en la siguiente entrega.
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+<p align="center">
+  <img src="./.img/endpoints.png" alt="backend" width="850">
+</p>
+
 ### 5.2.6. RESTful API documentation
+
+En esta sección se presenta la documentación de los servicios de back-end de la aplicación web desarrollada con Spring Boot, haciendo uso de Spring Security para la gestión de la seguridad, JWT (JSON Web Token) para la autenticación y Spring Data JPA para el manejo de la persistencia de datos. Además, se implementó Swagger como herramienta de soporte para la documentación de los servicios, lo que permite visualizar, probar y comprender de manera clara la funcionalidad de cada endpoint expuesto.
 
 ### 5.2.7. Team Collaboration Insights
 
@@ -2479,6 +2525,21 @@ Normas:
 # Conclusiones
 
 ## Conclusiones y recomendaciones
+
+**Conclusiones** :
+
+
+- La aplicación responde a una necesidad real y crítica: la dificultad de los padres para encontrar niñeras de confianza de manera rápida, segura y organizada, lo que posiciona a KidyCare como una solución innovadora en el sector de cuidado infantil.
+
+- La propuesta ofrece un sistema centralizado que integra búsqueda, reservas, pagos y gestión de servicios, optimizando la experiencia tanto de padres como de niñeras, y reduciendo la dependencia de métodos tradicionales poco confiables.
+
+**Recomendaciones** :
+
+- Fortalecer la verificación de perfiles mediante procesos más rigurosos de validación de identidad y antecedentes, lo que incrementará la confianza en el sistema.
+
+- Ampliar los métodos de pago y opciones de suscripción, para ofrecer flexibilidad a diferentes segmentos de usuarios.
+
+- Incorporar métricas y analíticas de uso, con el fin de monitorear la satisfacción del usuario y realizar mejoras continuas en la plataforma.
 
 ## Video About-the-Team
 
