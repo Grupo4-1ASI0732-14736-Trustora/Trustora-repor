@@ -2379,6 +2379,11 @@ El diagrama de contexto muestra una vista de alto nivel de las interacciones ent
 
 ### 4.8.2. Software Architecture Container Diagrams
 
+<p align="center">
+  <img src="./.img/container-diagram.png" alt="components-diagram" width="850">
+</p>
+
+
 ### 4.8.3. Software Architecture Components Diagrams
 
 Los diagramas de componentes muestran una vista de las relaciones entre los módulos principales de KidyCare. Estos diagramas describen cómo se organizan y comunican los distintos componentes de la plataforma, detallando la implementación de funcionalidades clave como la gestión de usuarios, búsqueda de cuidadores y profesores, reservas de servicios, sistema de pagos y notificaciones. De esta forma, se ilustra la estructura interna del software y la interacción entre sus módulos, tanto en la aplicación web como en la versión móvil
