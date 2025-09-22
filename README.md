@@ -534,16 +534,17 @@ El documento se encuentra estructurado en dos secciones principales:
 
 
 ### 2.2.2. Registro de entrevistas
-
-#### Entrevista
-
-
-#### Entrevista
-
-
+#### Segmento 1: Niñeras
+|Entrevistado 1|Rosa María Callirgos Martorel|
+|-|-|
+|Edad|67|
+|Distrito|San Miguel, Lima|
+|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Niñera1.png)|
+|Link de la Entrevista|[Rosa María Callirgos Martorel](https://upcedupe-my.sharepoint.com/personal/u201916143_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201916143_upc_edu_pe%2FDocuments%2FEntrevista%201%20-%20Niñera%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1811e958-89be-4e35-b90f-ea860e269c1d&isDarkMode=true)|
+|Time | 0:00 - 04:36 |
+|Análisis de Entrevista| La entrevista con Rosa María callirgos Martorel, de 67 años, ama de casa y niñera, comenta que sus principales valores al trabajar es la confianza y la transparencia con las condiciones de los padres de familia y que no exigan responsabilidades que no le compete al trabajo. Sus principales dificultades al encontrar trabajo son la carencia de especificaciones que llevan a lo anterior mencionado y le generan dificultad. Suele encontrar los trabajos por medio de contactos, y le gustaría que haya mucha información sobre los padres de familia y que quede como registro para cualquier inconveniente. Siendo esta una garantia de la identidad de la persona y que también le gustaria que hubiera una forma de contrato legal sobre sus responsabilidades y demás. No estaría dispuesta a pagar una pequeña comisión o suscripción sobre el tema de seguridad ya que considera que sean cosas de base para la aplicación pero si para que tenga mayor visibilidad sobre empleos. Y sobre experiencias negativas, consideraria que hubiera una forma de delatar todos los incumplimientos de normas en sus servicios a los padres de familia como futura referencia.|
 
 #### Segmento 2: Padres de familia
-
 
 |Entrevistado 1|Iris Violeta|
 |-|-|
@@ -554,25 +555,37 @@ El documento se encuentra estructurado en dos secciones principales:
 |Time | 0:03 - 03:44 |
 |Análisis de Entrevista| La entrevista con Iris Violeta Rodríguez, madre de 46 años y ama de casa, revela que la principal motivación al buscar una niñera es garantizar la seguridad, confianza y buen trato hacia sus hijos, valorando especialmente la responsabilidad, la experiencia con niños y la capacidad de respuesta ante emergencias. Sus dificultades se centran en la disponibilidad inmediata y la falta de referencias confiables, lo que refuerza la necesidad de que una aplicación ofrezca perfiles completos con fotos claras, referencias de otros padres, videos de presentación y validaciones oficiales de identidad y antecedentes. Iris espera poder interactuar con la niñera previamente mediante chat, videollamada y, de ser posible, entrevista presencial o periodo de prueba, y estaría dispuesta a pagar entre 100 y 200 soles por servicio, o incluso una suscripción mensual, siempre que se garantice calidad y seguridad. Finalmente, señala que confiaría en una nueva app si ofrece opiniones reales de usuarios, verificación estricta, políticas claras de seguridad y privacidad, y una interfaz simple y transparente, lo que muestra que la confianza, la usabilidad y la transparencia son factores decisivos para la adopción del servicio. |
 
+|Entrevistado 2|Rommy Mazuelos Callirgos|
+|-|-|
+|Edad|67|
+|Distrito|San Miguel, Lima|
+|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Madre2.png)|
+|Link de la Entrevista|[Rommy Mazuelos Callirgos](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201916143_upc_edu_pe/Ec9_ID96EaRMiGDOL0AXcNcBRrl5_LY6PFhD-yXFgwQfBw?e=KsbmA3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
+|Time | 0:00 - 6:12 |
+|Análisis de Entrevista| La entrevista con Rommy Mazuelos Callirgos, de 42 años, suelen buscar niñeras para el cuidado de su hija mediante redes sociales o por conocidos a alguien de confianza que puede ayudarla en momento que requiera sus servicios. Una principal dificultad a la hora de buscar niñeras es la disponibilidad en ese momento o en una emergencia, si bien es cierto existen agencias de niñeras, no confia mucho en un desconocido para que cumpla el rol. Una caracteristica que valora sobre ser niñera para contratarla es que tenga muchas recomendaciones, que sea flexible en el horario, y que esté comoda con animales para un cuidado minimo sobre ellos porque cuenta con dos mascotas en su hogar. Como caracteristicas personales, también considera el tacto y paciencia con los niños, que no esté prestandole más atencion a su dispositivo móvil más que al niño. Considera que el aplicativo debe mostrar los antecedentes y valoración de las niñeras. Y es importante que cuenten con verificación por el lado de reseñas, pero también sobre capacitaciones como por ejemplo, primeros auxilios o nutrición de infantes.También quiere un nivel de interacción presencial o video llamada previa a contratar sus servicios para entrar más en confianza con la niñera. En caso de una mala experiencia, si dispondria de tiempo para contribuir con las reseñas, ya que le serviria como referencia a otras familias. Y finalmente estaría dispuesta de pagar un aproximado y como máximo 50 soles por hora.|
+
 ### 2.2.3. Análisis de entrevistas
 
 ## Segmento 1: Niñeras certificadas  
+### Entrevista 1: Rosa María Callirgos
+**Análisis de la entrevista:**
+Rosa María callirgos Martorel, de 67 años, ama de casa y niñera, comenta que sus principales valores al trabajar es la confianza y la transparencia con las condiciones de los padres de familia y que no exigan responsabilidades que no le compete al trabajo. Sus principales dificultades al encontrar trabajo son la carencia de especificaciones que llevan a lo anterior mencionado y le generan dificultad. Suele encontrar los trabajos por medio de contactos, y le gustaría que haya mucha información sobre los padres de familia y que quede como registro para cualquier inconveniente. Siendo esta una garantia de la identidad de la persona y que también le gustaria que hubiera una forma de contrato legal sobre sus responsabilidades y demás. No estaría dispuesta a pagar una pequeña comisión o suscripción sobre el tema de seguridad ya que considera que sean cosas de base para la aplicación pero si para que tenga mayor visibilidad sobre empleos. Y sobre experiencias negativas, consideraria que hubiera una forma de delatar todos los incumplimientos de normas en sus servicios a los padres de familia como futura referencia.
 
-### Entrevista 1: Ingrid Nazareth  
+### Entrevista 2: Ingrid Nazareth  
 **Análisis de la entrevista:**  
 Ingrid, una joven niñera de 21 años, busca empleos estables y seguros con familias confiables. Valora mucho la posibilidad de mantener su perfil actualizado con fotos, referencias y experiencia, ya que considera que esto aumenta sus oportunidades de ser contratada. Resalta la importancia de contar con filtros claros (pago, horarios, responsabilidades) y con un contrato digital que le brinde seguridad. Ingrid también prioriza recibir pagos dentro de la plataforma y consultar reseñas de las familias antes de aceptar un trabajo. Está dispuesta a calificar a las familias después del servicio, aunque lo percibe como una acción secundaria.  
-
----
 
 ## Segmento 2: Padres de familia  
 
 ### Entrevista 1: Iris Violeta  
 **Análisis de la entrevista:**  
 Iris, madre de 46 años, busca tranquilidad y confianza al contratar una niñera. Su recorrido inicia con la búsqueda de disponibilidad inmediata y cercana, revisando perfiles completos con certificaciones y antecedentes. Considera esencial leer reseñas de otros padres y tener interacción previa por chat o videollamada antes de tomar una decisión. Para ella, la seguridad en el proceso de pago es un factor determinante para usar la plataforma. Reconoce la utilidad de revisar beneficios y políticas de seguridad, especialmente en una primera experiencia, aunque no lo percibe como una prioridad continua.  
-
-
+### Entrevista 2: Rommy Mazuelos Callirgos 
+**Análisis de la entrevista:**  
+Rommy Mazuelos Callirgos, madre de 42 años, suelen buscar niñeras para el cuidado de su hija mediante redes sociales o por conocidos a alguien de confianza que puede ayudarla en momento que requiera sus servicios. Una principal dificultad a la hora de buscar niñeras es la disponibilidad en ese momento o en una emergencia, si bien es cierto existen agencias de niñeras, no confia mucho en un desconocido para que cumpla el rol. Una caracteristica que valora sobre ser niñera para contratarla es que tenga muchas recomendaciones, que sea flexible en el horario, y que esté comoda con animales para un cuidado minimo sobre ellos porque cuenta con dos mascotas en su hogar. Como caracteristicas personales, también considera el tacto y paciencia con los niños, que no esté prestandole más atencion a su dispositivo móvil más que al niño.
+Considera que el aplicativo debe mostrar los antecedentes y valoración de las niñeras. Y es importante que cuenten con verificación por el lado de reseñas, pero también sobre capacitaciones como por ejemplo, primeros auxilios o nutrición de infantes.
+También quiere un nivel de interacción presencial o video llamada previa a contratar sus servicios para entrar más en confianza con la niñera. En caso de una mala experiencia, si dispondria de tiempo para contribuir con las reseñas, ya que le serviria como referencia a otras familias. Y finalmente estaría dispuesta de pagar un aproximado y como máximo 50 soles por hora.
 ## 2.3. Needfinding
-
 ### 2.3.1. User Personas
 
 
