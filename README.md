@@ -816,6 +816,10 @@ Desde la búsqueda hasta la reserva de servicios, con un flujo lógico y claro q
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+<p align="center">
+  <img src="./.img/Wireflow_madre.png" alt="Dashboard" width="850">
+</p>
+
 ### 4.6.3. Web Applications Mock-ups
 
 **Log In**
@@ -903,6 +907,7 @@ Desde la búsqueda hasta la reserva de servicios, con un flujo lógico y claro q
 </p>
 
 ### 4.6.4. Web Applications User Flow Diagrams
+
 
 ## 4.7. Web Applications Prototyping
 
