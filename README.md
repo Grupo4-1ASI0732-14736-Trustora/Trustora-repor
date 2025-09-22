@@ -1926,15 +1926,102 @@ Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas par
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+El contenido se organizará mediante una combinación de sistemas jerárquicos y por tópicos. La página principal seguirá una jerarquía visual que guíe al usuario desde la value proposition hasta los call-to-actions principales.
+- Modelo jerárquico: Estructura organizada por niveles (inicio → secciones → detalle).
+  - Landing Page:
+    - Categorias generales: Header, Hero, Features, Benefits, Steps, Testimonial, Contact Section y Footer.
+  - Application:
+    - Categorías principales para padres: Buscar Niñera, Reservas, Pagos, Perfil, Soporte.
+    - Categorías principales para niñeras: Mi Perfil, Disponibilidad, Reservas, Pagos, Valoraciones.
+    - Contenido transversal: Inicio, Notificaciones, FAQ, Términos y Condiciones, Seguridad.
 
+![Organization](./.img/organization-diagram.png)
 ### 4.2.2. Labeling Systems
-
+Se nombrarán y presentaran los elementos de navegación e interacción de manera intuitiva para el usuario para facilitar el uso de la aplicación mediante las siguientes características:
+- Lenguaje claro y directo (ejemplo: “Buscar Niñera”, “Mis Reservas”, “Pagar Ahora”).
+- Uso de iconografía estándar (ejemplo: lupa para búsqueda, calendario para reservas, billetera para pagos).
+- Etiquetas consistentes en todo el sistema (ejemplo: siempre usar “Reservas” en lugar de mezclar “Citas” o “Agendados”).
+- Inclusión de mensajes de confianza en botones clave (“Pago Seguro”, “Perfil Verificado”).
 ### 4.2.3. SEO Tags and Meta Tags
+Los SEO Tags y Meta Tags son elementos esenciales para mejorar la visibilidad, posicionamiento y accesibilidad de KidyCare en buscadores web, así como para facilitar la indexación correcta de la información por motores de búsqueda. Estos elementos ayudan a que los usuarios encuentren la plataforma de manera eficiente y que el contenido se presente de forma clara en los resultados de búsqueda.
 
+**Elementos principales**
+
+- **Title (Título):**
+Define el nombre de la página que aparece en el navegador y en los resultados de búsqueda.
+
+  - Ejemplo:
+
+    ```html
+    <title>KidyCare - Encuentra niñeras de confianza cerca de ti</title>
+    ```
+
+- **Meta Description (Descripción):**
+Breve resumen del contenido de la página, orientado a persuadir al usuario a hacer clic.
+
+  - Ejemplo:
+
+    ```html
+    <meta name="description" content="KidyCare es la plataforma en la que puedes conectar con niñeras verificadas, reserva y paga en línea de forma rápida y segura">
+    ```
+
+- **Keywords (Palabras clave):**
+Conjunto de términos representativos del contenido y servicios de la plataforma.
+
+  - Ejemplo:
+
+  ```html
+  <meta name="keywords" content="niñeras confiables, cuidado infantil, contratar niñera online, babysitting seguro, app para padres"> 
+  ```
+
+- **Author (Autor):**
+Identifica la entidad responsable del contenido de la página.
+
+  - Ejemplo:
+
+  ```html
+  <meta name="author" content="Trustora">
+  ```
+
+**Aplicación en las principales páginas**
+
+- **Landing Page:**
+
+  - Title: "KidyCare - Encuentra niñeras de confianza cerca de ti”
+  - Meta Description: “KidyCare es la plataforma en la que puedes conectar con niñeras verificadas, reserva y paga en línea de forma rápida y segura”
+  - Keywords: “niñeras confiables, cuidado infantil, contratar niñera online, babysitting seguro, app para padres”
+  - Author: “Trustora”
+
+- **Web Application:**
+
+- Cada sección o módulo de la aplicación debe contar con un Title y Description específicos, que reflejen la funcionalidad del módulo, manteniendo consistencia con la marca y favoreciendo la indexación.
+
+- Ejemplo para módulo Reservas:
+
+  ```html
+    <title>KidyCare - Reservas</title>
+    <meta name="description" content="Gestiona tus reservas de niñeras en KidyCare de forma rápida y sencilla.">
+    <meta name="keywords" content="mis resevas, agenda, niñera, KidyCare">
+    <meta name="author" content="Trustora">
+  ```
 ### 4.2.4. Searching Systems
-
+El sistema de búsqueda dentro de la plataforma permitirá a los padres y cuidadores encontrar la información que necesitan de manera rápida y eficaz.
+- Búsqueda por nombre de niñera.
+- Filtros avanzados: ubicación (geolocalización), disponibilidad por horarios/fechas, tarifas, experiencia, tipo de cuidado.
+- Resultados dinámicos: actualizados en tiempo real con opción de ordenar por precio, calificación o cercanía.
+- Sugerencias inteligentes: mostrar perfiles recomendados en base a búsquedas previas o historial de reservas.
 ### 4.2.5. Navigation Systems
-
+El sistema de navegación está diseñado para ofrecer una experiencia fluida, fácil de usar y segura para ambos segmentos (padres y cuidadores).
+1. Menú Principal (Dashboard):
+Siempre visible, con acceso a todas las secciones clave.
+2. Navegación Contextual:
+Submenús personalizados que facilitan el acceso a categorías específicas.
+3. CTA (Call to Action) destacados:
+Botones como "Buscar Cuidadores", "Reservar Ahora" o "Postularme como Cuidador", resaltados con colores vibrantes.
+4. Barra de Búsqueda Fija:
+Siempre visible para facilitar búsquedas rápidas y directas.
+5. Flujo de Navegación Intuitivo:
+Desde la búsqueda hasta la reserva de servicios, con un flujo lógico y claro que guía a los usuarios en cada etapa.
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
@@ -2120,6 +2207,10 @@ Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas par
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+<p align="center">
+  <img src="./.img/Wireflow_madre.png" alt="Dashboard" width="850">
+</p>
+
 ### 4.6.3. Web Applications Mock-ups
 
 **Log In**
@@ -2207,6 +2298,7 @@ Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas par
 </p>
 
 ### 4.6.4. Web Applications User Flow Diagrams
+
 
 ## 4.7. Web Applications Prototyping
 
