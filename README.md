@@ -2141,7 +2141,33 @@ El sistema de navegación está diseñado para ofrecer una experiencia fluida, f
 
 ### 4.4.1. Mobile Applications Wireframes.
 
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
+
+**log-in**
+
+![login](./.img/mobil-wireframe-1.png)
+
+**Perfil**
+
+![login](./.img/mobil-wireframe-2.png)
+
+**Side Bar**
+
+![login](./.img/mobil-wireframe-3.png)
+
+**Search**
+
+![login](./.img/mobil-wireframe-4.png)
+
+**Reservation**
+
+![login](./.img/mobil-wireframe-5.png)
+
+**Payment**
+
+![login](./.img/mobil-wireframe-6.png)
+
 
 ### 4.4.3. Mobile Applications Mock-ups.
 
