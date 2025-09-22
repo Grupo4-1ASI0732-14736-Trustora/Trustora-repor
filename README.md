@@ -218,7 +218,7 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
 
 ### 1.1.1. Descripción de la Startup
 
-**Trustora** es una aplicación móvil que conecta a padres con niñeras de forma rápida, segura y confiable. Permite buscar disponibilidad por ubicación y horarios, reservar servicios, pagar en línea y acceder a perfiles verificados con reseñas de otros usuarios.
+**KidyCare** es una aplicación móvil que conecta a padres con niñeras de forma rápida, segura y confiable. Permite buscar disponibilidad por ubicación y horarios, reservar servicios, pagar en línea y acceder a perfiles verificados con reseñas de otros usuarios.
 
 **Misión:**
 Brindar a los padres una solución práctica y segura para encontrar cuidado infantil confiable, al mismo tiempo que ofrecemos a las niñeras una plataforma que potencie su visibilidad y facilite la gestión de sus servicios.
@@ -335,7 +335,7 @@ Padres jóvenes, entre 25 y 40 años, que viven en zonas urbanas de nivel socioe
 #### 1.2.2.4. Lean UX Canvas
 
 <div align="left">
-   <img src=".img/LeanUX_canvas_v1.png" alt="Trustora LeanUX Canvas" width="max">
+   <img src=".img/LeanUX_canvas_v1.png" alt="KidyCare LeanUX Canvas" width="max">
 </div>
 
 ## 1.3. Segmentos objetivo
@@ -403,8 +403,6 @@ Además, el 77% de peruanos tienen smartphone; de quienes lo tienen, usan aplica
 - En el Perú, un estudio de Touch Task reporta que más del 30% de personas independientes generan ingresos a través de apps por falta de empleo.
 - En ese mismo estudio, se señala que el 63% de los usuarios que usan apps para tareas flexibles son jóvenes de 19 a 30 años.
 - También, según datos de ese estudio, las mujeres valoran más poder manejar su horario, con 39% que escogen trabajar vía apps por la flexibilidad de no tener horario fijo; en comparación con los hombres.
-
----
 
 # Capítulo II: Requirements Elicitation & Analysis
 
