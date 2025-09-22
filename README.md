@@ -7,7 +7,7 @@
 <h3 align="center">Profesor: Tinoco Licas, Juan Carlos</h3>
 <h3 align="center">INFORME DE TRABAJO FINAL</h3>
 <h3 align="center">Startup: Trustora</h3>
-<h3 align="center">Producto:</h3>
+<h3 align="center">Producto:KidyCare</h3>
 
 <div>
      <table align="center">
@@ -28,12 +28,8 @@
            <td>u202116018</td>
         </tr>
         <tr>
-           <td></td>
-           <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
+           <td>Mazuelos Callirgos, Marcelo Alessandro </td>
+           <td>u201916143</td>
         </tr>
     </table>
 </div>
@@ -44,12 +40,10 @@
 
 ## REGISTRO DE VERSIONES
 
-| Versión | Fecha    | Autor     | Descripción de Modificación            |
-| ------- | -------- | --------- | -------------------------------------- |
-| 0.1     | 06/09/25 | Lynn Meza | Desarrollo de la Structura del informe |
-| Versión | Fecha    | Autor     | Descripción de Modificación            |
-| ------- | -------- | --------- | -------------------------------------- |
-| 0.2     | 21/09/25 | Lynn Meza | Desarrollo de la Structura del informe |
+| Versión | Fecha    | Autor                                            | Descripción de Modificación            |
+| ------- | -------- | ------------------------------------------------ | -------------------------------------- |
+| 0.1     | 06/09/25 | Lynn Meza                                        | Desarrollo de la Structura del informe |
+| 0.2     | 21/09/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana | Desarrollo de la Structura del informe |
 
 ## PROJECT REPORT COLLABORATION INSIGHTS
 
@@ -211,6 +205,8 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
             - Realicé la descripcipin del startup, junto con la misión y visión de la empresa. Identificando nuestro objetivos en mente para la propuesta.<br>
             - Se hizo el proceso de identificación en Antecedentes y problemática, haciendo uso de la técnica 5w2h para nuestros primeros identificadores iniciales.<br>
             - Se investigó acerca de los Segmentos objetivo para obtener un sustento estadístico y ver el requerimiento de nuestra app en el sector demográfico.<br>
+            **Lynn Meza: TB1** <br>
+            elaborar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, reconozco mi responsabilidad ética y profesional como estudiante de ingeniería de software. Me aseguré de que cada decisión tomada buscara garantizar la calidad, seguridad y usabilidad de la aplicación, priorizando siempre las necesidades reales de los usuarios. Además, tuve en cuenta la importancia de proteger la información sensible y de generar confianza en la plataforma, entendiendo que el trabajo realizado impacta directamente en las personas que utilizarán el sistema.
         </td>
         <td>
             - Se cumplió con un proceso investigativo ético y profesional, valorando la opinión de los usuarios como base para un diseño responsable.<br>
@@ -228,6 +224,8 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
             - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
             - Con el Lean UX Process (Lean UX Problem Statement, Assumptins, Hypothesis Statement y Canvas) se hizo introspectiva en la problemática identificando los segmentos objetivos, sus necesidades y en que enfocarnos.<br>
             - Se realizó la elaboración del Information Architecture, cumpliendo con el Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.<br>
+             **Lynn Meza: TB1** <br>
+             Al desarrollar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, emití juicios informados considerando no solo la parte técnica, sino también el impacto que la solución puede tener en distintos contextos globales, económicos, ambientales y sociales. Reconozco que una aplicación como KidyCare no solo responde a una necesidad puntual de los padres, sino que también puede generar oportunidades de empleo formal para niñeras, optimizar recursos mediante procesos digitales más eficientes y aportar a un entorno social más seguro y confiable. De esta manera, busqué que cada decisión de diseño y planificación estuviera alineada con una visión de responsabilidad integral en la ingeniería de software.
         </td>
         <td>
             - Mis aportes ayudan a emitir juicios que reconocen el impacto social (seguridad de menores, confianza de padres), económico (accesibilidad del servicio), y global (posibilidad de replicar el modelo en otros contextos).<br>
@@ -235,7 +233,6 @@ URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI073
         </td>
     </tr>
 </table>
-
 
 # Capítulo I: Introducción
 
@@ -254,11 +251,11 @@ Convertirse en la plataforma líder en cuidado infantil en Latinoamérica, recon
 ### 1.1.2. Perfiles de integrantes del equipo
 
 | Integrantes                                                                                                                                                                              | Descripción                                                                                                                                                                                                                                                                                                       | Conocimientos                                                                                                                                     |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
 | <img src="https://files.catbox.moe/y8qpju.jpg" width="100" height="100"> <br>**Mazuelos Callirgos, Marcelo Alessandro**                                                                  | Estudiante de Ingeniería de Software.                                                                                                                                                                                                                                                                             |                                                                                                                                                   |
 | <img src="https://raw.githubusercontent.com/1ASI0730-2510-4381-G5-RENT2GO/Grupo5-report/refs/heads/feature/chapter-1/assets/c01/CarlosA.jpg"  height="100"> <br>**Carlos Alvarez Ponce** | Estudiante de Ingeniería de Software. Me considero una persona comprometida, organizada y con una gran capacidad para adaptarme a nuevos retos. Me apasiona crear soluciones tecnológicas innovadoras, y en cada proyecto busco aportar lo mejor de mí para resolver los problemas de forma efectiva y eficiente. | Tengo experiencia en desarrollo de software y programación en lenguajes como JavaScript, C++, Python y tecnologías modernas como Next.js y React. |
-|     <img src=".img/Integrante-Mel-Andree-Orellana.jpeg" width="100" height="100"> <br>**Orellana Rodriguez, Mel Andree**                                                                                                                                                                                                                  |      Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras.                                                                                                                                                                                                                                                                                                             |       HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis).                                                                                                                                            |
-|                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                   |
+| <img src=".img/Integrante-Mel-Andree-Orellana.jpeg" width="100" height="100"> <br>**Orellana Rodriguez, Mel Andree**                                                                     | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras.                                                                                                                                      | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis).                                         |
+| <img src=".img/LYNN_MEZA.jpeg" width="100" height="100"> <br>**Meza Camayo, Lynn Jeeferzon**                                                                                             | Estudiante de Ingenería de Software. Me considero proactivo, responsable y abierto a nuevos aprendizajes, aportando compromiso, trabajo en equipo y apoyo constante a mis compañeros para alcanzar cada meta propuesta.                                                                                           | HTML, CSS, JavaScript, SQL, Python, PHP y JAVA                                                                                                    |     |
 
 ## 1.2. Solution Profile
 
@@ -537,59 +534,68 @@ El documento se encuentra estructurado en dos secciones principales:
 - ¿Qué mala experiencia has tenido (si la tuviste) al contratar una niñera y cómo crees que se podría evitar?
 
 ### 2.2.2. Registro de entrevistas
+
 #### Segmento 1: Niñeras
-|Entrevistado 1|Rosa María Callirgos Martorel|
-|-|-|
-|Edad|67|
-|Distrito|San Miguel, Lima|
-|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Niñera1.png)|
-|Link de la Entrevista|[Rosa María Callirgos Martorel](https://upcedupe-my.sharepoint.com/personal/u201916143_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201916143_upc_edu_pe%2FDocuments%2FEntrevista%201%20-%20Niñera%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1811e958-89be-4e35-b90f-ea860e269c1d&isDarkMode=true)|
-|Time | 0:00 - 04:36 |
-|Análisis de Entrevista| La entrevista con Rosa María callirgos Martorel, de 67 años, ama de casa y niñera, comenta que sus principales valores al trabajar es la confianza y la transparencia con las condiciones de los padres de familia y que no exigan responsabilidades que no le compete al trabajo. Sus principales dificultades al encontrar trabajo son la carencia de especificaciones que llevan a lo anterior mencionado y le generan dificultad. Suele encontrar los trabajos por medio de contactos, y le gustaría que haya mucha información sobre los padres de familia y que quede como registro para cualquier inconveniente. Siendo esta una garantia de la identidad de la persona y que también le gustaria que hubiera una forma de contrato legal sobre sus responsabilidades y demás. No estaría dispuesta a pagar una pequeña comisión o suscripción sobre el tema de seguridad ya que considera que sean cosas de base para la aplicación pero si para que tenga mayor visibilidad sobre empleos. Y sobre experiencias negativas, consideraria que hubiera una forma de delatar todos los incumplimientos de normas en sus servicios a los padres de familia como futura referencia.|
+
+| Entrevistado 1         | Rosa María Callirgos Martorel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                   | 67                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Distrito               | San Miguel, Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Foto                   | ![Foto-Entrevista-](.img/Foto-Entrevista-Niñera1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Link de la Entrevista  | [Rosa María Callirgos Martorel](https://upcedupe-my.sharepoint.com/personal/u201916143_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201916143_upc_edu_pe%2FDocuments%2FEntrevista%201%20-%20Niñera%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1811e958-89be-4e35-b90f-ea860e269c1d&isDarkMode=true)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Time                   | 0:00 - 04:36                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Análisis de Entrevista | La entrevista con Rosa María callirgos Martorel, de 67 años, ama de casa y niñera, comenta que sus principales valores al trabajar es la confianza y la transparencia con las condiciones de los padres de familia y que no exigan responsabilidades que no le compete al trabajo. Sus principales dificultades al encontrar trabajo son la carencia de especificaciones que llevan a lo anterior mencionado y le generan dificultad. Suele encontrar los trabajos por medio de contactos, y le gustaría que haya mucha información sobre los padres de familia y que quede como registro para cualquier inconveniente. Siendo esta una garantia de la identidad de la persona y que también le gustaria que hubiera una forma de contrato legal sobre sus responsabilidades y demás. No estaría dispuesta a pagar una pequeña comisión o suscripción sobre el tema de seguridad ya que considera que sean cosas de base para la aplicación pero si para que tenga mayor visibilidad sobre empleos. Y sobre experiencias negativas, consideraria que hubiera una forma de delatar todos los incumplimientos de normas en sus servicios a los padres de familia como futura referencia. |
 
 #### Segmento 2: Padres de familia
 
-|Entrevistado 1|Iris Violeta|
-|-|-|
-|Edad|46|
-|Distrito|Cieneguilla, Lima|
-|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Madre1.png)|
-|Link de la Entrevista|[Iris Violeta Rodriguez](https://www.youtube.com/watch?v=Ocdr8L-GrBY)|
-|Time | 0:03 - 03:44 |
-|Análisis de Entrevista| La entrevista con Iris Violeta Rodríguez, madre de 46 años y ama de casa, revela que la principal motivación al buscar una niñera es garantizar la seguridad, confianza y buen trato hacia sus hijos, valorando especialmente la responsabilidad, la experiencia con niños y la capacidad de respuesta ante emergencias. Sus dificultades se centran en la disponibilidad inmediata y la falta de referencias confiables, lo que refuerza la necesidad de que una aplicación ofrezca perfiles completos con fotos claras, referencias de otros padres, videos de presentación y validaciones oficiales de identidad y antecedentes. Iris espera poder interactuar con la niñera previamente mediante chat, videollamada y, de ser posible, entrevista presencial o periodo de prueba, y estaría dispuesta a pagar entre 100 y 200 soles por servicio, o incluso una suscripción mensual, siempre que se garantice calidad y seguridad. Finalmente, señala que confiaría en una nueva app si ofrece opiniones reales de usuarios, verificación estricta, políticas claras de seguridad y privacidad, y una interfaz simple y transparente, lo que muestra que la confianza, la usabilidad y la transparencia son factores decisivos para la adopción del servicio. |
+| Entrevistado 1         | Iris Violeta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                   | 46                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Distrito               | Cieneguilla, Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Foto                   | ![Foto-Entrevista-](.img/Foto-Entrevista-Madre1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Link de la Entrevista  | [Iris Violeta Rodriguez](https://www.youtube.com/watch?v=Ocdr8L-GrBY)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Time                   | 0:03 - 03:44                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Análisis de Entrevista | La entrevista con Iris Violeta Rodríguez, madre de 46 años y ama de casa, revela que la principal motivación al buscar una niñera es garantizar la seguridad, confianza y buen trato hacia sus hijos, valorando especialmente la responsabilidad, la experiencia con niños y la capacidad de respuesta ante emergencias. Sus dificultades se centran en la disponibilidad inmediata y la falta de referencias confiables, lo que refuerza la necesidad de que una aplicación ofrezca perfiles completos con fotos claras, referencias de otros padres, videos de presentación y validaciones oficiales de identidad y antecedentes. Iris espera poder interactuar con la niñera previamente mediante chat, videollamada y, de ser posible, entrevista presencial o periodo de prueba, y estaría dispuesta a pagar entre 100 y 200 soles por servicio, o incluso una suscripción mensual, siempre que se garantice calidad y seguridad. Finalmente, señala que confiaría en una nueva app si ofrece opiniones reales de usuarios, verificación estricta, políticas claras de seguridad y privacidad, y una interfaz simple y transparente, lo que muestra que la confianza, la usabilidad y la transparencia son factores decisivos para la adopción del servicio. |
 
-|Entrevistado 2|Rommy Mazuelos Callirgos|
-|-|-|
-|Edad|67|
-|Distrito|San Miguel, Lima|
-|Foto|![Foto-Entrevista-](.img/Foto-Entrevista-Madre2.png)|
-|Link de la Entrevista|[Rommy Mazuelos Callirgos](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201916143_upc_edu_pe/Ec9_ID96EaRMiGDOL0AXcNcBRrl5_LY6PFhD-yXFgwQfBw?e=KsbmA3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
-|Time | 0:00 - 6:12 |
-|Análisis de Entrevista| La entrevista con Rommy Mazuelos Callirgos, de 42 años, suelen buscar niñeras para el cuidado de su hija mediante redes sociales o por conocidos a alguien de confianza que puede ayudarla en momento que requiera sus servicios. Una principal dificultad a la hora de buscar niñeras es la disponibilidad en ese momento o en una emergencia, si bien es cierto existen agencias de niñeras, no confia mucho en un desconocido para que cumpla el rol. Una caracteristica que valora sobre ser niñera para contratarla es que tenga muchas recomendaciones, que sea flexible en el horario, y que esté comoda con animales para un cuidado minimo sobre ellos porque cuenta con dos mascotas en su hogar. Como caracteristicas personales, también considera el tacto y paciencia con los niños, que no esté prestandole más atencion a su dispositivo móvil más que al niño. Considera que el aplicativo debe mostrar los antecedentes y valoración de las niñeras. Y es importante que cuenten con verificación por el lado de reseñas, pero también sobre capacitaciones como por ejemplo, primeros auxilios o nutrición de infantes.También quiere un nivel de interacción presencial o video llamada previa a contratar sus servicios para entrar más en confianza con la niñera. En caso de una mala experiencia, si dispondria de tiempo para contribuir con las reseñas, ya que le serviria como referencia a otras familias. Y finalmente estaría dispuesta de pagar un aproximado y como máximo 50 soles por hora.|
+| Entrevistado 2         | Rommy Mazuelos Callirgos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Edad                   | 67                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Distrito               | San Miguel, Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Foto                   | ![Foto-Entrevista-](.img/Foto-Entrevista-Madre2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Link de la Entrevista  | [Rommy Mazuelos Callirgos](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201916143_upc_edu_pe/Ec9_ID96EaRMiGDOL0AXcNcBRrl5_LY6PFhD-yXFgwQfBw?e=KsbmA3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Time                   | 0:00 - 6:12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Análisis de Entrevista | La entrevista con Rommy Mazuelos Callirgos, de 42 años, suelen buscar niñeras para el cuidado de su hija mediante redes sociales o por conocidos a alguien de confianza que puede ayudarla en momento que requiera sus servicios. Una principal dificultad a la hora de buscar niñeras es la disponibilidad en ese momento o en una emergencia, si bien es cierto existen agencias de niñeras, no confia mucho en un desconocido para que cumpla el rol. Una caracteristica que valora sobre ser niñera para contratarla es que tenga muchas recomendaciones, que sea flexible en el horario, y que esté comoda con animales para un cuidado minimo sobre ellos porque cuenta con dos mascotas en su hogar. Como caracteristicas personales, también considera el tacto y paciencia con los niños, que no esté prestandole más atencion a su dispositivo móvil más que al niño. Considera que el aplicativo debe mostrar los antecedentes y valoración de las niñeras. Y es importante que cuenten con verificación por el lado de reseñas, pero también sobre capacitaciones como por ejemplo, primeros auxilios o nutrición de infantes.También quiere un nivel de interacción presencial o video llamada previa a contratar sus servicios para entrar más en confianza con la niñera. En caso de una mala experiencia, si dispondria de tiempo para contribuir con las reseñas, ya que le serviria como referencia a otras familias. Y finalmente estaría dispuesta de pagar un aproximado y como máximo 50 soles por hora. |
 
 ### 2.2.3. Análisis de entrevistas
 
-## Segmento 1: Niñeras certificadas  
+## Segmento 1: Niñeras certificadas
+
 ### Entrevista 1: Rosa María Callirgos
+
 **Análisis de la entrevista:**
 Rosa María callirgos Martorel, de 67 años, ama de casa y niñera, comenta que sus principales valores al trabajar es la confianza y la transparencia con las condiciones de los padres de familia y que no exigan responsabilidades que no le compete al trabajo. Sus principales dificultades al encontrar trabajo son la carencia de especificaciones que llevan a lo anterior mencionado y le generan dificultad. Suele encontrar los trabajos por medio de contactos, y le gustaría que haya mucha información sobre los padres de familia y que quede como registro para cualquier inconveniente. Siendo esta una garantia de la identidad de la persona y que también le gustaria que hubiera una forma de contrato legal sobre sus responsabilidades y demás. No estaría dispuesta a pagar una pequeña comisión o suscripción sobre el tema de seguridad ya que considera que sean cosas de base para la aplicación pero si para que tenga mayor visibilidad sobre empleos. Y sobre experiencias negativas, consideraria que hubiera una forma de delatar todos los incumplimientos de normas en sus servicios a los padres de familia como futura referencia.
 
-### Entrevista 2: Ingrid Nazareth  
+### Entrevista 2: Ingrid Nazareth
+
 **Análisis de la entrevista:**  
-Ingrid, una joven niñera de 21 años, busca empleos estables y seguros con familias confiables. Valora mucho la posibilidad de mantener su perfil actualizado con fotos, referencias y experiencia, ya que considera que esto aumenta sus oportunidades de ser contratada. Resalta la importancia de contar con filtros claros (pago, horarios, responsabilidades) y con un contrato digital que le brinde seguridad. Ingrid también prioriza recibir pagos dentro de la plataforma y consultar reseñas de las familias antes de aceptar un trabajo. Está dispuesta a calificar a las familias después del servicio, aunque lo percibe como una acción secundaria.  
+Ingrid, una joven niñera de 21 años, busca empleos estables y seguros con familias confiables. Valora mucho la posibilidad de mantener su perfil actualizado con fotos, referencias y experiencia, ya que considera que esto aumenta sus oportunidades de ser contratada. Resalta la importancia de contar con filtros claros (pago, horarios, responsabilidades) y con un contrato digital que le brinde seguridad. Ingrid también prioriza recibir pagos dentro de la plataforma y consultar reseñas de las familias antes de aceptar un trabajo. Está dispuesta a calificar a las familias después del servicio, aunque lo percibe como una acción secundaria.
 
 ## Segmento 2: Padres de familia
 
 ### Entrevista 1: Iris Violeta
 
 **Análisis de la entrevista:**  
-Iris, madre de 46 años, busca tranquilidad y confianza al contratar una niñera. Su recorrido inicia con la búsqueda de disponibilidad inmediata y cercana, revisando perfiles completos con certificaciones y antecedentes. Considera esencial leer reseñas de otros padres y tener interacción previa por chat o videollamada antes de tomar una decisión. Para ella, la seguridad en el proceso de pago es un factor determinante para usar la plataforma. Reconoce la utilidad de revisar beneficios y políticas de seguridad, especialmente en una primera experiencia, aunque no lo percibe como una prioridad continua.  
-### Entrevista 2: Rommy Mazuelos Callirgos 
+Iris, madre de 46 años, busca tranquilidad y confianza al contratar una niñera. Su recorrido inicia con la búsqueda de disponibilidad inmediata y cercana, revisando perfiles completos con certificaciones y antecedentes. Considera esencial leer reseñas de otros padres y tener interacción previa por chat o videollamada antes de tomar una decisión. Para ella, la seguridad en el proceso de pago es un factor determinante para usar la plataforma. Reconoce la utilidad de revisar beneficios y políticas de seguridad, especialmente en una primera experiencia, aunque no lo percibe como una prioridad continua.
+
+### Entrevista 2: Rommy Mazuelos Callirgos
+
 **Análisis de la entrevista:**  
 Rommy Mazuelos Callirgos, madre de 42 años, suelen buscar niñeras para el cuidado de su hija mediante redes sociales o por conocidos a alguien de confianza que puede ayudarla en momento que requiera sus servicios. Una principal dificultad a la hora de buscar niñeras es la disponibilidad en ese momento o en una emergencia, si bien es cierto existen agencias de niñeras, no confia mucho en un desconocido para que cumpla el rol. Una caracteristica que valora sobre ser niñera para contratarla es que tenga muchas recomendaciones, que sea flexible en el horario, y que esté comoda con animales para un cuidado minimo sobre ellos porque cuenta con dos mascotas en su hogar. Como caracteristicas personales, también considera el tacto y paciencia con los niños, que no esté prestandole más atencion a su dispositivo móvil más que al niño.
 Considera que el aplicativo debe mostrar los antecedentes y valoración de las niñeras. Y es importante que cuenten con verificación por el lado de reseñas, pero también sobre capacitaciones como por ejemplo, primeros auxilios o nutrición de infantes.
 También quiere un nivel de interacción presencial o video llamada previa a contratar sus servicios para entrar más en confianza con la niñera. En caso de una mala experiencia, si dispondria de tiempo para contribuir con las reseñas, ya que le serviria como referencia a otras familias. Y finalmente estaría dispuesta de pagar un aproximado y como máximo 50 soles por hora.
+
 ## 2.3. Needfinding
+
 ### 2.3.1. User Personas
 
 ### Segmento: Niñeras Certificadas
@@ -739,7 +745,6 @@ El **Ubiquitous Language** será una herramienta esencial en nuestro trabajo, ya
 - Niñeras
 
 ![niñeras-to-be-scenario-map](./.img/Niñera-to-be-scenario-map.png)
-
 
 ## 3.2. User Stories
 
@@ -1923,7 +1928,9 @@ Las imágenes empleadas en **KidyCare** están cuidadosamente seleccionadas para
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+
 El contenido se organizará mediante una combinación de sistemas jerárquicos y por tópicos. La página principal seguirá una jerarquía visual que guíe al usuario desde la value proposition hasta los call-to-actions principales.
+
 - Modelo jerárquico: Estructura organizada por niveles (inicio → secciones → detalle).
   - Landing Page:
     - Categorias generales: Header, Hero, Features, Benefits, Steps, Testimonial, Contact Section y Footer.
@@ -1933,19 +1940,24 @@ El contenido se organizará mediante una combinación de sistemas jerárquicos y
     - Contenido transversal: Inicio, Notificaciones, FAQ, Términos y Condiciones, Seguridad.
 
 ![Organization](./.img/organization-diagram.png)
+
 ### 4.2.2. Labeling Systems
+
 Se nombrarán y presentaran los elementos de navegación e interacción de manera intuitiva para el usuario para facilitar el uso de la aplicación mediante las siguientes características:
+
 - Lenguaje claro y directo (ejemplo: “Buscar Niñera”, “Mis Reservas”, “Pagar Ahora”).
 - Uso de iconografía estándar (ejemplo: lupa para búsqueda, calendario para reservas, billetera para pagos).
 - Etiquetas consistentes en todo el sistema (ejemplo: siempre usar “Reservas” en lugar de mezclar “Citas” o “Agendados”).
 - Inclusión de mensajes de confianza en botones clave (“Pago Seguro”, “Perfil Verificado”).
+
 ### 4.2.3. SEO Tags and Meta Tags
+
 Los SEO Tags y Meta Tags son elementos esenciales para mejorar la visibilidad, posicionamiento y accesibilidad de KidyCare en buscadores web, así como para facilitar la indexación correcta de la información por motores de búsqueda. Estos elementos ayudan a que los usuarios encuentren la plataforma de manera eficiente y que el contenido se presente de forma clara en los resultados de búsqueda.
 
 **Elementos principales**
 
 - **Title (Título):**
-Define el nombre de la página que aparece en el navegador y en los resultados de búsqueda.
+  Define el nombre de la página que aparece en el navegador y en los resultados de búsqueda.
 
   - Ejemplo:
 
@@ -1954,30 +1966,36 @@ Define el nombre de la página que aparece en el navegador y en los resultados d
     ```
 
 - **Meta Description (Descripción):**
-Breve resumen del contenido de la página, orientado a persuadir al usuario a hacer clic.
+  Breve resumen del contenido de la página, orientado a persuadir al usuario a hacer clic.
 
   - Ejemplo:
 
     ```html
-    <meta name="description" content="KidyCare es la plataforma en la que puedes conectar con niñeras verificadas, reserva y paga en línea de forma rápida y segura">
+    <meta
+      name="description"
+      content="KidyCare es la plataforma en la que puedes conectar con niñeras verificadas, reserva y paga en línea de forma rápida y segura"
+    />
     ```
 
 - **Keywords (Palabras clave):**
-Conjunto de términos representativos del contenido y servicios de la plataforma.
+  Conjunto de términos representativos del contenido y servicios de la plataforma.
 
   - Ejemplo:
 
   ```html
-  <meta name="keywords" content="niñeras confiables, cuidado infantil, contratar niñera online, babysitting seguro, app para padres"> 
+  <meta
+    name="keywords"
+    content="niñeras confiables, cuidado infantil, contratar niñera online, babysitting seguro, app para padres"
+  />
   ```
 
 - **Author (Autor):**
-Identifica la entidad responsable del contenido de la página.
+  Identifica la entidad responsable del contenido de la página.
 
   - Ejemplo:
 
   ```html
-  <meta name="author" content="Trustora">
+  <meta name="author" content="Trustora" />
   ```
 
 **Aplicación en las principales páginas**
@@ -1996,29 +2014,39 @@ Identifica la entidad responsable del contenido de la página.
 - Ejemplo para módulo Reservas:
 
   ```html
-    <title>KidyCare - Reservas</title>
-    <meta name="description" content="Gestiona tus reservas de niñeras en KidyCare de forma rápida y sencilla.">
-    <meta name="keywords" content="mis resevas, agenda, niñera, KidyCare">
-    <meta name="author" content="Trustora">
+  <title>KidyCare - Reservas</title>
+  <meta
+    name="description"
+    content="Gestiona tus reservas de niñeras en KidyCare de forma rápida y sencilla."
+  />
+  <meta name="keywords" content="mis resevas, agenda, niñera, KidyCare" />
+  <meta name="author" content="Trustora" />
   ```
+
 ### 4.2.4. Searching Systems
+
 El sistema de búsqueda dentro de la plataforma permitirá a los padres y cuidadores encontrar la información que necesitan de manera rápida y eficaz.
+
 - Búsqueda por nombre de niñera.
 - Filtros avanzados: ubicación (geolocalización), disponibilidad por horarios/fechas, tarifas, experiencia, tipo de cuidado.
 - Resultados dinámicos: actualizados en tiempo real con opción de ordenar por precio, calificación o cercanía.
 - Sugerencias inteligentes: mostrar perfiles recomendados en base a búsquedas previas o historial de reservas.
+
 ### 4.2.5. Navigation Systems
+
 El sistema de navegación está diseñado para ofrecer una experiencia fluida, fácil de usar y segura para ambos segmentos (padres y cuidadores).
+
 1. Menú Principal (Dashboard):
-Siempre visible, con acceso a todas las secciones clave.
+   Siempre visible, con acceso a todas las secciones clave.
 2. Navegación Contextual:
-Submenús personalizados que facilitan el acceso a categorías específicas.
+   Submenús personalizados que facilitan el acceso a categorías específicas.
 3. CTA (Call to Action) destacados:
-Botones como "Buscar Cuidadores", "Reservar Ahora" o "Postularme como Cuidador", resaltados con colores vibrantes.
+   Botones como "Buscar Cuidadores", "Reservar Ahora" o "Postularme como Cuidador", resaltados con colores vibrantes.
 4. Barra de Búsqueda Fija:
-Siempre visible para facilitar búsquedas rápidas y directas.
+   Siempre visible para facilitar búsquedas rápidas y directas.
 5. Flujo de Navegación Intuitivo:
-Desde la búsqueda hasta la reserva de servicios, con un flujo lógico y claro que guía a los usuarios en cada etapa.
+   Desde la búsqueda hasta la reserva de servicios, con un flujo lógico y claro que guía a los usuarios en cada etapa.
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
@@ -2294,7 +2322,6 @@ Desde la búsqueda hasta la reserva de servicios, con un flujo lógico y claro q
 </p>
 
 ### 4.6.4. Web Applications User Flow Diagrams
-
 
 ## 4.7. Web Applications Prototyping
 
@@ -2669,7 +2696,6 @@ En esta sección se presenta la documentación de los servicios de back-end de l
 
 **Conclusiones** :
 
-
 - La aplicación responde a una necesidad real y crítica: la dificultad de los padres para encontrar niñeras de confianza de manera rápida, segura y organizada, lo que posiciona a KidyCare como una solución innovadora en el sector de cuidado infantil.
 
 - La propuesta ofrece un sistema centralizado que integra búsqueda, reservas, pagos y gestión de servicios, optimizando la experiencia tanto de padres como de niñeras, y reduciendo la dependencia de métodos tradicionales poco confiables.
@@ -2685,6 +2711,7 @@ En esta sección se presenta la documentación de los servicios de back-end de l
 ## Video About-the-Team
 
 ## Bibliografía Anexos
+
 - Instituto Nacional de Estadística e Informática. (2025, 27 de marzo). En el Perú las mujeres dedican más de tres veces de tiempo al trabajo no remunerado que los hombres. https://www.gob.pe/institucion/inei/noticias/1134462-en-el-peru-las-mujeres-dedican-mas-de-tres-veces-de-tiempo-al-trabajo-no-remunerado-que-los-hombres
 - T21. (2022, 5 de octubre). Apps móviles son la forma favorita de uso de smartphones en Perú. https://t21.pe/apps-moviles-favorita-uso-smartphones-peru
 - Perú Retail. (2022, 6 de enero). Más del 30 % de independientes genera ingresos a través de apps por falta de empleo. https://www.peru-retail.com/mas-del-30-de-independientes-genera-ingresos-a-traves-de-apps-por-falta-de-empleo/
