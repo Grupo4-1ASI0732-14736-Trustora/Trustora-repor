@@ -530,7 +530,11 @@ Las imágenes empleadas en **KindyCare** están cuidadosamente seleccionadas par
 
 #### 4.1.3.1. iOS Mobile Style Guidelines.
 
+La guía de estilo móvil para iOS en KindyCare sigue los principios del Human Interface Guidelines de Apple, priorizando la claridad, la profundidad y la fluidez en la experiencia del usuario. Se emplea una paleta cálida y tipografía Poppins y Vidaloka para garantizar legibilidad y consistencia. Los componentes mantienen bordes redondeados, sombras sutiles y animaciones naturales que refuerzan la percepción de suavidad y confianza. La navegación por Tab Bar y la jerarquía visual aseguran un entorno intuitivo, limpio y emocionalmente positivo.
+
 #### 4.1.3.2. Android Mobile Style Guidelines.
+
+La guía de estilo móvil para Android se basa en el sistema Material Design 3, priorizando la claridad visual, la accesibilidad y la adaptabilidad. Los colores, tipografías y componentes de KindyCare se integran en un sistema tonal coherente que refuerza la identidad cálida de la marca. El uso de Poppins asegura una lectura cómoda en cualquier tamaño de pantalla, mientras que los componentes modulares —como FAB, tarjetas y chips— optimizan la interacción y la fluidez en la navegación móvil.
 
 ## 4.2. Information Architecture
 
