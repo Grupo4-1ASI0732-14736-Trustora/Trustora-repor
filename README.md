@@ -1935,7 +1935,35 @@ Las imágenes empleadas en **KidyCare** están cuidadosamente seleccionadas para
 
 #### 4.1.3.1. iOS Mobile Style Guidelines.
 
+La guía de estilo móvil para iOS en KindyCare sigue los principios del Human Interface Guidelines de Apple, priorizando la claridad, la profundidad y la fluidez en la experiencia del usuario. Se emplea una paleta cálida y tipografía Poppins y Vidaloka para garantizar legibilidad y consistencia. Los componentes mantienen bordes redondeados, sombras sutiles y animaciones naturales que refuerzan la percepción de suavidad y confianza. La navegación por Tab Bar y la jerarquía visual aseguran un entorno intuitivo, limpio y emocionalmente positivo.
+
+**Colores y Contraste**
+
+Así como en el Web Application, **KindyCare** combina colores con tonos suaves como azul cielo, durazno y verde menta, siendo colores amigables para que los usuarios relacionen la marca con los infantes. Esta combinación refuerza la calma, calidez y confianza de la marca.
+
+<img src="./.img/mobile-images/color_palets.png" alt="mobile colors">
+
+**Iconografía**
+
+En **KindyCare** usamos la iconografía default según el sistema iOS 18 Desing Kit en Figma.
+
+<img src="./.img/mobile-images/ios_icons.png" alt="iOS icons">
+
 #### 4.1.3.2. Android Mobile Style Guidelines.
+
+La guía de estilo móvil para Android se basa en el sistema Material Design 3, priorizando la claridad visual, la accesibilidad y la adaptabilidad. Los colores, tipografías y componentes de KindyCare se integran en un sistema tonal coherente que refuerza la identidad cálida de la marca. El uso de Poppins asegura una lectura cómoda en cualquier tamaño de pantalla, mientras que los componentes modulares —como FAB, tarjetas y chips— optimizan la interacción y la fluidez en la navegación móvil.
+
+**Colores y Contraste**
+
+Así como en el Web Application, **KindyCare** combina colores con tonos suaves como azul cielo, durazno y verde menta, siendo colores amigables para que los usuarios relacionen la marca con los infantes. Esta combinación refuerza la calma, calidez y confianza de la marca.
+
+<img src="./.img/mobile-images/color_palets.png" alt="mobile colors">
+
+**Iconografía**
+
+En **KindyCare** usamos la iconografía default según el sistema Material Design 3 en Figma.
+
+<img src="./.img/mobile-images/android_icons.png" alt="android icons">
 
 ## 4.2. Information Architecture
 
