@@ -2053,7 +2053,7 @@ Los SEO Tags y Meta Tags son elementos esenciales para mejorar la visibilidad, p
 
 - Ejemplo para módulo Reservas:
 
-  ```html
+  ```html    
   <title>KidyCare - Reservas</title>
   <meta
     name="description"
@@ -2775,10 +2775,343 @@ Network graph
 
 ### 6.1.1. Core Entities Unit Tests
 
+### Testing Unitario 1
 
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-1.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+```html 
+
+package pe.edu.upc.center.platform.user.domain.model.valueobjects;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+@DisplayName("Phone Value Object Tests")
+class PhoneTest {
+
+    @Test
+    @DisplayName("Should create valid phone number with 9 digits")
+    void shouldCreateValidPhoneNumberWith9Digits() {
+        // Given
+        String validPhone = "987654321";
+        
+        // When
+        Phone phone = new Phone(validPhone);
+        
+        // Then
+        assertNotNull(phone);
+        assertEquals(validPhone, phone.number());
+    }
+
+    @Test
+    @DisplayName("Should create valid phone number starting with 9")
+    void shouldCreateValidPhoneNumberStartingWith9() {
+        // Given
+        String validPhone = "912345678";
+        
+        // When
+        Phone phone = new Phone(validPhone);
+        
+        // Then
+        assertNotNull(phone);
+        assertEquals(validPhone, phone.number());
+    }
+
+    @Test
+    @DisplayName("Should create valid phone number with all zeros")
+    void shouldCreateValidPhoneNumberWithAllZeros() {
+        // Given
+        String validPhone = "000000000";
+        
+        // When
+        Phone phone = new Phone(validPhone);
+        
+        // Then
+        assertNotNull(phone);
+        assertEquals(validPhone, phone.number());
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {
+        "12345678",  // 8 digits
+        "1234567890", // 10 digits
+        "123456789a", // contains letter
+        "123-456-789", // contains hyphens
+        "123 456 789", // contains spaces
+        "123.456.789", // contains dots
+        "12345678 ", // trailing space
+        " 123456789", // leading space
+        "12345678\n", // contains newline
+        "12345678\t"  // contains tab
+    })
+    @DisplayName("Should throw IllegalArgumentException for invalid phone number formats")
+    void shouldThrowIllegalArgumentExceptionForInvalidPhoneNumberFormats(String invalidPhone) {
+        // When & Then
+        IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> new Phone(invalidPhone)
+        );
+        
+        assertEquals("Invalid phone number", exception.getMessage());
+    }
+
+    @Test
+    @DisplayName("Should throw IllegalArgumentException for null phone number")
+    void shouldThrowIllegalArgumentExceptionForNullPhoneNumber() {
+        // When & Then
+        IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> new Phone(null)
+        );
+        
+        assertEquals("Invalid phone number", exception.getMessage());
+    }
+
+    @Test
+    @DisplayName("Should throw IllegalArgumentException for empty phone number")
+    void shouldThrowIllegalArgumentExceptionForEmptyPhoneNumber() {
+        // When & Then
+        IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> new Phone("")
+        );
+        
+        assertEquals("Invalid phone number", exception.getMessage());
+    }
+
+    @Test
+    @DisplayName("Should throw IllegalArgumentException for phone number with special characters")
+    void shouldThrowIllegalArgumentExceptionForPhoneNumberWithSpecialCharacters() {
+        // Given
+        String invalidPhone = "987-654-321";
+        
+        // When & Then
+        IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> new Phone(invalidPhone)
+        );
+        
+        assertEquals("Invalid phone number", exception.getMessage());
+    }
+
+    @Test
+    @DisplayName("Should create valid phone number with mixed digits")
+    void shouldCreateValidPhoneNumberWithMixedDigits() {
+        // Given
+        String validPhone = "987123456";
+        
+        // When
+        Phone phone = new Phone(validPhone);
+        
+        // Then
+        assertNotNull(phone);
+        assertEquals(validPhone, phone.number());
+    }
+}
+
+
+```
+
+### Testing Unitario 2
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-2.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+```html 
+
+package pe.edu.upc.center.platform.user.domain.model.valueobjects;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+@DisplayName("CompleteName Value Object Tests")
+class CompleteNameTest {
+
+    @Test
+    @DisplayName("Should create valid complete name with proper text")
+    void shouldCreateValidCompleteNameWithProperText() {
+        // Given
+        String validName = "Juan Carlos Pérez García";
+        
+        // When
+        CompleteName completeName = new CompleteName(validName);
+        
+        // Then
+        assertNotNull(completeName);
+        assertEquals(validName, completeName.completeName());
+    }
+
+    @Test
+    @DisplayName("Should create valid complete name with single name")
+    void shouldCreateValidCompleteNameWithSingleName() {
+        // Given
+        String validName = "María";
+        
+        // When
+        CompleteName completeName = new CompleteName(validName);
+        
+        // Then
+        assertNotNull(completeName);
+        assertEquals(validName, completeName.completeName());
+    }
+
+    @Test
+    @DisplayName("Should create valid complete name with numbers")
+    void shouldCreateValidCompleteNameWithNumbers() {
+        // Given
+        String validName = "Juan Carlos 123";
+        
+        // When
+        CompleteName completeName = new CompleteName(validName);
+        
+        // Then
+        assertNotNull(completeName);
+        assertEquals(validName, completeName.completeName());
+    }
+
+    @Test
+    @DisplayName("Should create valid complete name with special characters")
+    void shouldCreateValidCompleteNameWithSpecialCharacters() {
+        // Given
+        String validName = "José María O'Connor-Smith";
+        
+        // When
+        CompleteName completeName = new CompleteName(validName);
+        
+        // Then
+        assertNotNull(completeName);
+        assertEquals(validName, completeName.completeName());
+    }
+
+    @Test
+    @DisplayName("Should create valid complete name with accents")
+    void shouldCreateValidCompleteNameWithAccents() {
+        // Given
+        String validName = "José María González";
+        
+        // When
+        CompleteName completeName = new CompleteName(validName);
+        
+        // Then
+        assertNotNull(completeName);
+        assertEquals(validName, completeName.completeName());
+    }
+
+    @Test
+    @DisplayName("Should throw IllegalArgumentException for null complete name")
+    void shouldThrowIllegalArgumentExceptionForNullCompleteName() {
+        // When & Then
+        IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> new CompleteName(null)
+        );
+        
+        assertEquals("The complete name cannot be null or blank", exception.getMessage());
+    }
+
+    @Test
+    @DisplayName("Should throw IllegalArgumentException for empty complete name")
+    void shouldThrowIllegalArgumentExceptionForEmptyCompleteName() {
+        // When & Then
+        IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> new CompleteName("")
+        );
+        
+        assertEquals("The complete name cannot be null or blank", exception.getMessage());
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {
+        "   ", // only spaces
+        "\t", // only tab
+        "\n", // only newline
+        "\r", // only carriage return
+        " \t \n \r " // mixed whitespace
+    })
+    @DisplayName("Should throw IllegalArgumentException for blank complete names")
+    void shouldThrowIllegalArgumentExceptionForBlankCompleteNames(String blankName) {
+        // When & Then
+        IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> new CompleteName(blankName)
+        );
+        
+        assertEquals("The complete name cannot be null or blank", exception.getMessage());
+    }
+
+    @Test
+    @DisplayName("Should create valid complete name with leading and trailing spaces")
+    void shouldCreateValidCompleteNameWithLeadingAndTrailingSpaces() {
+        // Given
+        String validName = "  Juan Carlos Pérez  ";
+        
+        // When
+        CompleteName completeName = new CompleteName(validName);
+        
+        // Then
+        assertNotNull(completeName);
+        assertEquals(validName, completeName.completeName());
+    }
+
+    @Test
+    @DisplayName("Should create valid complete name with very long text")
+    void shouldCreateValidCompleteNameWithVeryLongText() {
+        // Given
+        String validName = "Juan Carlos María José Antonio de la Cruz Pérez García López Martínez Rodríguez";
+        
+        // When
+        CompleteName completeName = new CompleteName(validName);
+        
+        // Then
+        assertNotNull(completeName);
+        assertEquals(validName, completeName.completeName());
+    }
+}
+
+
+```
+### Testing Unitario 3
+
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-3.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+### Testing Unitario 4
+
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-4.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
 
 ### 6.1.2. Core Integration Tests.
 
+### Testing de Integración 1 
+
+
+<p align="center">
+  <img src="./.img/prueba-integracion-1.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+### Testing de Integración 2 
+
+
+<p align="center">
+  <img src="./.img/prueba-integracion-2.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
 
 
 ### 6.1.3. Core Behavior-Driven Development
