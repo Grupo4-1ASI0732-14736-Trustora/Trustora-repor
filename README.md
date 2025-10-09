@@ -2187,6 +2187,57 @@ El sistema de navegación está diseñado para ofrecer una experiencia fluida, f
 
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 
+#### Segmento Objetivo 1:
+#### User Goal 1: Ingresar a la plataforma → flujo: Registro / Login, Inicio de Sesión.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-1.png" alt="User Flow 1" width="850">
+</p>
+
+#### User Goal 2: Buscar y Ver perfil de un cuidador → flujo: Búsqueda, capacidades, reseñas.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-2.png" alt="User Flow 2" width="850">
+</p>
+
+#### User Goal 3: Contactar y/o enviar solicitud de servicio → flujo: Formulario de contacto → Mensajería interna o solicitud directa.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-3.png" alt="User Flow 3" width="850">
+</p>
+
+#### User Goal 4: Contratar y agendar servicio → flujo: Tramite de reserva → Confirmación → Pago (opcional o simulado).
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-4.png" alt="User Flow 4" width="850">
+</p>
+
+#### User Goal 5: Dejar reseña o calificación → flujo: Historial de servicios → Evaluación del cuidador.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-5.png" alt="User Flow 5" width="850">
+</p>
+
+#### Segmento Objetivo 2:
+
+#### User Goal 6: Publicar disponibilidad y tarifas → flujo: Panel de control → Disponibilidad → Configuración de precios.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-6.png" alt="User Flow 6" width="850">
+</p>
+
+#### User Goal 7: Recibir solicitudes y responder mensajes → flujo: Notificaciones → Mensajería → Aceptar / Rechazar solicitud.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-7.png" alt="User Flow 7" width="850">
+</p>
+
+#### User Goal 8: Actualizar perfil o certificados → flujo: Panel → Editar perfil → Subir documentos.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-8.png" alt="User Flow 8" width="850">
+</p>
+
 ## 4.5. Mobile Applications Prototyping.
 
 ### 4.5.1. Android Mobile Applications Prototyping.
