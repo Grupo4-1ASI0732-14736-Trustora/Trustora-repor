@@ -2175,6 +2175,10 @@ El sistema de navegación está diseñado para ofrecer una experiencia fluida, f
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 
+<p align="center">
+  <img src="./.img/mobile-images/Mobile-App-Wireflow-Diagrams.jpg" alt="Mobile Wireflow Diagrams">
+</p>
+
 ### 4.4.3. Mobile Applications Mock-ups.
 
 <p align="center">
