@@ -2191,11 +2191,22 @@ El sistema de navegación está diseñado para ofrecer una experiencia fluida, f
 
 ### 4.5.1. Android Mobile Applications Prototyping.
 
+Descripción de la versión para Android:
+
+- Uso de Interacciones y Transitions estilo Android (menú lateral, botón flotante, transiciones Material).
+- Menú de navegación lateral Tipo Side Bar.
+- Colores y tipografía adaptados.
+- Pruebas de usabilidad o retroalimentación obtenida.
+
+<p align="center">
+  <img src="./.img/mobile-images/android Prototype.png" alt="Mobile Prototype" width="850">
+</p>
+
 ### 4.5.2. iOS Mobile Applications Prototyping.
 
-Describe el prototipo para iOS:
+Descripción de la versión para iOS:
 
-- Uso de Transitions estilo iOS (slide-in, modal sheets).
+- Uso de Interacciones y Transitions estilo iOS (slide-in, modal sheets).
 - Menú de navegación tipo Tab.
 - Colores y tipografía adaptados (SF Pro).
 - Pruebas de usabilidad o retroalimentación obtenida.
