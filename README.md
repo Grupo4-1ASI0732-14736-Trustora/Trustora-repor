@@ -2193,6 +2193,17 @@ El sistema de navegación está diseñado para ofrecer una experiencia fluida, f
 
 ### 4.5.2. iOS Mobile Applications Prototyping.
 
+Describe el prototipo para iOS:
+
+- Uso de Transitions estilo iOS (slide-in, modal sheets).
+- Menú de navegación tipo Tab.
+- Colores y tipografía adaptados (SF Pro).
+- Pruebas de usabilidad o retroalimentación obtenida.
+
+<p align="center">
+  <img src="./.img/mobile-images/iOS Prototype.png" alt="iOS Prototype" width="850">
+</p>
+
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
