@@ -3116,6 +3116,37 @@ class CompleteNameTest {
 
 ### 6.1.3. Core Behavior-Driven Development
 
+En esta sección se implementan prácticas de Behavior-Driven Development (BDD) con el propósito de validar el comportamiento funcional del sistema desde la perspectiva del usuario.
+A través de este enfoque, se busca asegurar que cada módulo del proyecto responda correctamente a las acciones y necesidades reales de los distintos tipos de usuarios.
+
+Para ello, se utilizan escenarios escritos en lenguaje Gherkin, los cuales describen de manera clara y estructurada las condiciones iniciales (Given), las acciones ejecutadas (When) y los resultados esperados (Then).
+
+
+<p align="center">
+  <img src="./.img/cucumber-1.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+
+<p align="center">
+  <img src="./.img/cucumber-2.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+
+<p align="center">
+  <img src="./.img/cucumber-3.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+
+<p align="center">
+  <img src="./.img/cucumber-4.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+
+<p align="center">
+  <img src="./.img/cucumber-5.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+
 
 
 ### 6.1.4. Core System Tests.
