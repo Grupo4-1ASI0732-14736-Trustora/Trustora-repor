@@ -2770,7 +2770,7 @@ Network graph
 
 ---
 
-#Capítulo VI: Product Verification & Validation
+# Capítulo VI: Product Verification & Validation
 
 
 ### 6.1.1. Core Entities Unit Tests
