@@ -40,14 +40,16 @@
 
 ## REGISTRO DE VERSIONES
 
-| Versión | Fecha    | Autor                                            | Descripción de Modificación            |
-| ------- | -------- | ------------------------------------------------ | -------------------------------------- |
-| 0.1     | 06/09/25 | Lynn Meza                                        | Desarrollo de la Structura del informe |
-| 0.2     | 21/09/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana | Desarrollo de la TB1                   |
+| Versión | Fecha    | Autor                                                             | Descripción de Modificación            |
+| ------- | -------- | ----------------------------------------------------------------- | -------------------------------------- |
+| 0.1     | 06/09/25 | Lynn Meza                                                         | Desarrollo de la Structura del informe |
+| 0.2     | 21/09/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana                  | Desarrollo de la TB1                   |
+| 0.3     | 10/10/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana - Carlos Alvarez | Desarrollo de la TP1                   |
 
 ## PROJECT REPORT COLLABORATION INSIGHTS
 
 URL del repositorio del project Report : <https://github.com/orgs/Grupo4-1ASI0732-14736-Trustora/repositories>
+link de la landing page desplegado: <https://grupo4-1asi0732-14736-trustora.github.io/landing-page/>
 
 _TB1_
 
@@ -58,6 +60,19 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
 | Mazuelos Callirgos, Marcelo Alessandro | - capitulo 1 - 4- Entrevista 2 segementos- ppt |
 | Orellana Rodriguez, Mel Andree         | - Capitulo 2-4-5.1-entrevista - ppt            |
 | Meza Camayo, Lynn Jeeferzon            | - capitulo 3-4-5.2- ppt                        |
+
+![Contribution](./.img/commit-tb1.png)
+
+_TP_
+
+Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la siguiente forma:
+
+| Integrante                             | Actvidades Asignadas             |
+| -------------------------------------- | -------------------------------- |
+| Mazuelos Callirgos, Marcelo Alessandro | - capitulo 6 - correciones - ppt |
+| Orellana Rodriguez, Mel Andree         | - Capitulo 6 - correciones - ppt |
+| Meza Camayo, Lynn Jeeferzon            | - backend - ppt - capitulo 7     |
+| Alvarez Ponce, Carlos Antonio          | - movil - ppt                    |
 
 ![Contribution](./.img/commit-tb1.png)
 
@@ -1935,7 +1950,35 @@ Las imágenes empleadas en **KidyCare** están cuidadosamente seleccionadas para
 
 #### 4.1.3.1. iOS Mobile Style Guidelines.
 
+La guía de estilo móvil para iOS en KindyCare sigue los principios del Human Interface Guidelines de Apple, priorizando la claridad, la profundidad y la fluidez en la experiencia del usuario. Se emplea una paleta cálida y tipografía Poppins y Vidaloka para garantizar legibilidad y consistencia. Los componentes mantienen bordes redondeados, sombras sutiles y animaciones naturales que refuerzan la percepción de suavidad y confianza. La navegación por Tab Bar y la jerarquía visual aseguran un entorno intuitivo, limpio y emocionalmente positivo.
+
+**Colores y Contraste**
+
+Así como en el Web Application, **KindyCare** combina colores con tonos suaves como azul cielo, durazno y verde menta, siendo colores amigables para que los usuarios relacionen la marca con los infantes. Esta combinación refuerza la calma, calidez y confianza de la marca.
+
+<img src="./.img/mobile-images/color_palets.png" alt="mobile colors">
+
+**Iconografía**
+
+En **KindyCare** usamos la iconografía default según el sistema iOS 18 Desing Kit en Figma.
+
+<img src="./.img/mobile-images/ios_icons.png" alt="iOS icons">
+
 #### 4.1.3.2. Android Mobile Style Guidelines.
+
+La guía de estilo móvil para Android se basa en el sistema Material Design 3, priorizando la claridad visual, la accesibilidad y la adaptabilidad. Los colores, tipografías y componentes de KindyCare se integran en un sistema tonal coherente que refuerza la identidad cálida de la marca. El uso de Poppins asegura una lectura cómoda en cualquier tamaño de pantalla, mientras que los componentes modulares —como FAB, tarjetas y chips— optimizan la interacción y la fluidez en la navegación móvil.
+
+**Colores y Contraste**
+
+Así como en el Web Application, **KindyCare** combina colores con tonos suaves como azul cielo, durazno y verde menta, siendo colores amigables para que los usuarios relacionen la marca con los infantes. Esta combinación refuerza la calma, calidez y confianza de la marca.
+
+<img src="./.img/mobile-images/color_palets.png" alt="mobile colors">
+
+**Iconografía**
+
+En **KindyCare** usamos la iconografía default según el sistema Material Design 3 en Figma.
+
+<img src="./.img/mobile-images/android_icons.png" alt="android icons">
 
 ## 4.2. Information Architecture
 
@@ -2141,17 +2184,103 @@ El sistema de navegación está diseñado para ofrecer una experiencia fluida, f
 
 ### 4.4.1. Mobile Applications Wireframes.
 
+<p align="center">
+  <img src="./.img/mobile-images/Mobile-App-Wireframes.jpg" alt="Mobile Wireframes">
+</p>
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
+
+<p align="center">
+  <img src="./.img/mobile-images/Mobile-App-Wireflow-Diagrams.jpg" alt="Mobile Wireflow Diagrams">
+</p>
 
 ### 4.4.3. Mobile Applications Mock-ups.
 
+<p align="center">
+  <img src="./.img/mobile-images/Mobile-App-Mock-Ups.jpg" alt="Mobile Mock Ups">
+</p>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams.
+
+#### Segmento Objetivo 1:
+
+#### User Goal 1: Ingresar a la plataforma → flujo: Registro / Login, Inicio de Sesión.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-1.png" alt="User Flow 1" width="850">
+</p>
+
+#### User Goal 2: Buscar y Ver perfil de un cuidador → flujo: Búsqueda, capacidades, reseñas.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-2.png" alt="User Flow 2" width="850">
+</p>
+
+#### User Goal 3: Contactar y/o enviar solicitud de servicio → flujo: Formulario de contacto → Mensajería interna o solicitud directa.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-3.png" alt="User Flow 3" width="850">
+</p>
+
+#### User Goal 4: Contratar y agendar servicio → flujo: Tramite de reserva → Confirmación → Pago (opcional o simulado).
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-4.png" alt="User Flow 4" width="850">
+</p>
+
+#### User Goal 5: Dejar reseña o calificación → flujo: Historial de servicios → Evaluación del cuidador.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-5.png" alt="User Flow 5" width="850">
+</p>
+
+#### Segmento Objetivo 2:
+
+#### User Goal 6: Publicar disponibilidad y tarifas → flujo: Panel de control → Disponibilidad → Configuración de precios.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-6.png" alt="User Flow 6" width="850">
+</p>
+
+#### User Goal 7: Recibir solicitudes y responder mensajes → flujo: Notificaciones → Mensajería → Aceptar / Rechazar solicitud.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-7.png" alt="User Flow 7" width="850">
+</p>
+
+#### User Goal 8: Actualizar perfil o certificados → flujo: Panel → Editar perfil → Subir documentos.
+
+<p align="center">
+  <img src="./.img/mobile-images/user-flow-diagram-8.png" alt="User Flow 8" width="850">
+</p>
 
 ## 4.5. Mobile Applications Prototyping.
 
 ### 4.5.1. Android Mobile Applications Prototyping.
 
+Descripción de la versión para Android:
+
+- Uso de Interacciones y Transitions estilo Android (menú lateral, botón flotante, transiciones Material).
+- Menú de navegación lateral Tipo Side Bar.
+- Colores y tipografía adaptados.
+- Pruebas de usabilidad o retroalimentación obtenida.
+
+<p align="center">
+  <img src="./.img/mobile-images/android Prototype.png" alt="Mobile Prototype" width="850">
+</p>
+
 ### 4.5.2. iOS Mobile Applications Prototyping.
+
+Descripción de la versión para iOS:
+
+- Uso de Interacciones y Transitions estilo iOS (slide-in, modal sheets).
+- Menú de navegación tipo Tab.
+- Colores y tipografía adaptados (SF Pro).
+- Pruebas de usabilidad o retroalimentación obtenida.
+
+<p align="center">
+  <img src="./.img/mobile-images/iOS Prototype.png" alt="iOS Prototype" width="850">
+</p>
 
 ## 4.6. Web Applications UX/UI Design
 
@@ -2352,6 +2481,10 @@ El diagrama de contexto muestra una vista de alto nivel de las interacciones ent
 </p>
 
 ### 4.8.2. Software Architecture Container Diagrams
+
+<p align="center">
+  <img src="./.img/container-diagram.png" alt="components-diagram" width="850">
+</p>
 
 ### 4.8.3. Software Architecture Components Diagrams
 
@@ -2654,6 +2787,8 @@ Se ha culminado el desarrollo de la landing page de **KidyCare**, la cual integr
 
   ![Footer](./.img/footer-landing-page.png)
 
+  link de landing page desplegado: <https://grupo4-1asi0732-14736-trustora.github.io/landing-page/>
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 El equipo logró desarrollar e integrar diversas funcionalidades clave en la plataforma web de KidyCare, entre las que destacan los paneles de filtrado de cuidadores, la opción de reservar citas y la integración del sistema de pagos. Estas mejoras fortalecen la propuesta de valor al optimizar la experiencia del usuario, ofreciendo una navegación más ágil, intuitiva y confiable. A continuación, se presentan capturas que ilustran las vistas y funciones más relevantes implementadas durante este Sprint.
@@ -2682,21 +2817,51 @@ El equipo logró desarrollar e integrar diversas funcionalidades clave en la pla
   <img src="./.img/Landing-page-6.png" alt="Reservations Section" width="850">
 </p>
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio - SaaS
 
-Para esta entrega no se desarrolló la parte correspondiente a la aplicación móvil nativa, debido a que los integrantes del grupo recién se encuentran cursando la asignatura de desarrollo mobile. No obstante, se tiene planificado presentar un avance de esta implementación en la siguiente entrega.
+---
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+Kidycare es una plataforma SaaS que conecta a Padres/Contratantes con Niñeras/Prestadoras para coordinar servicios de cuidado infantil. Este acuerdo resume derechos y obligaciones de los usuarios, reglas de uso, tratamiento de datos y límites de responsabilidad aplicables al uso de la Plataforma.
+
+- **Aceptación.** Al usar **Kidycare** aceptas este Acuerdo, la **Política de Privacidad** y la **Política de Cancelación**.
+- **Intermediación.** Kidycare solo conecta **Padres/Contratantes** con **Niñeras/Prestadoras**; no es empleador ni presta el servicio de niñera.
+- **Cuentas y verificación.** Mantén datos veraces y credenciales seguras. La verificación de identidad puede requerirse; reduce riesgos, no garantiza conductas.
+- **Reservas, cancelaciones y reembolsos (resumen).** ≥24 h: reembolso 100% (menos comisiones no reembolsables si aplica). <24 h: 50%. **No show**: 100%. Detalle en la **Política de Cancelación**.
+- **Pagos y comisiones.** Pagos vía pasarelas de terceros. Kidycare puede cobrar **Tarifa de Servicio** mostrada antes de confirmar. Impuestos aplican según ley.
+- **Conducta y seguridad.** Prohibido contenido o conducta ilegal o riesgosa. Mantén comunicaciones y confirmaciones **dentro de la Plataforma**. No eludir comisiones por **120 días** tras el último contacto.
+- **Propiedad intelectual.** La Plataforma, marcas y código pertenecen a Kidycare o licenciantes. Tu **Contenido de Usuario** es tuyo; concedes licencia no exclusiva para operarlo y mostrarlo.
+
+---
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
+
+**Padre**
+
+![movil-Padre-1](./.img/movil-evidence-1.png)
+![movil-Padre-2](./.img/movil-evidence-2.png)
+![movil-Padre-3](./.img/movil-evidence-3.png)
+![movil-Padre-4](./.img/movil-evidence-4.png)
+![movil-Padre-5](./.img/movil-evidence-5.png)
+
+**Niñera**
+
+![movil-niñera-1](./.img/movil-evidence-niñera-1.png)
+![movil-niñera-2](./.img/movil-evidence-niñera-2.png)
+![movil-niñera-3](./.img/movil-evidence-niñera-3.png)
+
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 <p align="center">
   <img src="./.img/endpoints.png" alt="backend" width="850">
 </p>
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 En esta sección se presenta la documentación de los servicios de back-end de la aplicación web desarrollada con Spring Boot, haciendo uso de Spring Security para la gestión de la seguridad, JWT (JSON Web Token) para la autenticación y Spring Data JPA para el manejo de la persistencia de datos. Además, se implementó Swagger como herramienta de soporte para la documentación de los servicios, lo que permite visualizar, probar y comprender de manera clara la funcionalidad de cada endpoint expuesto.
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
+
+## **Repor**
 
 Commit:
 
@@ -2710,9 +2875,270 @@ Network graph
 
 ![Network graph](./.img/Nertwork-tb1.png)
 
+## **Movil**
+
+![Network graph](./.img/movil-pulse.png)
+
+![Network graph](./.img/movil-contribution.png)
+
+## **Backend**
+
+![Network graph](./.img/backend-pulse.png)
+
+![Network graph](./.img/backend-contributions.png)
+
+## **Landing Page**
+
+![Network graph](./.img/landing-pulse.png)
+
+![Network graph](./.img/landing-contribution.png)
+
+
+
 ## 5.3. Video About-the-Product
 
 ---
+
+---
+
+# Capítulo VI: Product Verification & Validation
+
+### 6.1.1. Core Entities Unit Tests
+
+### Testing Unitario 1
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-1.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+```html
+package pe.edu.upc.center.platform.user.domain.model.valueobjects; import
+org.junit.jupiter.api.Test; import org.junit.jupiter.api.DisplayName; import
+org.junit.jupiter.params.ParameterizedTest; import
+org.junit.jupiter.params.provider.ValueSource; import static
+org.junit.jupiter.api.Assertions.*; @DisplayName("Phone Value Object Tests")
+class PhoneTest { @Test @DisplayName("Should create valid phone number with 9
+digits") void shouldCreateValidPhoneNumberWith9Digits() { // Given String
+validPhone = "987654321"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); } @Test
+@DisplayName("Should create valid phone number starting with 9") void
+shouldCreateValidPhoneNumberStartingWith9() { // Given String validPhone =
+"912345678"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); } @Test
+@DisplayName("Should create valid phone number with all zeros") void
+shouldCreateValidPhoneNumberWithAllZeros() { // Given String validPhone =
+"000000000"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); }
+@ParameterizedTest @ValueSource(strings = { "12345678", // 8 digits
+"1234567890", // 10 digits "123456789a", // contains letter "123-456-789", //
+contains hyphens "123 456 789", // contains spaces "123.456.789", // contains
+dots "12345678 ", // trailing space " 123456789", // leading space "12345678\n",
+// contains newline "12345678\t" // contains tab }) @DisplayName("Should throw
+IllegalArgumentException for invalid phone number formats") void
+shouldThrowIllegalArgumentExceptionForInvalidPhoneNumberFormats(String
+invalidPhone) { // When & Then IllegalArgumentException exception =
+assertThrows( IllegalArgumentException.class, () -> new Phone(invalidPhone) );
+assertEquals("Invalid phone number", exception.getMessage()); } @Test
+@DisplayName("Should throw IllegalArgumentException for null phone number") void
+shouldThrowIllegalArgumentExceptionForNullPhoneNumber() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new Phone(null) ); assertEquals("Invalid
+phone number", exception.getMessage()); } @Test @DisplayName("Should throw
+IllegalArgumentException for empty phone number") void
+shouldThrowIllegalArgumentExceptionForEmptyPhoneNumber() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new Phone("") ); assertEquals("Invalid
+phone number", exception.getMessage()); } @Test @DisplayName("Should throw
+IllegalArgumentException for phone number with special characters") void
+shouldThrowIllegalArgumentExceptionForPhoneNumberWithSpecialCharacters() { //
+Given String invalidPhone = "987-654-321"; // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new Phone(invalidPhone) );
+assertEquals("Invalid phone number", exception.getMessage()); } @Test
+@DisplayName("Should create valid phone number with mixed digits") void
+shouldCreateValidPhoneNumberWithMixedDigits() { // Given String validPhone =
+"987123456"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); } }
+```
+
+### Testing Unitario 2
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-2.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+```html
+package pe.edu.upc.center.platform.user.domain.model.valueobjects; import
+org.junit.jupiter.api.Test; import org.junit.jupiter.api.DisplayName; import
+org.junit.jupiter.params.ParameterizedTest; import
+org.junit.jupiter.params.provider.ValueSource; import static
+org.junit.jupiter.api.Assertions.*; @DisplayName("CompleteName Value Object
+Tests") class CompleteNameTest { @Test @DisplayName("Should create valid
+complete name with proper text") void
+shouldCreateValidCompleteNameWithProperText() { // Given String validName =
+"Juan Carlos Pérez García"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with single name") void
+shouldCreateValidCompleteNameWithSingleName() { // Given String validName =
+"María"; // When CompleteName completeName = new CompleteName(validName); //
+Then assertNotNull(completeName); assertEquals(validName,
+completeName.completeName()); } @Test @DisplayName("Should create valid complete
+name with numbers") void shouldCreateValidCompleteNameWithNumbers() { // Given
+String validName = "Juan Carlos 123"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with special characters") void
+shouldCreateValidCompleteNameWithSpecialCharacters() { // Given String validName
+= "José María O'Connor-Smith"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with accents") void
+shouldCreateValidCompleteNameWithAccents() { // Given String validName = "José
+María González"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should throw IllegalArgumentException for null complete name")
+void shouldThrowIllegalArgumentExceptionForNullCompleteName() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new CompleteName(null) );
+assertEquals("The complete name cannot be null or blank",
+exception.getMessage()); } @Test @DisplayName("Should throw
+IllegalArgumentException for empty complete name") void
+shouldThrowIllegalArgumentExceptionForEmptyCompleteName() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new CompleteName("") ); assertEquals("The
+complete name cannot be null or blank", exception.getMessage()); }
+@ParameterizedTest @ValueSource(strings = { " ", // only spaces "\t", // only
+tab "\n", // only newline "\r", // only carriage return " \t \n \r " // mixed
+whitespace }) @DisplayName("Should throw IllegalArgumentException for blank
+complete names") void
+shouldThrowIllegalArgumentExceptionForBlankCompleteNames(String blankName) { //
+When & Then IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new CompleteName(blankName) );
+assertEquals("The complete name cannot be null or blank",
+exception.getMessage()); } @Test @DisplayName("Should create valid complete name
+with leading and trailing spaces") void
+shouldCreateValidCompleteNameWithLeadingAndTrailingSpaces() { // Given String
+validName = " Juan Carlos Pérez "; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with very long text") void
+shouldCreateValidCompleteNameWithVeryLongText() { // Given String validName =
+"Juan Carlos María José Antonio de la Cruz Pérez García López Martínez
+Rodríguez"; // When CompleteName completeName = new CompleteName(validName); //
+Then assertNotNull(completeName); assertEquals(validName,
+completeName.completeName()); } }
+```
+
+### Testing Unitario 3
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-3.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+### Testing Unitario 4
+
+<p align="center">
+  <img src="./.img/prueba-unitaria-4.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+### 6.1.2. Core Integration Tests.
+
+### Testing de Integración 1
+
+<p align="center">
+  <img src="./.img/prueba-integracion-1.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+### Testing de Integración 2
+
+<p align="center">
+  <img src="./.img/prueba-integracion-2.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+### 6.1.3. Core Behavior-Driven Development
+
+En esta sección se implementan prácticas de Behavior-Driven Development (BDD) con el propósito de validar el comportamiento funcional del sistema desde la perspectiva del usuario.
+A través de este enfoque, se busca asegurar que cada módulo del proyecto responda correctamente a las acciones y necesidades reales de los distintos tipos de usuarios.
+
+Para ello, se utilizan escenarios escritos en lenguaje Gherkin, los cuales describen de manera clara y estructurada las condiciones iniciales (Given), las acciones ejecutadas (When) y los resultados esperados (Then).
+
+<p align="center">
+  <img src="./.img/cucumber-1.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+<p align="center">
+  <img src="./.img/cucumber-2.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+<p align="center">
+  <img src="./.img/cucumber-3.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+<p align="center">
+  <img src="./.img/cucumber-4.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+<p align="center">
+  <img src="./.img/cucumber-5.jpeg" alt="Prueba Unitaria 1" width="850">
+</p>
+
+### 6.1.4. Core System Tests.
+
+## Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1. Tools and Practices.
+
+Para la integración continua se utiliza **GitHub Actions**, que permite ejecutar flujos definidos en archivos **YAML**.  
+En este proyecto se configuró el archivo **`.github/workflows/flutter_ci.yml`**, el cual automatiza tareas básicas de calidad para una app Flutter: instalación de dependencias, análisis estático y ejecución de pruebas. El análisis se ejecuta sin fallar el pipeline por advertencias informativas, con el objetivo de priorizar la compilación y las pruebas en este proyecto académico.
+
+### 7.1.2. Build & Test Suite Pipeline Components.
+
+- **Disparadores:** `push`, `pull_request` y ejecución manual (`workflow_dispatch`) sobre la rama `master`.
+- **Pasos principales:**
+  - _Checkout_ del código.
+  - Configuración de **Flutter** (versión estable compatible con Dart requerido por el proyecto).
+  - `flutter pub get` para resolver dependencias.
+  - `dart analyze --no-fatal-warnings` para análisis estático (no bloqueante por _warnings_).
+  - `flutter test` para la suite de pruebas (incluye un _smoke test_ básico).
+
+<p align="center">
+  <img src="./.img/pipelane-tool.png" alt="test and build" width="850">
+</p>
+
+### 7.2. Continuous Delivery
+
+La entrega continua (CD) automatiza la publicación de versiones listas para uso.  
+En este proyecto se usa **GitHub Actions** para:
+
+- **Web (preview/producción):** construir y desplegar la app Flutter Web en **GitHub Pages**.
+- **Android (artefactos):** generar **APK/AAB** firmados y adjuntarlos a un **Release** (opcional).
+
+---
+
+### 7.2.1. Tools and Practices.
+
+La **entrega continua (CD)** en este proyecto busca que cada cambio validado pueda desplegarse de forma **reproducible y trazable**, minimizando pasos manuales. Para ello se utiliza **GitHub Actions** como orquestador: fija versiones de las herramientas (p. ej., Flutter) y maneja secretos cuando es necesario. El flujo publica la **versión web en GitHub Pages** y, opcionalmente, genera artefactos **Android** firmados a partir de _tags_. El objetivo es mantener un **pipeline simple y estable**, apropiado para un trabajo académico, que facilite revisar rápidamente una versión funcional tras cada commit.
+
+### 7.2.2. Stages Deployment Pipeline Components.
+
+- **Trigger:** `push` a `master` o ejecución manual (`workflow_dispatch`).
+- **Build:** instalar dependencias (`flutter pub get`), asegurar plataforma web (`flutter create . --platforms web`) y compilar en release con `--base-href "/<repo>/"`.
+- **Package:** copiar `index.html` a `404.html` para rutas internas y preparar el sitio (`build/web`) como artefacto con `actions/upload-pages-artifact`.
+- **Deploy:** publicar a **GitHub Pages** usando `actions/deploy-pages` (entorno `github-pages`) y exponer la URL generada por el workflow.
+
+<p align="center">
+  <img src="./.img/test-build-delivery.png" alt="test and build" width="850">
+</p>
+
+## 7.3. Continuous deployment
+
+### 7.3.1. Tools and Practices.
+
+### 7.3.2. Production Deployment Pipeline Components.
 
 # Conclusiones
 
@@ -2740,3 +3166,6 @@ Network graph
 - T21. (2022, 5 de octubre). Apps móviles son la forma favorita de uso de smartphones en Perú. https://t21.pe/apps-moviles-favorita-uso-smartphones-peru
 - Perú Retail. (2022, 6 de enero). Más del 30 % de independientes genera ingresos a través de apps por falta de empleo. https://www.peru-retail.com/mas-del-30-de-independientes-genera-ingresos-a-traves-de-apps-por-falta-de-empleo/
 - Business Empresarial. (2023, 7 de marzo). Perú: Número de mujeres dedicadas a generar ingresos a través de apps crece en 22 %. https://www.businessempresarial.com.pe/peru-numero-de-mujeres-dedicadas-a-generar-ingresos-a-traves-de-apps-crece-en-22
+- link del repositorio: <https://github.com/Grupo4-1ASI0732-14736-Trustora>
+- link de la landing page desplegado: <https://grupo4-1asi0732-14736-trustora.github.io/landing-page/>
+
