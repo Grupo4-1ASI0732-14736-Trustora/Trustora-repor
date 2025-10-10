@@ -65,7 +65,7 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
 
 _TP_
 
-Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la siguiente forma:
+Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguiente forma:
 
 | Integrante                             | Actvidades Asignadas             |
 | -------------------------------------- | -------------------------------- |
@@ -232,6 +232,9 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
             - Realicé la descripcipin del startup, junto con la misión y visión de la empresa. Identificando nuestro objetivos en mente para la propuesta.<br>
             - Se hizo el proceso de identificación en Antecedentes y problemática, haciendo uso de la técnica 5w2h para nuestros primeros identificadores iniciales.<br>
             - Se investigó acerca de los Segmentos objetivo para obtener un sustento estadístico y ver el requerimiento de nuestra app en el sector demográfico.<br>
+            *TP*
+            - Se realizó correcciones al informe y nuevos añadidos, especialmente al Mobile Application Design, en las partes de Wireframe, MockUps, Wireflow y User Flow Diagrams.
+            - Se colaboró en puntos del PPT.
             **Lynn Meza: TB1** <br>
             - Elaborar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, reconozco mi responsabilidad ética y profesional como estudiante de ingeniería de software. Me aseguré de que cada decisión tomada buscara garantizar la calidad, seguridad y usabilidad de la aplicación, priorizando siempre las necesidades reales de los usuarios. Además, tuve en cuenta la importancia de proteger la información sensible y de generar confianza en la plataforma, entendiendo que el trabajo realizado impacta directamente en las personas que utilizarán el sistema.
             <br>
@@ -255,6 +258,8 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
             - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
             - Con el Lean UX Process (Lean UX Problem Statement, Assumptins, Hypothesis Statement y Canvas) se hizo introspectiva en la problemática identificando los segmentos objetivos, sus necesidades y en que enfocarnos.<br>
             - Se realizó la elaboración del Information Architecture, cumpliendo con el Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.<br>
+            *TP*
+            - De manera colaborativa se realizaron cambios al capítulo 6.
              **Lynn Meza: TB1** <br>
              Al desarrollar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, emití juicios informados considerando no solo la parte técnica, sino también el impacto que la solución puede tener en distintos contextos globales, económicos, ambientales y sociales. Reconozco que una aplicación como KidyCare no solo responde a una necesidad puntual de los padres, sino que también puede generar oportunidades de empleo formal para niñeras, optimizar recursos mediante procesos digitales más eficientes y aportar a un entorno social más seguro y confiable. De esta manera, busqué que cada decisión de diseño y planificación estuviera alineada con una visión de responsabilidad integral en la ingeniería de software.
              **TP:**<br>
