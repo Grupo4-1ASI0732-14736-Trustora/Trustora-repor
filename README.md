@@ -228,6 +228,8 @@ Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguie
             - Diseñé entrevistas dirigidas a niñeras certificadas y padres de familia, respetando principios éticos como la confidencialidad y el consentimiento informado.<br>
             - Registré entrevistas evitando sesgos y garantizando la veracidad de la información.<br>
             - En el Needfinding desarrollé herramientas (User Personas, User Task Matrix, Journey Mapping, Empathy Mapping, As-is Scenario Mapping) priorizando la voz real de los usuarios.<br>
+            *TP* - Se realizó correcciones al informe y nuevos añadidos, especialmente al Mobile Application Design, en las partes de Wireframe, MockUps, Wireflow y User Flow Diagrams.
+           – Se realizaron correcciones y nuevos aportes al informe, además del desarrollo de pruebas unitarias e integrales. También se brindó apoyo en la elaboración del wireframe para la versión móvil y, finalmente, se trabajó en la implementación de pruebas con Cucumber. <br>
              *Marcelo Mazuelos: TB1*
             - Realicé la descripcipin del startup, junto con la misión y visión de la empresa. Identificando nuestro objetivos en mente para la propuesta.<br>
             - Se hizo el proceso de identificación en Antecedentes y problemática, haciendo uso de la técnica 5w2h para nuestros primeros identificadores iniciales.<br>
@@ -254,6 +256,11 @@ Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguie
             - A partir de las entrevistas y el análisis de necesidades, identifiqué que el software debe adaptarse a distintos contextos familiares y laborales (ej. disponibilidad de tiempo, acceso digital).<br>
             - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
             - En el Ubiquitous Language, propuse términos claros y comunes que fomentan la inclusión y entendimiento entre equipo técnico y usuarios.<br>
+                  *TP*<br>
+      - Se realizaron correcciones y nuevos aportes al informe, fortaleciendo la coherencia y la claridad del documento.<br>
+      - Se desarrollaron pruebas unitarias e integrales, asegurando la calidad y funcionalidad del sistema.<br>
+      - Se brindó apoyo en el diseño del wireframe para la versión móvil, promoviendo la accesibilidad y adaptabilidad del software.<br>
+      - Finalmente, se implementaron pruebas en Cucumber para validar el comportamiento del sistema desde la perspectiva del usuario.<br>
              *Marcelo Mazuelos: TB1*
             - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
             - Con el Lean UX Process (Lean UX Problem Statement, Assumptins, Hypothesis Statement y Canvas) se hizo introspectiva en la problemática identificando los segmentos objetivos, sus necesidades y en que enfocarnos.<br>
