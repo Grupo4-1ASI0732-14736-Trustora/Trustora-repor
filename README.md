@@ -233,7 +233,11 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
             - Se hizo el proceso de identificación en Antecedentes y problemática, haciendo uso de la técnica 5w2h para nuestros primeros identificadores iniciales.<br>
             - Se investigó acerca de los Segmentos objetivo para obtener un sustento estadístico y ver el requerimiento de nuestra app en el sector demográfico.<br>
             **Lynn Meza: TB1** <br>
-            elaborar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, reconozco mi responsabilidad ética y profesional como estudiante de ingeniería de software. Me aseguré de que cada decisión tomada buscara garantizar la calidad, seguridad y usabilidad de la aplicación, priorizando siempre las necesidades reales de los usuarios. Además, tuve en cuenta la importancia de proteger la información sensible y de generar confianza en la plataforma, entendiendo que el trabajo realizado impacta directamente en las personas que utilizarán el sistema.
+            - Elaborar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, reconozco mi responsabilidad ética y profesional como estudiante de ingeniería de software. Me aseguré de que cada decisión tomada buscara garantizar la calidad, seguridad y usabilidad de la aplicación, priorizando siempre las necesidades reales de los usuarios. Además, tuve en cuenta la importancia de proteger la información sensible y de generar confianza en la plataforma, entendiendo que el trabajo realizado impacta directamente en las personas que utilizarán el sistema.
+            <br>
+             **TP**: <br>
+             Desarrollé DevOps Practices, implementando CI/CD con GitHub Actions, configuré el workflow flutter_ci.yml para instalar dependencias, ejecutar análisis y pruebas, y desplegar la versión web en GitHub Pages, resguardando secretos y fijando versiones para builds reproducibles. Reconozco mi responsabilidad ética y profesional, asegurando que solo se publiquen cambios verificados, cuidando la calidad, la seguridad y la confianza de quienes usarán el sistema. <br>
+            <br>
         </td>
         <td>
             - Se cumplió con un proceso investigativo ético y profesional, valorando la opinión de los usuarios como base para un diseño responsable.<br>
@@ -253,6 +257,8 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
             - Se realizó la elaboración del Information Architecture, cumpliendo con el Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.<br>
              **Lynn Meza: TB1** <br>
              Al desarrollar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, emití juicios informados considerando no solo la parte técnica, sino también el impacto que la solución puede tener en distintos contextos globales, económicos, ambientales y sociales. Reconozco que una aplicación como KidyCare no solo responde a una necesidad puntual de los padres, sino que también puede generar oportunidades de empleo formal para niñeras, optimizar recursos mediante procesos digitales más eficientes y aportar a un entorno social más seguro y confiable. De esta manera, busqué que cada decisión de diseño y planificación estuviera alineada con una visión de responsabilidad integral en la ingeniería de software.
+             **TP:**<br>
+             Al desarrollar DevOps Practices para Kidycare, emití juicios informados sobre impactos globales, económicos, ambientales y sociales: elegí GitHub Actions/Pages como infraestructura compartida y de bajo costo para reducir gasto y huella; configuré cachés, concurrency y triggers selectivos para disminuir consumo de cómputo; consideré accesibilidad, rendimiento y futura localización para ampliar alcance; protegí datos y licencias evitando exponer secretos; y documenté versiones y decisiones para asegurar trazabilidad y evaluar riesgos. Con ello busqué equilibrar costo, sostenibilidad y beneficio social del sistema.<br>
         </td>
         <td>
             - Mis aportes ayudan a emitir juicios que reconocen el impacto social (seguridad de menores, confianza de padres), económico (accesibilidad del servicio), y global (posibilidad de replicar el modelo en otros contextos).<br>
