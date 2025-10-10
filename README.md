@@ -74,7 +74,7 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
 | Meza Camayo, Lynn Jeeferzon            | - backend - ppt - capitulo 7     |
 | Alvarez Ponce, Carlos Antonio          | - movil - ppt                    |
 
-![Contribution](./.img/commit-tb1.png)
+![Contribution](./.img/contribution-tp.png)
 
 ## CONTENIDO
 
