@@ -1,9 +1,10 @@
-<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
 <div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img>
 </div>
-<h2 align="center">Ingeniería de Software</h2>
-<h3 align="center">Diseño de Experimentos de Ingeniería de Software - 1ASI0732</h3>
+<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
+<h2 align="center">Ingeniería de Software </h2>
+<h2 align="center">Diseño de Experimentos de Ingeniería de Software-1ASI0732-2025</2>
+<h3 align="center">NRC: 14736 </h3>
 <h3 align="center">Profesor: Tinoco Licas, Juan Carlos</h3>
 <h3 align="center">INFORME DE TRABAJO FINAL</h3>
 <h3 align="center">Startup: Trustora</h3>
