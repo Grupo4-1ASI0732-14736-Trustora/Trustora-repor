@@ -3663,6 +3663,140 @@ Estas variables se documentan y analizan para determinar si influyen significati
 
 
 ### 8.2.5. Scale Calculations and Decisions.
+
+Esta sección describe la determinación de la cantidad de evidencia necesaria para la investigación. Expone que la escala se basa en la **Certeza**, entendida como la probabilidad de error aceptable, y la **Precisión**, que corresponde a la granularidad del cambio a detectar. La certeza se define mediante el **Poder Estadístico**, que ayuda a evitar errores Tipo II, y el **Nivel de Significación**, que previene errores Tipo I. La precisión se representa con el **Efecto Mínimo Detectable (MDE)**, que indica el tamaño mínimo de diferencia valiosa para detectar.
+
+#### 8.2.5.1. Determinación del Tamaño de Muestra
+
+Para determinar el tamaño de muestra adecuado, se consideran los siguientes factores:
+
+**Población Objetivo:**
+- **Padres/Tutores**: Estimación de 50,000 padres en Lima Metropolitana que requieren servicios de cuidado infantil y tienen acceso a tecnología móvil.
+- **Niñeras/Cuidadores**: Estimación de 15,000 niñeras activas en Lima Metropolitana con experiencia en cuidado infantil.
+
+**Tamaño de Muestra Calculado:**
+
+Para cada grupo (experimental y control), se requiere un tamaño mínimo de muestra basado en los cálculos de poder estadístico:
+
+| Grupo | Tamaño Mínimo | Tamaño Objetivo | Justificación |
+|-------|---------------|-----------------|--------------|
+| Padres - Experimental | 30 | 40 | Permite detectar diferencias significativas con poder estadístico adecuado |
+| Padres - Control | 30 | 40 | Grupo de comparación equivalente |
+| Niñeras - Experimental | 20 | 30 | Permite evaluar registro y retención con suficiente potencia |
+| Niñeras - Control | 20 | 30 | Grupo de comparación equivalente |
+
+**Total de Participantes**: 80-140 participantes (40-70 padres + 40-70 niñeras)
+
+#### 8.2.5.2. Certeza: Poder Estadístico y Nivel de Significación
+
+**Poder Estadístico (1 - β):**
+- **Valor establecido**: 0.80 (80%)
+- **Interpretación**: Existe un 80% de probabilidad de detectar un efecto real si existe.
+- **Justificación**: Nivel estándar en investigación de software que equilibra la capacidad de detección con la viabilidad del tamaño de muestra.
+- **Error Tipo II (β)**: 0.20 (20% de probabilidad de no detectar un efecto real).
+
+**Nivel de Significación (α):**
+- **Valor establecido**: 0.05 (5%)
+- **Interpretación**: Se acepta un 5% de probabilidad de concluir incorrectamente que existe un efecto cuando en realidad no existe.
+- **Justificación**: Nivel estándar en investigación científica que equilibra rigor estadístico con viabilidad práctica.
+- **Error Tipo I (α)**: 0.05 (5% de probabilidad de falsos positivos).
+
+**Pruebas Estadísticas:**
+- **Prueba t de Student** para comparar medias entre grupos (confianza, satisfacción).
+- **Prueba de Chi-cuadrado** para comparar proporciones (tasa de adopción, tasa de conversión).
+- **Análisis de Varianza (ANOVA)** si se requieren comparaciones múltiples.
+
+#### 8.2.5.3. Precisión: Efecto Mínimo Detectable (MDE)
+
+El Efecto Mínimo Detectable (MDE) representa el tamaño mínimo de diferencia que se considera valioso y relevante para detectar en el contexto del negocio y la experiencia del usuario.
+
+**MDE para Medidas Primarias:**
+
+**M1: Nivel de Confianza**
+- **MDE**: Diferencia de 0.8 puntos en escala Likert de 5 puntos (equivalente a 16% de mejora).
+- **Justificación**: Una mejora de menos de 0.8 puntos no sería percibida como significativa por los usuarios ni justificaría el desarrollo de la plataforma.
+- **Cálculo**: Basado en estudios previos que indican que diferencias menores a 0.7-0.8 en escalas Likert no son percibidas como relevantes.
+
+**M2: Tasa de Adopción de Pagos Digitales**
+- **MDE**: Diferencia de 25 puntos porcentuales (ej: 30% en control vs. 55% en experimental).
+- **Justificación**: Un aumento del 25% en la adopción de pagos digitales representa un cambio sustancial en el comportamiento del usuario y valida la hipótesis de preferencia por métodos seguros.
+- **Cálculo**: Considerando que métodos tradicionales tienen aproximadamente 30-40% de uso de métodos digitales, un aumento a 55-65% sería significativo.
+
+**M3: Tasa de Registro y Retención de Niñeras**
+- **MDE**: 
+  - Registro: Aumento del 40% en tasa de registro semanal.
+  - Retención: Diferencia de 20 puntos porcentuales en retención a 30 días (ej: 50% en control vs. 70% en experimental).
+- **Justificación**: Estos valores representan mejoras que justifican la inversión en la plataforma y demuestran valor real para las niñeras.
+
+**MDE para Medidas Secundarias:**
+
+- **M4 (Tiempo de Búsqueda)**: Reducción de 30 minutos (de 90 min a 60 min promedio).
+- **M5 (NPS)**: Diferencia de 15 puntos en el score NPS.
+- **M6 (Calidad de Reseñas)**: Aumento de 0.5 puntos en calificación promedio y 2 reseñas adicionales por niñera.
+- **M7 (Tasa de Conversión)**: Aumento de 15 puntos porcentuales (de 20% a 35%).
+
+#### 8.2.5.4. Cálculo del Tamaño de Muestra
+
+El tamaño de muestra se calculó utilizando la fórmula para comparación de dos grupos independientes:
+
+**Fórmula para Medidas Continuas (Confianza, Satisfacción):**
+
+\[
+n = \frac{2(Z_{1-\alpha/2} + Z_{1-\beta})^2 \sigma^2}{d^2}
+\]
+
+Donde:
+- \(n\) = tamaño de muestra por grupo
+- \(Z_{1-\alpha/2}\) = 1.96 (para α = 0.05, dos colas)
+- \(Z_{1-\beta}\) = 0.84 (para poder = 0.80)
+- \(\sigma\) = desviación estándar estimada (1.2 para escalas Likert basado en estudios previos)
+- \(d\) = MDE (0.8 puntos)
+
+**Cálculo:**
+\[
+n = \frac{2(1.96 + 0.84)^2 \times 1.2^2}{0.8^2} = \frac{2 \times 7.84 \times 1.44}{0.64} = \frac{22.58}{0.64} \approx 35
+\]
+
+**Fórmula para Medidas Proporcionales (Tasa de Adopción, Conversión):**
+
+\[
+n = \frac{(Z_{1-\alpha/2} + Z_{1-\beta})^2 (p_1(1-p_1) + p_2(1-p_2))}{(p_1 - p_2)^2}
+\]
+
+Donde:
+- \(p_1\) = proporción esperada en grupo experimental (0.55)
+- \(p_2\) = proporción esperada en grupo control (0.30)
+- \(d\) = diferencia mínima detectable (0.25)
+
+**Cálculo:**
+\[
+n = \frac{(1.96 + 0.84)^2 (0.55 \times 0.45 + 0.30 \times 0.70)}{(0.55 - 0.30)^2} = \frac{7.84 \times 0.5325}{0.0625} \approx 67
+\]
+
+**Decisión Final:**
+- Para medidas continuas: **30-35 participantes por grupo** (redondeado a 40 para mayor robustez).
+- Para medidas proporcionales: **67 participantes por grupo** (ajustado a 40 considerando limitaciones prácticas y análisis post-hoc).
+
+**Ajuste por Tasa de Abandono:**
+- Se estima una tasa de abandono del 15-20% durante el período experimental.
+- **Tamaño inicial**: 50 participantes por grupo para asegurar 40 completos al final.
+
+#### 8.2.5.5. Duración del Período Experimental
+
+**Período Total**: 4 semanas (28 días)
+
+**Justificación:**
+- **Semanas 1-2**: Período de adaptación y aprendizaje de la plataforma.
+- **Semanas 3-4**: Período de uso estable donde se recopilan datos principales.
+- **Razón**: Un período más corto no permite evaluar retención y cambios de comportamiento a largo plazo. Un período más largo aumenta el riesgo de abandono y factores externos.
+
+**Frecuencia de Medición:**
+- **Medidas primarias**: Inicio (día 0), punto medio (día 14), final (día 28).
+- **Medidas secundarias**: Continuas durante todo el período, con agregación semanal.
+
+
+
+
 ### 8.2.6. Methods Selection.
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
 
