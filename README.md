@@ -3550,6 +3550,118 @@ Para garantizar un rastreo eficiente y minimizar costos y riesgos, se aplican lo
 
 
 ### 8.2.4. Conditions.
+
+Esta sección describe los factores que ayudan a identificar el motivo subyacente detrás de una respuesta. Presenta dos estados para preguntas basadas en creencias: la condición experimental, que busca obtener evidencia a favor de la hipótesis alternativa, y la condición de control, que actúa bajo la suposición de que la hipótesis nula es correcta. Para preguntas exploratorias, esta sección detalla los límites o características específicas del grupo que se va a estudiar.
+
+#### 8.2.4.1. Condición Experimental
+
+La condición experimental representa el escenario donde KidyCare está completamente implementado con todas sus funcionalidades clave activas. Esta condición busca obtener evidencia a favor de las hipótesis alternativas planteadas.
+
+**Características de la Condición Experimental:**
+
+1. **Perfiles Verificados Activos**
+   - Los perfiles de niñeras incluyen verificación de identidad (documento de identidad validado).
+   - Certificaciones y antecedentes verificables visibles en el perfil.
+   - Sistema de badges o insignias que indican nivel de verificación.
+
+2. **Sistema de Reseñas Funcional**
+   - Los padres pueden dejar reseñas y calificaciones después de cada servicio.
+   - Las reseñas son visibles públicamente en los perfiles de las niñeras.
+   - Sistema de moderación para evitar reseñas falsas o inapropiadas.
+
+3. **Sistema de Pagos Integrado**
+   - Pasarela de pago segura disponible dentro de la aplicación.
+   - Múltiples métodos de pago (tarjeta de crédito, débito, billeteras digitales).
+   - Proceso de pago simplificado y con confirmación automática.
+
+4. **Herramientas de Gestión para Niñeras**
+   - Panel de control para gestionar disponibilidad y horarios.
+   - Notificaciones en tiempo real de nuevas solicitudes.
+   - Estadísticas de desempeño y visualización de perfil.
+
+5. **Funcionalidades de Búsqueda Avanzada**
+   - Filtros por ubicación, disponibilidad, precio y calificaciones.
+   - Sistema de recomendaciones basado en preferencias previas.
+   - Visualización de mapas con niñeras disponibles en la zona.
+
+**Participantes en Condición Experimental:**
+- **Grupo A - Padres**: 30-40 padres que utilizan KidyCare con todas las funcionalidades activas durante 4 semanas.
+- **Grupo B - Niñeras**: 20-30 niñeras registradas con perfiles verificados y acceso completo a herramientas de gestión.
+
+#### 8.2.4.2. Condición de Control
+
+La condición de control actúa bajo la suposición de que la hipótesis nula es correcta, es decir, que KidyCare no produce un cambio significativo respecto a los métodos tradicionales. Esta condición permite establecer una línea base para comparación.
+
+**Características de la Condición de Control:**
+
+1. **Métodos Tradicionales de Búsqueda**
+   - Búsqueda a través de recomendaciones de amigos y familiares.
+   - Uso de grupos en redes sociales (Facebook, WhatsApp).
+   - Contacto directo sin intermediación de plataforma digital.
+
+2. **Sin Sistema Centralizado de Verificación**
+   - No hay verificación formal de identidad o antecedentes.
+   - La confianza se basa únicamente en referencias personales.
+   - No existe un sistema estructurado de reseñas públicas.
+
+3. **Pagos Tradicionales**
+   - Transacciones en efectivo o transferencias bancarias directas.
+   - Sin pasarela de pago integrada.
+   - Negociación de precios y métodos de pago de forma individual.
+
+4. **Gestión Manual**
+   - Coordinación de horarios y disponibilidad mediante comunicación directa (llamadas, mensajes).
+   - Sin herramientas automatizadas de gestión.
+   - Dependencia de recordatorios personales y organización manual.
+
+**Participantes en Condición de Control:**
+- **Grupo C - Padres**: 30-40 padres que continúan utilizando métodos tradicionales durante el mismo período (4 semanas).
+- **Grupo D - Niñeras**: 20-30 niñeras que trabajan de forma independiente sin plataforma digital.
+
+#### 8.2.4.3. Criterios de Asignación a Condiciones
+
+Para garantizar la validez del experimento, los participantes se asignan a las condiciones siguiendo criterios específicos:
+
+**Criterios de Inclusión:**
+- Padres con hijos entre 1 y 12 años que requieren servicios de cuidado infantil.
+- Niñeras con al menos 6 meses de experiencia en cuidado infantil.
+- Residencia en áreas urbanas (Lima Metropolitana).
+- Acceso a smartphone con conexión a internet.
+- Edad entre 25-45 años para padres, 18-50 años para niñeras.
+
+**Criterios de Exclusión:**
+- Usuarios que ya han utilizado plataformas similares de manera extensiva (para evitar sesgo de experiencia previa).
+- Participantes que no pueden comprometerse al período completo de 4 semanas.
+- Usuarios con limitaciones tecnológicas significativas.
+
+**Método de Asignación:**
+- Asignación aleatoria estratificada para garantizar equilibrio en variables demográficas clave (nivel socioeconómico, número de hijos, experiencia previa).
+- Se busca equilibrio en tamaño de grupos entre condiciones experimentales y de control.
+
+#### 8.2.4.4. Variables de Confusión y Control
+
+Para identificar el motivo subyacente detrás de las respuestas, se controlan las siguientes variables que podrían influir en los resultados:
+
+**Variables Demográficas:**
+- Edad, género, nivel educativo, nivel socioeconómico.
+- Número y edad de los hijos.
+- Experiencia previa con aplicaciones móviles.
+
+**Variables Contextuales:**
+- Época del año (evitar períodos de vacaciones escolares que puedan sesgar la demanda).
+- Ubicación geográfica (asegurar distribución similar en ambas condiciones).
+- Disponibilidad de tiempo de los participantes.
+
+**Variables de Implementación:**
+- Calidad de la conexión a internet.
+- Tipo de dispositivo utilizado (iOS vs Android).
+- Nivel de familiaridad con tecnología móvil.
+
+Estas variables se documentan y analizan para determinar si influyen significativamente en los resultados, permitiendo una interpretación más precisa de los efectos de KidyCare.
+
+
+
+
 ### 8.2.5. Scale Calculations and Decisions.
 ### 8.2.6. Methods Selection.
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
