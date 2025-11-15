@@ -3553,7 +3553,191 @@ Para garantizar un rastreo eficiente y minimizar costos y riesgos, se aplican lo
 ### 8.2.5. Scale Calculations and Decisions.
 ### 8.2.6. Methods Selection.
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
-### 8.2.8. Web and Mobile Tracking Plan.
+
+### 8.2.8. Web and Mobile Tracking Plan
+
+El plan de tracking para web y móvil define específicamente qué eventos se rastrearán en cada plataforma, cómo se implementarán y qué métricas se derivarán de ellos. Este plan complementa la estrategia de análisis de datos definida en la sección 8.2.7 y se basa en los principios de economía en el rastreo establecidos anteriormente.
+
+#### 8.2.8.1. Web Tracking Plan
+
+**Eventos Críticos para Web:**
+
+| Evento | Descripción | Propiedades | Métrica Derivada |
+|--------|-------------|-------------|------------------|
+| `landing_page_viewed` | Usuario visita la landing page | `source`, `campaign`, `referrer` | Tasa de visitas |
+| `signup_initiated` | Usuario inicia registro | `user_type` (tutor/babysitter) | Tasa de inicio de registro |
+| `signup_completed` | Usuario completa registro | `user_type`, `registration_method` | Tasa de conversión de registro |
+| `login_successful` | Login exitoso | `login_method` | Tasa de éxito de login |
+| `search_performed` | Búsqueda de niñeras | `query`, `filters_applied`, `results_count` | Tasa de búsquedas |
+| `profile_viewed` | Perfil de niñera visto | `babysitter_id`, `view_duration` | Engagement con perfiles |
+| `reservation_flow_started` | Inicio de flujo de reserva | `babysitter_id` | Tasa de inicio de reservas |
+| `reservation_completed` | Reserva completada | `reservation_id`, `amount`, `payment_method` | Tasa de conversión de reservas |
+| `payment_completed` | Pago completado | `amount`, `payment_method`, `transaction_id` | Tasa de éxito de pagos |
+| `review_submitted` | Reseña enviada | `babysitter_id`, `rating`, `has_comment` | Tasa de reseñas |
+
+**Implementación Web (Vue.js):**
+
+```javascript
+// Ejemplo de implementación en Vue.js
+import { gtag } from 'vue-gtag'
+
+export default {
+  methods: {
+    trackEvent(eventName, properties) {
+      gtag('event', eventName, {
+        ...properties,
+        platform: 'web',
+        timestamp: new Date().toISOString()
+      })
+    },
+    
+    trackReservationCompleted(reservation) {
+      this.trackEvent('reservation_completed', {
+        reservation_id: reservation.id,
+        amount: reservation.amount,
+        payment_method: reservation.paymentMethod,
+        babysitter_id: reservation.babysitterId
+      })
+    }
+  }
+}
+```
+
+**Páginas y Pantallas Rastreadas:**
+
+- Landing Page (Home)
+- Página de Registro (Sign Up)
+- Página de Login
+- Dashboard de Tutor
+- Dashboard de Niñera
+- Búsqueda de Niñeras
+- Perfil de Niñera
+- Formulario de Reserva
+- Historial de Reservas
+- Configuración de Perfil
+- Página de Pagos
+- Sistema de Mensajería
+
+#### 8.2.8.2. Mobile Tracking Plan (iOS & Android)
+
+**Eventos Críticos para Mobile:**
+
+| Evento | Descripción | Propiedades | Métrica Derivada |
+|--------|-------------|-------------|------------------|
+| `app_opened` | App abierta | `source` (push/notification/deep_link) | Tasa de apertura |
+| `onboarding_started` | Onboarding iniciado | `user_type` | Tasa de inicio de onboarding |
+| `onboarding_completed` | Onboarding completado | `user_type`, `steps_completed` | Tasa de completitud |
+| `screen_viewed` | Pantalla vista | `screen_name`, `screen_class` | Tiempo en pantalla |
+| `search_performed` | Búsqueda realizada | `query`, `filters`, `results_count` | Tasa de búsquedas |
+| `profile_viewed` | Perfil visto | `babysitter_id`, `view_duration` | Engagement |
+| `reservation_requested` | Solicitud de reserva | `babysitter_id`, `date`, `duration` | Tasa de solicitudes |
+| `notification_received` | Notificación recibida | `notification_type`, `action_taken` | Efectividad de notificaciones |
+| `push_notification_opened` | Push notification abierta | `notification_type` | Tasa de apertura de push |
+| `in_app_purchase_initiated` | Compra in-app iniciada | `product_id`, `price` | Tasa de conversión de compras |
+
+**Implementación Mobile (Flutter):**
+
+```dart
+// Ejemplo de implementación en Flutter
+import 'package:firebase_analytics/firebase_analytics.dart';
+
+class TrackingService {
+  final FirebaseAnalytics _analytics = FirebaseAnalytics.instance;
+
+  Future<void> trackEvent(String eventName, Map<String, dynamic> properties) async {
+    await _analytics.logEvent(
+      name: eventName,
+      parameters: {
+        ...properties,
+        'platform': Platform.isIOS ? 'ios' : 'android',
+        'timestamp': DateTime.now().toIso8601String(),
+      },
+    );
+  }
+
+  Future<void> trackReservationCompleted(Reservation reservation) async {
+    await trackEvent('reservation_completed', {
+      'reservation_id': reservation.id,
+      'amount': reservation.amount,
+      'payment_method': reservation.paymentMethod,
+      'babysitter_id': reservation.babysitterId,
+    });
+  }
+
+  Future<void> trackScreenView(String screenName) async {
+    await _analytics.logScreenView(screenName: screenName);
+  }
+}
+```
+
+**Pantallas Rastreadas en Mobile:**
+
+- Splash Screen
+- Onboarding (pasos 1-4)
+- Login
+- Registro
+- Home (Tutor/Niñera)
+- Búsqueda
+- Perfil de Niñera
+- Solicitud de Reserva
+- Mis Reservas
+- Chat/Mensajería
+- Perfil de Usuario
+- Configuración
+- Notificaciones
+
+#### 8.2.8.3. Eventos Comunes entre Web y Mobile
+
+Algunos eventos son comunes a ambas plataformas y deben tener la misma estructura:
+
+| Evento | Propiedades Comunes | Diferencias por Plataforma |
+|--------|---------------------|---------------------------|
+| `reservation_completed` | `reservation_id`, `amount`, `babysitter_id` | `platform` (web/ios/android) |
+| `payment_completed` | `amount`, `payment_method`, `transaction_id` | Método de pago puede variar |
+| `review_submitted` | `babysitter_id`, `rating`, `has_comment` | Interfaz de entrada diferente |
+| `profile_updated` | `user_id`, `fields_updated` | Campos disponibles pueden variar |
+
+#### 8.2.8.4. Métricas Clave Derivadas del Tracking
+
+**Métricas de Adquisición:**
+- Tasa de registro (Sign Up Rate)
+- Tasa de activación (Activation Rate)
+- Tasa de retención D1, D7, D30
+
+**Métricas de Engagement:**
+- Sesiones por usuario
+- Tiempo promedio en app/web
+- Pantallas/páginas por sesión
+- Tasa de búsquedas
+
+**Métricas de Conversión:**
+- Tasa de conversión de búsqueda a perfil visto
+- Tasa de conversión de perfil a reserva
+- Tasa de conversión de reserva a pago
+- Tasa de completitud de reseñas
+
+**Métricas de Retención:**
+- Usuarios activos diarios (DAU)
+- Usuarios activos semanales (WAU)
+- Usuarios activos mensuales (MAU)
+- Tasa de churn
+
+#### 8.2.8.5. Dashboard y Reportes
+
+**Dashboards Implementados:**
+
+1. **Dashboard Ejecutivo**: Métricas de alto nivel (registros, reservas, ingresos)
+2. **Dashboard de Producto**: Métricas de uso y engagement
+3. **Dashboard de Marketing**: Métricas de adquisición y campañas
+4. **Dashboard Técnico**: Métricas de rendimiento y errores
+
+**Frecuencia de Reportes:**
+- **Tiempo Real**: Métricas críticas (reservas, pagos)
+- **Diario**: Resumen de actividad del día anterior
+- **Semanal**: Análisis de tendencias y comparaciones
+- **Mensual**: Reporte completo con insights y recomendaciones
+
+
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories.
 ### 8.3.2. To-Be Product Backlog
