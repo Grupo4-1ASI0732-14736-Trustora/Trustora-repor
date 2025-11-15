@@ -3795,9 +3795,153 @@ n = \frac{(1.96 + 0.84)^2 (0.55 \times 0.45 + 0.30 \times 0.70)}{(0.55 - 0.30)^2
 - **Medidas secundarias**: Continuas durante todo el período, con agregación semanal.
 
 
-
-
 ### 8.2.6. Methods Selection.
+Esta sección describe cómo se lleva a cabo la investigación. Expone el principio fundamental que el método debe ser el **Simplest Useful Thing** (la cosa más simple y útil) para alcanzar el tamaño de muestra y las condiciones necesarias. Se señala claramente la diferencia entre el objeto de investigación (la pregunta o hipótesis) y el método (la técnica, como una prueba A/B). Además, se resalta la norma esencial de no ejecutar simultáneamente dos o más experimentos sobre el mismo tema que puedan exponer a un solo usuario a ambos, junto con la consideración ética de no causar daño.
+
+#### 8.2.6.1. Principio del Simplest Useful Thing
+
+El método seleccionado debe ser la solución más simple que permita obtener evidencia válida y confiable para responder las preguntas de investigación, sin agregar complejidad innecesaria.
+
+**Aplicación en KidyCare:**
+
+En lugar de diseñar un experimento complejo con múltiples variantes y factores, se opta por un diseño experimental simple pero efectivo:
+
+- **Diseño Seleccionado**: **Experimento de dos grupos (Experimental vs. Control)**
+- **Razón**: Permite comparar directamente el efecto de KidyCare frente a métodos tradicionales, minimizando variables de confusión y facilitando la interpretación de resultados.
+
+**Alternativas Consideradas y Rechazadas:**
+
+1. **Diseño Factorial Completo**: Rechazado por complejidad innecesaria y dificultad para reclutar suficientes participantes.
+2. **Diseño de Medidas Repetidas**: Rechazado por riesgo de efectos de aprendizaje y contaminación entre condiciones.
+3. **Diseño Cuasi-experimental sin grupo control**: Rechazado por falta de validez interna.
+
+#### 8.2.6.2. Objeto de Investigación vs. Método
+
+Es fundamental distinguir entre **qué se investiga** (objeto) y **cómo se investiga** (método):
+
+**Objeto de Investigación (Preguntas e Hipótesis):**
+
+1. **Hipótesis Principal 1**: "Los perfiles verificados y el sistema de reseñas aumentan la confianza de los padres en la plataforma."
+2. **Hipótesis Principal 2**: "Los pagos seguros en la app hacen que los padres prefieran usar Trustora en lugar de métodos informales."
+3. **Hipótesis Principal 3**: "Dar visibilidad y herramientas de gestión aumenta el registro y la oferta de niñeras."
+
+**Método Seleccionado (Técnica de Investigación):**
+
+- **Técnica**: **Experimento Controlado Aleatorio (RCT - Randomized Controlled Trial)**
+- **Variante Específica**: **Prueba A/B entre grupos independientes**
+- **Justificación**: 
+  - Permite establecer causalidad entre el uso de KidyCare y los resultados observados.
+  - Minimiza sesgos mediante asignación aleatoria.
+  - Facilita la comparación directa entre condiciones.
+
+**Diferencia Clave:**
+- El **objeto** son las hipótesis sobre confianza, adopción y registro.
+- El **método** es el experimento controlado que permite probar estas hipótesis.
+
+#### 8.2.6.3. Diseño Experimental Específico
+
+**Tipo de Diseño**: **Between-Subjects Design (Diseño Entre Sujetos)**
+
+**Características:**
+- Cada participante se asigna a una sola condición (experimental o control).
+- No hay exposición simultánea a ambas condiciones.
+- Los grupos son independientes y comparables.
+
+**Ventajas:**
+- Evita efectos de contraste y aprendizaje entre condiciones.
+- Elimina el riesgo de contaminación de condiciones.
+- Reduce la fatiga de los participantes.
+- Facilita la interpretación de resultados.
+
+**Proceso de Asignación:**
+1. **Reclutamiento**: Se identifican participantes elegibles según criterios de inclusión.
+2. **Estratificación**: Se agrupan por variables clave (nivel socioeconómico, número de hijos, experiencia previa).
+3. **Aleatorización**: Dentro de cada estrato, se asigna aleatoriamente a condición experimental o control.
+4. **Verificación**: Se verifica que los grupos sean equivalentes en variables demográficas antes de iniciar.
+
+#### 8.2.6.4. Principio de No Exposición Simultánea
+
+**Norma Esencial**: No se ejecutarán simultáneamente dos o más experimentos sobre el mismo tema que puedan exponer a un solo usuario a ambos.
+
+**Aplicación en KidyCare:**
+
+1. **Un Solo Experimento por Participante**: Cada participante participa únicamente en una condición (experimental o control) durante todo el período del estudio.
+
+2. **Sin Variantes Múltiples**: No se probarán múltiples versiones de KidyCare simultáneamente (ej: versión con reseñas vs. versión sin reseñas) en el mismo grupo de participantes.
+
+3. **Período de Exclusión**: Los participantes que completen el experimento no serán elegibles para participar en experimentos relacionados durante un período de 6 meses para evitar efectos residuales.
+
+4. **Separación Temporal**: Si se requieren experimentos adicionales en el futuro, se realizarán con grupos completamente diferentes de participantes.
+
+**Justificación:**
+- Evita efectos de confusión donde no se puede determinar qué condición causó el resultado.
+- Previene efectos de aprendizaje y adaptación que podrían sesgar los resultados.
+- Garantiza la validez interna del experimento.
+
+#### 8.2.6.5. Consideraciones Éticas: Principio de No Causar Daño
+
+La investigación se rige por principios éticos fundamentales que priorizan el bienestar de los participantes:
+
+**Principios Éticos Aplicados:**
+
+1. **Consentimiento Informado:**
+   - Todos los participantes reciben información clara sobre el propósito del estudio, procedimientos, riesgos y beneficios.
+   - Se obtiene consentimiento explícito antes de la participación.
+   - Los participantes pueden retirarse en cualquier momento sin consecuencias.
+
+2. **Protección de Datos Personales:**
+   - Se implementan medidas de seguridad para proteger información sensible.
+   - Los datos se anonimizan cuando sea posible.
+   - Se cumple con normativas de protección de datos (Ley de Protección de Datos Personales del Perú).
+
+3. **Minimización de Riesgos:**
+   - **Riesgo Físico**: Mínimo - la plataforma no expone a riesgos físicos.
+   - **Riesgo Psicológico**: Bajo - se monitorea el bienestar de los participantes.
+   - **Riesgo de Privacidad**: Moderado - se implementan controles estrictos de acceso a datos.
+
+4. **Beneficio vs. Riesgo:**
+   - Los beneficios potenciales (mejora en servicios de cuidado infantil) superan los riesgos mínimos identificados.
+   - Los participantes del grupo control no son privados de servicios esenciales; pueden continuar usando métodos tradicionales.
+
+5. **Transparencia:**
+   - Los resultados se comunican de manera honesta y transparente.
+   - Se evita cualquier forma de manipulación o engaño.
+
+6. **Revisión Ética:**
+   - El diseño experimental será revisado por un comité ético o supervisor académico antes de su implementación.
+
+**Procedimientos de Mitigación de Riesgos:**
+
+- **Monitoreo Continuo**: Se establece un sistema de monitoreo para identificar cualquier problema o preocupación de los participantes.
+- **Punto de Contacto**: Se proporciona un contacto directo para que los participantes puedan reportar problemas o hacer preguntas.
+- **Procedimiento de Finalización Anticipada**: Si se identifica algún riesgo inesperado, el experimento puede ser detenido inmediatamente.
+
+#### 8.2.6.6. Instrumentos y Herramientas de Recolección de Datos
+
+Para mantener el principio del "Simplest Useful Thing", se utilizan instrumentos simples pero efectivos:
+
+1. **Encuestas en Línea:**
+   - Plataforma: Google Forms o Typeform (gratuitas y fáciles de usar).
+   - Frecuencia: Al inicio, punto medio y final del experimento.
+   - Duración: Máximo 10 minutos por encuesta.
+
+2. **Logs del Sistema:**
+   - Datos automáticos de uso de la plataforma (búsquedas, reservas, pagos).
+   - Sin intervención del usuario.
+   - Anonimización automática.
+
+3. **Entrevistas Semiestructuradas:**
+   - Solo al final del experimento.
+   - Duración: 15-20 minutos.
+   - Muestra: Subconjunto representativo (10-15 participantes por grupo).
+
+4. **Análisis de Datos:**
+   - Software: R o Python con librerías estadísticas estándar.
+   - Métodos: Pruebas t, Chi-cuadrado, análisis de varianza según el tipo de dato.
+
+
+
+
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
 
 ### 8.2.8. Web and Mobile Tracking Plan
