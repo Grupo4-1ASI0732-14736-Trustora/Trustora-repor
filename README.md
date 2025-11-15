@@ -3739,8 +3739,221 @@ Algunos eventos son comunes a ambas plataformas y deben tener la misma estructur
 
 
 ## 8.3. Experimentation
-### 8.3.1. To-Be User Stories.
+
+La sección de experimentación define las historias de usuario y el backlog de producto orientados a la validación de hipótesis y la mejora continua basada en datos.
+
+### 8.3.1. To-Be User Stories
+
+Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas que se implementarán basándose en los aprendizajes del experimento y el análisis de datos. Estas historias están orientadas a optimizar la experiencia del usuario y validar mejoras específicas.
+
+#### 8.3.1.1. User Stories de Optimización de Conversión
+
+**US-EXP-01: Optimización del Flujo de Registro**
+- **Como**: Visitante potencial
+- **Quiero**: Completar mi registro en menos pasos y con menos campos requeridos
+- **Para**: Reducir la fricción en el proceso de registro y aumentar la tasa de conversión
+- **Criterios de Aceptación**:
+  - El registro se completa en máximo 3 pasos (reducido de 5)
+  - Solo se solicitan campos esenciales en el registro inicial
+  - Los campos opcionales se pueden completar después
+  - La tasa de abandono en registro se reduce en al menos 20%
+- **Métricas a Rastrear**: `signup_abandoned`, `signup_completed`, `signup_duration`
+- **Hipótesis**: Reducir pasos y campos aumentará la tasa de completitud de registro
+
+**US-EXP-02: Mejora del Sistema de Búsqueda con Recomendaciones**
+- **Como**: Tutor
+- **Quiero**: Ver recomendaciones personalizadas de niñeras basadas en mis búsquedas previas
+- **Para**: Encontrar niñeras relevantes más rápidamente
+- **Criterios de Aceptación**:
+  - Se muestran recomendaciones en la página de inicio después del login
+  - Las recomendaciones se basan en historial de búsquedas y reservas
+  - El usuario puede ver por qué se recomienda cada niñera
+  - La tasa de clics en recomendaciones es al menos 15% mayor que búsquedas manuales
+- **Métricas a Rastrear**: `recommendation_viewed`, `recommendation_clicked`, `reservation_from_recommendation`
+- **Hipótesis**: Las recomendaciones personalizadas aumentarán la tasa de conversión de búsqueda a reserva
+
+**US-EXP-03: Simplificación del Proceso de Reserva**
+- **Como**: Tutor
+- **Quiero**: Realizar una reserva con menos clics y confirmaciones
+- **Para**: Completar reservas más rápidamente
+- **Criterios de Aceptación**:
+  - El flujo de reserva se completa en máximo 2 pantallas
+  - Se pre-llenan datos cuando sea posible (fecha, hora, duración)
+  - Confirmación rápida con opción de editar después
+  - Tiempo promedio de reserva reducido en 30%
+- **Métricas a Rastrear**: `reservation_flow_duration`, `reservation_abandoned`, `reservation_completed`
+- **Hipótesis**: Simplificar el flujo aumentará la tasa de completitud de reservas
+
+#### 8.3.1.2. User Stories de Mejora de Engagement
+
+**US-EXP-04: Sistema de Notificaciones Inteligentes**
+- **Como**: Usuario (Tutor o Niñera)
+- **Quiero**: Recibir notificaciones relevantes y personalizadas
+- **Para**: Mantenerme informado sin ser interrumpido innecesariamente
+- **Criterios de Aceptación**:
+  - Las notificaciones se agrupan por tipo y prioridad
+  - El usuario puede configurar preferencias de notificaciones
+  - Las notificaciones incluyen acciones rápidas cuando es apropiado
+  - La tasa de apertura de notificaciones aumenta en 25%
+- **Métricas a Rastrear**: `notification_received`, `notification_opened`, `notification_action_taken`
+- **Hipótesis**: Notificaciones más relevantes aumentarán el engagement
+
+**US-EXP-05: Gamificación de Perfiles de Niñeras**
+- **Como**: Niñera
+- **Quiero**: Ver mi progreso y logros en la plataforma
+- **Para**: Mantenerme motivada y mejorar mi perfil
+- **Criterios de Aceptación**:
+  - Sistema de badges/insignias por logros (primeras reservas, reseñas positivas, etc.)
+  - Tablero de progreso visible en el perfil
+  - Los badges son visibles para los tutores
+  - Las niñeras con badges tienen 20% más visualizaciones de perfil
+- **Métricas a Rastrear**: `badge_earned`, `profile_viewed_with_badge`, `engagement_score`
+- **Hipótesis**: La gamificación aumentará la participación y calidad de perfiles
+
+#### 8.3.1.3. User Stories de Validación de Nuevas Funcionalidades
+
+**US-EXP-06: Sistema de Reservas Recurrentes**
+- **Como**: Tutor
+- **Quiero**: Configurar reservas recurrentes (semanal, quincenal, mensual)
+- **Para**: Simplificar la gestión de cuidado infantil regular
+- **Criterios de Aceptación**:
+  - Opción de "Reserva Recurrente" en el flujo de reserva
+  - Configuración de frecuencia (semanal, quincenal, mensual)
+  - Posibilidad de pausar o cancelar la recurrencia
+  - Al menos 30% de los tutores activos usan reservas recurrentes
+- **Métricas a Rastrear**: `recurring_reservation_created`, `recurring_reservation_active`, `revenue_from_recurring`
+- **Hipótesis**: Las reservas recurrentes aumentarán la retención y el valor de por vida del cliente
+
+**US-EXP-07: Integración con Calendario Externo**
+- **Como**: Niñera
+- **Quiero**: Sincronizar mi disponibilidad con mi calendario personal (Google Calendar, iCal)
+- **Para**: Evitar conflictos y gestionar mejor mi tiempo
+- **Criterios de Aceptación**:
+  - Opción de conectar calendario externo
+  - Sincronización bidireccional de disponibilidad
+  - Conflictos detectados automáticamente
+  - Al menos 40% de las niñeras activas conectan su calendario
+- **Métricas a Rastrear**: `calendar_connected`, `conflicts_prevented`, `availability_accuracy`
+- **Hipótesis**: La sincronización de calendarios reducirá conflictos y mejorará la satisfacción
+
+**US-EXP-08: Sistema de Verificación Avanzada**
+- **Como**: Tutor
+- **Quiero**: Ver verificaciones más detalladas de las niñeras (verificación de identidad, verificación de antecedentes)
+- **Para**: Tener mayor confianza al contratar
+- **Criterios de Aceptación**:
+  - Badges de verificación visibles en perfiles
+  - Proceso de verificación documentado y transparente
+  - Las niñeras verificadas tienen acceso prioritario
+  - Las niñeras verificadas reciben 50% más solicitudes
+- **Métricas a Rastrear**: `verification_completed`, `profile_viewed_verified`, `reservation_to_verified`
+- **Hipótesis**: La verificación avanzada aumentará la confianza y las reservas
+
+
 ### 8.3.2. To-Be Product Backlog
+
+El Product Backlog "To-Be" prioriza las historias de usuario experimentales basándose en el potencial de impacto, la facilidad de implementación y la alineación con los objetivos del experimento.
+
+#### 8.3.2.1. Criterios de Priorización
+
+Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Confidence, Effort):
+
+- **Reach (Alcance)**: Número de usuarios afectados
+- **Impact (Impacto)**: Impacto en la métrica objetivo (0.25 a 3.0)
+- **Confidence (Confianza)**: Nivel de confianza en las estimaciones (50% a 100%)
+- **Effort (Esfuerzo)**: Esfuerzo en persona-mes
+
+**Fórmula**: `RICE Score = (Reach × Impact × Confidence) / Effort`
+
+#### 8.3.2.2. Product Backlog Priorizado
+
+| # | Story ID | Título | RICE Score | Prioridad | Epic | Story Points | Sprint Estimado |
+|---|----------|--------|------------|-----------|------|--------------|-----------------|
+| 1 | US-EXP-03 | Simplificación del Proceso de Reserva | 180 | Alta | EP04 | 8 | Sprint 1 |
+| 2 | US-EXP-01 | Optimización del Flujo de Registro | 150 | Alta | EP02 | 5 | Sprint 1 |
+| 3 | US-EXP-02 | Mejora del Sistema de Búsqueda con Recomendaciones | 120 | Alta | EP03 | 13 | Sprint 2 |
+| 4 | US-EXP-04 | Sistema de Notificaciones Inteligentes | 100 | Media | EP05 | 8 | Sprint 2 |
+| 5 | US-EXP-08 | Sistema de Verificación Avanzada | 90 | Media | EP02 | 13 | Sprint 3 |
+| 6 | US-EXP-05 | Gamificación de Perfiles de Niñeras | 75 | Media | EP03 | 8 | Sprint 3 |
+| 7 | US-EXP-06 | Sistema de Reservas Recurrentes | 60 | Baja | EP04 | 13 | Sprint 4 |
+| 8 | US-EXP-07 | Integración con Calendario Externo | 45 | Baja | EP03 | 13 | Sprint 4 |
+
+#### 8.3.2.3. Roadmap de Experimentación
+
+**Sprint 1 (Semanas 1-2): Optimización de Conversión Inicial**
+- **Objetivo**: Reducir fricción en registro y reservas
+- **Historias**: US-EXP-01, US-EXP-03
+- **Métricas Objetivo**: 
+  - Tasa de registro: +25%
+  - Tasa de completitud de reserva: +30%
+
+**Sprint 2 (Semanas 3-4): Mejora de Engagement**
+- **Objetivo**: Aumentar uso y retención
+- **Historias**: US-EXP-02, US-EXP-04
+- **Métricas Objetivo**:
+  - Tasa de clics en recomendaciones: +15%
+  - Tasa de apertura de notificaciones: +25%
+
+**Sprint 3 (Semanas 5-6): Validación de Confianza**
+- **Objetivo**: Aumentar confianza y calidad
+- **Historias**: US-EXP-05, US-EXP-08
+- **Métricas Objetivo**:
+  - Visualizaciones de perfiles verificados: +50%
+  - Engagement con gamificación: +20%
+
+**Sprint 4 (Semanas 7-8): Funcionalidades Avanzadas**
+- **Objetivo**: Aumentar valor y retención a largo plazo
+- **Historias**: US-EXP-06, US-EXP-07
+- **Métricas Objetivo**:
+  - Adopción de reservas recurrentes: 30%
+  - Adopción de sincronización de calendario: 40%
+
+#### 8.3.2.4. Criterios de Éxito del Backlog
+
+**Métricas de Éxito Generales:**
+- Al menos 70% de las historias experimentales muestran mejoras medibles
+- Las mejoras implementadas se mantienen en producción
+- El tiempo de desarrollo de experimentos no excede 2 sprints por historia
+
+**Métricas por Categoría:**
+
+**Conversión:**
+- Tasa de registro: +20% mínimo
+- Tasa de completitud de reserva: +25% mínimo
+- Tasa de conversión de búsqueda a reserva: +15% mínimo
+
+**Engagement:**
+- Sesiones por usuario: +10% mínimo
+- Tiempo en app: +15% mínimo
+- Retención D7: +5 puntos porcentuales mínimo
+
+**Calidad:**
+- Satisfacción del usuario (NPS): +10 puntos mínimo
+- Tasa de reseñas: +20% mínimo
+- Calificación promedio: +0.3 puntos mínimo
+
+#### 8.3.2.5. Proceso de Validación
+
+**Fase 1: Desarrollo y Testing**
+- Desarrollo de la funcionalidad
+- Testing unitario e integración
+- Testing de usabilidad con 5-10 usuarios
+
+**Fase 2: Lanzamiento Gradual (Feature Flags)**
+- Lanzamiento a 10% de usuarios (A/B test)
+- Monitoreo de métricas durante 1 semana
+- Análisis de resultados
+
+**Fase 3: Decisión**
+- Si métricas mejoran: Lanzamiento a 100%
+- Si métricas no mejoran: Iteración o descarte
+- Documentación de aprendizajes
+
+**Fase 4: Optimización**
+- Ajustes basados en feedback
+- Mejoras incrementales
+- Monitoreo continuo
+
+
 
 # Conclusiones
 
