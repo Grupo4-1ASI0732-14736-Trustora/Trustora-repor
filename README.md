@@ -3335,6 +3335,147 @@ La **entrega continua (CD)** en este proyecto busca que cada cambio validado pue
 
 ### 7.3.2. Production Deployment Pipeline Components.
 
+# Capítulo VIII: Experiment-Driven Development
+## 8.1. Experiment Planning
+### 8.1.1. As-Is Summary.
+
+Actualmente, en el sector de contratación de cuidadores y profesores particulares existe una falta de plataformas confiables, rápidas y seguras que permitan a las familias encontrar servicios de cuidado infantil y apoyo educativo con garantías reales. Muchos padres dependen de recomendaciones informales, redes sociales o búsquedas poco verificables, lo que genera incertidumbre respecto a la seguridad, experiencia y disponibilidad de los cuidadores.
+
+Por otro lado, los cuidadores y docentes carecen de un espacio centralizado donde puedan ofrecer sus servicios de forma profesional, gestionar horarios, optimizar su visibilidad y construir una reputación validada.
+
+**KindyCare** nace como una solución para cerrar estas brechas, proporcionando un entorno confiable donde padres y cuidadores pueden interactuar de manera segura y eficiente. A través de un enfoque basado en experimentación continua, buscamos validar hipótesis clave para mejorar la experiencia del usuario, incrementar la confianza en la plataforma y garantizar un crecimiento sostenible del ecosistema digital.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+### Assumptions (Supuestos)
+
+- Los padres priorizan la seguridad y verificación del cuidador antes de contratar cualquier servicio.
+- Los cuidadores buscan plataformas que les permitan obtener mayor visibilidad y mejorar su reputación.
+- Un sistema de reseñas verificadas aumentará la confianza entre padres y cuidadores.
+- La oferta de cuidadores disponibles es suficiente para cubrir la demanda, pero no está bien distribuida.
+- La automatización de reservas y pagos facilitará las transacciones y reducirá fricciones.
+- Los padres están dispuestos a pagar un extra por cuidadores con certificaciones o verificaciones adicionales.
+
+### Knowledge Gaps (Vacíos de conocimiento)
+
+- ¿Cuál es el factor que más influye en los padres al decidir contratar a un cuidador: precio, experiencia o reseñas?
+- ¿Qué porcentaje de cuidadores está dispuesto a pagar por mejorar la visibilidad de su perfil?
+- ¿Qué nivel de certificación o validación genera mayor confianza en los padres?
+- ¿Qué etapa del proceso de reserva tiene mayor tasa de abandono?
+- ¿Los padres prefieren contacto previo por chat o reserva inmediata?
+- ¿Qué métodos de pago son los más utilizados o esperados por los padres?
+
+### Ideas
+
+- Implementar un sistema de verificación de identidad y antecedentes para cuidadores.
+- Crear un programa de “Perfiles Destacados” que aumente la visibilidad de cuidadores de alto rendimiento.
+- Agregar un chat seguro entre padres y cuidadores antes de confirmar la reserva.
+- Integrar un sistema automatizado de recordatorios y notificaciones.
+- Crear certificados digitales (ejemplo: “Experto en cuidado infantil”, “Primeros auxilios”) para aumentar la confianza.
+- Ofrecer filtros avanzados para que los padres seleccionen cuidadores según experiencia, tarifas y disponibilidad.
+
+### Claims
+
+- Si los padres no confían en la identidad y experiencia del cuidador, no completarán la reserva.
+- Si los cuidadores no tienen suficiente visibilidad, no podrán captar clientes con facilidad.
+- Si no se ofrece un sistema de pago seguro, se incrementará el abandono antes de la contratación.
+- Si los padres no pueden comparar perfiles de manera clara, se demorará el proceso de decisión.
+- Si no existe un canal de comunicación previo entre padres y cuidadores, aumentarán las dudas y la desconfianza.
+- Si no se implementan recordatorios y notificaciones, habrá más cancelaciones o retrasos.
+
+### 8.1.3. Experiment-Ready Questions.
+
+1. ¿La verificación de identidad de cuidadores aumentará la confianza y las reservas realizadas por los padres?
+2. ¿Ofrecer un sistema de perfiles destacados mejorará la visibilidad y contratación de cuidadores?
+3. ¿Un sistema de chat previo reducirá la incertidumbre y aumentará la tasa de reservas completadas?
+4. ¿La automatización de notificaciones disminuirá las cancelaciones y mejorará la puntualidad?
+5. ¿Mostrar certificaciones adicionales (primeros auxilios, cuidado infantil) influirá positivamente en la decisión de contratación?
+6. ¿Implementar un sistema de pago seguro reducirá la tasa de abandono en el proceso de reserva?
+
+### 8.1.4. Question Backlog.
+
+| Pregunta                                                                                       | Confidence | Risk | Impact | Interest | Total Score |
+| ---------------------------------------------------------------------------------------------- | ---------- | ---- | ------ | -------- | ----------- |
+| ¿La verificación de identidad aumentará la confianza y las reservas?                           | 3          | 2    | 3      | 3        | 11          |
+| ¿Los perfiles destacados aumentarán la visibilidad de cuidadores?                              | 3          | 1    | 2      | 2        | 8           |
+| ¿El chat previo mejorará la tasa de reservas completadas?                                      | 3          | 1    | 3      | 3        | 10          |
+| ¿Las certificaciones visibles incrementarán la intención de contratación?                      | 2          | 1    | 3      | 2        | 8           |
+| ¿Las notificaciones automáticas reducirán cancelaciones?                                       | 2          | 1    | 2      | 2        | 7           |
+| ¿El pago seguro reducirá el abandono durante la reserva?                                       | 3          | 2    | 3      | 3        | 11          |
+
+### 8.1.5. Experiment Cards.
+
+| ID    | Nombre del Experimento                    | Objetivo                                                                   | Pregunta a responder                                                                           | Hipótesis                                                                                                                           | Segmento objetivo        | Tipo de experimento                              | Métricas clave                                                        | Criterio de éxito                    |
+| ----- | ----------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------ |
+| EXP01	| Verificación de Identidad | Medir si los padres confían más en perfiles verificados | ¿La verificación aumenta reservas? | Creemos que mostrar “Perfil verificado” aumentará la confianza y las reservas | Padres | A/B Test | Tasa de reservas, clics en perfil | +20% reservas |
+| EXP02	| Perfiles Destacados | Validar si cuidadores con visibilidad extra generan más contrataciones | ¿Perfiles destacados aumentan contrataciones? | Creemos que un banner destacado aumentará la visibilidad y reservas | Cuidadores | Feature Toggle | Impresiones, reservas | +25% visibilidad |
+| EXP03	| Chat Previo Seguro | Validar si el chat reduce dudas y abandono | ¿Chat aumenta reservas completadas? | Creemos que la comunicación previa reducirá incertidumbre y aumentará reservas | Padres y Cuidadores | Activación progresiva | Tasa de conversión, tiempo de respuesta | -20% abandono
+| EXP04 | Certificaciones Profesionales | Medir si certificaciones aumentan confianza | ¿Certificaciones aumentan intención? | Creemos que añadir certificaciones visibles aumentará la intención de reserva | Padres | A/B Test | Clics, tiempo en perfil | +15% intención |
+| EXP05 | Pago Seguro Integrado | Medir impacto en el abandono | ¿Pago seguro reduce abandono? | Creemos que un sistema de pago seguro disminuirá el abandono durante la reserva | Padres | Test funcional | Abandono en checkout | -30% abandono |
+
+## 8.2. Experiment Design
+
+### 8.2.1. Hypotheses.
+
+- Creemos que implementar un sistema de verificación de identidad para cuidadores aumentará la confianza de los padres, lo que resultará en un mayor número de reservas completadas.
+- Creemos que ofrecer perfiles destacados a cuidadores incrementará su visibilidad, lo que reducirá el tiempo promedio para recibir una reserva.
+- Creemos que habilitar un chat previo seguro entre cuidadores y padres reducirá la incertidumbre, lo que disminuirá el abandono en el proceso de contratación.
+- Creemos que mostrar certificaciones profesionales aumentará la credibilidad del cuidador, lo que resultará en una mayor intención de contratación.
+- Creemos que integrar un sistema de pago seguro reducirá la fricción durante el checkout, lo que resultará en un aumento de reservas finalizadas.
+
+### 8.2.2. Domain Business Metrics
+
+Estas métricas permiten evaluar el rendimiento del negocio y validar si los experimentos generan valor real:
+
+#### Métricas centrales del negocio (Core Metrics):
+
+- Reservation Completion Rate
+Porcentaje de reservas completadas sobre el total de reservas iniciadas.
+
+- Verified Caregiver Adoption Rate
+% de cuidadores que completan la verificación de identidad.
+
+- Parent Trust Index
+Métrica compuesta basada en:
+    - Perfiles visitados
+    - Tiempo en página
+    - Interacción con elementos de confianza (certificaciones, verificaciones)
+
+- Caregiver Visibility Score
+Cantidad de impresiones por perfil dividido entre cuidadores activos.
+
+#### Métricas de adquisición:
+
+- New Parent Sign-ups por mes
+- New Caregiver Sign-ups por mes
+- Cost per Acquisition (CPA)
+
+#### Métricas de activación:
+
+- Time to First Booking (TTFB) — tiempo desde el registro hasta la primera reserva exitosa.
+- Parent-to-Caregiver Interaction Rate — mensajes, clics y contacto previo.
+
+#### Métricas de retención:
+
+- Repeat Booking Rate
+- Caregiver Retention Rate
+- Monthly Active Parents (MAP)
+
+#### Métricas de monetización:
+- Promoted Profile Conversion Rate
+- Revenue per Booking (RPB)
+- Monthly Recurring Revenue (MRR)
+
+### 8.2.3. Measures.
+### 8.2.4. Conditions.
+### 8.2.5. Scale Calculations and Decisions.
+### 8.2.6. Methods Selection.
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
+### 8.2.8. Web and Mobile Tracking Plan.
+## 8.3. Experimentation
+### 8.3.1. To-Be User Stories.
+### 8.3.2. To-Be Product Backlog
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
