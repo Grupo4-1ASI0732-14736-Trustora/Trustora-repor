@@ -3467,6 +3467,88 @@ Cantidad de impresiones por perfil dividido entre cuidadores activos.
 - Monthly Recurring Revenue (MRR)
 
 ### 8.2.3. Measures.
+
+Esta sección presenta los criterios seleccionados para recopilar la evidencia que ayudará a responder la pregunta principal y a detectar evidencia secundaria. Se destaca la elección de medidas que deben ser representativas del cambio esperado. Además, se enfatiza el principio de usar solo las medidas necesarias durante el tiempo justo, para minimizar costos y riesgos, promoviendo un rastreo eficiente y focalizado.
+
+#### 8.2.3.1. Medidas Primarias
+
+Las medidas primarias están directamente relacionadas con las hipótesis principales del proyecto y permiten evaluar el impacto directo de KidyCare en los objetivos planteados:
+
+**M1: Nivel de Confianza de los Padres en la Plataforma**
+- **Descripción**: Mide el grado de confianza que los padres depositan en KidyCare para encontrar niñeras confiables.
+- **Métrica Cuantitativa**: Escala Likert de 1 a 5 puntos en encuestas post-uso, donde 1 = "Nada confiable" y 5 = "Muy confiable".
+- **Métrica Cualitativa**: Análisis de comentarios y feedback sobre aspectos de seguridad y verificación de perfiles.
+- **Frecuencia de Medición**: Al inicio del experimento (línea base), después de 2 semanas de uso, y al finalizar el período experimental (4 semanas).
+- **Justificación**: Esta medida es fundamental para validar la hipótesis de que "los perfiles verificados y el sistema de reseñas aumentan la confianza de los padres".
+
+**M2: Tasa de Adopción de Pagos Digitales**
+- **Descripción**: Evalúa la preferencia de los padres por utilizar el sistema de pagos integrado de KidyCare frente a métodos tradicionales.
+- **Métrica Cuantitativa**: Porcentaje de transacciones completadas a través de la plataforma vs. métodos externos (efectivo, transferencias directas).
+- **Métrica Cualitativa**: Entrevistas sobre percepciones de seguridad y conveniencia del sistema de pagos.
+- **Frecuencia de Medición**: Semanal durante el período experimental.
+- **Justificación**: Permite validar la hipótesis de que "los pagos seguros en la app hacen que los padres prefieran usar Trustora en lugar de métodos informales".
+
+**M3: Tasa de Registro y Retención de Niñeras**
+- **Descripción**: Mide el número de niñeras que se registran en la plataforma y permanecen activas después de un período determinado.
+- **Métrica Cuantitativa**: 
+  - Número de niñeras registradas por semana.
+  - Tasa de retención a los 30 días (porcentaje de niñeras que completan al menos una reserva).
+  - Número de perfiles completados (con toda la información requerida).
+- **Métrica Cualitativa**: Encuestas sobre motivaciones para registrarse y factores que influyen en la permanencia.
+- **Frecuencia de Medición**: Diaria para registros, semanal para retención.
+- **Justificación**: Valida la hipótesis de que "dar visibilidad y herramientas de gestión aumenta el registro y la oferta de niñeras".
+
+#### 8.2.3.2. Medidas Secundarias
+
+Las medidas secundarias proporcionan contexto adicional y ayudan a identificar factores que pueden influir en los resultados principales:
+
+**M4: Tiempo de Búsqueda y Contratación**
+- **Descripción**: Evalúa la eficiencia del proceso de búsqueda y contratación de niñeras a través de la plataforma.
+- **Métrica Cuantitativa**: Tiempo promedio (en minutos) desde la búsqueda inicial hasta la confirmación de reserva.
+- **Frecuencia de Medición**: Por cada transacción completada.
+- **Justificación**: Proporciona evidencia sobre la mejora en eficiencia respecto a métodos tradicionales.
+
+**M5: Satisfacción del Usuario (NPS - Net Promoter Score)**
+- **Descripción**: Mide la probabilidad de que los usuarios recomienden KidyCare a otros.
+- **Métrica Cuantitativa**: Escala de 0 a 10, clasificando usuarios como Promotores (9-10), Pasivos (7-8) o Detractores (0-6).
+- **Frecuencia de Medición**: Al finalizar el período experimental.
+- **Justificación**: Indica la percepción general de valor y la viabilidad de crecimiento orgánico.
+
+**M6: Calidad de las Reseñas y Perfiles**
+- **Descripción**: Evalúa la utilidad y completitud de la información disponible en los perfiles de niñeras.
+- **Métrica Cuantitativa**: 
+  - Número promedio de reseñas por niñera.
+  - Completitud del perfil (porcentaje de campos completados).
+  - Calificación promedio de las reseñas.
+- **Frecuencia de Medición**: Semanal.
+- **Justificación**: Aporta evidencia sobre la calidad del sistema de verificación y reseñas.
+
+**M7: Tasa de Conversión de Búsquedas a Reservas**
+- **Descripción**: Mide la efectividad de la plataforma en convertir búsquedas en reservas reales.
+- **Métrica Cuantitativa**: Porcentaje de búsquedas que resultan en reservas confirmadas.
+- **Frecuencia de Medición**: Diaria.
+- **Justificación**: Indica la eficacia del proceso de matching entre padres y niñeras.
+
+#### 8.2.3.3. Principios de Medición
+
+Para garantizar un rastreo eficiente y minimizar costos y riesgos, se aplican los siguientes principios:
+
+1. **Medición Focalizada**: Solo se recopilan datos esenciales para responder las preguntas de investigación. Se evita la sobrecarga de información que pueda generar fatiga en los participantes.
+
+2. **Ventanas de Medición Optimizadas**: 
+   - Medidas primarias: Se toman en momentos críticos (inicio, punto medio, final) para capturar cambios significativos.
+   - Medidas secundarias: Se recopilan de forma continua pero con menor frecuencia para no interferir con la experiencia del usuario.
+
+3. **Minimización de Intrusión**: Las métricas se obtienen principalmente a través de:
+   - Datos de uso automáticos (logs del sistema).
+   - Encuestas breves y puntuales (máximo 5 minutos).
+   - Entrevistas estructuradas solo al final del experimento.
+
+4. **Protección de Datos**: Todas las medidas respetan la privacidad de los usuarios, cumpliendo con principios de protección de datos personales y obteniendo consentimiento informado.
+
+5. **Validación de Instrumentos**: Antes del experimento principal, se realiza una prueba piloto con un grupo reducido (5-10 usuarios) para validar que las medidas sean comprensibles y relevantes.
+
+
 ### 8.2.4. Conditions.
 ### 8.2.5. Scale Calculations and Decisions.
 ### 8.2.6. Methods Selection.
