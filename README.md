@@ -3944,6 +3944,251 @@ Para mantener el principio del "Simplest Useful Thing", se utilizan instrumentos
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
 
+Esta sección presenta la preparación analítica basada en la selección de medidas, con el objetivo de asegurar la economía en el rastreo de datos y garantizar que las métricas elegidas permitan detectar diferencias o cambios precisos. La estrategia analítica se fundamenta en la alineación entre los objetivos del experimento, los indicadores clave de rendimiento (KPIs) y las métricas específicas que se rastrearán, optimizando el proceso de recolección y análisis de datos.
+
+#### 8.2.7.1. Metas del Análisis de Datos (Goals)
+
+Las metas del análisis de datos definen los objetivos principales que se buscan alcanzar a través de la recolección y análisis de información durante el experimento:
+
+**Meta 1: Validar Hipótesis Principales**
+- **Objetivo**: Proporcionar evidencia estadísticamente significativa que valide o refute las tres hipótesis principales del proyecto.
+- **Alcance**: Determinar si KidyCare produce efectos medibles y relevantes en confianza, adopción de pagos y registro de niñeras.
+- **Criterio de Éxito**: Al menos dos de las tres hipótesis principales muestran resultados estadísticamente significativos (p < 0.05) con efectos prácticos relevantes.
+
+**Meta 2: Detectar Diferencias Precisas**
+- **Objetivo**: Identificar cambios específicos y cuantificables entre las condiciones experimental y control.
+- **Alcance**: Medir diferencias que superen el Efecto Mínimo Detectable (MDE) establecido para cada métrica.
+- **Criterio de Éxito**: Las diferencias detectadas son estadísticamente significativas y superan los umbrales de MDE definidos.
+
+**Meta 3: Optimizar el Rastreo de Datos**
+- **Objetivo**: Minimizar la cantidad de datos recolectados sin comprometer la calidad del análisis.
+- **Alcance**: Implementar un sistema de rastreo eficiente que capture solo información esencial.
+- **Criterio de Éxito**: Reducción del 30% en tiempo de recolección de datos comparado con un enfoque exhaustivo, manteniendo validez estadística.
+
+**Meta 4: Proporcionar Insights Accionables**
+- **Objetivo**: Generar información que permita tomar decisiones informadas sobre el futuro de KidyCare.
+- **Alcance**: Identificar fortalezas, debilidades y oportunidades de mejora basadas en evidencia.
+- **Criterio de Éxito**: Al menos 5 insights accionables identificados que informen el desarrollo futuro de la plataforma.
+
+#### 8.2.7.2. Indicadores Clave de Rendimiento (KPIs)
+
+Los KPIs son métricas de alto nivel que reflejan el éxito general del experimento y la plataforma KidyCare. Se seleccionan para ser representativos, medibles y alineados con los objetivos del negocio:
+
+**KPI 1: Tasa de Éxito del Experimento**
+- **Definición**: Porcentaje de hipótesis validadas con resultados estadísticamente significativos.
+- **Cálculo**: (Número de hipótesis validadas / Total de hipótesis) × 100
+- **Objetivo**: ≥ 66% (al menos 2 de 3 hipótesis validadas)
+- **Frecuencia de Medición**: Al finalizar el experimento
+
+**KPI 2: Magnitud del Efecto Promedio**
+- **Definición**: Promedio de los tamaños de efecto (Cohen's d) para las medidas primarias.
+- **Cálculo**: Promedio de (d₁ + d₂ + d₃) / 3, donde d es el tamaño del efecto para cada medida primaria
+- **Objetivo**: ≥ 0.5 (efecto mediano según convención de Cohen)
+- **Frecuencia de Medición**: Al finalizar el experimento
+
+**KPI 3: Tasa de Retención de Participantes**
+- **Definición**: Porcentaje de participantes que completan el experimento completo.
+- **Cálculo**: (Participantes que completan / Participantes que inician) × 100
+- **Objetivo**: ≥ 80%
+- **Frecuencia de Medición**: Semanal durante el experimento
+
+**KPI 4: Calidad de los Datos Recolectados**
+- **Definición**: Porcentaje de datos válidos y completos en relación al total recolectado.
+- **Cálculo**: (Datos válidos / Total de datos) × 100
+- **Objetivo**: ≥ 95%
+- **Frecuencia de Medición**: Diaria durante el experimento
+
+**KPI 5: Eficiencia del Rastreo**
+- **Definición**: Relación entre el valor de los insights obtenidos y el esfuerzo de recolección de datos.
+- **Cálculo**: (Número de insights accionables / Horas de recolección de datos)
+- **Objetivo**: ≥ 0.5 insights por hora de recolección
+- **Frecuencia de Medición**: Al finalizar el experimento
+
+#### 8.2.7.3. Selección de Métricas
+
+La selección de métricas se basa en los principios de economía, precisión y relevancia. Solo se incluyen métricas que aportan valor directo a la validación de hipótesis y la toma de decisiones:
+
+**Métricas Primarias (Directamente Relacionadas con Hipótesis):**
+
+| Métrica | Hipótesis Relacionada | Tipo de Dato | Método de Recolección | Frecuencia |
+|---------|----------------------|--------------|----------------------|------------|
+| **M1: Nivel de Confianza** | H1: Perfiles verificados aumentan confianza | Escala Likert (1-5) | Encuesta estructurada | Inicio, Medio, Final |
+| **M2: Tasa de Adopción Pagos Digitales** | H2: Pagos seguros aumentan preferencia | Proporción (%) | Logs del sistema + Encuesta | Semanal |
+| **M3: Tasa de Registro Niñeras** | H3: Herramientas aumentan registro | Conteo (número) | Logs del sistema | Diaria |
+| **M3b: Tasa de Retención Niñeras** | H3: Herramientas aumentan retención | Proporción (%) | Logs del sistema | Semanal |
+
+**Métricas Secundarias (Contexto y Validación):**
+
+| Métrica | Propósito | Tipo de Dato | Método de Recolección | Frecuencia |
+|---------|-----------|--------------|----------------------|------------|
+| **M4: Tiempo de Búsqueda** | Validar eficiencia | Continuo (minutos) | Logs del sistema | Por transacción |
+| **M5: Net Promoter Score** | Medir satisfacción general | Escala (0-10) | Encuesta | Final |
+| **M6: Calidad de Reseñas** | Validar sistema de reseñas | Múltiple (conteo, promedio) | Logs del sistema | Semanal |
+| **M7: Tasa de Conversión** | Validar efectividad matching | Proporción (%) | Logs del sistema | Diaria |
+
+**Métricas de Control (Variables de Confusión):**
+
+| Métrica | Propósito | Tipo de Dato | Método de Recolección | Frecuencia |
+|---------|-----------|--------------|----------------------|------------|
+| **MC1: Variables Demográficas** | Control de sesgos | Categórico/Nominal | Encuesta inicial | Inicio |
+| **MC2: Experiencia Tecnológica** | Control de familiaridad | Escala Likert (1-5) | Encuesta inicial | Inicio |
+| **MC3: Uso Previo de Apps Similares** | Control de experiencia previa | Binario (Sí/No) | Encuesta inicial | Inicio |
+
+#### 8.2.7.4. Principios de Economía en el Rastreo de Datos
+
+Para asegurar la economía en el rastreo de datos, se aplican los siguientes principios:
+
+**Principio 1: Rastreo Automático Preferido**
+- **Aplicación**: Se prioriza la recolección automática mediante logs del sistema sobre encuestas manuales.
+- **Beneficio**: Reduce la carga sobre los participantes y minimiza errores de recolección.
+- **Ejemplo**: El tiempo de búsqueda se captura automáticamente en lugar de pedir a los usuarios que lo reporten.
+
+**Principio 2: Agregación Inteligente**
+- **Aplicación**: Los datos se agregan en niveles apropiados (diario, semanal) en lugar de almacenar cada evento individual.
+- **Beneficio**: Reduce el volumen de datos almacenados sin perder información relevante.
+- **Ejemplo**: En lugar de almacenar cada clic, se almacena el tiempo total de sesión y número de acciones.
+
+**Principio 3: Muestreo Estratificado**
+- **Aplicación**: Para métricas costosas de recolectar (entrevistas), se utiliza muestreo estratificado en lugar de censo.
+- **Beneficio**: Reduce el esfuerzo de recolección manteniendo representatividad.
+- **Ejemplo**: Solo 10-15 participantes por grupo son entrevistados, seleccionados para representar diferentes perfiles.
+
+**Principio 4: Eliminación de Métricas Redundantes**
+- **Aplicación**: Se evita recolectar múltiples métricas que miden el mismo constructo.
+- **Beneficio**: Reduce redundancia y simplifica el análisis.
+- **Ejemplo**: Se usa solo NPS para satisfacción general, no múltiples escalas de satisfacción.
+
+**Principio 5: Rastreo Condicional**
+- **Aplicación**: Algunas métricas solo se rastrean si se cumplen condiciones específicas.
+- **Beneficio**: Evita recolección innecesaria de datos.
+- **Ejemplo**: Las reseñas solo se analizan para niñeras que han completado al menos un servicio.
+
+#### 8.2.7.5. Preparación Analítica
+
+La preparación analítica incluye la definición de procedimientos, herramientas y métodos que se utilizarán para procesar y analizar los datos recolectados:
+
+**8.2.7.5.1. Pipeline de Procesamiento de Datos**
+
+**Etapa 1: Recolección y Almacenamiento**
+- **Herramientas**: 
+  - Logs del sistema: Base de datos PostgreSQL con tablas estructuradas
+  - Encuestas: Google Forms / Typeform con exportación a CSV
+  - Entrevistas: Transcripciones almacenadas en formato texto estructurado
+- **Frecuencia**: Diaria para logs, según programación para encuestas
+- **Validación**: Verificación automática de completitud y formato
+
+**Etapa 2: Limpieza y Transformación**
+- **Procedimientos**:
+  - Eliminación de valores atípicos extremos (más de 3 desviaciones estándar)
+  - Manejo de valores faltantes (imputación para <5%, exclusión para ≥5%)
+  - Normalización de formatos y escalas
+  - Codificación de variables categóricas
+- **Herramientas**: Python (pandas, numpy) o R (dplyr, tidyr)
+- **Criterios de Calidad**: ≥95% de datos válidos después de limpieza
+
+**Etapa 3: Agregación y Cálculo de Métricas**
+- **Procedimientos**:
+  - Cálculo de métricas primarias y secundarias según definiciones
+  - Agregación temporal (diaria, semanal)
+  - Cálculo de KPIs
+- **Herramientas**: Python (pandas) o R (dplyr)
+- **Validación**: Verificación cruzada de cálculos con muestras manuales
+
+**Etapa 4: Análisis Estadístico**
+- **Procedimientos**:
+  - Pruebas de normalidad (Shapiro-Wilk)
+  - Pruebas de homogeneidad de varianzas (Levene)
+  - Pruebas de hipótesis según tipo de dato:
+    - Prueba t de Student (medidas continuas)
+    - Prueba de Chi-cuadrado (medidas categóricas)
+    - ANOVA (comparaciones múltiples)
+  - Cálculo de tamaños de efecto (Cohen's d, Cramér's V)
+  - Intervalos de confianza (95%)
+- **Herramientas**: Python (scipy.stats) o R (stats, effectsize)
+- **Nivel de Significación**: α = 0.05
+
+**Etapa 5: Visualización y Reporte**
+- **Procedimientos**:
+  - Generación de gráficos descriptivos (histogramas, boxplots)
+  - Gráficos comparativos (barras, líneas)
+  - Tablas de resultados estadísticos
+  - Reporte ejecutivo con conclusiones
+- **Herramientas**: Python (matplotlib, seaborn) o R (ggplot2)
+- **Formato de Salida**: PDF y HTML interactivo
+
+**8.2.7.5.2. Plan de Análisis Estadístico**
+
+**Análisis Descriptivo:**
+- Estadísticos de tendencia central (media, mediana) y dispersión (desviación estándar, rango intercuartílico)
+- Distribuciones de frecuencias para variables categóricas
+- Comparación de características basales entre grupos (verificación de equivalencia)
+
+**Análisis Inferencial:**
+- **Para M1 (Confianza)**: Prueba t de Student para muestras independientes
+- **Para M2 (Adopción Pagos)**: Prueba de Chi-cuadrado de independencia
+- **Para M3 (Registro/Retención)**: Prueba de Chi-cuadrado o prueba exacta de Fisher
+- **Para M4-M7 (Secundarias)**: Análisis exploratorio con pruebas apropiadas según distribución
+
+**Análisis de Sensibilidad:**
+- Análisis de subgrupos (por nivel socioeconómico, experiencia previa)
+- Análisis de intención de tratar (ITT) vs. análisis por protocolo
+- Análisis de robustez con diferentes métodos de imputación
+
+**8.2.7.5.3. Herramientas y Software**
+
+| Herramienta | Propósito | Justificación |
+|-------------|-----------|---------------|
+| **Python 3.9+** o **R 4.0+** | Análisis estadístico principal | Librerías robustas, código reproducible |
+| **pandas** (Python) / **dplyr** (R) | Manipulación de datos | Eficiencia y claridad en transformaciones |
+| **scipy.stats** (Python) / **stats** (R) | Pruebas estadísticas | Implementaciones validadas y documentadas |
+| **matplotlib/seaborn** (Python) / **ggplot2** (R) | Visualización | Gráficos de alta calidad y personalizables |
+| **Jupyter Notebook** o **R Markdown** | Documentación de análisis | Reproducibilidad y transparencia |
+| **PostgreSQL** | Almacenamiento de logs | Escalabilidad y consultas eficientes |
+| **Git** | Control de versiones de código | Trazabilidad y colaboración |
+
+#### 8.2.7.6. Garantía de Detección de Diferencias Precisas
+
+Para garantizar que las métricas elegidas permitan detectar diferencias o cambios precisos, se implementan las siguientes estrategias:
+
+**Estrategia 1: Validación de Poder Estadístico**
+- **Procedimiento**: Cálculo a priori del poder estadístico para cada prueba planificada.
+- **Verificación**: Confirmación de que el tamaño de muestra permite detectar el MDE con poder ≥0.80.
+- **Ajuste**: Si el poder es insuficiente, se ajusta el tamaño de muestra o se reconsidera el MDE.
+
+**Estrategia 2: Validación de Instrumentos**
+- **Procedimiento**: Prueba piloto con 5-10 participantes para validar que las métricas capturan lo esperado.
+- **Verificación**: Análisis de consistencia interna (alpha de Cronbach para escalas) y validez de constructo.
+- **Ajuste**: Refinamiento de instrumentos basado en feedback del piloto.
+
+**Estrategia 3: Monitoreo Continuo de Calidad**
+- **Procedimiento**: Verificación diaria de completitud y calidad de datos durante el experimento.
+- **Verificación**: Alertas automáticas si la tasa de datos faltantes excede 5% o si hay valores atípicos sospechosos.
+- **Ajuste**: Acción correctiva inmediata si se detectan problemas.
+
+**Estrategia 4: Análisis de Robustez**
+- **Procedimiento**: Repetición de análisis principales con diferentes métodos y supuestos.
+- **Verificación**: Confirmación de que los resultados son consistentes independientemente del método.
+- **Ajuste**: Reporte de cualquier inconsistencia y análisis de causas.
+
+**Estrategia 5: Documentación Transparente**
+- **Procedimiento**: Documentación completa de todas las decisiones analíticas y justificaciones.
+- **Verificación**: Revisión por pares del plan de análisis antes de la recolección de datos.
+- **Ajuste**: Incorporación de feedback en el plan final.
+
+#### 8.2.7.7. Métricas de Calidad de Datos
+
+Para asegurar la precisión en la detección de diferencias, se monitorean las siguientes métricas de calidad:
+
+| Métrica de Calidad | Objetivo | Acción Correctiva si No se Cumple |
+|-------------------|----------|-----------------------------------|
+| **Tasa de Completitud** | ≥95% | Investigar causas de datos faltantes, contactar participantes |
+| **Tasa de Consistencia** | ≥98% | Revisar lógica de validación, corregir errores sistemáticos |
+| **Tasa de Validez** | ≥95% | Eliminar valores inválidos, verificar instrumentos |
+| **Tasa de Puntualidad** | ≥90% | Automatizar recolección, establecer recordatorios |
+| **Tasa de Precisión** | ≥99% | Verificar cálculos, implementar validaciones cruzadas |
+
+
+
 ### 8.2.8. Web and Mobile Tracking Plan
 
 El plan de tracking para web y móvil define específicamente qué eventos se rastrearán en cada plataforma, cómo se implementarán y qué métricas se derivarán de ellos. Este plan complementa la estrategia de análisis de datos definida en la sección 8.2.7 y se basa en los principios de economía en el rastreo establecidos anteriormente.
