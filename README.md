@@ -3334,7 +3334,99 @@ La **entrega continua (CD)** en este proyecto busca que cada cambio validado pue
 
 ### 7.3.1. Tools and Practices.
 
+Control de versiones: Git + repositorio en GitHub para gestionar el código fuente de la aplicación Flutter.
+
+Ramas de trabajo: rama pg-deploy para integración y despliegue; master/main como línea principal del proyecto.
+
+Integración continua: GitHub Actions ejecuta automáticamente dart analyze y flutter test en cada push a pg-deploy.
+
+Build automatizado: uso de flutter build web --release para generar el artefacto web en build/web.
+
+Despliegue en la nube: Firebase Hosting configurado con firebase.json y gestionado mediante la CLI (firebase-tools).
+
+Configuración como código: workflows en .github/workflows/*.yml y configuración de Hosting en firebase.json, versionados junto con el código.
+
 ### 7.3.2. Production Deployment Pipeline Components.
+
+1. Disparador (trigger):
+Push o actualización en la rama pg-deploy del repositorio GitHub activa el workflow de CI/CD.
+
+2. Job de build y pruebas (GitHub Actions):
+
+checkout del repositorio.
+
+Instalación de Flutter 3.35.6.
+
+flutter pub get para restaurar dependencias.
+
+dart analyze --no-fatal-warnings para análisis estático.
+
+flutter test para verificar que la aplicación se ejecuta correctamente (smoke tests).
+
+3. Generación del artefacto web:
+
+Ejecución de flutter build web --release.
+
+El resultado se almacena en build/web, listo para ser desplegado.
+
+4. Despliegue a Firebase Hosting:
+
+firebase init hosting define build/web como directorio público y configura el rewrite a index.html.
+
+firebase deploy --only hosting publica la nueva versión en la URL de producción.
+
+5. Verificación post-despliegue:
+
+Comprobación manual del funcionamiento de la aplicación en la URL de Hosting.
+
+Revisión de los logs del workflow en GitHub Actions y de la consola de Firebase en caso de errores.
+
+![image deployme](./.img/deployme-pipeline.png)
+
+## 7.4. Continuous Monitoring
+### 7.4.1. Tools and Practices
+
+Firebase Analytics / Performance: registro de eventos de uso, pantallas visitadas y métricas de rendimiento en la versión web desplegada en Firebase Hosting.
+
+Monitoreo del pipeline: uso de los logs de GitHub Actions para seguir el estado de compilaciones, pruebas y despliegues.
+
+Versionado observable: asociación de cada despliegue a un commit/tag de Git para relacionar errores o cambios de rendimiento con versiones específicas.
+
+Extensibilidad a móvil: posibilidad de añadir Firebase Crashlytics y Analytics cuando se genere el APK Android, reutilizando el mismo proyecto de Firebase.
+
+### 7.4.2. Monitoring Pipeline Components
+
+Instrumentación en el cliente: la app Flutter Web inicializa Firebase y envía eventos (navegación, acciones clave, tiempos de carga).
+
+Ingesta y almacenamiento: Firebase recibe y almacena los eventos, agrupándolos por usuario, sesión y versión de la app.
+
+Visualización: paneles de Firebase muestran usuarios activos, eventos y métricas de rendimiento; GitHub Actions muestra el historial de ejecuciones del pipeline.
+
+Retroalimentación: los problemas detectados (errores frecuentes, lentitud, bajo uso de funciones) se convierten en tareas de mejora en el backlog del proyecto.
+
+### 7.4.3. Alerting Pipeline Components
+
+Reglas y umbrales: definición de condiciones para alertar (p.ej., aumento de errores en login, latencia alta, fallos repetidos en el pipeline).
+
+Detección de anomalías: las plataformas de monitoreo comparan datos en tiempo real con los umbrales configurados.
+
+Agrupación y severidad: consolidación de eventos similares en una única alerta e identificación de criticidad (crítico, alto, medio, informativo).
+
+Integración con incidencias: registro de las alertas importantes como issues/tareas para darles seguimiento hasta su resolución.
+
+### 7.4.4. Notification Pipeline Components.
+
+Canales de notificación:
+
+Avisos en la consola de Firebase ante errores o anomalías.
+
+Notificaciones de fallo en workflows de GitHub Actions (build, test, deploy).
+
+Responsables: el equipo de desarrollo/DevOps recibe y atiende las notificaciones técnicas (errores de app y errores del pipeline).
+
+Contenido de las notificaciones: incluyen tipo de alerta, hora, versión/commit afectado y enlaces a dashboards o logs de detalle.
+
+Cierre y mejora continua: una vez resuelta la incidencia, se actualiza su estado y se ajustan reglas/umbrales para reducir ruido y mejorar la calidad de las alertas.
 
 # Conclusiones
 
