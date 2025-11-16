@@ -46,6 +46,7 @@
 | 0.1     | 06/09/25 | Lynn Meza                                                         | Desarrollo de la Structura del informe |
 | 0.2     | 21/09/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana                  | Desarrollo de la TB1                   |
 | 0.3     | 10/10/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana - Carlos Alvarez | Desarrollo de la TP1                   |
+| 0.4     | 16/11/25 | - Lynn Meza - Marcelo Mazuelos - Andree Orellana - Carlos Alvarez | Desarrollo de la TB2                  |
 
 ## PROJECT REPORT COLLABORATION INSIGHTS
 
@@ -76,6 +77,19 @@ Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguie
 | Alvarez Ponce, Carlos Antonio          | - movil - ppt                    |
 
 ![Contribution](./.img/contribution-tp.png)
+
+_TB2_
+
+Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguiente forma:
+
+| Integrante                             | Actvidades Asignadas             |
+| -------------------------------------- | -------------------------------- |
+| Mazuelos Callirgos, Marcelo Alessandro | - capitulo 8 - correciones - ppt |
+| Orellana Rodriguez, Mel Andree         | - Capitulo 8 - correciones - ppt |
+| Meza Camayo, Lynn Jeeferzon            | - movil - ppt - capitulo 7       |
+| Alvarez Ponce, Carlos Antonio          | - movil - ppt                    |
+
+![Contribution](./.img/contributior-tb2.png)
 
 ## CONTENIDO
 
@@ -208,6 +222,67 @@ Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguie
 
   - [5.3. Video About-the-Product](#53-video-about-the-product)
 
+### Capítulo VI: Product Verification & Validation
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+  - [6.1.4. Core System Tests](#614-core-system-tests)
+- [6.2. Static Testing & Verification](#62-static-testing--verification)
+  - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+    - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)
+    - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+  - [6.2.2. Reviews](#622-reviews)
+- [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+  - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+    - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+    - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+    - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+  - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+    - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+    - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+    - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+    - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+
+### Capítulo VII: DevOps Practices
+- [7.1. Continuous Integration](#71-continuous-integration)
+  - [7.1.1. Tools and Practices](#711-tools-and-practices)
+  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+- [7.2. Continuous Delivery](#72-continuous-delivery)
+  - [7.2.1. Tools and Practices](#721-tools-and-practices)
+  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+- [7.3. Continuous Deployment](#73-continuous-deployment)
+  - [7.3.1. Tools and Practices](#731-tools-and-practices)
+  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [7.4. Continuous Monitoring](#74-continuous-monitoring)
+  - [7.4.1. Tools and Practices](#741-tools-and-practices)
+  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+
+- [8.1. Experiment Planning](#81-experiment-planning)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+  - [8.1.5. Experiment Cards](#815-experiment-cards)
+- [8.2. Experiment Design](#82-experiment-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+  - [8.2.3. Measures](#823-measures)
+  - [8.2.4. Conditions](#824-conditions)
+  - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
+  - [8.2.6. Methods Selection](#826-methods-selection)
+  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
+  - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+- [8.3. Experimentation](#83-experimentation)
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+
   ***
 
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -231,19 +306,24 @@ Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguie
             - En el Needfinding desarrollé herramientas (User Personas, User Task Matrix, Journey Mapping, Empathy Mapping, As-is Scenario Mapping) priorizando la voz real de los usuarios.<br>
             *TP* - Se realizó correcciones al informe y nuevos añadidos, especialmente al Mobile Application Design, en las partes de Wireframe, MockUps, Wireflow y User Flow Diagrams.
            – Se realizaron correcciones y nuevos aportes al informe, además del desarrollo de pruebas unitarias e integrales. También se brindó apoyo en la elaboración del wireframe para la versión móvil y, finalmente, se trabajó en la implementación de pruebas con Cucumber. <br>
-             *Marcelo Mazuelos: TB1*
+            *TB2*
+            -En el desarrollo de KidyCare, asumí responsabilidad ética y profesional al definir medidas, condiciones, escalas y métodos de evaluación, seleccionando KPIs y métricas de analítica y diseñando el plan de tracking de forma transparente y no invasiva con los datos de los usuarios. Además, al redactar las historias de usuario y el product backlog, prioricé necesidades reales de niñeras y padres, evitando sobreprometer funcionalidades y asegurando que cada decisión de diseño y medición tenga un impacto positivo y responsable en la experiencia de las personas que usarán la aplicación.
+             <br>*Marcelo Mazuelos: TB1*
             - Realicé la descripcipin del startup, junto con la misión y visión de la empresa. Identificando nuestro objetivos en mente para la propuesta.<br>
             - Se hizo el proceso de identificación en Antecedentes y problemática, haciendo uso de la técnica 5w2h para nuestros primeros identificadores iniciales.<br>
             - Se investigó acerca de los Segmentos objetivo para obtener un sustento estadístico y ver el requerimiento de nuestra app en el sector demográfico.<br>
-            *TP*
+            <br>*TP*
             - Se realizó correcciones al informe y nuevos añadidos, especialmente al Mobile Application Design, en las partes de Wireframe, MockUps, Wireflow y User Flow Diagrams.
-            - Se colaboró en puntos del PPT.
-            **Lynn Meza: TB1** <br>
+            - Se colaboró en puntos del PPT.<br>
+            *tb2*
+            En la planificación y diseño de experimentos de KidyCare asumí responsabilidad ética y profesional al partir del análisis del estado actual, explicitar supuestos y vacíos de conocimiento, formular preguntas y hipótesis claras y definir métricas de negocio pertinentes, de modo que cada experimento se realice con rigor, sin sesgos intencionales y orientado a tomar decisiones justas y fundamentadas sobre la evolución del producto.<br>
+            **Lynn Meza: TB1**<br>
             - Elaborar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, reconozco mi responsabilidad ética y profesional como estudiante de ingeniería de software. Me aseguré de que cada decisión tomada buscara garantizar la calidad, seguridad y usabilidad de la aplicación, priorizando siempre las necesidades reales de los usuarios. Además, tuve en cuenta la importancia de proteger la información sensible y de generar confianza en la plataforma, entendiendo que el trabajo realizado impacta directamente en las personas que utilizarán el sistema.
             <br>
              **TP**: <br>
              Desarrollé DevOps Practices, implementando CI/CD con GitHub Actions, configuré el workflow flutter_ci.yml para instalar dependencias, ejecutar análisis y pruebas, y desplegar la versión web en GitHub Pages, resguardando secretos y fijando versiones para builds reproducibles. Reconozco mi responsabilidad ética y profesional, asegurando que solo se publiquen cambios verificados, cuidando la calidad, la seguridad y la confianza de quienes usarán el sistema. <br>
-            <br>
+            <br>**TB2:**<br>
+            En el diseño del continuous deployment y el continuous monitoring de KidyCare asumí responsabilidad ética y profesional al definir un pipeline de despliegue con pruebas y monitoreo constantes, usando métricas, alertas y notificaciones para detectar y corregir fallos a tiempo, minimizando el impacto negativo en las personas usuarias y garantizando una operación confiable del sistema.
         </td>
         <td>
             - Se cumplió con un proceso investigativo ético y profesional, valorando la opinión de los usuarios como base para un diseño responsable.<br>
@@ -262,16 +342,22 @@ Para el desarrollo de la entrega TP, se opto por dividir el trabajo de la siguie
       - Se desarrollaron pruebas unitarias e integrales, asegurando la calidad y funcionalidad del sistema.<br>
       - Se brindó apoyo en el diseño del wireframe para la versión móvil, promoviendo la accesibilidad y adaptabilidad del software.<br>
       - Finalmente, se implementaron pruebas en Cucumber para validar el comportamiento del sistema desde la perspectiva del usuario.<br>
-             *Marcelo Mazuelos: TB1*
+             <br>*TB2*
+              -Al definir medidas, escalas, métodos, KPIs y el plan de tracking de KidyCare, emití juicios informados considerando que las métricas no solo optimicen la experiencia digital, sino también el tiempo y esfuerzo económico de niñeras y familias, evitando recolectar datos innecesarios que puedan vulnerar su privacidad y cuidando el impacto social de cómo se usan los resultados para tomar decisiones sobre el producto.
+             <br>*Marcelo Mazuelos: TB1*
             - En el User Journey Mapping y el Empathy Mapping se evidenciaron problemáticas sociales como la confianza en el cuidado infantil y la seguridad de datos.<br>
             - Con el Lean UX Process (Lean UX Problem Statement, Assumptins, Hypothesis Statement y Canvas) se hizo introspectiva en la problemática identificando los segmentos objetivos, sus necesidades y en que enfocarnos.<br>
             - Se realizó la elaboración del Information Architecture, cumpliendo con el Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.<br>
             *TP*
             - De manera colaborativa se realizaron cambios al capítulo 6.
+            *TB2*
+            -Al planificar los experimentos, explicitar supuestos, formular preguntas e hipótesis y definir métricas de negocio, consideré el contexto social y económico de las niñeras y padres en el Perú, priorizando mejoras que realmente aporten valor a su trabajo y bienestar, en lugar de decisiones orientadas solo a indicadores técnicos, evaluando así el impacto real de la solución en su entorno.
              **Lynn Meza: TB1** <br>
              Al desarrollar las historias de usuario, el product backlog, el Sprint 1 y los wireframes, emití juicios informados considerando no solo la parte técnica, sino también el impacto que la solución puede tener en distintos contextos globales, económicos, ambientales y sociales. Reconozco que una aplicación como KidyCare no solo responde a una necesidad puntual de los padres, sino que también puede generar oportunidades de empleo formal para niñeras, optimizar recursos mediante procesos digitales más eficientes y aportar a un entorno social más seguro y confiable. De esta manera, busqué que cada decisión de diseño y planificación estuviera alineada con una visión de responsabilidad integral en la ingeniería de software.
              **TP:**<br>
              Al desarrollar DevOps Practices para Kidycare, emití juicios informados sobre impactos globales, económicos, ambientales y sociales: elegí GitHub Actions/Pages como infraestructura compartida y de bajo costo para reducir gasto y huella; configuré cachés, concurrency y triggers selectivos para disminuir consumo de cómputo; consideré accesibilidad, rendimiento y futura localización para ampliar alcance; protegí datos y licencias evitando exponer secretos; y documenté versiones y decisiones para asegurar trazabilidad y evaluar riesgos. Con ello busqué equilibrar costo, sostenibilidad y beneficio social del sistema.<br>
+            *tb2*
+            - En el diseño del continuous deployment y el continuous monitoring de KidyCare emití juicios informados al equilibrar velocidad de despliegue con estabilidad del sistema, considerando el impacto que caídas, errores o tiempos de inactividad pueden tener en la organización del cuidado infantil, en la confianza de los usuarios y en el uso responsable de recursos tecnológicos, tanto a nivel local como en un ecosistema digital más amplio.
         </td>
         <td>
             - Mis aportes ayudan a emitir juicios que reconocen el impacto social (seguridad de menores, confianza de padres), económico (accesibilidad del servicio), y global (posibilidad de replicar el modelo en otros contextos).<br>
@@ -3198,10 +3284,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **TABLA RESUMEN:**
 
-| # | Problema                                                                                 | Escala de severidad | Heurística / Principio violado(a)                                                   |
-|---|------------------------------------------------------------------------------------------|----------------------|-------------------------------------------------------------------------------------|
-| 1 | La interfaz no es totalmente responsiva: en ciertos tamaños de pantalla (móvil/tablet) algunos elementos se desordenan o requieren scroll horizontal. | 2 – Problema menor  | **Responsive Design / Inclusive Design:** la interfaz no se adapta correctamente a diferentes dispositivos. |
-| 2 | Error de linkeo: un botón o enlace dirige a una pantalla incorrecta o no carga el contenido esperado. | 3 – Problema mayor  | **Information Architecture / Navegación:** los enlaces no mantienen rutas claras ni confiables. |
+| #   | Problema                                                                                                                                              | Escala de severidad | Heurística / Principio violado(a)                                                                           |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1   | La interfaz no es totalmente responsiva: en ciertos tamaños de pantalla (móvil/tablet) algunos elementos se desordenan o requieren scroll horizontal. | 2 – Problema menor  | **Responsive Design / Inclusive Design:** la interfaz no se adapta correctamente a diferentes dispositivos. |
+| 2   | Error de linkeo: un botón o enlace dirige a una pantalla incorrecta o no carga el contenido esperado.                                                 | 3 – Problema mayor  | **Information Architecture / Navegación:** los enlaces no mantienen rutas claras ni confiables.             |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -3242,7 +3328,6 @@ Revisar y corregir las rutas definidas en el router de la aplicación (por ejemp
 - Se mantenga una estructura de navegación coherente: desde la landing se debe poder acceder de forma clara a los flujos principales (onboarding, login, home de Nanny).
 
 - Se hagan pruebas de clics (tests exploratorios o de tarea) para verificar que no existan enlaces rotos o rutas inconsistentes antes de futuras iteraciones o despliegues.
-
 
 ## 6.4. Auditoría de Experiencias de Usuario.
 
@@ -4783,3 +4868,4 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
 - Business Empresarial. (2023, 7 de marzo). Perú: Número de mujeres dedicadas a generar ingresos a través de apps crece en 22 %. https://www.businessempresarial.com.pe/peru-numero-de-mujeres-dedicadas-a-generar-ingresos-a-traves-de-apps-crece-en-22
 - link del repositorio: <https://github.com/Grupo4-1ASI0732-14736-Trustora>
 - link de la landing page desplegado: <https://grupo4-1asi0732-14736-trustora.github.io/landing-page/>
+- link de app mobil: <https://kidycare-app.web.app/#/login>
