@@ -2912,8 +2912,6 @@ Network graph
 
 ![Network graph](./.img/landing-contribution.png)
 
-
-
 ## 5.3. Video About-the-Product
 
 ---
@@ -2931,138 +2929,53 @@ Network graph
 </p>
 
 ```html
-package pe.edu.upc.center.platform.user.domain.model.valueobjects;
-
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-@DisplayName("Phone Value Object Tests")
-class PhoneTest {
-
-    @Test
-    @DisplayName("Should create valid phone number with 9 digits")
-    void shouldCreateValidPhoneNumberWith9Digits() {
-        // Given
-        String validPhone = "987654321";
-        
-        // When
-        Phone phone = new Phone(validPhone);
-        
-        // Then
-        assertNotNull(phone);
-        assertEquals(validPhone, phone.number());
-    }
-
-    @Test
-    @DisplayName("Should create valid phone number starting with 9")
-    void shouldCreateValidPhoneNumberStartingWith9() {
-        // Given
-        String validPhone = "912345678";
-        
-        // When
-        Phone phone = new Phone(validPhone);
-        
-        // Then
-        assertNotNull(phone);
-        assertEquals(validPhone, phone.number());
-    }
-
-    @Test
-    @DisplayName("Should create valid phone number with all zeros")
-    void shouldCreateValidPhoneNumberWithAllZeros() {
-        // Given
-        String validPhone = "000000000";
-        
-        // When
-        Phone phone = new Phone(validPhone);
-        
-        // Then
-        assertNotNull(phone);
-        assertEquals(validPhone, phone.number());
-    }
-
-    @ParameterizedTest
-    @ValueSource(strings = {
-        "12345678",  // 8 digits
-        "1234567890", // 10 digits
-        "123456789a", // contains letter
-        "123-456-789", // contains hyphens
-        "123 456 789", // contains spaces
-        "123.456.789", // contains dots
-        "12345678 ", // trailing space
-        " 123456789", // leading space
-        "12345678\n", // contains newline
-        "12345678\t"  // contains tab
-    })
-    @DisplayName("Should throw IllegalArgumentException for invalid phone number formats")
-    void shouldThrowIllegalArgumentExceptionForInvalidPhoneNumberFormats(String invalidPhone) {
-        // When & Then
-        IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Phone(invalidPhone)
-        );
-        
-        assertEquals("Invalid phone number", exception.getMessage());
-    }
-
-    @Test
-    @DisplayName("Should throw IllegalArgumentException for null phone number")
-    void shouldThrowIllegalArgumentExceptionForNullPhoneNumber() {
-        // When & Then
-        IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Phone(null)
-        );
-        
-        assertEquals("Invalid phone number", exception.getMessage());
-    }
-
-    @Test
-    @DisplayName("Should throw IllegalArgumentException for empty phone number")
-    void shouldThrowIllegalArgumentExceptionForEmptyPhoneNumber() {
-        // When & Then
-        IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Phone("")
-        );
-        
-        assertEquals("Invalid phone number", exception.getMessage());
-    }
-
-    @Test
-    @DisplayName("Should throw IllegalArgumentException for phone number with special characters")
-    void shouldThrowIllegalArgumentExceptionForPhoneNumberWithSpecialCharacters() {
-        // Given
-        String invalidPhone = "987-654-321";
-        
-        // When & Then
-        IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Phone(invalidPhone)
-        );
-        
-        assertEquals("Invalid phone number", exception.getMessage());
-    }
-
-    @Test
-    @DisplayName("Should create valid phone number with mixed digits")
-    void shouldCreateValidPhoneNumberWithMixedDigits() {
-        // Given
-        String validPhone = "987123456";
-        
-        // When
-        Phone phone = new Phone(validPhone);
-        
-        // Then
-        assertNotNull(phone);
-        assertEquals(validPhone, phone.number());
-    }
-}
-
+package pe.edu.upc.center.platform.user.domain.model.valueobjects; import
+org.junit.jupiter.api.Test; import org.junit.jupiter.api.DisplayName; import
+org.junit.jupiter.params.ParameterizedTest; import
+org.junit.jupiter.params.provider.ValueSource; import static
+org.junit.jupiter.api.Assertions.*; @DisplayName("Phone Value Object Tests")
+class PhoneTest { @Test @DisplayName("Should create valid phone number with 9
+digits") void shouldCreateValidPhoneNumberWith9Digits() { // Given String
+validPhone = "987654321"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); } @Test
+@DisplayName("Should create valid phone number starting with 9") void
+shouldCreateValidPhoneNumberStartingWith9() { // Given String validPhone =
+"912345678"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); } @Test
+@DisplayName("Should create valid phone number with all zeros") void
+shouldCreateValidPhoneNumberWithAllZeros() { // Given String validPhone =
+"000000000"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); }
+@ParameterizedTest @ValueSource(strings = { "12345678", // 8 digits
+"1234567890", // 10 digits "123456789a", // contains letter "123-456-789", //
+contains hyphens "123 456 789", // contains spaces "123.456.789", // contains
+dots "12345678 ", // trailing space " 123456789", // leading space "12345678\n",
+// contains newline "12345678\t" // contains tab }) @DisplayName("Should throw
+IllegalArgumentException for invalid phone number formats") void
+shouldThrowIllegalArgumentExceptionForInvalidPhoneNumberFormats(String
+invalidPhone) { // When & Then IllegalArgumentException exception =
+assertThrows( IllegalArgumentException.class, () -> new Phone(invalidPhone) );
+assertEquals("Invalid phone number", exception.getMessage()); } @Test
+@DisplayName("Should throw IllegalArgumentException for null phone number") void
+shouldThrowIllegalArgumentExceptionForNullPhoneNumber() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new Phone(null) ); assertEquals("Invalid
+phone number", exception.getMessage()); } @Test @DisplayName("Should throw
+IllegalArgumentException for empty phone number") void
+shouldThrowIllegalArgumentExceptionForEmptyPhoneNumber() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new Phone("") ); assertEquals("Invalid
+phone number", exception.getMessage()); } @Test @DisplayName("Should throw
+IllegalArgumentException for phone number with special characters") void
+shouldThrowIllegalArgumentExceptionForPhoneNumberWithSpecialCharacters() { //
+Given String invalidPhone = "987-654-321"; // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new Phone(invalidPhone) );
+assertEquals("Invalid phone number", exception.getMessage()); } @Test
+@DisplayName("Should create valid phone number with mixed digits") void
+shouldCreateValidPhoneNumberWithMixedDigits() { // Given String validPhone =
+"987123456"; // When Phone phone = new Phone(validPhone); // Then
+assertNotNull(phone); assertEquals(validPhone, phone.number()); } }
 ```
 
 ### Testing Unitario 2
@@ -3072,159 +2985,67 @@ class PhoneTest {
 </p>
 
 ```html
-package pe.edu.upc.center.platform.user.domain.model.valueobjects;
-
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-@DisplayName("CompleteName Value Object Tests")
-class CompleteNameTest {
-
-    @Test
-    @DisplayName("Should create valid complete name with proper text")
-    void shouldCreateValidCompleteNameWithProperText() {
-        // Given
-        String validName = "Juan Carlos Pérez García";
-        
-        // When
-        CompleteName completeName = new CompleteName(validName);
-        
-        // Then
-        assertNotNull(completeName);
-        assertEquals(validName, completeName.completeName());
-    }
-
-    @Test
-    @DisplayName("Should create valid complete name with single name")
-    void shouldCreateValidCompleteNameWithSingleName() {
-        // Given
-        String validName = "María";
-        
-        // When
-        CompleteName completeName = new CompleteName(validName);
-        
-        // Then
-        assertNotNull(completeName);
-        assertEquals(validName, completeName.completeName());
-    }
-
-    @Test
-    @DisplayName("Should create valid complete name with numbers")
-    void shouldCreateValidCompleteNameWithNumbers() {
-        // Given
-        String validName = "Juan Carlos 123";
-        
-        // When
-        CompleteName completeName = new CompleteName(validName);
-        
-        // Then
-        assertNotNull(completeName);
-        assertEquals(validName, completeName.completeName());
-    }
-
-    @Test
-    @DisplayName("Should create valid complete name with special characters")
-    void shouldCreateValidCompleteNameWithSpecialCharacters() {
-        // Given
-        String validName = "José María O'Connor-Smith";
-        
-        // When
-        CompleteName completeName = new CompleteName(validName);
-        
-        // Then
-        assertNotNull(completeName);
-        assertEquals(validName, completeName.completeName());
-    }
-
-    @Test
-    @DisplayName("Should create valid complete name with accents")
-    void shouldCreateValidCompleteNameWithAccents() {
-        // Given
-        String validName = "José María González";
-        
-        // When
-        CompleteName completeName = new CompleteName(validName);
-        
-        // Then
-        assertNotNull(completeName);
-        assertEquals(validName, completeName.completeName());
-    }
-
-    @Test
-    @DisplayName("Should throw IllegalArgumentException for null complete name")
-    void shouldThrowIllegalArgumentExceptionForNullCompleteName() {
-        // When & Then
-        IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new CompleteName(null)
-        );
-        
-        assertEquals("The complete name cannot be null or blank", exception.getMessage());
-    }
-
-    @Test
-    @DisplayName("Should throw IllegalArgumentException for empty complete name")
-    void shouldThrowIllegalArgumentExceptionForEmptyCompleteName() {
-        // When & Then
-        IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new CompleteName("")
-        );
-        
-        assertEquals("The complete name cannot be null or blank", exception.getMessage());
-    }
-
-    @ParameterizedTest
-    @ValueSource(strings = {
-        "   ", // only spaces
-        "\t", // only tab
-        "\n", // only newline
-        "\r", // only carriage return
-        " \t \n \r " // mixed whitespace
-    })
-    @DisplayName("Should throw IllegalArgumentException for blank complete names")
-    void shouldThrowIllegalArgumentExceptionForBlankCompleteNames(String blankName) {
-        // When & Then
-        IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new CompleteName(blankName)
-        );
-        
-        assertEquals("The complete name cannot be null or blank", exception.getMessage());
-    }
-
-    @Test
-    @DisplayName("Should create valid complete name with leading and trailing spaces")
-    void shouldCreateValidCompleteNameWithLeadingAndTrailingSpaces() {
-        // Given
-        String validName = "  Juan Carlos Pérez  ";
-        
-        // When
-        CompleteName completeName = new CompleteName(validName);
-        
-        // Then
-        assertNotNull(completeName);
-        assertEquals(validName, completeName.completeName());
-    }
-
-    @Test
-    @DisplayName("Should create valid complete name with very long text")
-    void shouldCreateValidCompleteNameWithVeryLongText() {
-        // Given
-        String validName = "Juan Carlos María José Antonio de la Cruz Pérez García López Martínez Rodríguez";
-        
-        // When
-        CompleteName completeName = new CompleteName(validName);
-        
-        // Then
-        assertNotNull(completeName);
-        assertEquals(validName, completeName.completeName());
-    }
-}
+package pe.edu.upc.center.platform.user.domain.model.valueobjects; import
+org.junit.jupiter.api.Test; import org.junit.jupiter.api.DisplayName; import
+org.junit.jupiter.params.ParameterizedTest; import
+org.junit.jupiter.params.provider.ValueSource; import static
+org.junit.jupiter.api.Assertions.*; @DisplayName("CompleteName Value Object
+Tests") class CompleteNameTest { @Test @DisplayName("Should create valid
+complete name with proper text") void
+shouldCreateValidCompleteNameWithProperText() { // Given String validName =
+"Juan Carlos Pérez García"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with single name") void
+shouldCreateValidCompleteNameWithSingleName() { // Given String validName =
+"María"; // When CompleteName completeName = new CompleteName(validName); //
+Then assertNotNull(completeName); assertEquals(validName,
+completeName.completeName()); } @Test @DisplayName("Should create valid complete
+name with numbers") void shouldCreateValidCompleteNameWithNumbers() { // Given
+String validName = "Juan Carlos 123"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with special characters") void
+shouldCreateValidCompleteNameWithSpecialCharacters() { // Given String validName
+= "José María O'Connor-Smith"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with accents") void
+shouldCreateValidCompleteNameWithAccents() { // Given String validName = "José
+María González"; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should throw IllegalArgumentException for null complete name")
+void shouldThrowIllegalArgumentExceptionForNullCompleteName() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new CompleteName(null) );
+assertEquals("The complete name cannot be null or blank",
+exception.getMessage()); } @Test @DisplayName("Should throw
+IllegalArgumentException for empty complete name") void
+shouldThrowIllegalArgumentExceptionForEmptyCompleteName() { // When & Then
+IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new CompleteName("") ); assertEquals("The
+complete name cannot be null or blank", exception.getMessage()); }
+@ParameterizedTest @ValueSource(strings = { " ", // only spaces "\t", // only
+tab "\n", // only newline "\r", // only carriage return " \t \n \r " // mixed
+whitespace }) @DisplayName("Should throw IllegalArgumentException for blank
+complete names") void
+shouldThrowIllegalArgumentExceptionForBlankCompleteNames(String blankName) { //
+When & Then IllegalArgumentException exception = assertThrows(
+IllegalArgumentException.class, () -> new CompleteName(blankName) );
+assertEquals("The complete name cannot be null or blank",
+exception.getMessage()); } @Test @DisplayName("Should create valid complete name
+with leading and trailing spaces") void
+shouldCreateValidCompleteNameWithLeadingAndTrailingSpaces() { // Given String
+validName = " Juan Carlos Pérez "; // When CompleteName completeName = new
+CompleteName(validName); // Then assertNotNull(completeName);
+assertEquals(validName, completeName.completeName()); } @Test
+@DisplayName("Should create valid complete name with very long text") void
+shouldCreateValidCompleteNameWithVeryLongText() { // Given String validName =
+"Juan Carlos María José Antonio de la Cruz Pérez García López Martínez
+Rodríguez"; // When CompleteName completeName = new CompleteName(validName); //
+Then assertNotNull(completeName); assertEquals(validName,
+completeName.completeName()); } }
 ```
 
 ### Testing Unitario 3
@@ -3281,6 +3102,167 @@ Para ello, se utilizan escenarios escritos en lenguaje Gherkin, los cuales descr
 </p>
 
 ### 6.1.4. Core System Tests.
+
+## 6.2. Static testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding standard & Code conventions.
+
+#### 6.2.1.2. Code Quality & Code Security.
+
+### 6.2.2. Reviews
+
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+EXPLORACIÓN LANDING PAGE:
+
+    ¿Según lo que viste en la landing page, qué entendiste que ofrece KidyCare?
+    ¿Crees que esta aplicación sería adecuada para tu ocupación?
+
+EXPLORACIÓN DEL FRONTEND:
+
+    ¿Cómo describirías tu experiencia al buscar una niñera según tus preferencias?
+    ¿La información de las niñeras se presenta de forma clara y fácil de comparar?
+    ¿El sistema informa de manera clara si el pago fue realizado con éxito?
+    ¿El proceso de pago te resulta familiar y similar a otros que has utilizado en compras en línea?
+    ¿El sistema muestra de forma clara cuándo los cambios en el perfil han sido guardados correctamente?
+    ¿La información que se debe ingresar en el perfil es comprensible y fácil de completar?
+    ¿La información mostrada en las reseñas es comprensible sin necesidad de explicaciones adicionales?
+    ¿Qué es lo que más te gustó de la app?
+    Como niñera/padre de familia, ¿cómo usarías esta aplicación en base a sus funciones?
+
+### 6.3.2. Registro de Entrevistas.
+
+**Niñera(cuidador)**
+
+**Entrevista 1**
+| Campo | Detalle |
+|-------|---------|
+| **Segmento** | Niñeras |
+| **Nombre** | Piero Ricaldi Solis |
+| **Edad** | 23 años |
+| **Ocupación** | Estudiante y niñero a tiempo parcial |
+| **Duración de la entrevista** | 6:52 minutos |
+| **Análisis de la entrevista** | La entrevistada tuvo una experiencia favorable. Le gustó el panel de niñeras y la disposición del menú lateral. Valoró los colores azul y piel. Recomendó unificar los estilos visuales de la barra lateral para mayor consistencia. |
+
+link del video: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/IQCT_OxRXvL1SJZmRZbXhKAUAcD4ETuGnwhENfxUiAygyn4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7NYd2M>
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+SITE o APP A EVALUAR
+
+Aplicación Web: KidyCare
+Versión evaluada: Frontend / Landing Page
+Enfoque de la evaluación: Diseño UI – Experiencia de Usuario (UX) – Flujo de navegación
+
+**TAREAS A EVALUAR**
+
+La evaluación de usabilidad se realizará únicamente sobre el flujo visual, la estructura de contenidos y la experiencia de interacción del usuario. Las tareas incluidas son:
+
+1. Visualización de la landing page inicial
+
+2. Acceso al flujo de Onboarding
+
+3. Navegación hacia la pantalla de inicio de sesión
+
+4. Ingreso de credenciales (simulado)
+
+5. Exploración de la pantalla principal (home) según el perfil Nanny
+
+6. Reconocimiento y comprensión de elementos UI (botones, tipografía, colores, iconografía)
+
+7. Evaluación de la consistencia visual y estructura de navegación
+
+8. Percepción de claridad del contenido y jerarquía visual
+
+**TAREAS EXCLUÍDAS**
+
+Por limitaciones de alcance, no se evaluarán funcionalidades del backend ni procesos reales de negocio, incluyendo:
+
+1. Notificaciones push o alertas
+
+2. Panel administrativo / funcionalidades internas
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                                                                                                                                                    |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
+
+**TABLA RESUMEN:**
+
+| # | Problema                                                                                 | Escala de severidad | Heurística / Principio violado(a)                                                   |
+|---|------------------------------------------------------------------------------------------|----------------------|-------------------------------------------------------------------------------------|
+| 1 | La interfaz no es totalmente responsiva: en ciertos tamaños de pantalla (móvil/tablet) algunos elementos se desordenan o requieren scroll horizontal. | 2 – Problema menor  | **Responsive Design / Inclusive Design:** la interfaz no se adapta correctamente a diferentes dispositivos. |
+| 2 | Error de linkeo: un botón o enlace dirige a una pantalla incorrecta o no carga el contenido esperado. | 3 – Problema mayor  | **Information Architecture / Navegación:** los enlaces no mantienen rutas claras ni confiables. |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: La interfaz no es totalmente responsiva**
+
+Severidad: 2 – Problema menor
+Heurística violada: Responsive Design / Inclusive Design – Adaptación a diferentes dispositivos
+
+Problema:
+En determinados tamaños de pantalla (por ejemplo, en algunos móviles o tablets), la interfaz de KidyCare no se adapta correctamente: ciertos elementos se desordenan, algunos componentes quedan demasiado pequeños o requieren hacer scroll horizontal. Esto genera una experiencia menos cómoda, especialmente para usuarios que acceden desde dispositivos móviles, que son el público objetivo principal. Aunque el usuario puede completar las tareas, el esfuerzo visual y de navegación aumenta y la interfaz pierde claridad.
+
+Recomendación:
+Ajustar el diseño responsivo revisando los breakpoints y el layout para diferentes tamaños de pantalla. En particular:
+
+- Revisar el uso de columnas, paddings y márgenes en la landing page y en las pantallas principales (por ejemplo, Splash, Onboarding, Login y Home de Nanny).
+
+- Probar el diseño en distintos viewports (mobile, tablet y desktop) para asegurar que los componentes se mantengan legibles, alineados y sin scroll horizontal.
+
+- Aplicar un diseño “mobile-first”, priorizando la legibilidad y el tamaño de los elementos interactivos (botones, campos, textos) en pantallas pequeñas.
+
+**PROBLEMA #2: Error de linkeo en la navegación**
+
+Severidad: 3 – Problema mayor
+Heurística violada: Arquitectura de la Información / Navegación – Claridad y confiabilidad de las rutas
+
+Problema:
+
+En algunos puntos de la interfaz, un botón o enlace no dirige a la pantalla esperada o no carga el contenido correcto. Por ejemplo, desde la landing page o desde una sección informativa, el usuario espera ser dirigido a la pantalla de inicio de sesión o a un flujo específico, pero el enlace lo redirige a otra ruta o no realiza ninguna acción visible. Esto rompe las expectativas del usuario, genera confusión respecto al flujo de navegación y puede hacer que la persona no sepa cómo continuar o pierda la confianza en la aplicación.
+
+(Incluir además una captura de pantalla señalando el botón/enlace problemático y, si es posible, la pantalla a la que debería dirigir correctamente.)
+
+Recomendación:
+
+Revisar y corregir las rutas definidas en el router de la aplicación (por ejemplo, las rutas asociadas a /splash, /onboarding, /login y /nanny), asegurando que:
+
+- Cada botón o enlace lleve exactamente a la pantalla indicada por su etiqueta o contexto (por ejemplo, “Comenzar”, “Iniciar sesión”, “Ver más”, etc.).
+
+- Se mantenga una estructura de navegación coherente: desde la landing se debe poder acceder de forma clara a los flujos principales (onboarding, login, home de Nanny).
+
+- Se hagan pruebas de clics (tests exploratorios o de tarea) para verificar que no existan enlaces rotos o rutas inconsistentes antes de futuras iteraciones o despliegues.
+
+
+## 6.4. Auditoría de Experiencias de Usuario.
+
+### 6.4.1. Auditoría realizada.
+
+#### 6.4.1.1. Información del grupo auditado.
+
+#### 6.4.1.2. Cronograma de auditoría realizada.
+
+#### 6.4.1.3. Contenido de auditoría realizada.
+
+### 6.4.2. Auditoría recibida.
+
+#### 6.4.2.1. Información del grupo auditor.
+
+#### 6.4.2.2. Cronograma de auditoría recibida.
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 ## Capítulo VII: DevOps Practices
 
@@ -3344,12 +3326,12 @@ Build automatizado: uso de flutter build web --release para generar el artefacto
 
 Despliegue en la nube: Firebase Hosting configurado con firebase.json y gestionado mediante la CLI (firebase-tools).
 
-Configuración como código: workflows en .github/workflows/*.yml y configuración de Hosting en firebase.json, versionados junto con el código.
+Configuración como código: workflows en .github/workflows/\*.yml y configuración de Hosting en firebase.json, versionados junto con el código.
 
 ### 7.3.2. Production Deployment Pipeline Components.
 
 1. Disparador (trigger):
-Push o actualización en la rama pg-deploy del repositorio GitHub activa el workflow de CI/CD.
+   Push o actualización en la rama pg-deploy del repositorio GitHub activa el workflow de CI/CD.
 
 2. Job de build y pruebas (GitHub Actions):
 
@@ -3384,6 +3366,7 @@ Revisión de los logs del workflow en GitHub Actions y de la consola de Firebase
 ![image deployme](./.img/deployme-pipeline.png)
 
 ## 7.4. Continuous Monitoring
+
 ### 7.4.1. Tools and Practices
 
 Firebase Analytics / Performance: registro de eventos de uso, pantallas visitadas y métricas de rendimiento en la versión web desplegada en Firebase Hosting.
@@ -3429,7 +3412,9 @@ Contenido de las notificaciones: incluyen tipo de alerta, hora, versión/commit 
 Cierre y mejora continua: una vez resuelta la incidencia, se actualiza su estado y se ajustan reglas/umbrales para reducir ruido y mejorar la calidad de las alertas.
 
 # Capítulo VIII: Experiment-Driven Development
+
 ## 8.1. Experiment Planning
+
 ### 8.1.1. As-Is Summary.
 
 Actualmente, en el sector de contratación de cuidadores y profesores particulares existe una falta de plataformas confiables, rápidas y seguras que permitan a las familias encontrar servicios de cuidado infantil y apoyo educativo con garantías reales. Muchos padres dependen de recomendaciones informales, redes sociales o búsquedas poco verificables, lo que genera incertidumbre respecto a la seguridad, experiencia y disponibilidad de los cuidadores.
@@ -3487,24 +3472,24 @@ Por otro lado, los cuidadores y docentes carecen de un espacio centralizado dond
 
 ### 8.1.4. Question Backlog.
 
-| Pregunta                                                                                       | Confidence | Risk | Impact | Interest | Total Score |
-| ---------------------------------------------------------------------------------------------- | ---------- | ---- | ------ | -------- | ----------- |
-| ¿La verificación de identidad aumentará la confianza y las reservas?                           | 3          | 2    | 3      | 3        | 11          |
-| ¿Los perfiles destacados aumentarán la visibilidad de cuidadores?                              | 3          | 1    | 2      | 2        | 8           |
-| ¿El chat previo mejorará la tasa de reservas completadas?                                      | 3          | 1    | 3      | 3        | 10          |
-| ¿Las certificaciones visibles incrementarán la intención de contratación?                      | 2          | 1    | 3      | 2        | 8           |
-| ¿Las notificaciones automáticas reducirán cancelaciones?                                       | 2          | 1    | 2      | 2        | 7           |
-| ¿El pago seguro reducirá el abandono durante la reserva?                                       | 3          | 2    | 3      | 3        | 11          |
+| Pregunta                                                                  | Confidence | Risk | Impact | Interest | Total Score |
+| ------------------------------------------------------------------------- | ---------- | ---- | ------ | -------- | ----------- |
+| ¿La verificación de identidad aumentará la confianza y las reservas?      | 3          | 2    | 3      | 3        | 11          |
+| ¿Los perfiles destacados aumentarán la visibilidad de cuidadores?         | 3          | 1    | 2      | 2        | 8           |
+| ¿El chat previo mejorará la tasa de reservas completadas?                 | 3          | 1    | 3      | 3        | 10          |
+| ¿Las certificaciones visibles incrementarán la intención de contratación? | 2          | 1    | 3      | 2        | 8           |
+| ¿Las notificaciones automáticas reducirán cancelaciones?                  | 2          | 1    | 2      | 2        | 7           |
+| ¿El pago seguro reducirá el abandono durante la reserva?                  | 3          | 2    | 3      | 3        | 11          |
 
 ### 8.1.5. Experiment Cards.
 
-| ID    | Nombre del Experimento                    | Objetivo                                                                   | Pregunta a responder                                                                           | Hipótesis                                                                                                                           | Segmento objetivo        | Tipo de experimento                              | Métricas clave                                                        | Criterio de éxito                    |
-| ----- | ----------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------ |
-| EXP01	| Verificación de Identidad | Medir si los padres confían más en perfiles verificados | ¿La verificación aumenta reservas? | Creemos que mostrar “Perfil verificado” aumentará la confianza y las reservas | Padres | A/B Test | Tasa de reservas, clics en perfil | +20% reservas |
-| EXP02	| Perfiles Destacados | Validar si cuidadores con visibilidad extra generan más contrataciones | ¿Perfiles destacados aumentan contrataciones? | Creemos que un banner destacado aumentará la visibilidad y reservas | Cuidadores | Feature Toggle | Impresiones, reservas | +25% visibilidad |
-| EXP03	| Chat Previo Seguro | Validar si el chat reduce dudas y abandono | ¿Chat aumenta reservas completadas? | Creemos que la comunicación previa reducirá incertidumbre y aumentará reservas | Padres y Cuidadores | Activación progresiva | Tasa de conversión, tiempo de respuesta | -20% abandono
-| EXP04 | Certificaciones Profesionales | Medir si certificaciones aumentan confianza | ¿Certificaciones aumentan intención? | Creemos que añadir certificaciones visibles aumentará la intención de reserva | Padres | A/B Test | Clics, tiempo en perfil | +15% intención |
-| EXP05 | Pago Seguro Integrado | Medir impacto en el abandono | ¿Pago seguro reduce abandono? | Creemos que un sistema de pago seguro disminuirá el abandono durante la reserva | Padres | Test funcional | Abandono en checkout | -30% abandono |
+| ID    | Nombre del Experimento        | Objetivo                                                               | Pregunta a responder                          | Hipótesis                                                                       | Segmento objetivo   | Tipo de experimento   | Métricas clave                          | Criterio de éxito |
+| ----- | ----------------------------- | ---------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------- | ------------------- | --------------------- | --------------------------------------- | ----------------- |
+| EXP01 | Verificación de Identidad     | Medir si los padres confían más en perfiles verificados                | ¿La verificación aumenta reservas?            | Creemos que mostrar “Perfil verificado” aumentará la confianza y las reservas   | Padres              | A/B Test              | Tasa de reservas, clics en perfil       | +20% reservas     |
+| EXP02 | Perfiles Destacados           | Validar si cuidadores con visibilidad extra generan más contrataciones | ¿Perfiles destacados aumentan contrataciones? | Creemos que un banner destacado aumentará la visibilidad y reservas             | Cuidadores          | Feature Toggle        | Impresiones, reservas                   | +25% visibilidad  |
+| EXP03 | Chat Previo Seguro            | Validar si el chat reduce dudas y abandono                             | ¿Chat aumenta reservas completadas?           | Creemos que la comunicación previa reducirá incertidumbre y aumentará reservas  | Padres y Cuidadores | Activación progresiva | Tasa de conversión, tiempo de respuesta | -20% abandono     |
+| EXP04 | Certificaciones Profesionales | Medir si certificaciones aumentan confianza                            | ¿Certificaciones aumentan intención?          | Creemos que añadir certificaciones visibles aumentará la intención de reserva   | Padres              | A/B Test              | Clics, tiempo en perfil                 | +15% intención    |
+| EXP05 | Pago Seguro Integrado         | Medir impacto en el abandono                                           | ¿Pago seguro reduce abandono?                 | Creemos que un sistema de pago seguro disminuirá el abandono durante la reserva | Padres              | Test funcional        | Abandono en checkout                    | -30% abandono     |
 
 ## 8.2. Experiment Design
 
@@ -3523,19 +3508,16 @@ Estas métricas permiten evaluar el rendimiento del negocio y validar si los exp
 #### Métricas centrales del negocio (Core Metrics):
 
 - Reservation Completion Rate
-Porcentaje de reservas completadas sobre el total de reservas iniciadas.
+  Porcentaje de reservas completadas sobre el total de reservas iniciadas.
 
 - Verified Caregiver Adoption Rate
-% de cuidadores que completan la verificación de identidad.
+  % de cuidadores que completan la verificación de identidad.
 
 - Parent Trust Index
-Métrica compuesta basada en:
-    - Perfiles visitados
-    - Tiempo en página
-    - Interacción con elementos de confianza (certificaciones, verificaciones)
+  Métrica compuesta basada en: - Perfiles visitados - Tiempo en página - Interacción con elementos de confianza (certificaciones, verificaciones)
 
 - Caregiver Visibility Score
-Cantidad de impresiones por perfil dividido entre cuidadores activos.
+  Cantidad de impresiones por perfil dividido entre cuidadores activos.
 
 #### Métricas de adquisición:
 
@@ -3555,6 +3537,7 @@ Cantidad de impresiones por perfil dividido entre cuidadores activos.
 - Monthly Active Parents (MAP)
 
 #### Métricas de monetización:
+
 - Promoted Profile Conversion Rate
 - Revenue per Booking (RPB)
 - Monthly Recurring Revenue (MRR)
@@ -3568,6 +3551,7 @@ Esta sección presenta los criterios seleccionados para recopilar la evidencia q
 Las medidas primarias están directamente relacionadas con las hipótesis principales del proyecto y permiten evaluar el impacto directo de KidyCare en los objetivos planteados:
 
 **M1: Nivel de Confianza de los Padres en la Plataforma**
+
 - **Descripción**: Mide el grado de confianza que los padres depositan en KidyCare para encontrar niñeras confiables.
 - **Métrica Cuantitativa**: Escala Likert de 1 a 5 puntos en encuestas post-uso, donde 1 = "Nada confiable" y 5 = "Muy confiable".
 - **Métrica Cualitativa**: Análisis de comentarios y feedback sobre aspectos de seguridad y verificación de perfiles.
@@ -3575,6 +3559,7 @@ Las medidas primarias están directamente relacionadas con las hipótesis princi
 - **Justificación**: Esta medida es fundamental para validar la hipótesis de que "los perfiles verificados y el sistema de reseñas aumentan la confianza de los padres".
 
 **M2: Tasa de Adopción de Pagos Digitales**
+
 - **Descripción**: Evalúa la preferencia de los padres por utilizar el sistema de pagos integrado de KidyCare frente a métodos tradicionales.
 - **Métrica Cuantitativa**: Porcentaje de transacciones completadas a través de la plataforma vs. métodos externos (efectivo, transferencias directas).
 - **Métrica Cualitativa**: Entrevistas sobre percepciones de seguridad y conveniencia del sistema de pagos.
@@ -3582,8 +3567,9 @@ Las medidas primarias están directamente relacionadas con las hipótesis princi
 - **Justificación**: Permite validar la hipótesis de que "los pagos seguros en la app hacen que los padres prefieran usar Trustora en lugar de métodos informales".
 
 **M3: Tasa de Registro y Retención de Niñeras**
+
 - **Descripción**: Mide el número de niñeras que se registran en la plataforma y permanecen activas después de un período determinado.
-- **Métrica Cuantitativa**: 
+- **Métrica Cuantitativa**:
   - Número de niñeras registradas por semana.
   - Tasa de retención a los 30 días (porcentaje de niñeras que completan al menos una reserva).
   - Número de perfiles completados (con toda la información requerida).
@@ -3596,20 +3582,23 @@ Las medidas primarias están directamente relacionadas con las hipótesis princi
 Las medidas secundarias proporcionan contexto adicional y ayudan a identificar factores que pueden influir en los resultados principales:
 
 **M4: Tiempo de Búsqueda y Contratación**
+
 - **Descripción**: Evalúa la eficiencia del proceso de búsqueda y contratación de niñeras a través de la plataforma.
 - **Métrica Cuantitativa**: Tiempo promedio (en minutos) desde la búsqueda inicial hasta la confirmación de reserva.
 - **Frecuencia de Medición**: Por cada transacción completada.
 - **Justificación**: Proporciona evidencia sobre la mejora en eficiencia respecto a métodos tradicionales.
 
 **M5: Satisfacción del Usuario (NPS - Net Promoter Score)**
+
 - **Descripción**: Mide la probabilidad de que los usuarios recomienden KidyCare a otros.
 - **Métrica Cuantitativa**: Escala de 0 a 10, clasificando usuarios como Promotores (9-10), Pasivos (7-8) o Detractores (0-6).
 - **Frecuencia de Medición**: Al finalizar el período experimental.
 - **Justificación**: Indica la percepción general de valor y la viabilidad de crecimiento orgánico.
 
 **M6: Calidad de las Reseñas y Perfiles**
+
 - **Descripción**: Evalúa la utilidad y completitud de la información disponible en los perfiles de niñeras.
-- **Métrica Cuantitativa**: 
+- **Métrica Cuantitativa**:
   - Número promedio de reseñas por niñera.
   - Completitud del perfil (porcentaje de campos completados).
   - Calificación promedio de las reseñas.
@@ -3617,6 +3606,7 @@ Las medidas secundarias proporcionan contexto adicional y ayudan a identificar f
 - **Justificación**: Aporta evidencia sobre la calidad del sistema de verificación y reseñas.
 
 **M7: Tasa de Conversión de Búsquedas a Reservas**
+
 - **Descripción**: Mide la efectividad de la plataforma en convertir búsquedas en reservas reales.
 - **Métrica Cuantitativa**: Porcentaje de búsquedas que resultan en reservas confirmadas.
 - **Frecuencia de Medición**: Diaria.
@@ -3628,11 +3618,13 @@ Para garantizar un rastreo eficiente y minimizar costos y riesgos, se aplican lo
 
 1. **Medición Focalizada**: Solo se recopilan datos esenciales para responder las preguntas de investigación. Se evita la sobrecarga de información que pueda generar fatiga en los participantes.
 
-2. **Ventanas de Medición Optimizadas**: 
+2. **Ventanas de Medición Optimizadas**:
+
    - Medidas primarias: Se toman en momentos críticos (inicio, punto medio, final) para capturar cambios significativos.
    - Medidas secundarias: Se recopilan de forma continua pero con menor frecuencia para no interferir con la experiencia del usuario.
 
 3. **Minimización de Intrusión**: Las métricas se obtienen principalmente a través de:
+
    - Datos de uso automáticos (logs del sistema).
    - Encuestas breves y puntuales (máximo 5 minutos).
    - Entrevistas estructuradas solo al final del experimento.
@@ -3640,7 +3632,6 @@ Para garantizar un rastreo eficiente y minimizar costos y riesgos, se aplican lo
 4. **Protección de Datos**: Todas las medidas respetan la privacidad de los usuarios, cumpliendo con principios de protección de datos personales y obteniendo consentimiento informado.
 
 5. **Validación de Instrumentos**: Antes del experimento principal, se realiza una prueba piloto con un grupo reducido (5-10 usuarios) para validar que las medidas sean comprensibles y relevantes.
-
 
 ### 8.2.4. Conditions.
 
@@ -3653,21 +3644,25 @@ La condición experimental representa el escenario donde KidyCare está completa
 **Características de la Condición Experimental:**
 
 1. **Perfiles Verificados Activos**
+
    - Los perfiles de niñeras incluyen verificación de identidad (documento de identidad validado).
    - Certificaciones y antecedentes verificables visibles en el perfil.
    - Sistema de badges o insignias que indican nivel de verificación.
 
 2. **Sistema de Reseñas Funcional**
+
    - Los padres pueden dejar reseñas y calificaciones después de cada servicio.
    - Las reseñas son visibles públicamente en los perfiles de las niñeras.
    - Sistema de moderación para evitar reseñas falsas o inapropiadas.
 
 3. **Sistema de Pagos Integrado**
+
    - Pasarela de pago segura disponible dentro de la aplicación.
    - Múltiples métodos de pago (tarjeta de crédito, débito, billeteras digitales).
    - Proceso de pago simplificado y con confirmación automática.
 
 4. **Herramientas de Gestión para Niñeras**
+
    - Panel de control para gestionar disponibilidad y horarios.
    - Notificaciones en tiempo real de nuevas solicitudes.
    - Estadísticas de desempeño y visualización de perfil.
@@ -3678,6 +3673,7 @@ La condición experimental representa el escenario donde KidyCare está completa
    - Visualización de mapas con niñeras disponibles en la zona.
 
 **Participantes en Condición Experimental:**
+
 - **Grupo A - Padres**: 30-40 padres que utilizan KidyCare con todas las funcionalidades activas durante 4 semanas.
 - **Grupo B - Niñeras**: 20-30 niñeras registradas con perfiles verificados y acceso completo a herramientas de gestión.
 
@@ -3688,16 +3684,19 @@ La condición de control actúa bajo la suposición de que la hipótesis nula es
 **Características de la Condición de Control:**
 
 1. **Métodos Tradicionales de Búsqueda**
+
    - Búsqueda a través de recomendaciones de amigos y familiares.
    - Uso de grupos en redes sociales (Facebook, WhatsApp).
    - Contacto directo sin intermediación de plataforma digital.
 
 2. **Sin Sistema Centralizado de Verificación**
+
    - No hay verificación formal de identidad o antecedentes.
    - La confianza se basa únicamente en referencias personales.
    - No existe un sistema estructurado de reseñas públicas.
 
 3. **Pagos Tradicionales**
+
    - Transacciones en efectivo o transferencias bancarias directas.
    - Sin pasarela de pago integrada.
    - Negociación de precios y métodos de pago de forma individual.
@@ -3708,6 +3707,7 @@ La condición de control actúa bajo la suposición de que la hipótesis nula es
    - Dependencia de recordatorios personales y organización manual.
 
 **Participantes en Condición de Control:**
+
 - **Grupo C - Padres**: 30-40 padres que continúan utilizando métodos tradicionales durante el mismo período (4 semanas).
 - **Grupo D - Niñeras**: 20-30 niñeras que trabajan de forma independiente sin plataforma digital.
 
@@ -3716,6 +3716,7 @@ La condición de control actúa bajo la suposición de que la hipótesis nula es
 Para garantizar la validez del experimento, los participantes se asignan a las condiciones siguiendo criterios específicos:
 
 **Criterios de Inclusión:**
+
 - Padres con hijos entre 1 y 12 años que requieren servicios de cuidado infantil.
 - Niñeras con al menos 6 meses de experiencia en cuidado infantil.
 - Residencia en áreas urbanas (Lima Metropolitana).
@@ -3723,11 +3724,13 @@ Para garantizar la validez del experimento, los participantes se asignan a las c
 - Edad entre 25-45 años para padres, 18-50 años para niñeras.
 
 **Criterios de Exclusión:**
+
 - Usuarios que ya han utilizado plataformas similares de manera extensiva (para evitar sesgo de experiencia previa).
 - Participantes que no pueden comprometerse al período completo de 4 semanas.
 - Usuarios con limitaciones tecnológicas significativas.
 
 **Método de Asignación:**
+
 - Asignación aleatoria estratificada para garantizar equilibrio en variables demográficas clave (nivel socioeconómico, número de hijos, experiencia previa).
 - Se busca equilibrio en tamaño de grupos entre condiciones experimentales y de control.
 
@@ -3736,24 +3739,24 @@ Para garantizar la validez del experimento, los participantes se asignan a las c
 Para identificar el motivo subyacente detrás de las respuestas, se controlan las siguientes variables que podrían influir en los resultados:
 
 **Variables Demográficas:**
+
 - Edad, género, nivel educativo, nivel socioeconómico.
 - Número y edad de los hijos.
 - Experiencia previa con aplicaciones móviles.
 
 **Variables Contextuales:**
+
 - Época del año (evitar períodos de vacaciones escolares que puedan sesgar la demanda).
 - Ubicación geográfica (asegurar distribución similar en ambas condiciones).
 - Disponibilidad de tiempo de los participantes.
 
 **Variables de Implementación:**
+
 - Calidad de la conexión a internet.
 - Tipo de dispositivo utilizado (iOS vs Android).
 - Nivel de familiaridad con tecnología móvil.
 
 Estas variables se documentan y analizan para determinar si influyen significativamente en los resultados, permitiendo una interpretación más precisa de los efectos de KidyCare.
-
-
-
 
 ### 8.2.5. Scale Calculations and Decisions.
 
@@ -3764,6 +3767,7 @@ Esta sección describe la determinación de la cantidad de evidencia necesaria p
 Para determinar el tamaño de muestra adecuado, se consideran los siguientes factores:
 
 **Población Objetivo:**
+
 - **Padres/Tutores**: Estimación de 50,000 padres en Lima Metropolitana que requieren servicios de cuidado infantil y tienen acceso a tecnología móvil.
 - **Niñeras/Cuidadores**: Estimación de 15,000 niñeras activas en Lima Metropolitana con experiencia en cuidado infantil.
 
@@ -3771,30 +3775,33 @@ Para determinar el tamaño de muestra adecuado, se consideran los siguientes fac
 
 Para cada grupo (experimental y control), se requiere un tamaño mínimo de muestra basado en los cálculos de poder estadístico:
 
-| Grupo | Tamaño Mínimo | Tamaño Objetivo | Justificación |
-|-------|---------------|-----------------|--------------|
-| Padres - Experimental | 30 | 40 | Permite detectar diferencias significativas con poder estadístico adecuado |
-| Padres - Control | 30 | 40 | Grupo de comparación equivalente |
-| Niñeras - Experimental | 20 | 30 | Permite evaluar registro y retención con suficiente potencia |
-| Niñeras - Control | 20 | 30 | Grupo de comparación equivalente |
+| Grupo                  | Tamaño Mínimo | Tamaño Objetivo | Justificación                                                              |
+| ---------------------- | ------------- | --------------- | -------------------------------------------------------------------------- |
+| Padres - Experimental  | 30            | 40              | Permite detectar diferencias significativas con poder estadístico adecuado |
+| Padres - Control       | 30            | 40              | Grupo de comparación equivalente                                           |
+| Niñeras - Experimental | 20            | 30              | Permite evaluar registro y retención con suficiente potencia               |
+| Niñeras - Control      | 20            | 30              | Grupo de comparación equivalente                                           |
 
 **Total de Participantes**: 80-140 participantes (40-70 padres + 40-70 niñeras)
 
 #### 8.2.5.2. Certeza: Poder Estadístico y Nivel de Significación
 
 **Poder Estadístico (1 - β):**
+
 - **Valor establecido**: 0.80 (80%)
 - **Interpretación**: Existe un 80% de probabilidad de detectar un efecto real si existe.
 - **Justificación**: Nivel estándar en investigación de software que equilibra la capacidad de detección con la viabilidad del tamaño de muestra.
 - **Error Tipo II (β)**: 0.20 (20% de probabilidad de no detectar un efecto real).
 
 **Nivel de Significación (α):**
+
 - **Valor establecido**: 0.05 (5%)
 - **Interpretación**: Se acepta un 5% de probabilidad de concluir incorrectamente que existe un efecto cuando en realidad no existe.
 - **Justificación**: Nivel estándar en investigación científica que equilibra rigor estadístico con viabilidad práctica.
 - **Error Tipo I (α)**: 0.05 (5% de probabilidad de falsos positivos).
 
 **Pruebas Estadísticas:**
+
 - **Prueba t de Student** para comparar medias entre grupos (confianza, satisfacción).
 - **Prueba de Chi-cuadrado** para comparar proporciones (tasa de adopción, tasa de conversión).
 - **Análisis de Varianza (ANOVA)** si se requieren comparaciones múltiples.
@@ -3806,17 +3813,20 @@ El Efecto Mínimo Detectable (MDE) representa el tamaño mínimo de diferencia q
 **MDE para Medidas Primarias:**
 
 **M1: Nivel de Confianza**
+
 - **MDE**: Diferencia de 0.8 puntos en escala Likert de 5 puntos (equivalente a 16% de mejora).
 - **Justificación**: Una mejora de menos de 0.8 puntos no sería percibida como significativa por los usuarios ni justificaría el desarrollo de la plataforma.
 - **Cálculo**: Basado en estudios previos que indican que diferencias menores a 0.7-0.8 en escalas Likert no son percibidas como relevantes.
 
 **M2: Tasa de Adopción de Pagos Digitales**
+
 - **MDE**: Diferencia de 25 puntos porcentuales (ej: 30% en control vs. 55% en experimental).
 - **Justificación**: Un aumento del 25% en la adopción de pagos digitales representa un cambio sustancial en el comportamiento del usuario y valida la hipótesis de preferencia por métodos seguros.
 - **Cálculo**: Considerando que métodos tradicionales tienen aproximadamente 30-40% de uso de métodos digitales, un aumento a 55-65% sería significativo.
 
 **M3: Tasa de Registro y Retención de Niñeras**
-- **MDE**: 
+
+- **MDE**:
   - Registro: Aumento del 40% en tasa de registro semanal.
   - Retención: Diferencia de 20 puntos porcentuales en retención a 30 días (ej: 50% en control vs. 70% en experimental).
 - **Justificación**: Estos valores representan mejoras que justifican la inversión en la plataforma y demuestran valor real para las niñeras.
@@ -3835,13 +3845,14 @@ El tamaño de muestra se calculó utilizando la fórmula para comparación de do
 **Fórmula para Medidas Continuas (Confianza, Satisfacción):**
 
 \[
-n = \frac{2(Z_{1-\alpha/2} + Z_{1-\beta})^2 \sigma^2}{d^2}
+n = \frac{2(Z*{1-\alpha/2} + Z*{1-\beta})^2 \sigma^2}{d^2}
 \]
 
 Donde:
+
 - \(n\) = tamaño de muestra por grupo
-- \(Z_{1-\alpha/2}\) = 1.96 (para α = 0.05, dos colas)
-- \(Z_{1-\beta}\) = 0.84 (para poder = 0.80)
+- \(Z\_{1-\alpha/2}\) = 1.96 (para α = 0.05, dos colas)
+- \(Z\_{1-\beta}\) = 0.84 (para poder = 0.80)
 - \(\sigma\) = desviación estándar estimada (1.2 para escalas Likert basado en estudios previos)
 - \(d\) = MDE (0.8 puntos)
 
@@ -3853,10 +3864,11 @@ n = \frac{2(1.96 + 0.84)^2 \times 1.2^2}{0.8^2} = \frac{2 \times 7.84 \times 1.4
 **Fórmula para Medidas Proporcionales (Tasa de Adopción, Conversión):**
 
 \[
-n = \frac{(Z_{1-\alpha/2} + Z_{1-\beta})^2 (p_1(1-p_1) + p_2(1-p_2))}{(p_1 - p_2)^2}
+n = \frac{(Z*{1-\alpha/2} + Z*{1-\beta})^2 (p_1(1-p_1) + p_2(1-p_2))}{(p_1 - p_2)^2}
 \]
 
 Donde:
+
 - \(p_1\) = proporción esperada en grupo experimental (0.55)
 - \(p_2\) = proporción esperada en grupo control (0.30)
 - \(d\) = diferencia mínima detectable (0.25)
@@ -3867,10 +3879,12 @@ n = \frac{(1.96 + 0.84)^2 (0.55 \times 0.45 + 0.30 \times 0.70)}{(0.55 - 0.30)^2
 \]
 
 **Decisión Final:**
+
 - Para medidas continuas: **30-35 participantes por grupo** (redondeado a 40 para mayor robustez).
 - Para medidas proporcionales: **67 participantes por grupo** (ajustado a 40 considerando limitaciones prácticas y análisis post-hoc).
 
 **Ajuste por Tasa de Abandono:**
+
 - Se estima una tasa de abandono del 15-20% durante el período experimental.
 - **Tamaño inicial**: 50 participantes por grupo para asegurar 40 completos al final.
 
@@ -3879,16 +3893,18 @@ n = \frac{(1.96 + 0.84)^2 (0.55 \times 0.45 + 0.30 \times 0.70)}{(0.55 - 0.30)^2
 **Período Total**: 4 semanas (28 días)
 
 **Justificación:**
+
 - **Semanas 1-2**: Período de adaptación y aprendizaje de la plataforma.
 - **Semanas 3-4**: Período de uso estable donde se recopilan datos principales.
 - **Razón**: Un período más corto no permite evaluar retención y cambios de comportamiento a largo plazo. Un período más largo aumenta el riesgo de abandono y factores externos.
 
 **Frecuencia de Medición:**
+
 - **Medidas primarias**: Inicio (día 0), punto medio (día 14), final (día 28).
 - **Medidas secundarias**: Continuas durante todo el período, con agregación semanal.
 
-
 ### 8.2.6. Methods Selection.
+
 Esta sección describe cómo se lleva a cabo la investigación. Expone el principio fundamental que el método debe ser el **Simplest Useful Thing** (la cosa más simple y útil) para alcanzar el tamaño de muestra y las condiciones necesarias. Se señala claramente la diferencia entre el objeto de investigación (la pregunta o hipótesis) y el método (la técnica, como una prueba A/B). Además, se resalta la norma esencial de no ejecutar simultáneamente dos o más experimentos sobre el mismo tema que puedan exponer a un solo usuario a ambos, junto con la consideración ética de no causar daño.
 
 #### 8.2.6.1. Principio del Simplest Useful Thing
@@ -3922,12 +3938,13 @@ Es fundamental distinguir entre **qué se investiga** (objeto) y **cómo se inve
 
 - **Técnica**: **Experimento Controlado Aleatorio (RCT - Randomized Controlled Trial)**
 - **Variante Específica**: **Prueba A/B entre grupos independientes**
-- **Justificación**: 
+- **Justificación**:
   - Permite establecer causalidad entre el uso de KidyCare y los resultados observados.
   - Minimiza sesgos mediante asignación aleatoria.
   - Facilita la comparación directa entre condiciones.
 
 **Diferencia Clave:**
+
 - El **objeto** son las hipótesis sobre confianza, adopción y registro.
 - El **método** es el experimento controlado que permite probar estas hipótesis.
 
@@ -3936,17 +3953,20 @@ Es fundamental distinguir entre **qué se investiga** (objeto) y **cómo se inve
 **Tipo de Diseño**: **Between-Subjects Design (Diseño Entre Sujetos)**
 
 **Características:**
+
 - Cada participante se asigna a una sola condición (experimental o control).
 - No hay exposición simultánea a ambas condiciones.
 - Los grupos son independientes y comparables.
 
 **Ventajas:**
+
 - Evita efectos de contraste y aprendizaje entre condiciones.
 - Elimina el riesgo de contaminación de condiciones.
 - Reduce la fatiga de los participantes.
 - Facilita la interpretación de resultados.
 
 **Proceso de Asignación:**
+
 1. **Reclutamiento**: Se identifican participantes elegibles según criterios de inclusión.
 2. **Estratificación**: Se agrupan por variables clave (nivel socioeconómico, número de hijos, experiencia previa).
 3. **Aleatorización**: Dentro de cada estrato, se asigna aleatoriamente a condición experimental o control.
@@ -3967,6 +3987,7 @@ Es fundamental distinguir entre **qué se investiga** (objeto) y **cómo se inve
 4. **Separación Temporal**: Si se requieren experimentos adicionales en el futuro, se realizarán con grupos completamente diferentes de participantes.
 
 **Justificación:**
+
 - Evita efectos de confusión donde no se puede determinar qué condición causó el resultado.
 - Previene efectos de aprendizaje y adaptación que podrían sesgar los resultados.
 - Garantiza la validez interna del experimento.
@@ -3978,25 +3999,30 @@ La investigación se rige por principios éticos fundamentales que priorizan el 
 **Principios Éticos Aplicados:**
 
 1. **Consentimiento Informado:**
+
    - Todos los participantes reciben información clara sobre el propósito del estudio, procedimientos, riesgos y beneficios.
    - Se obtiene consentimiento explícito antes de la participación.
    - Los participantes pueden retirarse en cualquier momento sin consecuencias.
 
 2. **Protección de Datos Personales:**
+
    - Se implementan medidas de seguridad para proteger información sensible.
    - Los datos se anonimizan cuando sea posible.
    - Se cumple con normativas de protección de datos (Ley de Protección de Datos Personales del Perú).
 
 3. **Minimización de Riesgos:**
+
    - **Riesgo Físico**: Mínimo - la plataforma no expone a riesgos físicos.
    - **Riesgo Psicológico**: Bajo - se monitorea el bienestar de los participantes.
    - **Riesgo de Privacidad**: Moderado - se implementan controles estrictos de acceso a datos.
 
 4. **Beneficio vs. Riesgo:**
+
    - Los beneficios potenciales (mejora en servicios de cuidado infantil) superan los riesgos mínimos identificados.
    - Los participantes del grupo control no son privados de servicios esenciales; pueden continuar usando métodos tradicionales.
 
 5. **Transparencia:**
+
    - Los resultados se comunican de manera honesta y transparente.
    - Se evita cualquier forma de manipulación o engaño.
 
@@ -4014,16 +4040,19 @@ La investigación se rige por principios éticos fundamentales que priorizan el 
 Para mantener el principio del "Simplest Useful Thing", se utilizan instrumentos simples pero efectivos:
 
 1. **Encuestas en Línea:**
+
    - Plataforma: Google Forms o Typeform (gratuitas y fáciles de usar).
    - Frecuencia: Al inicio, punto medio y final del experimento.
    - Duración: Máximo 10 minutos por encuesta.
 
 2. **Logs del Sistema:**
+
    - Datos automáticos de uso de la plataforma (búsquedas, reservas, pagos).
    - Sin intervención del usuario.
    - Anonimización automática.
 
 3. **Entrevistas Semiestructuradas:**
+
    - Solo al final del experimento.
    - Duración: 15-20 minutos.
    - Muestra: Subconjunto representativo (10-15 participantes por grupo).
@@ -4031,9 +4060,6 @@ Para mantener el principio del "Simplest Useful Thing", se utilizan instrumentos
 4. **Análisis de Datos:**
    - Software: R o Python con librerías estadísticas estándar.
    - Métodos: Pruebas t, Chi-cuadrado, análisis de varianza según el tipo de dato.
-
-
-
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
 
@@ -4044,21 +4070,25 @@ Esta sección presenta la preparación analítica basada en la selección de med
 Las metas del análisis de datos definen los objetivos principales que se buscan alcanzar a través de la recolección y análisis de información durante el experimento:
 
 **Meta 1: Validar Hipótesis Principales**
+
 - **Objetivo**: Proporcionar evidencia estadísticamente significativa que valide o refute las tres hipótesis principales del proyecto.
 - **Alcance**: Determinar si KidyCare produce efectos medibles y relevantes en confianza, adopción de pagos y registro de niñeras.
 - **Criterio de Éxito**: Al menos dos de las tres hipótesis principales muestran resultados estadísticamente significativos (p < 0.05) con efectos prácticos relevantes.
 
 **Meta 2: Detectar Diferencias Precisas**
+
 - **Objetivo**: Identificar cambios específicos y cuantificables entre las condiciones experimental y control.
 - **Alcance**: Medir diferencias que superen el Efecto Mínimo Detectable (MDE) establecido para cada métrica.
 - **Criterio de Éxito**: Las diferencias detectadas son estadísticamente significativas y superan los umbrales de MDE definidos.
 
 **Meta 3: Optimizar el Rastreo de Datos**
+
 - **Objetivo**: Minimizar la cantidad de datos recolectados sin comprometer la calidad del análisis.
 - **Alcance**: Implementar un sistema de rastreo eficiente que capture solo información esencial.
 - **Criterio de Éxito**: Reducción del 30% en tiempo de recolección de datos comparado con un enfoque exhaustivo, manteniendo validez estadística.
 
 **Meta 4: Proporcionar Insights Accionables**
+
 - **Objetivo**: Generar información que permita tomar decisiones informadas sobre el futuro de KidyCare.
 - **Alcance**: Identificar fortalezas, debilidades y oportunidades de mejora basadas en evidencia.
 - **Criterio de Éxito**: Al menos 5 insights accionables identificados que informen el desarrollo futuro de la plataforma.
@@ -4068,30 +4098,35 @@ Las metas del análisis de datos definen los objetivos principales que se buscan
 Los KPIs son métricas de alto nivel que reflejan el éxito general del experimento y la plataforma KidyCare. Se seleccionan para ser representativos, medibles y alineados con los objetivos del negocio:
 
 **KPI 1: Tasa de Éxito del Experimento**
+
 - **Definición**: Porcentaje de hipótesis validadas con resultados estadísticamente significativos.
 - **Cálculo**: (Número de hipótesis validadas / Total de hipótesis) × 100
 - **Objetivo**: ≥ 66% (al menos 2 de 3 hipótesis validadas)
 - **Frecuencia de Medición**: Al finalizar el experimento
 
 **KPI 2: Magnitud del Efecto Promedio**
+
 - **Definición**: Promedio de los tamaños de efecto (Cohen's d) para las medidas primarias.
 - **Cálculo**: Promedio de (d₁ + d₂ + d₃) / 3, donde d es el tamaño del efecto para cada medida primaria
 - **Objetivo**: ≥ 0.5 (efecto mediano según convención de Cohen)
 - **Frecuencia de Medición**: Al finalizar el experimento
 
 **KPI 3: Tasa de Retención de Participantes**
+
 - **Definición**: Porcentaje de participantes que completan el experimento completo.
 - **Cálculo**: (Participantes que completan / Participantes que inician) × 100
 - **Objetivo**: ≥ 80%
 - **Frecuencia de Medición**: Semanal durante el experimento
 
 **KPI 4: Calidad de los Datos Recolectados**
+
 - **Definición**: Porcentaje de datos válidos y completos en relación al total recolectado.
 - **Cálculo**: (Datos válidos / Total de datos) × 100
 - **Objetivo**: ≥ 95%
 - **Frecuencia de Medición**: Diaria durante el experimento
 
 **KPI 5: Eficiencia del Rastreo**
+
 - **Definición**: Relación entre el valor de los insights obtenidos y el esfuerzo de recolección de datos.
 - **Cálculo**: (Número de insights accionables / Horas de recolección de datos)
 - **Objetivo**: ≥ 0.5 insights por hora de recolección
@@ -4103,55 +4138,60 @@ La selección de métricas se basa en los principios de economía, precisión y 
 
 **Métricas Primarias (Directamente Relacionadas con Hipótesis):**
 
-| Métrica | Hipótesis Relacionada | Tipo de Dato | Método de Recolección | Frecuencia |
-|---------|----------------------|--------------|----------------------|------------|
-| **M1: Nivel de Confianza** | H1: Perfiles verificados aumentan confianza | Escala Likert (1-5) | Encuesta estructurada | Inicio, Medio, Final |
-| **M2: Tasa de Adopción Pagos Digitales** | H2: Pagos seguros aumentan preferencia | Proporción (%) | Logs del sistema + Encuesta | Semanal |
-| **M3: Tasa de Registro Niñeras** | H3: Herramientas aumentan registro | Conteo (número) | Logs del sistema | Diaria |
-| **M3b: Tasa de Retención Niñeras** | H3: Herramientas aumentan retención | Proporción (%) | Logs del sistema | Semanal |
+| Métrica                                  | Hipótesis Relacionada                       | Tipo de Dato        | Método de Recolección       | Frecuencia           |
+| ---------------------------------------- | ------------------------------------------- | ------------------- | --------------------------- | -------------------- |
+| **M1: Nivel de Confianza**               | H1: Perfiles verificados aumentan confianza | Escala Likert (1-5) | Encuesta estructurada       | Inicio, Medio, Final |
+| **M2: Tasa de Adopción Pagos Digitales** | H2: Pagos seguros aumentan preferencia      | Proporción (%)      | Logs del sistema + Encuesta | Semanal              |
+| **M3: Tasa de Registro Niñeras**         | H3: Herramientas aumentan registro          | Conteo (número)     | Logs del sistema            | Diaria               |
+| **M3b: Tasa de Retención Niñeras**       | H3: Herramientas aumentan retención         | Proporción (%)      | Logs del sistema            | Semanal              |
 
 **Métricas Secundarias (Contexto y Validación):**
 
-| Métrica | Propósito | Tipo de Dato | Método de Recolección | Frecuencia |
-|---------|-----------|--------------|----------------------|------------|
-| **M4: Tiempo de Búsqueda** | Validar eficiencia | Continuo (minutos) | Logs del sistema | Por transacción |
-| **M5: Net Promoter Score** | Medir satisfacción general | Escala (0-10) | Encuesta | Final |
-| **M6: Calidad de Reseñas** | Validar sistema de reseñas | Múltiple (conteo, promedio) | Logs del sistema | Semanal |
-| **M7: Tasa de Conversión** | Validar efectividad matching | Proporción (%) | Logs del sistema | Diaria |
+| Métrica                    | Propósito                    | Tipo de Dato                | Método de Recolección | Frecuencia      |
+| -------------------------- | ---------------------------- | --------------------------- | --------------------- | --------------- |
+| **M4: Tiempo de Búsqueda** | Validar eficiencia           | Continuo (minutos)          | Logs del sistema      | Por transacción |
+| **M5: Net Promoter Score** | Medir satisfacción general   | Escala (0-10)               | Encuesta              | Final           |
+| **M6: Calidad de Reseñas** | Validar sistema de reseñas   | Múltiple (conteo, promedio) | Logs del sistema      | Semanal         |
+| **M7: Tasa de Conversión** | Validar efectividad matching | Proporción (%)              | Logs del sistema      | Diaria          |
 
 **Métricas de Control (Variables de Confusión):**
 
-| Métrica | Propósito | Tipo de Dato | Método de Recolección | Frecuencia |
-|---------|-----------|--------------|----------------------|------------|
-| **MC1: Variables Demográficas** | Control de sesgos | Categórico/Nominal | Encuesta inicial | Inicio |
-| **MC2: Experiencia Tecnológica** | Control de familiaridad | Escala Likert (1-5) | Encuesta inicial | Inicio |
-| **MC3: Uso Previo de Apps Similares** | Control de experiencia previa | Binario (Sí/No) | Encuesta inicial | Inicio |
+| Métrica                               | Propósito                     | Tipo de Dato        | Método de Recolección | Frecuencia |
+| ------------------------------------- | ----------------------------- | ------------------- | --------------------- | ---------- |
+| **MC1: Variables Demográficas**       | Control de sesgos             | Categórico/Nominal  | Encuesta inicial      | Inicio     |
+| **MC2: Experiencia Tecnológica**      | Control de familiaridad       | Escala Likert (1-5) | Encuesta inicial      | Inicio     |
+| **MC3: Uso Previo de Apps Similares** | Control de experiencia previa | Binario (Sí/No)     | Encuesta inicial      | Inicio     |
 
 #### 8.2.7.4. Principios de Economía en el Rastreo de Datos
 
 Para asegurar la economía en el rastreo de datos, se aplican los siguientes principios:
 
 **Principio 1: Rastreo Automático Preferido**
+
 - **Aplicación**: Se prioriza la recolección automática mediante logs del sistema sobre encuestas manuales.
 - **Beneficio**: Reduce la carga sobre los participantes y minimiza errores de recolección.
 - **Ejemplo**: El tiempo de búsqueda se captura automáticamente en lugar de pedir a los usuarios que lo reporten.
 
 **Principio 2: Agregación Inteligente**
+
 - **Aplicación**: Los datos se agregan en niveles apropiados (diario, semanal) en lugar de almacenar cada evento individual.
 - **Beneficio**: Reduce el volumen de datos almacenados sin perder información relevante.
 - **Ejemplo**: En lugar de almacenar cada clic, se almacena el tiempo total de sesión y número de acciones.
 
 **Principio 3: Muestreo Estratificado**
+
 - **Aplicación**: Para métricas costosas de recolectar (entrevistas), se utiliza muestreo estratificado en lugar de censo.
 - **Beneficio**: Reduce el esfuerzo de recolección manteniendo representatividad.
 - **Ejemplo**: Solo 10-15 participantes por grupo son entrevistados, seleccionados para representar diferentes perfiles.
 
 **Principio 4: Eliminación de Métricas Redundantes**
+
 - **Aplicación**: Se evita recolectar múltiples métricas que miden el mismo constructo.
 - **Beneficio**: Reduce redundancia y simplifica el análisis.
 - **Ejemplo**: Se usa solo NPS para satisfacción general, no múltiples escalas de satisfacción.
 
 **Principio 5: Rastreo Condicional**
+
 - **Aplicación**: Algunas métricas solo se rastrean si se cumplen condiciones específicas.
 - **Beneficio**: Evita recolección innecesaria de datos.
 - **Ejemplo**: Las reseñas solo se analizan para niñeras que han completado al menos un servicio.
@@ -4163,7 +4203,8 @@ La preparación analítica incluye la definición de procedimientos, herramienta
 **8.2.7.5.1. Pipeline de Procesamiento de Datos**
 
 **Etapa 1: Recolección y Almacenamiento**
-- **Herramientas**: 
+
+- **Herramientas**:
   - Logs del sistema: Base de datos PostgreSQL con tablas estructuradas
   - Encuestas: Google Forms / Typeform con exportación a CSV
   - Entrevistas: Transcripciones almacenadas en formato texto estructurado
@@ -4171,6 +4212,7 @@ La preparación analítica incluye la definición de procedimientos, herramienta
 - **Validación**: Verificación automática de completitud y formato
 
 **Etapa 2: Limpieza y Transformación**
+
 - **Procedimientos**:
   - Eliminación de valores atípicos extremos (más de 3 desviaciones estándar)
   - Manejo de valores faltantes (imputación para <5%, exclusión para ≥5%)
@@ -4180,6 +4222,7 @@ La preparación analítica incluye la definición de procedimientos, herramienta
 - **Criterios de Calidad**: ≥95% de datos válidos después de limpieza
 
 **Etapa 3: Agregación y Cálculo de Métricas**
+
 - **Procedimientos**:
   - Cálculo de métricas primarias y secundarias según definiciones
   - Agregación temporal (diaria, semanal)
@@ -4188,6 +4231,7 @@ La preparación analítica incluye la definición de procedimientos, herramienta
 - **Validación**: Verificación cruzada de cálculos con muestras manuales
 
 **Etapa 4: Análisis Estadístico**
+
 - **Procedimientos**:
   - Pruebas de normalidad (Shapiro-Wilk)
   - Pruebas de homogeneidad de varianzas (Levene)
@@ -4201,6 +4245,7 @@ La preparación analítica incluye la definición de procedimientos, herramienta
 - **Nivel de Significación**: α = 0.05
 
 **Etapa 5: Visualización y Reporte**
+
 - **Procedimientos**:
   - Generación de gráficos descriptivos (histogramas, boxplots)
   - Gráficos comparativos (barras, líneas)
@@ -4212,58 +4257,66 @@ La preparación analítica incluye la definición de procedimientos, herramienta
 **8.2.7.5.2. Plan de Análisis Estadístico**
 
 **Análisis Descriptivo:**
+
 - Estadísticos de tendencia central (media, mediana) y dispersión (desviación estándar, rango intercuartílico)
 - Distribuciones de frecuencias para variables categóricas
 - Comparación de características basales entre grupos (verificación de equivalencia)
 
 **Análisis Inferencial:**
+
 - **Para M1 (Confianza)**: Prueba t de Student para muestras independientes
 - **Para M2 (Adopción Pagos)**: Prueba de Chi-cuadrado de independencia
 - **Para M3 (Registro/Retención)**: Prueba de Chi-cuadrado o prueba exacta de Fisher
 - **Para M4-M7 (Secundarias)**: Análisis exploratorio con pruebas apropiadas según distribución
 
 **Análisis de Sensibilidad:**
+
 - Análisis de subgrupos (por nivel socioeconómico, experiencia previa)
 - Análisis de intención de tratar (ITT) vs. análisis por protocolo
 - Análisis de robustez con diferentes métodos de imputación
 
 **8.2.7.5.3. Herramientas y Software**
 
-| Herramienta | Propósito | Justificación |
-|-------------|-----------|---------------|
-| **Python 3.9+** o **R 4.0+** | Análisis estadístico principal | Librerías robustas, código reproducible |
-| **pandas** (Python) / **dplyr** (R) | Manipulación de datos | Eficiencia y claridad en transformaciones |
-| **scipy.stats** (Python) / **stats** (R) | Pruebas estadísticas | Implementaciones validadas y documentadas |
-| **matplotlib/seaborn** (Python) / **ggplot2** (R) | Visualización | Gráficos de alta calidad y personalizables |
-| **Jupyter Notebook** o **R Markdown** | Documentación de análisis | Reproducibilidad y transparencia |
-| **PostgreSQL** | Almacenamiento de logs | Escalabilidad y consultas eficientes |
-| **Git** | Control de versiones de código | Trazabilidad y colaboración |
+| Herramienta                                       | Propósito                      | Justificación                              |
+| ------------------------------------------------- | ------------------------------ | ------------------------------------------ |
+| **Python 3.9+** o **R 4.0+**                      | Análisis estadístico principal | Librerías robustas, código reproducible    |
+| **pandas** (Python) / **dplyr** (R)               | Manipulación de datos          | Eficiencia y claridad en transformaciones  |
+| **scipy.stats** (Python) / **stats** (R)          | Pruebas estadísticas           | Implementaciones validadas y documentadas  |
+| **matplotlib/seaborn** (Python) / **ggplot2** (R) | Visualización                  | Gráficos de alta calidad y personalizables |
+| **Jupyter Notebook** o **R Markdown**             | Documentación de análisis      | Reproducibilidad y transparencia           |
+| **PostgreSQL**                                    | Almacenamiento de logs         | Escalabilidad y consultas eficientes       |
+| **Git**                                           | Control de versiones de código | Trazabilidad y colaboración                |
 
 #### 8.2.7.6. Garantía de Detección de Diferencias Precisas
 
 Para garantizar que las métricas elegidas permitan detectar diferencias o cambios precisos, se implementan las siguientes estrategias:
 
 **Estrategia 1: Validación de Poder Estadístico**
+
 - **Procedimiento**: Cálculo a priori del poder estadístico para cada prueba planificada.
 - **Verificación**: Confirmación de que el tamaño de muestra permite detectar el MDE con poder ≥0.80.
 - **Ajuste**: Si el poder es insuficiente, se ajusta el tamaño de muestra o se reconsidera el MDE.
 
 **Estrategia 2: Validación de Instrumentos**
+
 - **Procedimiento**: Prueba piloto con 5-10 participantes para validar que las métricas capturan lo esperado.
 - **Verificación**: Análisis de consistencia interna (alpha de Cronbach para escalas) y validez de constructo.
 - **Ajuste**: Refinamiento de instrumentos basado en feedback del piloto.
 
 **Estrategia 3: Monitoreo Continuo de Calidad**
+
 - **Procedimiento**: Verificación diaria de completitud y calidad de datos durante el experimento.
 - **Verificación**: Alertas automáticas si la tasa de datos faltantes excede 5% o si hay valores atípicos sospechosos.
 - **Ajuste**: Acción correctiva inmediata si se detectan problemas.
 
 **Estrategia 4: Análisis de Robustez**
+
 - **Procedimiento**: Repetición de análisis principales con diferentes métodos y supuestos.
 - **Verificación**: Confirmación de que los resultados son consistentes independientemente del método.
 - **Ajuste**: Reporte de cualquier inconsistencia y análisis de causas.
 
 **Estrategia 5: Documentación Transparente**
+
 - **Procedimiento**: Documentación completa de todas las decisiones analíticas y justificaciones.
 - **Verificación**: Revisión por pares del plan de análisis antes de la recolección de datos.
 - **Ajuste**: Incorporación de feedback en el plan final.
@@ -4272,15 +4325,13 @@ Para garantizar que las métricas elegidas permitan detectar diferencias o cambi
 
 Para asegurar la precisión en la detección de diferencias, se monitorean las siguientes métricas de calidad:
 
-| Métrica de Calidad | Objetivo | Acción Correctiva si No se Cumple |
-|-------------------|----------|-----------------------------------|
-| **Tasa de Completitud** | ≥95% | Investigar causas de datos faltantes, contactar participantes |
-| **Tasa de Consistencia** | ≥98% | Revisar lógica de validación, corregir errores sistemáticos |
-| **Tasa de Validez** | ≥95% | Eliminar valores inválidos, verificar instrumentos |
-| **Tasa de Puntualidad** | ≥90% | Automatizar recolección, establecer recordatorios |
-| **Tasa de Precisión** | ≥99% | Verificar cálculos, implementar validaciones cruzadas |
-
-
+| Métrica de Calidad       | Objetivo | Acción Correctiva si No se Cumple                             |
+| ------------------------ | -------- | ------------------------------------------------------------- |
+| **Tasa de Completitud**  | ≥95%     | Investigar causas de datos faltantes, contactar participantes |
+| **Tasa de Consistencia** | ≥98%     | Revisar lógica de validación, corregir errores sistemáticos   |
+| **Tasa de Validez**      | ≥95%     | Eliminar valores inválidos, verificar instrumentos            |
+| **Tasa de Puntualidad**  | ≥90%     | Automatizar recolección, establecer recordatorios             |
+| **Tasa de Precisión**    | ≥99%     | Verificar cálculos, implementar validaciones cruzadas         |
 
 ### 8.2.8. Web and Mobile Tracking Plan
 
@@ -4290,45 +4341,45 @@ El plan de tracking para web y móvil define específicamente qué eventos se ra
 
 **Eventos Críticos para Web:**
 
-| Evento | Descripción | Propiedades | Métrica Derivada |
-|--------|-------------|-------------|------------------|
-| `landing_page_viewed` | Usuario visita la landing page | `source`, `campaign`, `referrer` | Tasa de visitas |
-| `signup_initiated` | Usuario inicia registro | `user_type` (tutor/babysitter) | Tasa de inicio de registro |
-| `signup_completed` | Usuario completa registro | `user_type`, `registration_method` | Tasa de conversión de registro |
-| `login_successful` | Login exitoso | `login_method` | Tasa de éxito de login |
-| `search_performed` | Búsqueda de niñeras | `query`, `filters_applied`, `results_count` | Tasa de búsquedas |
-| `profile_viewed` | Perfil de niñera visto | `babysitter_id`, `view_duration` | Engagement con perfiles |
-| `reservation_flow_started` | Inicio de flujo de reserva | `babysitter_id` | Tasa de inicio de reservas |
-| `reservation_completed` | Reserva completada | `reservation_id`, `amount`, `payment_method` | Tasa de conversión de reservas |
-| `payment_completed` | Pago completado | `amount`, `payment_method`, `transaction_id` | Tasa de éxito de pagos |
-| `review_submitted` | Reseña enviada | `babysitter_id`, `rating`, `has_comment` | Tasa de reseñas |
+| Evento                     | Descripción                    | Propiedades                                  | Métrica Derivada               |
+| -------------------------- | ------------------------------ | -------------------------------------------- | ------------------------------ |
+| `landing_page_viewed`      | Usuario visita la landing page | `source`, `campaign`, `referrer`             | Tasa de visitas                |
+| `signup_initiated`         | Usuario inicia registro        | `user_type` (tutor/babysitter)               | Tasa de inicio de registro     |
+| `signup_completed`         | Usuario completa registro      | `user_type`, `registration_method`           | Tasa de conversión de registro |
+| `login_successful`         | Login exitoso                  | `login_method`                               | Tasa de éxito de login         |
+| `search_performed`         | Búsqueda de niñeras            | `query`, `filters_applied`, `results_count`  | Tasa de búsquedas              |
+| `profile_viewed`           | Perfil de niñera visto         | `babysitter_id`, `view_duration`             | Engagement con perfiles        |
+| `reservation_flow_started` | Inicio de flujo de reserva     | `babysitter_id`                              | Tasa de inicio de reservas     |
+| `reservation_completed`    | Reserva completada             | `reservation_id`, `amount`, `payment_method` | Tasa de conversión de reservas |
+| `payment_completed`        | Pago completado                | `amount`, `payment_method`, `transaction_id` | Tasa de éxito de pagos         |
+| `review_submitted`         | Reseña enviada                 | `babysitter_id`, `rating`, `has_comment`     | Tasa de reseñas                |
 
 **Implementación Web (Vue.js):**
 
 ```javascript
 // Ejemplo de implementación en Vue.js
-import { gtag } from 'vue-gtag'
+import { gtag } from "vue-gtag";
 
 export default {
   methods: {
     trackEvent(eventName, properties) {
-      gtag('event', eventName, {
+      gtag("event", eventName, {
         ...properties,
-        platform: 'web',
-        timestamp: new Date().toISOString()
-      })
+        platform: "web",
+        timestamp: new Date().toISOString(),
+      });
     },
-    
+
     trackReservationCompleted(reservation) {
-      this.trackEvent('reservation_completed', {
+      this.trackEvent("reservation_completed", {
         reservation_id: reservation.id,
         amount: reservation.amount,
         payment_method: reservation.paymentMethod,
-        babysitter_id: reservation.babysitterId
-      })
-    }
-  }
-}
+        babysitter_id: reservation.babysitterId,
+      });
+    },
+  },
+};
 ```
 
 **Páginas y Pantallas Rastreadas:**
@@ -4350,18 +4401,18 @@ export default {
 
 **Eventos Críticos para Mobile:**
 
-| Evento | Descripción | Propiedades | Métrica Derivada |
-|--------|-------------|-------------|------------------|
-| `app_opened` | App abierta | `source` (push/notification/deep_link) | Tasa de apertura |
-| `onboarding_started` | Onboarding iniciado | `user_type` | Tasa de inicio de onboarding |
-| `onboarding_completed` | Onboarding completado | `user_type`, `steps_completed` | Tasa de completitud |
-| `screen_viewed` | Pantalla vista | `screen_name`, `screen_class` | Tiempo en pantalla |
-| `search_performed` | Búsqueda realizada | `query`, `filters`, `results_count` | Tasa de búsquedas |
-| `profile_viewed` | Perfil visto | `babysitter_id`, `view_duration` | Engagement |
-| `reservation_requested` | Solicitud de reserva | `babysitter_id`, `date`, `duration` | Tasa de solicitudes |
-| `notification_received` | Notificación recibida | `notification_type`, `action_taken` | Efectividad de notificaciones |
-| `push_notification_opened` | Push notification abierta | `notification_type` | Tasa de apertura de push |
-| `in_app_purchase_initiated` | Compra in-app iniciada | `product_id`, `price` | Tasa de conversión de compras |
+| Evento                      | Descripción               | Propiedades                            | Métrica Derivada              |
+| --------------------------- | ------------------------- | -------------------------------------- | ----------------------------- |
+| `app_opened`                | App abierta               | `source` (push/notification/deep_link) | Tasa de apertura              |
+| `onboarding_started`        | Onboarding iniciado       | `user_type`                            | Tasa de inicio de onboarding  |
+| `onboarding_completed`      | Onboarding completado     | `user_type`, `steps_completed`         | Tasa de completitud           |
+| `screen_viewed`             | Pantalla vista            | `screen_name`, `screen_class`          | Tiempo en pantalla            |
+| `search_performed`          | Búsqueda realizada        | `query`, `filters`, `results_count`    | Tasa de búsquedas             |
+| `profile_viewed`            | Perfil visto              | `babysitter_id`, `view_duration`       | Engagement                    |
+| `reservation_requested`     | Solicitud de reserva      | `babysitter_id`, `date`, `duration`    | Tasa de solicitudes           |
+| `notification_received`     | Notificación recibida     | `notification_type`, `action_taken`    | Efectividad de notificaciones |
+| `push_notification_opened`  | Push notification abierta | `notification_type`                    | Tasa de apertura de push      |
+| `in_app_purchase_initiated` | Compra in-app iniciada    | `product_id`, `price`                  | Tasa de conversión de compras |
 
 **Implementación Mobile (Flutter):**
 
@@ -4418,33 +4469,37 @@ class TrackingService {
 
 Algunos eventos son comunes a ambas plataformas y deben tener la misma estructura:
 
-| Evento | Propiedades Comunes | Diferencias por Plataforma |
-|--------|---------------------|---------------------------|
-| `reservation_completed` | `reservation_id`, `amount`, `babysitter_id` | `platform` (web/ios/android) |
-| `payment_completed` | `amount`, `payment_method`, `transaction_id` | Método de pago puede variar |
-| `review_submitted` | `babysitter_id`, `rating`, `has_comment` | Interfaz de entrada diferente |
-| `profile_updated` | `user_id`, `fields_updated` | Campos disponibles pueden variar |
+| Evento                  | Propiedades Comunes                          | Diferencias por Plataforma       |
+| ----------------------- | -------------------------------------------- | -------------------------------- |
+| `reservation_completed` | `reservation_id`, `amount`, `babysitter_id`  | `platform` (web/ios/android)     |
+| `payment_completed`     | `amount`, `payment_method`, `transaction_id` | Método de pago puede variar      |
+| `review_submitted`      | `babysitter_id`, `rating`, `has_comment`     | Interfaz de entrada diferente    |
+| `profile_updated`       | `user_id`, `fields_updated`                  | Campos disponibles pueden variar |
 
 #### 8.2.8.4. Métricas Clave Derivadas del Tracking
 
 **Métricas de Adquisición:**
+
 - Tasa de registro (Sign Up Rate)
 - Tasa de activación (Activation Rate)
 - Tasa de retención D1, D7, D30
 
 **Métricas de Engagement:**
+
 - Sesiones por usuario
 - Tiempo promedio en app/web
 - Pantallas/páginas por sesión
 - Tasa de búsquedas
 
 **Métricas de Conversión:**
+
 - Tasa de conversión de búsqueda a perfil visto
 - Tasa de conversión de perfil a reserva
 - Tasa de conversión de reserva a pago
 - Tasa de completitud de reseñas
 
 **Métricas de Retención:**
+
 - Usuarios activos diarios (DAU)
 - Usuarios activos semanales (WAU)
 - Usuarios activos mensuales (MAU)
@@ -4460,11 +4515,11 @@ Algunos eventos son comunes a ambas plataformas y deben tener la misma estructur
 4. **Dashboard Técnico**: Métricas de rendimiento y errores
 
 **Frecuencia de Reportes:**
+
 - **Tiempo Real**: Métricas críticas (reservas, pagos)
 - **Diario**: Resumen de actividad del día anterior
 - **Semanal**: Análisis de tendencias y comparaciones
 - **Mensual**: Reporte completo con insights y recomendaciones
-
 
 ## 8.3. Experimentation
 
@@ -4477,6 +4532,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 #### 8.3.1.1. User Stories de Optimización de Conversión
 
 **US-EXP-01: Optimización del Flujo de Registro**
+
 - **Como**: Visitante potencial
 - **Quiero**: Completar mi registro en menos pasos y con menos campos requeridos
 - **Para**: Reducir la fricción en el proceso de registro y aumentar la tasa de conversión
@@ -4489,6 +4545,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 - **Hipótesis**: Reducir pasos y campos aumentará la tasa de completitud de registro
 
 **US-EXP-02: Mejora del Sistema de Búsqueda con Recomendaciones**
+
 - **Como**: Tutor
 - **Quiero**: Ver recomendaciones personalizadas de niñeras basadas en mis búsquedas previas
 - **Para**: Encontrar niñeras relevantes más rápidamente
@@ -4501,6 +4558,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 - **Hipótesis**: Las recomendaciones personalizadas aumentarán la tasa de conversión de búsqueda a reserva
 
 **US-EXP-03: Simplificación del Proceso de Reserva**
+
 - **Como**: Tutor
 - **Quiero**: Realizar una reserva con menos clics y confirmaciones
 - **Para**: Completar reservas más rápidamente
@@ -4515,6 +4573,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 #### 8.3.1.2. User Stories de Mejora de Engagement
 
 **US-EXP-04: Sistema de Notificaciones Inteligentes**
+
 - **Como**: Usuario (Tutor o Niñera)
 - **Quiero**: Recibir notificaciones relevantes y personalizadas
 - **Para**: Mantenerme informado sin ser interrumpido innecesariamente
@@ -4527,6 +4586,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 - **Hipótesis**: Notificaciones más relevantes aumentarán el engagement
 
 **US-EXP-05: Gamificación de Perfiles de Niñeras**
+
 - **Como**: Niñera
 - **Quiero**: Ver mi progreso y logros en la plataforma
 - **Para**: Mantenerme motivada y mejorar mi perfil
@@ -4541,6 +4601,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 #### 8.3.1.3. User Stories de Validación de Nuevas Funcionalidades
 
 **US-EXP-06: Sistema de Reservas Recurrentes**
+
 - **Como**: Tutor
 - **Quiero**: Configurar reservas recurrentes (semanal, quincenal, mensual)
 - **Para**: Simplificar la gestión de cuidado infantil regular
@@ -4553,6 +4614,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 - **Hipótesis**: Las reservas recurrentes aumentarán la retención y el valor de por vida del cliente
 
 **US-EXP-07: Integración con Calendario Externo**
+
 - **Como**: Niñera
 - **Quiero**: Sincronizar mi disponibilidad con mi calendario personal (Google Calendar, iCal)
 - **Para**: Evitar conflictos y gestionar mejor mi tiempo
@@ -4565,6 +4627,7 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
 - **Hipótesis**: La sincronización de calendarios reducirá conflictos y mejorará la satisfacción
 
 **US-EXP-08: Sistema de Verificación Avanzada**
+
 - **Como**: Tutor
 - **Quiero**: Ver verificaciones más detalladas de las niñeras (verificación de identidad, verificación de antecedentes)
 - **Para**: Tener mayor confianza al contratar
@@ -4575,7 +4638,6 @@ Las historias de usuario "To-Be" representan funcionalidades mejoradas o nuevas 
   - Las niñeras verificadas reciben 50% más solicitudes
 - **Métricas a Rastrear**: `verification_completed`, `profile_viewed_verified`, `reservation_to_verified`
 - **Hipótesis**: La verificación avanzada aumentará la confianza y las reservas
-
 
 ### 8.3.2. To-Be Product Backlog
 
@@ -4594,27 +4656,29 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
 
 #### 8.3.2.2. Product Backlog Priorizado
 
-| # | Story ID | Título | RICE Score | Prioridad | Epic | Story Points | Sprint Estimado |
-|---|----------|--------|------------|-----------|------|--------------|-----------------|
-| 1 | US-EXP-03 | Simplificación del Proceso de Reserva | 180 | Alta | EP04 | 8 | Sprint 1 |
-| 2 | US-EXP-01 | Optimización del Flujo de Registro | 150 | Alta | EP02 | 5 | Sprint 1 |
-| 3 | US-EXP-02 | Mejora del Sistema de Búsqueda con Recomendaciones | 120 | Alta | EP03 | 13 | Sprint 2 |
-| 4 | US-EXP-04 | Sistema de Notificaciones Inteligentes | 100 | Media | EP05 | 8 | Sprint 2 |
-| 5 | US-EXP-08 | Sistema de Verificación Avanzada | 90 | Media | EP02 | 13 | Sprint 3 |
-| 6 | US-EXP-05 | Gamificación de Perfiles de Niñeras | 75 | Media | EP03 | 8 | Sprint 3 |
-| 7 | US-EXP-06 | Sistema de Reservas Recurrentes | 60 | Baja | EP04 | 13 | Sprint 4 |
-| 8 | US-EXP-07 | Integración con Calendario Externo | 45 | Baja | EP03 | 13 | Sprint 4 |
+| #   | Story ID  | Título                                             | RICE Score | Prioridad | Epic | Story Points | Sprint Estimado |
+| --- | --------- | -------------------------------------------------- | ---------- | --------- | ---- | ------------ | --------------- |
+| 1   | US-EXP-03 | Simplificación del Proceso de Reserva              | 180        | Alta      | EP04 | 8            | Sprint 1        |
+| 2   | US-EXP-01 | Optimización del Flujo de Registro                 | 150        | Alta      | EP02 | 5            | Sprint 1        |
+| 3   | US-EXP-02 | Mejora del Sistema de Búsqueda con Recomendaciones | 120        | Alta      | EP03 | 13           | Sprint 2        |
+| 4   | US-EXP-04 | Sistema de Notificaciones Inteligentes             | 100        | Media     | EP05 | 8            | Sprint 2        |
+| 5   | US-EXP-08 | Sistema de Verificación Avanzada                   | 90         | Media     | EP02 | 13           | Sprint 3        |
+| 6   | US-EXP-05 | Gamificación de Perfiles de Niñeras                | 75         | Media     | EP03 | 8            | Sprint 3        |
+| 7   | US-EXP-06 | Sistema de Reservas Recurrentes                    | 60         | Baja      | EP04 | 13           | Sprint 4        |
+| 8   | US-EXP-07 | Integración con Calendario Externo                 | 45         | Baja      | EP03 | 13           | Sprint 4        |
 
 #### 8.3.2.3. Roadmap de Experimentación
 
 **Sprint 1 (Semanas 1-2): Optimización de Conversión Inicial**
+
 - **Objetivo**: Reducir fricción en registro y reservas
 - **Historias**: US-EXP-01, US-EXP-03
-- **Métricas Objetivo**: 
+- **Métricas Objetivo**:
   - Tasa de registro: +25%
   - Tasa de completitud de reserva: +30%
 
 **Sprint 2 (Semanas 3-4): Mejora de Engagement**
+
 - **Objetivo**: Aumentar uso y retención
 - **Historias**: US-EXP-02, US-EXP-04
 - **Métricas Objetivo**:
@@ -4622,6 +4686,7 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
   - Tasa de apertura de notificaciones: +25%
 
 **Sprint 3 (Semanas 5-6): Validación de Confianza**
+
 - **Objetivo**: Aumentar confianza y calidad
 - **Historias**: US-EXP-05, US-EXP-08
 - **Métricas Objetivo**:
@@ -4629,6 +4694,7 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
   - Engagement con gamificación: +20%
 
 **Sprint 4 (Semanas 7-8): Funcionalidades Avanzadas**
+
 - **Objetivo**: Aumentar valor y retención a largo plazo
 - **Historias**: US-EXP-06, US-EXP-07
 - **Métricas Objetivo**:
@@ -4638,6 +4704,7 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
 #### 8.3.2.4. Criterios de Éxito del Backlog
 
 **Métricas de Éxito Generales:**
+
 - Al menos 70% de las historias experimentales muestran mejoras medibles
 - Las mejoras implementadas se mantienen en producción
 - El tiempo de desarrollo de experimentos no excede 2 sprints por historia
@@ -4645,16 +4712,19 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
 **Métricas por Categoría:**
 
 **Conversión:**
+
 - Tasa de registro: +20% mínimo
 - Tasa de completitud de reserva: +25% mínimo
 - Tasa de conversión de búsqueda a reserva: +15% mínimo
 
 **Engagement:**
+
 - Sesiones por usuario: +10% mínimo
 - Tiempo en app: +15% mínimo
 - Retención D7: +5 puntos porcentuales mínimo
 
 **Calidad:**
+
 - Satisfacción del usuario (NPS): +10 puntos mínimo
 - Tasa de reseñas: +20% mínimo
 - Calificación promedio: +0.3 puntos mínimo
@@ -4662,26 +4732,28 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
 #### 8.3.2.5. Proceso de Validación
 
 **Fase 1: Desarrollo y Testing**
+
 - Desarrollo de la funcionalidad
 - Testing unitario e integración
 - Testing de usabilidad con 5-10 usuarios
 
 **Fase 2: Lanzamiento Gradual (Feature Flags)**
+
 - Lanzamiento a 10% de usuarios (A/B test)
 - Monitoreo de métricas durante 1 semana
 - Análisis de resultados
 
 **Fase 3: Decisión**
+
 - Si métricas mejoran: Lanzamiento a 100%
 - Si métricas no mejoran: Iteración o descarte
 - Documentación de aprendizajes
 
 **Fase 4: Optimización**
+
 - Ajustes basados en feedback
 - Mejoras incrementales
 - Monitoreo continuo
-
-
 
 # Conclusiones
 
@@ -4711,4 +4783,3 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
 - Business Empresarial. (2023, 7 de marzo). Perú: Número de mujeres dedicadas a generar ingresos a través de apps crece en 22 %. https://www.businessempresarial.com.pe/peru-numero-de-mujeres-dedicadas-a-generar-ingresos-a-traves-de-apps-crece-en-22
 - link del repositorio: <https://github.com/Grupo4-1ASI0732-14736-Trustora>
 - link de la landing page desplegado: <https://grupo4-1asi0732-14736-trustora.github.io/landing-page/>
-
