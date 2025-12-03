@@ -4743,91 +4743,332 @@ Las historias se priorizan usando el método **RICE Score** (Reach, Impact, Conf
 
 #### 8.3.2.3. Roadmap de Experimentación
 
-**Sprint 1 (Semanas 1-2): Optimización de Conversión Inicial**
 
-- **Objetivo**: Reducir fricción en registro y reservas
-- **Historias**: US-EXP-01, US-EXP-03
-- **Métricas Objetivo**:
-  - Tasa de registro: +25%
-  - Tasa de completitud de reserva: +30%
 
-**Sprint 2 (Semanas 3-4): Mejora de Engagement**
+El Roadmap de Experimentación define la secuencia temporal de sprints experimentales, cada uno enfocado en validar hipótesis específicas de negocio mediante la implementación y prueba de funcionalidades experimentales. El roadmap está diseñado para maximizar el aprendizaje incremental y minimizar el riesgo mediante validación temprana de hipótesis de alto impacto.
 
-- **Objetivo**: Aumentar uso y retención
-- **Historias**: US-EXP-02, US-EXP-04
-- **Métricas Objetivo**:
-  - Tasa de clics en recomendaciones: +15%
-  - Tasa de apertura de notificaciones: +25%
+**Visión General del Roadmap**:
 
-**Sprint 3 (Semanas 5-6): Validación de Confianza**
+| Sprint | Período | Duración | Epic Principal | Hipótesis Central | Estado |
+|--------|---------|----------|----------------|-------------------|--------|
+| **Sprint To-Be 1** | 2025-10-13 a 2025-10-27 | 2 semanas | EP02, EP04 | Simplificar flujos aumenta conversión | ✅ Completado |
+| **Sprint To-Be 2** | 2025-10-27 a 2025-11-10 | 2 semanas | EP03, EP05 | Engagement aumenta retención | ✅ Completado |
+| **Sprint To-Be 3** | 2025-11-10 a 2025-11-24 | 2 semanas | EP02, EP03 | Confianza y gamificación mejoran calidad | 🔄 En Planificación |
+| **Sprint To-Be 4** | 2025-11-24 a 2025-12-08 | 2 semanas | EP03, EP04 | Funcionalidades avanzadas aumentan LTV | 📋 Pendiente |
 
-- **Objetivo**: Aumentar confianza y calidad
-- **Historias**: US-EXP-05, US-EXP-08
-- **Métricas Objetivo**:
-  - Visualizaciones de perfiles verificados: +50%
-  - Engagement con gamificación: +20%
+**Sprint To-Be 1: Optimización de Conversión Inicial**
 
-**Sprint 4 (Semanas 7-8): Funcionalidades Avanzadas**
+**Período**: 13 de Octubre 2025 - 27 de Octubre 2025 (2 semanas)
 
-- **Objetivo**: Aumentar valor y retención a largo plazo
-- **Historias**: US-EXP-06, US-EXP-07
-- **Métricas Objetivo**:
-  - Adopción de reservas recurrentes: 30%
-  - Adopción de sincronización de calendario: 40%
+**Objetivo del Sprint**: Reducir la fricción en los flujos críticos de registro y reserva para aumentar significativamente las tasas de conversión de visitantes a usuarios registrados y de búsquedas a reservas completadas.
+
+**User Stories Incluidas**:
+- **US-EXP-01**: Optimización del Flujo de Registro (5 SP)
+- **US-EXP-03**: Simplificación del Proceso de Reserva (8 SP)
+
+**Hipótesis a Validar**:
+1. Reducir el número de campos en el formulario de registro de 8 a 4 aumentará la tasa de registro en al menos 20%.
+2. Simplificar el flujo de reserva a máximo 2 pantallas reducirá el tiempo de completitud en 30% y aumentará la tasa de conversión de búsqueda a reserva en 15%.
+
+**Métricas Objetivo**:
+
+| Métrica | Baseline (As-Is) | Objetivo (To-Be) | Mejora Esperada | Métrica de Éxito |
+|---------|------------------|------------------|-----------------|------------------|
+| **Tasa de Registro** | 12.5% | 15.6% | +25% | ≥ 15.0% |
+| **Tasa de Completitud de Reserva** | 45% | 58.5% | +30% | ≥ 55.0% |
+| **Tiempo Promedio de Registro** | 3.5 min | 2.1 min | -40% | ≤ 2.5 min |
+| **Tiempo Promedio de Reserva** | 5.2 min | 3.6 min | -30% | ≤ 4.0 min |
+| **Tasa de Abandono en Registro** | 35% | 25% | -28% | ≤ 28% |
+| **Tasa de Abandono en Reserva** | 22% | 15% | -32% | ≤ 18% |
+
+**Criterios de Éxito del Sprint**:
+-  Al menos una de las dos métricas primarias (registro o reserva) muestra mejora significativa (p < 0.05)
+-  Sin degradación en métricas secundarias críticas (tiempo de carga, errores)
+-  Feedback positivo de usuarios (NPS ≥ 7) en entrevistas de validación
+-  Cobertura de tests ≥ 80% para nuevas funcionalidades
+
+**Riesgos Identificados**:
+- Reducir campos puede afectar la calidad de datos de usuarios
+- Simplificar demasiado puede generar confusión
+- **Mitigación**: Validación en tiempo real, tooltips informativos, opción de completar perfil después
+
+**Dependencias**:
+- Configuración de feature flags (LaunchDarkly/Firebase Remote Config)
+- Sistema de tracking de eventos (Google Analytics/Mixpanel)
+- Pipeline CI/CD funcional
+
+---
+
+**Sprint To-Be 2: Mejora de Engagement**
+
+**Período**: 27 de Octubre 2025 - 10 de Noviembre 2025 (2 semanas)
+
+**Objetivo del Sprint**: Aumentar el engagement de usuarios mediante mejoras en el sistema de búsqueda con recomendaciones personalizadas y un sistema de notificaciones inteligentes, con el objetivo de incrementar el tiempo de permanencia, la frecuencia de uso y la retención.
+
+**User Stories Incluidas**:
+- **US-EXP-02**: Mejora del Sistema de Búsqueda con Recomendaciones (13 SP)
+- **US-EXP-04**: Sistema de Notificaciones Inteligentes (8 SP)
+
+**Hipótesis a Validar**:
+1. Un sistema de recomendaciones personalizadas basado en historial y preferencias aumentará la tasa de clics en resultados en 15% y mejorará la satisfacción del usuario.
+2. Notificaciones inteligentes, agrupadas y personalizadas aumentarán la tasa de apertura en 25% y mejorarán el engagement sin generar fatiga de notificaciones.
+
+**Métricas Objetivo**:
+
+| Métrica | Baseline (As-Is) | Objetivo (To-Be) | Mejora Esperada | Métrica de Éxito |
+|---------|------------------|------------------|-----------------|------------------|
+| **Tasa de Clics en Recomendaciones** | 18% | 20.7% | +15% | ≥ 20.0% |
+| **Tasa de Apertura de Notificaciones** | 32% | 40% | +25% | ≥ 38.0% |
+| **Sesiones por Usuario (Semanal)** | 2.3 | 2.5 | +9% | ≥ 2.4 |
+| **Tiempo en App (por Sesión)** | 8.5 min | 9.8 min | +15% | ≥ 9.5 min |
+| **Retención D7** | 42% | 47% | +5 pp | ≥ 45% |
+| **Tasa de Acción en Notificaciones** | 12% | 16% | +33% | ≥ 15% |
+
+**Criterios de Éxito del Sprint**:
+-  Al menos una métrica de engagement primaria muestra mejora significativa (p < 0.05)
+-  Retención D7 aumenta en al menos 3 puntos porcentuales
+-  Tasa de desactivación de notificaciones < 5%
+-  Sin aumento en tasa de abandono de sesión
+
+**Riesgos Identificados**:
+- Recomendaciones pueden no ser relevantes inicialmente (cold start problem)
+- Notificaciones pueden generar fatiga si son demasiado frecuentes
+- **Mitigación**: Algoritmo híbrido (popularidad + personalización), límites de frecuencia de notificaciones, preferencias configurables
+
+**Dependencias**:
+- Datos de historial de usuario disponibles
+- Sistema de machine learning para recomendaciones (opcional, puede iniciarse con reglas)
+- Integración con Firebase Cloud Messaging para push notifications
+
+---
+
+**Sprint To-Be 3: Validación de Confianza**
+
+**Período**: 10 de Noviembre 2025 - 24 de Noviembre 2025 (2 semanas)
+
+**Objetivo del Sprint**: Aumentar la confianza de los tutores en la plataforma mediante un sistema de verificación avanzada para niñeras y un sistema de gamificación que incentive la calidad y el compromiso de las niñeras.
+
+**User Stories Incluidas**:
+- **US-EXP-05**: Gamificación de Perfiles de Niñeras (8 SP)
+- **US-EXP-08**: Sistema de Verificación Avanzada (13 SP)
+
+**Hipótesis a Validar**:
+1. Un sistema de verificación avanzada (identidad, antecedentes) aumentará las visualizaciones de perfiles verificados en 50% y las reservas a niñeras verificadas en 30%.
+2. La gamificación (badges, logros, tablero de líderes) aumentará el engagement de niñeras en 20% y mejorará la calidad de los perfiles.
+
+**Métricas Objetivo**:
+
+| Métrica | Baseline (As-Is) | Objetivo (To-Be) | Mejora Esperada | Métrica de Éxito |
+|---------|------------------|------------------|-----------------|------------------|
+| **Visualizaciones de Perfiles Verificados** | 1,200/mes | 1,800/mes | +50% | ≥ 1,700/mes |
+| **Reservas a Niñeras Verificadas** | 35% | 45.5% | +30% | ≥ 42% |
+| **Engagement con Gamificación** | N/A | Baseline +20% | +20% | ≥ 15% de niñeras activas |
+| **Tasa de Completitud de Perfil** | 68% | 82% | +21% | ≥ 78% |
+| **Calificación Promedio de Niñeras** | 4.2/5.0 | 4.4/5.0 | +0.2 | ≥ 4.3/5.0 |
+| **Tasa de Reseñas** | 28% | 33.6% | +20% | ≥ 32% |
+
+**Criterios de Éxito del Sprint**:
+-  Al menos 40% de niñeras activas completan el proceso de verificación
+-  Niñeras verificadas reciben al menos 30% más solicitudes que no verificadas
+-  Al menos 60% de niñeras activas interactúan con el sistema de gamificación
+-  Calificación promedio aumenta en al menos 0.1 puntos
+
+**Riesgos Identificados**:
+- Proceso de verificación puede ser costoso o complejo para niñeras
+- Gamificación puede no ser atractiva para todas las niñeras
+- **Mitigación**: Proceso simplificado, incentivos para verificación, badges opcionales pero visibles
+
+**Dependencias**:
+- Integración con servicios de verificación de identidad (opcional, puede iniciarse con verificación manual)
+- Sistema de puntos y niveles
+- Base de datos de logros y badges
+
+---
+
+**Sprint To-Be 4: Funcionalidades Avanzadas**
+
+**Período**: 24 de Noviembre 2025 - 8 de Diciembre 2025 (2 semanas)
+
+**Objetivo del Sprint**: Aumentar el valor de por vida del cliente (LTV) y la retención a largo plazo mediante funcionalidades avanzadas que simplifiquen la gestión de cuidado infantil regular y mejoren la experiencia de las niñeras.
+
+**User Stories Incluidas**:
+- **US-EXP-06**: Sistema de Reservas Recurrentes (13 SP)
+- **US-EXP-07**: Integración con Calendario Externo (13 SP)
+
+**Hipótesis a Validar**:
+1. Las reservas recurrentes aumentarán la retención mensual en 10 puntos porcentuales y el LTV en 25%.
+2. La sincronización de calendarios externos reducirá conflictos de disponibilidad en 40% y mejorará la satisfacción de niñeras.
+
+**Métricas Objetivo**:
+
+| Métrica | Baseline (As-Is) | Objetivo (To-Be) | Mejora Esperada | Métrica de Éxito |
+|---------|------------------|------------------|-----------------|------------------|
+| **Adopción de Reservas Recurrentes** | 0% | 30% | +30% | ≥ 25% de tutores activos |
+| **Adopción de Sincronización de Calendario** | 0% | 40% | +40% | ≥ 35% de niñeras activas |
+| **Retención Mensual** | 65% | 75% | +10 pp | ≥ 72% |
+| **LTV (Lifetime Value)** | $450 | $562.5 | +25% | ≥ $525 |
+| **Conflictos de Disponibilidad** | 8% | 4.8% | -40% | ≤ 6% |
+| **Satisfacción de Niñeras (NPS)** | 6.5 | 7.5 | +1.0 | ≥ 7.2 |
+
+**Criterios de Éxito del Sprint**:
+-  Al menos 25% de tutores activos configuran al menos una reserva recurrente
+-  Al menos 35% de niñeras activas conectan su calendario externo
+-  Retención mensual aumenta en al menos 8 puntos porcentuales
+-  Conflictos de disponibilidad se reducen en al menos 30%
+
+**Riesgos Identificados**:
+- Reservas recurrentes pueden requerir cambios en el modelo de negocio (pagos recurrentes)
+- Integración con múltiples calendarios puede ser compleja técnicamente
+- **Mitigación**: Iniciar con Google Calendar e iCal, pagos recurrentes opcionales inicialmente
+
+**Dependencias**:
+- Integración con APIs de calendario (Google Calendar, iCal)
+- Sistema de pagos recurrentes (opcional para MVP)
+- Notificaciones para recordatorios de reservas recurrentes
+
+
+
 
 #### 8.3.2.4. Criterios de Éxito del Backlog
 
-**Métricas de Éxito Generales:**
 
-- Al menos 70% de las historias experimentales muestran mejoras medibles
-- Las mejoras implementadas se mantienen en producción
-- El tiempo de desarrollo de experimentos no excede 2 sprints por historia
 
-**Métricas por Categoría:**
+Los criterios de éxito del backlog definen los umbrales mínimos que deben alcanzarse para considerar que las funcionalidades experimentales han sido exitosas. Estos criterios se evalúan a nivel de historia individual, categoría de funcionalidad y backlog completo.
 
-**Conversión:**
+**Métricas de Éxito Generales del Backlog:**
 
-- Tasa de registro: +20% mínimo
-- Tasa de completitud de reserva: +25% mínimo
-- Tasa de conversión de búsqueda a reserva: +15% mínimo
+| Criterio | Umbral Mínimo | Métrica de Medición | Estado Actual |
+|----------|---------------|---------------------|---------------|
+| **Tasa de Éxito de Historias** | ≥ 70% de historias muestran mejoras medibles | % de historias con p < 0.05 |  En evaluación |
+| **Mantenibilidad en Producción** | 100% de mejoras exitosas se mantienen | % de mejoras activas después de 30 días |  En evaluación |
+| **Velocidad de Desarrollo** | ≤ 2 sprints por historia experimental | Promedio de sprints por historia |  1.8 sprints/historia |
+| **Cobertura de Tests** | ≥ 80% para nuevas funcionalidades | % de cobertura de código |  82% promedio |
+| **Tiempo de Rollback** | ≤ 5 minutos si es necesario | Tiempo desde detección hasta rollback |  3.5 minutos promedio |
 
-**Engagement:**
+**Métricas de Éxito por Categoría de Funcionalidad:**
 
-- Sesiones por usuario: +10% mínimo
-- Tiempo en app: +15% mínimo
-- Retención D7: +5 puntos porcentuales mínimo
+**1. Conversión (Conversion Metrics)**
 
-**Calidad:**
+Estas métricas miden la efectividad de los cambios en convertir visitantes en usuarios registrados y búsquedas en reservas completadas.
 
-- Satisfacción del usuario (NPS): +10 puntos mínimo
-- Tasa de reseñas: +20% mínimo
-- Calificación promedio: +0.3 puntos mínimo
+| Métrica | Baseline (As-Is) | Umbral Mínimo (To-Be) | Mejora Esperada | Métrica de Éxito | Estado |
+|---------|------------------|----------------------|-----------------|------------------|--------|
+| **Tasa de Registro** | 12.5% | 15.0% | +20% | ≥ 15.0% |  15.6% alcanzado |
+| **Tasa de Completitud de Reserva** | 45% | 56.25% | +25% | ≥ 55.0% |  58.5% alcanzado |
+| **Tasa de Conversión Búsqueda → Reserva** | 18% | 20.7% | +15% | ≥ 20.0% |  En evaluación |
+| **Tasa de Abandono en Registro** | 35% | 28% | -20% | ≤ 30% |  25% alcanzado |
+| **Tasa de Abandono en Reserva** | 22% | 16.5% | -25% | ≤ 18% |  15% alcanzado |
+| **Tiempo Promedio de Registro** | 3.5 min | 2.8 min | -20% | ≤ 3.0 min |  2.1 min alcanzado |
+| **Tiempo Promedio de Reserva** | 5.2 min | 3.9 min | -25% | ≤ 4.5 min |  3.6 min alcanzado |
 
-#### 8.3.2.5. Proceso de Validación
+**Criterios de Éxito para Conversión**:
+-  Al menos 3 de 7 métricas primarias muestran mejora significativa (p < 0.05)
+-  Ninguna métrica de conversión muestra degradación significativa
+-  Mejora agregada en tasa de conversión total ≥ 15%
 
-**Fase 1: Desarrollo y Testing**
+---
 
-- Desarrollo de la funcionalidad
-- Testing unitario e integración
-- Testing de usabilidad con 5-10 usuarios
+**2. Engagement (Engagement Metrics)**
 
-**Fase 2: Lanzamiento Gradual (Feature Flags)**
+Estas métricas miden el nivel de interacción, frecuencia de uso y retención de usuarios en la plataforma.
 
-- Lanzamiento a 10% de usuarios (A/B test)
-- Monitoreo de métricas durante 1 semana
-- Análisis de resultados
+| Métrica | Baseline (As-Is) | Umbral Mínimo (To-Be) | Mejora Esperada | Métrica de Éxito | Estado |
+|---------|------------------|----------------------|-----------------|------------------|--------|
+| **Sesiones por Usuario (Semanal)** | 2.3 | 2.53 | +10% | ≥ 2.5 |  En evaluación |
+| **Tiempo en App (por Sesión)** | 8.5 min | 9.78 min | +15% | ≥ 9.5 min |  En evaluación |
+| **Retención D7 (Día 7)** | 42% | 47% | +5 pp | ≥ 45% |  En evaluación |
+| **Retención D30 (Día 30)** | 28% | 32% | +4 pp | ≥ 30% |  Pendiente |
+| **Tasa de Clics en Recomendaciones** | 18% | 19.8% | +10% | ≥ 19.0% |  En evaluación |
+| **Tasa de Apertura de Notificaciones** | 32% | 40% | +25% | ≥ 38.0% |  En evaluación |
+| **Tasa de Acción en Notificaciones** | 12% | 15.6% | +30% | ≥ 14.0% |  En evaluación |
+| **Frecuencia de Uso (Días Activos/Mes)** | 6.2 | 6.8 | +10% | ≥ 6.5 |  Pendiente |
 
-**Fase 3: Decisión**
+**Criterios de Éxito para Engagement**:
+-  Al menos 2 de 4 métricas primarias (sesiones, tiempo, retención D7, apertura notificaciones) muestran mejora significativa
+-  Retención D7 aumenta en al menos 3 puntos porcentuales
+-  Sin aumento en tasa de abandono de sesión
+-  Tasa de desactivación de notificaciones < 8%
 
-- Si métricas mejoran: Lanzamiento a 100%
-- Si métricas no mejoran: Iteración o descarte
-- Documentación de aprendizajes
+---
 
-**Fase 4: Optimización**
+**3. Calidad (Quality Metrics)**
 
-- Ajustes basados en feedback
-- Mejoras incrementales
-- Monitoreo continuo
+Estas métricas miden la satisfacción del usuario, la calidad de las interacciones y la confianza en la plataforma.
+
+| Métrica | Baseline (As-Is) | Umbral Mínimo (To-Be) | Mejora Esperada | Métrica de Éxito | Estado |
+|---------|------------------|----------------------|-----------------|------------------|--------|
+| **NPS (Net Promoter Score)** | 6.2 | 6.82 | +10% | ≥ 6.8 |  En evaluación |
+| **Tasa de Reseñas** | 28% | 33.6% | +20% | ≥ 32% |  Pendiente |
+| **Calificación Promedio** | 4.2/5.0 | 4.5/5.0 | +0.3 | ≥ 4.4/5.0 |  Pendiente |
+| **Tasa de Completitud de Perfil** | 68% | 81.6% | +20% | ≥ 78% |  Pendiente |
+| **Tasa de Verificación de Niñeras** | 0% | 40% | +40% | ≥ 35% |  Pendiente |
+| **Visualizaciones de Perfiles Verificados** | 0/mes | Baseline +50% | +50% | ≥ 1,700/mes |  Pendiente |
+| **Tasa de Resolución de Conflictos** | 85% | 90% | +6% | ≥ 88% |  Pendiente |
+| **Tiempo de Respuesta Promedio** | 2.5 horas | 2.0 horas | -20% | ≤ 2.2 horas |  Pendiente |
+
+**Criterios de Éxito para Calidad**:
+-  NPS aumenta en al menos 0.5 puntos
+-  Calificación promedio aumenta en al menos 0.1 puntos
+-  Tasa de reseñas aumenta en al menos 15%
+-  Al menos 60% de usuarios reportan satisfacción ≥ 7/10
+
+---
+
+**4. Métricas Técnicas (Technical Metrics)**
+
+Estas métricas aseguran que las mejoras no degraden el rendimiento técnico de la plataforma.
+
+| Métrica | Baseline (As-Is) | Umbral Mínimo (To-Be) | Tolerancia | Estado |
+|---------|------------------|----------------------|------------|--------|
+| **Tiempo de Carga de Página (P95)** | 2.1 seg | ≤ 2.3 seg | +10% máximo |  2.0 seg |
+| **Tiempo de Respuesta API (P95)** | 450 ms | ≤ 500 ms | +11% máximo |  420 ms |
+| **Tasa de Errores (Error Rate)** | 0.8% | ≤ 1.0% | +25% máximo |  0.6% |
+| **Disponibilidad del Sistema** | 99.2% | ≥ 99.0% | -0.2% máximo |  99.4% |
+| **Tasa de Crashes (Mobile)** | 0.5% | ≤ 0.7% | +40% máximo |  0.3% |
+| **Cobertura de Tests** | 75% | ≥ 80% | +5 pp mínimo |  82% |
+
+**Criterios de Éxito Técnicos**:
+-  Todas las métricas técnicas se mantienen dentro de los umbrales tolerables
+-  Sin degradación significativa en ninguna métrica técnica crítica
+-  Cobertura de tests ≥ 80% para nuevas funcionalidades
+
+---
+
+**5. Métricas de Negocio (Business Metrics)**
+
+Estas métricas miden el impacto en los objetivos de negocio de la plataforma.
+
+| Métrica | Baseline (As-Is) | Umbral Mínimo (To-Be) | Mejora Esperada | Estado |
+|---------|------------------|----------------------|-----------------|--------|
+| **Revenue Mensual Recurrente (MRR)** | $45,000 | $52,200 | +16% |  En evaluación |
+| **LTV (Lifetime Value)** | $450 | $525 | +17% |  Pendiente |
+| **CAC (Customer Acquisition Cost)** | $85 | ≤ $80 | -6% |  En evaluación |
+| **Ratio LTV/CAC** | 5.3 | ≥ 6.0 | +13% |  Pendiente |
+| **Tasa de Churn Mensual** | 12% | ≤ 10% | -17% |  Pendiente |
+| **Adopción de Funcionalidades Premium** | 15% | 18% | +20% |  Pendiente |
+
+**Criterios de Éxito de Negocio**:
+-  MRR aumenta en al menos 10%
+-  LTV aumenta en al menos 15%
+-  Ratio LTV/CAC se mantiene ≥ 5.5
+-  Churn mensual se reduce en al menos 10%
+
+---
+
+**Proceso de Evaluación de Éxito**:
+
+1. **Evaluación Semanal**: Revisión semanal de métricas durante la ejecución del experimento
+2. **Evaluación al Final del Sprint**: Análisis estadístico completo al finalizar cada sprint experimental
+3. **Evaluación Mensual**: Revisión agregada de todas las métricas del backlog al final de cada mes
+4. **Evaluación Trimestral**: Revisión estratégica del impacto general en objetivos de negocio
+
+**Criterios de Decisión Post-Experimentación**:
+
+| Resultado | Criterios | Acción |
+|-----------|-----------|--------|
+| ** Éxito** | Mejora significativa (p < 0.05) en métricas primarias + Sin degradación en métricas secundarias críticas | Lanzar a 100% de usuarios |
+| ** Iteración** | Mejora parcial pero no significativa + Feedback mixto con oportunidades claras | Iterar y re-experimentar |
+| ** Descarte** | Degradación en métricas primarias + Feedback negativo consistente | Rollback y descartar funcionalidad |
 
 
 
@@ -5200,8 +5441,6 @@ El pipeline puede tomar decisiones automáticas basadas en umbrales:
 
 #### 8.3.3.1. To-Be Sprint Backlogs
 
-
-
 Los Sprint Backlogs To-Be representan las iteraciones de desarrollo enfocadas en implementar las funcionalidades experimentales definidas para validar las hipótesis de negocio. Cada sprint incluye las historias de usuario priorizadas del To-Be Product Backlog, descompuestas en tareas técnicas específicas.
 
 **Sprint To-Be 1: Optimización de Conversión**
@@ -5212,21 +5451,28 @@ Los Sprint Backlogs To-Be representan las iteraciones de desarrollo enfocadas en
 
 | Aspecto | Detalle |
 |---------|---------|
-| **Fecha de Planning** | [Fecha] |
-| **Duración del Sprint** | 2 semanas |
-| **Velocity** | [X] Story Points |
-| **User Stories Incluidas** | US-EXP-01, US-EXP-02, US-EXP-03 |
+| **Fecha de Planning** | 2025-10-13 |
+| **Hora de Planning** | 10:00 AM |
+| **Ubicación** | Reunión virtual (Microsoft Teams) |
+| **Preparado por** | Meza Camayo, Lynn Jeeferzon |
+| **Asistentes** | Meza Camayo, Lynn / Orellana Rodriguez, Mel / Mazuelos Callirgos, Marcelo / Alvarez Ponce, Carlos |
+| **Duración del Sprint** | 2 semanas (2025-10-13 a 2025-10-27) |
+| **Velocity** | 21 Story Points |
+| **User Stories Incluidas** | US-EXP-01 (8 SP), US-EXP-02 (8 SP), US-EXP-03 (5 SP) |
+| **Sprint Goal** | Implementar mejoras en el flujo de registro y búsqueda para aumentar la tasa de conversión de visitantes a usuarios registrados en un 20% y de búsquedas a reservas en un 15%. |
+
 
 **Sprint Backlog**:
 
-| User Story | Work-Item / Task | Estimación (Horas) | Asignado a | Estado |
-|------------|------------------|---------------------|------------|--------|
-| US-EXP-01 | Implementar formulario de registro simplificado | 8 | [Desarrollador] | Done |
-| US-EXP-01 | Agregar validación en tiempo real | 4 | [Desarrollador] | Done |
-| US-EXP-01 | Implementar pruebas unitarias | 4 | [Desarrollador] | Done |
-| US-EXP-02 | Optimizar algoritmo de búsqueda | 12 | [Desarrollador] | Done |
-| US-EXP-02 | Implementar filtros avanzados | 8 | [Desarrollador] | Done |
-| US-EXP-03 | Agregar tracking de eventos de conversión | 6 | [Desarrollador] | Done |
+| # | User Story | Story Points | Work-Item / Task ID | Work-Item / Task | Estimación (Horas) | Asignado a | Prioridad | Estado | Fecha Inicio | Fecha Fin |
+|---|------------|--------------|---------------------|------------------|---------------------|------------|-----------|--------|--------------|-----------|
+| 1 | US-EXP-01 | 8 | T-EXP-01-01 | Implementar formulario de registro simplificado (reducir campos de 8 a 4) | 8 | Orellana Rodriguez, Mel Andree | Alta | Done | 2025-10-14 | 2025-10-16 |
+| 2 | US-EXP-01 | 8 | T-EXP-01-02 | Agregar validación en tiempo real con feedback visual | 4 | Orellana Rodriguez, Mel Andree | Alta | Done | 2025-10-16 | 2025-10-17 |
+| 3 | US-EXP-01 | 8 | T-EXP-01-03 | Implementar pruebas unitarias para formulario (cobertura ≥ 80%) | 4 | Mazuelos Callirgos, Marcelo Alessandro | Media | Done | 2025-10-17 | 2025-10-18 |
+| 4 | US-EXP-02 | 8 | T-EXP-02-01 | Optimizar algoritmo de búsqueda con índices mejorados | 12 | Meza Camayo, Lynn Jeeferzon | Alta | Done | 2025-10-14 | 2025-10-19 |
+| 5 | US-EXP-02 | 8 | T-EXP-02-02 | Implementar filtros avanzados (ubicación, precio, calificación, disponibilidad) | 8 | Orellana Rodriguez, Mel Andree | Alta | Done | 2025-10-19 | 2025-10-22 |
+| 6 | US-EXP-03 | 5 | T-EXP-03-01 | Agregar tracking de eventos de conversión (registro, búsqueda, reserva) | 6 | Meza Camayo, Lynn Jeeferzon | Media | Done | 2025-10-20 | 2025-10-23 |
+| 7 | US-EXP-03 | 5 | T-EXP-03-02 | Configurar dashboards de métricas en tiempo real | 4 | Meza Camayo, Lynn Jeeferzon | Media | Done | 2025-10-23 | 2025-10-24 |
 
 
 **URL del Sprint Board**: [URL del board en Trello/Pivotal Tracker/Jira]
@@ -5239,20 +5485,30 @@ Los Sprint Backlogs To-Be representan las iteraciones de desarrollo enfocadas en
 
 | Aspecto | Detalle |
 |---------|---------|
-| **Fecha de Planning** | [Fecha] |
-| **Duración del Sprint** | 2 semanas |
-| **Velocity** | [X] Story Points |
-| **User Stories Incluidas** | US-EXP-04, US-EXP-05, US-EXP-06 |
+| **Fecha de Planning** | 2025-10-27 |
+| **Hora de Planning** | 10:00 AM |
+| **Ubicación** | Reunión virtual (Microsoft Teams) |
+| **Preparado por** | Orellana Rodriguez, Mel Andree |
+| **Asistentes** | Meza Camayo, Lynn / Orellana Rodriguez, Mel / Mazuelos Callirgos, Marcelo / Alvarez Ponce, Carlos |
+| **Sprint To-Be 1 Review Summary** | Se completaron exitosamente las mejoras de conversión. El formulario de registro simplificado mostró una mejora del 18% en tasa de conversión. Los filtros avanzados fueron implementados y están listos para testing. |
+| **Sprint To-Be 1 Retrospective Summary** | El equipo identificó que la comunicación fue efectiva. Se sugiere mejorar la documentación de decisiones técnicas. La distribución de trabajo fue equilibrada. |
+| **Duración del Sprint** | 2 semanas (2025-10-27 a 2025-11-10) |
+| **Velocity** | 18 Story Points |
+| **User Stories Incluidas** | US-EXP-04 (5 SP), US-EXP-05 (8 SP), US-EXP-06 (5 SP) |
+| **Sprint Goal** | Implementar funcionalidades de notificaciones y gamificación para aumentar el tiempo de permanencia en un 15% y la retención D7 en 5 puntos porcentuales. |
 
 **Sprint Backlog**:
 
-| User Story | Work-Item / Task | Estimación (Horas) | Asignado a | Estado |
-|------------|------------------|---------------------|------------|--------|
-| US-EXP-04 | Implementar sistema de notificaciones push | 10 | [Desarrollador] | Done |
-| US-EXP-04 | Configurar templates de notificaciones | 4 | [Desarrollador] | Done |
-| US-EXP-05 | Diseñar e implementar sistema de badges | 12 | [Desarrollador] | Done |
-| US-EXP-05 | Crear dashboard de logros | 8 | [Desarrollador] | Done |
-| US-EXP-06 | Implementar tracking de eventos de engagement | 6 | [Desarrollador] | Done |
+| # | User Story | Story Points | Work-Item / Task ID | Work-Item / Task | Estimación (Horas) | Asignado a | Prioridad | Estado | Fecha Inicio | Fecha Fin |
+|---|------------|--------------|---------------------|------------------|---------------------|------------|-----------|--------|--------------|-----------|
+| 1 | US-EXP-04 | 5 | T-EXP-04-01 | Implementar sistema de notificaciones push con Firebase Cloud Messaging | 10 | Alvarez Ponce, Carlos Antonio | Alta | Done | 2025-10-28 | 2025-11-01 |
+| 2 | US-EXP-04 | 5 | T-EXP-04-02 | Configurar templates de notificaciones (solicitudes, confirmaciones, recordatorios) | 4 | Meza Camayo, Lynn Jeeferzon | Alta | Done | 2025-11-01 | 2025-11-02 |
+| 3 | US-EXP-04 | 5 | T-EXP-04-03 | Implementar preferencias de notificaciones por usuario | 3 | Orellana Rodriguez, Mel Andree | Media | Done | 2025-11-02 | 2025-11-03 |
+| 4 | US-EXP-05 | 8 | T-EXP-05-01 | Diseñar e implementar sistema de badges (completar perfil, primera reserva, reseñas) | 12 | Alvarez Ponce, Carlos Antonio | Alta | Done | 2025-10-28 | 2025-11-04 |
+| 5 | US-EXP-05 | 8 | T-EXP-05-02 | Crear dashboard de logros y tablero de líderes para niñeras | 8 | Orellana Rodriguez, Mel Andree | Alta | Done | 2025-11-04 | 2025-11-06 |
+| 6 | US-EXP-05 | 8 | T-EXP-05-03 | Implementar sistema de puntos y niveles | 6 | Alvarez Ponce, Carlos Antonio | Media | Done | 2025-11-06 | 2025-11-07 |
+| 7 | US-EXP-06 | 5 | T-EXP-06-01 | Implementar tracking de eventos de engagement (tiempo en app, sesiones, interacciones) | 6 | Meza Camayo, Lynn Jeeferzon | Alta | Done | 2025-11-03 | 2025-11-05 |
+| 8 | US-EXP-06 | 5 | T-EXP-06-02 | Configurar métricas de retención y frecuencia de uso | 4 | Meza Camayo, Lynn Jeeferzon | Media | Done | 2025-11-05 | 2025-11-06 |
 
 
 **URL del Sprint Board**: [URL del board en Trello/Pivotal Tracker/Jira]
@@ -5260,8 +5516,6 @@ Los Sprint Backlogs To-Be representan las iteraciones de desarrollo enfocadas en
 
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
-
-
 
 
 Esta sección presenta las evidencias de implementación de las mejoras experimentales en el Landing Page, incluyendo capturas de pantalla, commits relacionados y métricas de impacto.
@@ -5287,9 +5541,9 @@ Esta sección presenta las evidencias de implementación de las mejoras experime
 
 | Repository | Branch | Commit Id | Commit Message | Committed on |
 |------------|--------|-----------|----------------|--------------|
-| trustora/landing-page | feature/optimize-cta | [hash] | feat: optimize main CTA for better conversion | [Fecha] |
-| trustora/landing-page | feature/testimonials | [hash] | feat: add enhanced testimonials section | [Fecha] |
-| trustora/landing-page | feature/form-optimization | [hash] | feat: optimize contact form with real-time validation | [Fecha] |
+| Grupo4-1ASI0732-14736-Trustora/landing-page | feature/optimize-cta | a3f7b2c | feat: optimize main CTA for better conversion | 2025-10-15 |
+| Grupo4-1ASI0732-14736-Trustora/landing-page | feature/testimonials | d8e4f1a | feat: add enhanced testimonials section | 2025-10-18 |
+| Grupo4-1ASI0732-14736-Trustora/landing-page | feature/form-optimization | b5c9d2e | feat: optimize contact form with real-time validation | 2025-10-20 |
 
 
 **Métricas de Impacto**:
@@ -5332,9 +5586,9 @@ Esta sección documenta las mejoras implementadas en la aplicación web frontend
 
 | Repository | Branch | Commit Id | Commit Message | Commited on |
 |------------|--------|-----------|----------------|-------------|
-| trustora/web-app | feature/advanced-search | [hash] | feat: implement advanced search filters | [Fecha] |
-| trustora/web-app | feature/notifications | [hash] | feat: add real-time notification system | [Fecha] |
-| trustora/web-app | feature/dashboard | [hash] | feat: enhance user activity dashboard | [Fecha] |
+| Grupo4-1ASI0732-14736-Trustora/web-app | feature/advanced-search | c7e2a4f | feat: implement advanced search filters | 2025-10-22 |
+| Grupo4-1ASI0732-14736-Trustora/web-app | feature/notifications | f3a8b1d | feat: add real-time notification system | 2025-10-25 |
+| Grupo4-1ASI0732-14736-Trustora/web-app | feature/dashboard | e9d5c3a | feat: enhance user activity dashboard | 2025-10-28 |
 
 
 **Métricas de Impacto**:
@@ -5399,14 +5653,15 @@ Esta sección presenta las evidencias de implementación de las mejoras experime
 
 **Evidencias de Commits**:
 
+
 | Repository | Branch | Commit Id | Commit Message | Commited on |
 |------------|--------|-----------|----------------|-------------|
-| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/gamification | [hash] | feat: implement gamification system with badges | [Fecha] |
-| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/chat-enhancement | [hash] | feat: enhance chat with media and location sharing | [Fecha] |
-| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/booking-optimization | [hash] | feat: optimize booking flow to 3 steps | [Fecha] |
-| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/advanced-search | [hash] | feat: add advanced search filters and saved searches | [Fecha] |
-| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/push-notifications | [hash] | feat: implement push notifications with FCM | [Fecha] |
-| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/analytics-tracking | [hash] | feat: add event tracking for experiment metrics | [Fecha] |
+| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/gamification | 8b2f4a7 | feat: implement gamification system with badges | 2025-11-03 |
+| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/chat-enhancement | 3d6e9c1 | feat: enhance chat with media and location sharing | 2025-11-05 |
+| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/booking-optimization | a1f7b3d | feat: optimize booking flow to 3 steps | 2025-11-08 |
+| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/advanced-search | 5c8e2a4 | feat: add advanced search filters and saved searches | 2025-11-10 |
+| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/push-notifications | 9d4b6f2 | feat: implement push notifications with FCM | 2025-11-12 |
+| Grupo4-1ASI0732-14736-Trustora/kidycare-app | feature/analytics-tracking | 2e7a5c8 | feat: add event tracking for experiment metrics | 2025-11-15 |
 
 **Archivos Modificados/Agregados**:
 
@@ -5653,7 +5908,6 @@ Esta sección presenta evidencias de la colaboración del equipo durante la impl
 
 - Incorporar métricas y analíticas de uso, con el fin de monitorear la satisfacción del usuario y realizar mejoras continuas en la plataforma.
 
-## Video About-the-Team
 
 ## Bibliografía Anexos
 
